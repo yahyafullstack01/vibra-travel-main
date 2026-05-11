@@ -1,0 +1,151 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.app {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+html {
+  scroll-behavior: smooth;
+  zoom: var(--zoom-level); /* zoom out requested by client */
+}
+
+:root {
+  --zoom-level: 0.9; /* zoom out requested by client */
+  font-family: "Host Grotesk"; /* replace with downlaoded font */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Color Palette */
+  --color-white: #ffffff;
+  --color-cream: #fcf5ec;
+  --color-orange: #f44c30;
+  --color-purple: #520030;
+  --color-muted: rgba(0, 0, 0, 0.41);
+  --color-muted-strong: rgba(0, 0, 0, 0.8);
+  --color-divider: rgba(0, 0, 0, 0.13);
+  --color-card-shine: rgba(0, 0, 0, 0.04);
+  --color-shadow-card: rgba(0, 0, 0, 0.08);
+  --color-shadow-hover: rgba(0, 0, 0, 0.1);
+  --color-overlay-soft: rgba(0, 0, 0, 0.7);
+  /* Text on solid orange buttons; always light */
+  --color-on-primary: #ffffff;
+  /* Light “paper” panels (cards, menus) — separate from inverted --color-white */
+  --surface-card: #ffffff;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --color-white: #0c1522;
+  --color-cream: #111d32;
+  --color-purple: #f4f7fb;
+  --color-orange: #ff6b4a;
+  --color-muted: rgba(255, 255, 255, 0.74);
+  --color-muted-strong: rgba(255, 255, 255, 0.95);
+  --color-divider: rgba(255, 255, 255, 0.14);
+  --color-card-shine: rgba(255, 255, 255, 0.07);
+  --color-shadow-card: rgba(0, 0, 0, 0.35);
+  --color-shadow-hover: rgba(0, 0, 0, 0.35);
+  --color-overlay-soft: rgba(0, 0, 0, 0.55);
+  --color-on-primary: #ffffff;
+  --surface-card: #152a42;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-purple);
+  transition:
+    background-color 0.35s ease,
+    color 0.35s ease;
+}
+
+html[data-theme="dark"] body {
+  background: linear-gradient(
+    168deg,
+    #143a62 0%,
+    #0c1f36 38%,
+    #050810 72%,
+    #000000 100%
+  );
+  background-attachment: fixed;
+}
+
+@font-face {
+  font-family: "Cooper Lt BT";
+  src: url("/fonts/CooperLtBTLight.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fgrotesk-font {
+  font-family: "Familjen Grotesk", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.cooper-font {
+  font-family: "Cooper Lt BT", Georgia, "Times New Roman", serif;
+}
+
+.nav-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.orange {
+  color: var(--color-orange);
+}
+
+/* Page transition (route change) */
+.page-transition {
+  animation: pageFadeIn 0.3s ease;
+}
+
+@keyframes pageFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsive typography for mobile */
+@media (max-width: 768px) {
+  :root {
+    --font-size-xs: 0.7rem; /* 11.2px */
+    --font-size-sm: 0.8125rem; /* 13px */
+    --font-size-base: 0.9375rem; /* 15px */
+    --font-size-lg: 1rem; /* 16px */
+    --font-size-xl: 1.125rem; /* 18px */
+    --font-size-2xl: 1.25rem; /* 20px */
+    --font-size-3xl: 1.5rem; /* 24px */
+    --font-size-4xl: 1.875rem; /* 30px */
+  }
+  body {
+    padding-top: 70px; /* Adjust this value to match the height of your header */
+  }
+
+  /* Fix for zoom affecting centering on mobile */
+  .fet-container,
+  .miy-container,
+  .pts-container,
+  .pi-container {
+    width: 100vw;
+    margin-left: calc((100vw - 100%) / -2);
+    margin-right: calc((100vw - 100%) / -2);
+  }
+}

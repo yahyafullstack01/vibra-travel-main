@@ -1,0 +1,181 @@
+{
+  "corporate": {
+    "presentation": {
+      "title": "Potencia a tu equipo con una aventura de pádel en España",
+      "desc": "La experiencia definitiva de team building: viajes de pádel totalmente a medida para colaborar, motivar y crear vínculos duraderos.",
+      "planTrip": "Planifica tu viaje",
+      "imagineTrip": "Imagina tu viaje"
+    },
+    "forEveryTeam": {
+      "titleLine1": "Viajes de pádel perfectos ",
+      "titleLine2": "para cualquier empresa",
+      "p1Before": "Lleva a tu equipo al siguiente nivel con una experiencia corporativa en ",
+      "p1Mid": " o ",
+      "p1After": " — conexiones, motivación y recuerdos inolvidables. ",
+      "p2": "Ya sea un viaje con clientes, un incentive o una pausa del despacho, organizamos una escapada completa. ",
+      "p3": "Todos los elementos se pueden ajustar, añadir o quitar según las preferencias del grupo."
+    },
+    "allInclusive": {
+      "line1a": "El ",
+      "line1Accent": "Todo incluido",
+      "line2": "Experiencia de equipo Vibra",
+      "desc": "Nos encargamos de todo para que el equipo se centre en conectar, jugar al pádel y disfrutar del sol español.",
+      "organiseBtn": "Organiza tu viaje",
+      "cards": [
+        {
+          "title": "Alojamiento",
+          "desc": "Selección cuidada: hoteles urbanos o retiros con encanto, comodidad y carácter local."
+        },
+        {
+          "title": "Gastronomía local",
+          "desc": "Desayunos energéticos y comidas/cenas de grupo con sabores auténticos y opciones saludables."
+        },
+        {
+          "title": "Clases grupales de pádel",
+          "desc": "Sesiones diarias: trabajo en equipo, estrategia y diversión para todos los niveles."
+        },
+        {
+          "title": "Juego organizado",
+          "desc": "Tiempo de pista, rotaciones y sesiones sociales de pádel."
+        },
+        {
+          "title": "Actividades de team building",
+          "desc": "Cenas, salidas culturales y retos opcionales para reforzar el grupo."
+        },
+        {
+          "title": "Anfitrión Vibra dedicado",
+          "desc": "Apoyo in situ para que todo fluya y el equipo disfrute al máximo."
+        }
+      ]
+    },
+    "readyTeam": {
+      "titleLine1": "¿Listos para un",
+      "titleAccent": "equipo más fuerte",
+      "titleLine2": "?",
+      "description": "Nuestros viajes de team building combinan resultados y recuerdos inolvidables; también adaptamos cada detalle a objetivos, presupuesto y estilo del equipo.",
+      "planTrip": "Planifica tu viaje"
+    }
+  },
+  "schools": {
+    "presentation": {
+      "titleLine1": "Activo,",
+      "titleLine2": "formativo,",
+      "titleLine3": "inolvidable",
+      "descBefore": "Lleva a tus estudiantes más allá del aula con un viaje a medida a ",
+      "descBetween": " o ",
+      "descAfter": ". Pádel, idioma y cultura para inspirar y conectar.",
+      "planTrip": "Planifica tu viaje",
+      "imagineTrip": "Imagina tu viaje"
+    },
+    "packages": {
+      "titleHtml": "Deporte, cultura y aprendizaje <br /> a tu manera",
+      "subtitle": "",
+      "cards": [
+        {
+          "title": "Viajes seguros y estructurados",
+          "desc": "Pensados para colegios, institutos y grupos juveniles."
+        },
+        {
+          "title": "Itinerarios totalmente personalizables",
+          "desc": "Elige actividades, ritmo y enfoque según el grupo."
+        },
+        {
+          "title": "Experiencia en deporte e intercambio cultural",
+          "desc": "Pádel, aprendizaje de idiomas e inmersión cultural."
+        },
+        {
+          "title": "Trayectoria contrastada",
+          "desc": "Más de 10 años organizando estancias internacionales e intercambios en España."
+        },
+        {
+          "title": "Experiencia equilibrada para estudiantes",
+          "desc": "Equilibrio entre deporte, educación y exploración cultural."
+        },
+        {
+          "title": "Coordinador dedicado",
+          "desc": "Acompañamiento fluido y seguro de principio a fin."
+        }
+      ]
+    },
+    "chooseActivities": {
+      "titleBefore": "Elige tus ",
+      "titleAccent": "actividades",
+      "subtitle": "Cada grupo escolar es distinto: diseñamos el viaje según objetivos e intereses.",
+      "note": "Tú decides qué incluir — nosotros construimos el itinerario ideal."
+    },
+    "schoolActivities": {
+      "sectionTitle": "¡Elige tu aventura!",
+      "items": [
+        {
+          "id": 1,
+          "title": "Pádel",
+          "description": "Clases diarias para todos los niveles; partidos y torneos con jugadores locales."
+        },
+        {
+          "id": 2,
+          "title": "Otros deportes",
+          "description": "Tenis, fútbol, golf, natación, hockey y más; partidos contra equipos locales."
+        },
+        {
+          "id": 3,
+          "title": "Actividades al aire libre",
+          "description": "Ciclismo, senderismo, kayak y deportes acuáticos según interés y nivel."
+        },
+        {
+          "id": 4,
+          "title": "Clases de español",
+          "description": "Clases interactivas para ganar fluidez y confianza oral."
+        },
+        {
+          "id": 5,
+          "title": "Talleres de cocina española",
+          "description": "Tapas, paella y postres de la mano de chefs expertos."
+        },
+        {
+          "id": 6,
+          "title": "Experiencias culturales",
+          "description": "Tours urbanos, flamenco en Sevilla, clases de baile y rutas de tapas."
+        },
+        {
+          "id": 7,
+          "title": "Deporte profesional local",
+          "description": "Estadios y partidos con grandes clubes, incluidos Barcelona FC y Sevilla FC."
+        },
+        {
+          "id": 8,
+          "title": "Alojamiento y comidas",
+          "description": "Alojamiento cómodo para estudiantes con pensión completa o media."
+        }
+      ]
+    },
+    "destinations": {
+      "title": "Destinos",
+      "barcelonaTitle": "Barcelona",
+      "barcelonaDesc": "Ciudad mediterránea vibrante: arquitectura de Gaudí, playas y barrios ideales para jóvenes.",
+      "sevilleTitle": "Sevilla",
+      "sevilleDesc": "Historia y encanto: monumentos, flamenco y cultura de tapas."
+    },
+    "schedule": {
+      "titleLine1": "Un adelanto de cómo podría ser ",
+      "titleLine2": "tu viaje de pádel Vibra.",
+      "day1Title": "Día 1: Llegada",
+      "day1i1": "Check-in y sesión de bienvenida de pádel, cena de tapas en grupo.",
+      "day2Title": "Día 2: Deporte e idioma",
+      "day2i1": "Desayuno en el hotel.",
+      "day2i2": "Mañana: entrenamiento de pádel con entrenadores.",
+      "day2i3": "Tarde: clase práctica de español.",
+      "day3Title": "Día 3: Cultura y descubrimiento",
+      "day3i1": "Desayuno en el hotel.",
+      "day3i2": "Mañana: entrenamiento de pádel.",
+      "day3i3": "Tarde: tour guiado por Sevilla o Barcelona.",
+      "day4Title": "Día 4: Torneo y tiempo libre",
+      "day4i1": "Torneo amistoso por la mañana.",
+      "day4i2": "Comida de paella en el club.",
+      "day4i3": "Clase de cocina interactiva.",
+      "day5Title": "Día 5: Salida",
+      "day5i1": "Desayuno y traslado al aeropuerto.",
+      "footerTitle": "¡Recuerda que todo es personalizable!",
+      "planTrip": "Planifica tu viaje"
+    }
+  }
+}

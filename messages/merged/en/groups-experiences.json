@@ -1,0 +1,148 @@
+{
+  "groups": {
+    "presentation": {
+      "title": "Build Your Ideal Padel Holiday in Spain",
+      "heroAlt": "Padel players on court in Spain",
+      "descBefore": "Discover how Vibra Travel combine top-tier padel coaching with unforgettable local experiences to craft truly personalised group adventures in ",
+      "descBetween": " and ",
+      "planTrip": "Plan your trip",
+      "imagineTrip": "Imagine your trip"
+    },
+    "packages": {
+      "titleHtml": "Every Vibra <br /> Package Includes",
+      "subtitle": "We lay the foundation for an incredible trip. All elements can be adjusted, added, or removed to suit your group's preferences. We'll shape the experience around you.",
+      "cards": [
+        {
+          "title": "4★ Hotel & Breakfast",
+          "desc": "3 nights with optional upgrade to private apartment or villa."
+        },
+        {
+          "title": "Daily Padel Coaching",
+          "desc": "2 hours each morning, tailored to your group's level. Want more or fewer hours? We'll adapt the schedule to match your preferences."
+        },
+        {
+          "title": "Americano Tournament",
+          "desc": "Friendly competition with local club players."
+        },
+        {
+          "title": "Farewell Meal",
+          "desc": "Relaxed BBQ or traditional paella."
+        },
+        {
+          "title": "Cultural Experience",
+          "desc": "Choose your own authentic local experience – we'll make it unforgettable."
+        },
+        {
+          "title": "Personalised Local Guide",
+          "desc": "Tips for local events, festivals, and hidden gems."
+        }
+      ]
+    },
+    "schedule": {
+      "titleLine1": "Get a taste of what your Vibra ",
+      "titleLine2": "Padel trip could look like.",
+      "day1Title": "Day 1: Arrival & Padel Kickstart",
+      "day1i1": "AM: Fly to destination, seamless transfer to hotel, settle in, unpack and relax.",
+      "day1i2": "17:00 - 19:00: Kickstart your trip with a group padel coaching session",
+      "day1i3": "19:00: Welcome drinks at the Padel club.",
+      "day2Title": "Day 2: Skills, Serenity & Social Play",
+      "day2i1": "8:00: Breakfast.",
+      "day2i2": "9:00 - 9:45: Optional Yoga session.",
+      "day2i3": "10:00 - 12:00: Group Padel coaching.",
+      "day2i4": "12:00 - 17:30: Unique cultural experience afternoon or enjoy free time to get lunch, relax or explore your surroundings",
+      "day3Title": "Day 3: Coaching & Cultural Immersion",
+      "day3i1": "8:00: Breakfast.",
+      "day3i2": "10:00 - 12:00: Group Padel coaching.",
+      "day3i3": "12:00 - 19:00: Unique cultural experience afternoon.",
+      "day4Title": "Day 4: Competition, Celebration & Departure",
+      "day4i1": "8:00: Breakfast.",
+      "day4i2": "10:00 - 12:00: Americano style competition with local club members.",
+      "day4i3": "12:00: Departure drinks and BBQ/Paella.",
+      "day4i4": "PM: Departure flight.",
+      "footerTitle": "Remember, this is fully customisable!",
+      "planTrip": "Plan your trip"
+    }
+  },
+  "makeItYours": {
+    "titleLine1": "Make it ",
+    "titleBreak": " uniquely ",
+    "titleAccent": "yours",
+    "subtitle": "Enhance your Padel holiday by adding a touch of adventure, wellness, or local culture. Mix and match based on your group's interests."
+  },
+  "experiences": {
+    "cultureTitle": "Culture & Gastronomy",
+    "culture": [
+      {
+        "id": 1,
+        "title": "Vineyard tour, wine tasting & tapas",
+        "description": "Tour a local vineyard near Barcelona or Sevilla, learn about winemaking, and sample unique local grape varieties. Enjoy a curated wine tasting with panoramic countryside views followed by local tapas at the vineyard."
+      },
+      {
+        "id": 3,
+        "title": "La Liga Matchday Experience",
+        "description": "Watch a live La Liga match featuring FC Barcelona, Espanyol, Sevilla FC or Real Betis. Subject to fixtures and availability."
+      },
+      {
+        "id": 4,
+        "title": "Tapas Tour",
+        "description": "A guided tapas tasting tour through the most authentic local neighbourhood bars. Discover hidden gems as you sample regional delicacies, traditional dishes, and classic Spanish drinks, just like the locals do."
+      },
+      {
+        "id": 5,
+        "title": "Flamenco Dancing Workshop (Sevilla Only)",
+        "description": "Feel the rhythm of Andalucía in a lively, hands-on Flamenco class led by local dance experts, followed by tapas and drinks at an authentic local bar."
+      },
+      {
+        "id": 6,
+        "title": "Flamenco Show (Sevilla Only)",
+        "description": "Experience the power and passion of live flamenco in an intimate setting, an unforgettable cultural experience unique to Andalucia."
+      },
+      {
+        "id": 7,
+        "title": "Food Market & Cooking Class",
+        "description": "Guided visit to a bustling local food market followed by a hands-on cooking class. Learn to prepare local dishes with expert guidance and enjoy a true taste of the region."
+      }
+    ],
+    "sportsTitle": "Sport & Adventure",
+    "sports": [
+      {
+        "id": 1,
+        "title": "Afternoon Hiking Adventure",
+        "description": "2–3 hour guided hike through scenic natural areas with forest trails, open views, and fresh air. After your hike, visit a nearby village and enjoy an optional evening BBQ dinner with local meats, vegetables, and wine."
+      },
+      {
+        "id": 2,
+        "title": "Round of Golf",
+        "description": "Play at a picturesque golf course near the city. Includes transfers, equipment rental, and optional drinks or dinner at the clubhouse."
+      },
+      {
+        "id": 4,
+        "title": "Sunrise or Sunset Guided Running Tour",
+        "description": "Discover the magic of Barcelona or Sevilla with passionate local running guides on a scenic city run, the perfect way to energize your morning or unwind at sunset. Typically 10km, but both distance and pace can be tailored to suit your group."
+      },
+      {
+        "id": 5,
+        "title": "Kayaking Adventure",
+        "description": "Paddle along Barcelona's coastline or through Sevilla's historic riverfront. Guided or independent options available. Stand up paddle-boarding (SUP) also available."
+      }
+    ],
+    "relaxTitle": "Relax & Wellness",
+    "relax": [
+      {
+        "id": 1,
+        "title": "Sunrise or Sunset Yoga",
+        "description": "Outdoor yoga sessions in serene settings – ideal for stretching out and resetting your body post-padel."
+      },
+      {
+        "id": 2,
+        "title": "Sunrise or Sunset Pilates",
+        "description": "Guided pilates in the open air to strengthen, stretch, and reconnect with your breath."
+      },
+      {
+        "id": 3,
+        "title": "Spa & Wellness Session",
+        "description": "Unwind after padel with a massage, spa treatment, or beauty service tailored to your needs."
+      }
+    ]
+  }
+}

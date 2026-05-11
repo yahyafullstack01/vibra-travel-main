@@ -1,0 +1,183 @@
+{
+  "corporate": {
+    "presentation": {
+      "title": "Power Up Your Team with a Padel Adventure in Spain",
+      "heroAlt": "Corporate team on a padel court",
+      "desc": "Discover the ultimate team building experience: Fully tailored Padel trips designed to foster collaboration, boost morale, and create lasting bonds",
+      "planTrip": "Plan your trip",
+      "imagineTrip": "Imagine your trip"
+    },
+    "forEveryTeam": {
+      "titleLine1": "Perfect Padel trips ",
+      "titleLine2": "for any company",
+      "p1Before": "Take your team to the next level with a corporate padel experience in ",
+      "p1Mid": " or ",
+      "p1After": " - designed to strengthen connections, boost motivation, and create lasting memories. ",
+      "p2": "Whether it's a client getaway, team incentive, or break from the boardroom, we'll craft a fully hosted escape where everything is taken care of. ",
+      "p3": "All elements can be adjusted, added, or removed to suit your group's preferences. We'll shape the experience around you."
+    },
+    "allInclusive": {
+      "line1a": "The ",
+      "line1Accent": "All-inclusive",
+      "line2": "Vibra Team Experience",
+      "desc": "We take care of everything, so your team can focus on bonding, playing Padel, and soaking up the Spanish sun. Our team packages are designed for convenience and maximum fun.",
+      "organiseBtn": "Organise your trip",
+      "cards": [
+        {
+          "title": "Accommodation Options",
+          "desc": "Choose from a carefully selected range of accommodation to suit your group — from stylish city hotels to boutique countryside retreats, all chosen for comfort, convenience, and local charm."
+        },
+        {
+          "title": "Local Cuisine",
+          "desc": "Start each day with a delicious, energising breakfast, and enjoy tailored options for group lunches and dinners featuring authentic Spanish flavours and healthy choices."
+        },
+        {
+          "title": "Group Padel Lessons",
+          "desc": "Daily Padel coaching sessions designed for groups, focusing on teamwork, strategy, and fun for all skill levels."
+        },
+        {
+          "title": "Organized Padel Play",
+          "desc": "Plenty of court time for friendly matches, round-robin tournaments, and social Padel sessions."
+        },
+        {
+          "title": "Team Building Activities",
+          "desc": "Optional curated activities beyond Padel, like group dinners, cultural outings, or fun challenges to enhance bonding."
+        },
+        {
+          "title": "Dedicated Vibra Host",
+          "desc": "On-site support from a Vibra Travel host to ensure everything runs smoothly and your team has a fantastic experience."
+        }
+      ]
+    },
+    "readyTeam": {
+      "titleLine1": "Ready to build a",
+      "titleAccent": "stronger",
+      "titleLine2": "Team?",
+      "description": "Our Padel team building trips are designed to deliver results and create unforgettable memories. While we offer fantastic packages, we're also experts at tailoring every detail to your team's specific goals, budget, and preferences.",
+      "planTrip": "Plan your trip"
+    }
+  },
+  "schools": {
+    "presentation": {
+      "heroAlt": "Students playing padel",
+      "titleLine1": "Active,",
+      "titleLine2": "Educational,",
+      "titleLine3": "Unforgettable",
+      "descBefore": "Take your students beyond the classroom with a fully tailored trip to ",
+      "descBetween": " or ",
+      "descAfter": ". Padel, language, and cultural experiences designed to inspire and connect.",
+      "planTrip": "Plan your trip",
+      "imagineTrip": "Imagine your trip"
+    },
+    "packages": {
+      "titleHtml": "Sport, Culture & Learning <br /> Your Way",
+      "subtitle": "",
+      "cards": [
+        {
+          "title": "Safe & Structured Trips",
+          "desc": "Designed specifically for schools, colleges, and youth groups."
+        },
+        {
+          "title": "Fully Customizable Itineraries",
+          "desc": "Choose the activities, pace, and focus to suit your group."
+        },
+        {
+          "title": "Expertise in Sports & Cultural Exchange",
+          "desc": "Combining padel, language learning, and immersive cultural experiences."
+        },
+        {
+          "title": "Proven Experience",
+          "desc": "Over 10 years organizing international placements and student exchanges in Spain."
+        },
+        {
+          "title": "Balanced Student Experience",
+          "desc": "Students enjoy the perfect mix of sport, education, and cultural exploration."
+        },
+        {
+          "title": "Dedicated Trip Coordinator",
+          "desc": "Ensuring smooth, safe, and hassle-free travel from start to finish."
+        }
+      ]
+    },
+    "chooseActivities": {
+      "titleBefore": "Choose your ",
+      "titleAccent": "activities",
+      "subtitle": "Every school group is different, so we design each trip around your goals and interests. Mix and match from our wide range of activities to create the perfect balance of sport, culture, and fun for your students.",
+      "note": "You decide what to include — we'll build the ideal itinerary for your group."
+    },
+    "schoolActivities": {
+      "sectionTitle": "Pick your adventure!",
+      "items": [
+        {
+          "id": 1,
+          "title": "Padel",
+          "description": "Daily padel classes suitable for all levels. Sessions can be tailored to your group's needs, focusing on different aspects of the game in a fun and engaging way. We can also arrange matches and tournaments with local players."
+        },
+        {
+          "id": 2,
+          "title": "Other Sports",
+          "description": "While padel is our specialty, we also create tailored programs across a wide range of sports including tennis, football, golf, swimming, hockey, and more. We can also arrange matches against local teams for a competitive and fun experience."
+        },
+        {
+          "id": 3,
+          "title": "Outdoor Activities",
+          "description": "From cycling and hiking to kayaking and other watersports, we can organise a variety of outdoor adventures for every interest and skill level."
+        },
+        {
+          "id": 4,
+          "title": "Spanish Language Classes",
+          "description": "Interactive Spanish lessons for all levels, designed to boost speaking confidence and fluency in a dynamic, supportive environment."
+        },
+        {
+          "id": 5,
+          "title": "Spanish Cooking Workshops",
+          "description": "Get hands-on and cook like a local! Learn to make authentic Spanish dishes, from tapas and paella to traditional desserts, guided by expert chefs. Taste your creations and experience the flavors of Spain in a fun, interactive setting."
+        },
+        {
+          "id": 6,
+          "title": "Cultural Experiences",
+          "description": "Dive into Spain's vibrant culture! Explore historic cities on guided walking tours, experience the passion of live flamenco shows in Sevilla, join interactive flamenco dance classes with a live band, and savor the best local flavors on tapas tasting tours"
+        },
+        {
+          "id": 7,
+          "title": "Local Professional Sports",
+          "description": "Exclusive stadium tours and live matches with top local teams, including Barcelona FC and Sevilla FC."
+        },
+        {
+          "id": 8,
+          "title": "Accommodation & Meals",
+          "description": "Comfortable, student-friendly accommodation with flexible full or half board options, designed for a stress-free and enjoyable stay."
+        }
+      ]
+    },
+    "destinations": {
+      "title": "Destinations",
+      "barcelonaTitle": "Barcelona",
+      "barcelonaDesc": "A vibrant Mediterranean city where modern energy meets cultural treasures. From Gaudí's spectacular architecture to lively beaches and youth-friendly neighbourhoods, Barcelona offers the perfect mix of learning and fun.",
+      "sevilleTitle": "Seville",
+      "sevilleDesc": "A city full of history and charm, perfect for students to experience authentic Spain. Explore its stunning monuments, discover the passion of flamenco, and soak up the city's famous tapas culture."
+    },
+    "schedule": {
+      "titleLine1": "Get a taste of what your Vibra ",
+      "titleLine2": "Padel trip could look like.",
+      "day1Title": "Day 1: Arrival",
+      "day1i1": "Settle into your accommodation and enjoy a fun welcome padel session, followed by a group dinner of local tapas.",
+      "day2Title": "Day 2: Sport & Language",
+      "day2i1": "Breakfast at the hotel.",
+      "day2i2": "Morning padel training with coaches.",
+      "day2i3": "Afternoon Spanish class with practical, interactive activities.",
+      "day3Title": "Day 3: Culture & Discovery",
+      "day3i1": "Breakfast at the hotel.",
+      "day3i2": "Morning padel training with coaches.",
+      "day3i3": "Afternoon guided city tour to explore Seville or Barcelona.",
+      "day4Title": "Day 4: Tournament & Free Time",
+      "day4i1": "Friendly padel tournament in the morning.",
+      "day4i2": "Paella lunch at the padel club.",
+      "day4i3": "Interactive cooking class – learn how to make local dishes.",
+      "day5Title": "Day 5: Departure",
+      "day5i1": "Breakfast and transfer to the airport.",
+      "footerTitle": "Remember, this is fully customisable!",
+      "planTrip": "Plan your trip"
+    }
+  }
+}

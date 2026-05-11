@@ -1,0 +1,321 @@
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  height: 96px;
+  background-color: var(--color-cream);
+  position: relative;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.headerContent {
+  width: 85vw;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.desktopNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mobileNav {
+  display: none;
+  width: 100%;
+}
+
+.headerSides {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.headerTools {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+}
+
+.headerText {
+  line-height: 113%;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-purple);
+  transition: all 0.3s ease-in-out;
+}
+
+.headerText:hover {
+  color: var(--color-orange);
+}
+
+.themeToggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--color-orange);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+
+.themeToggle:hover {
+  opacity: 0.88;
+  transform: scale(1.05);
+}
+
+.themeToggleIcon {
+  display: block;
+}
+
+.themeTogglePlaceholder {
+  display: block;
+  width: 22px;
+  height: 22px;
+}
+
+.buttonText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  height: 38px;
+  line-height: 113%;
+  font-size: 18px;
+  font-weight: 400;
+  color: #520030;
+  border-radius: 30px;
+  border: 1px solid #520030;
+  transition: all 0.3s ease-in-out;
+}
+
+.buttonText:hover {
+  background-color: #520030;
+  color: #fcf5ec;
+  border-color: #520030;
+  border-radius: 30px;
+}
+
+:global(html[data-theme="dark"]) .buttonText {
+  color: #f4f7fb;
+  border-color: rgba(244, 247, 251, 0.5);
+}
+
+:global(html[data-theme="dark"]) .buttonText:hover {
+  background-color: var(--color-orange);
+  color: #ffffff;
+  border-color: var(--color-orange);
+}
+
+.headerShadow {
+  box-shadow: 0 10px 10px var(--color-shadow-hover);
+}
+
+.headerMobileMenuOpen {
+  background-color: var(--surface-card);
+}
+
+.mobileHeaderActions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+@media (max-width: 768px) {
+  .headerContainer {
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .headerContent {
+    width: 90vw;
+  }
+
+  .desktopNav {
+    display: none;
+  }
+
+  .mobileNav {
+    display: block;
+  }
+
+  .mobileHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    height: 70px;
+  }
+
+  .mobileLogo {
+    flex-shrink: 0;
+  }
+
+  .mobileLogo svg,
+  .mobileLogo img {
+    max-height: 40px;
+    width: auto;
+  }
+
+  .mobileMenuToggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    width: 30px;
+    height: 24px;
+    position: relative;
+    z-index: 1001;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .hamburgerLine {
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-orange);
+    transition: all 0.3s ease-in-out;
+    transform-origin: center;
+  }
+
+  .hamburgerLine:nth-child(3) {
+    width: 50%;
+    margin-left: auto;
+  }
+
+  .mobileMenuToggleActive .hamburgerLine:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+  }
+
+  .mobileMenuToggleActive .hamburgerLine:nth-child(3) {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+
+  .mobileMenuToggleActive .hamburgerLine:nth-child(2) {
+    transform: translateY(0px) rotate(-45deg);
+  }
+
+  .mobileMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--surface-card);
+    max-height: 0;
+    overflow: hidden;
+    transition:
+      max-height 0.3s ease-in-out,
+      opacity 0.3s ease-in-out;
+    opacity: 0;
+    z-index: 1000;
+    box-shadow: 0 10px 10px var(--color-shadow-hover);
+  }
+
+  .mobileMenuOpen {
+    max-height: 300px;
+    opacity: 1;
+  }
+
+  .mobileMenuItems {
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: right;
+  }
+
+  .mobileNavLink {
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    transform: translateY(-20px);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .mobileMenuOpen .mobileNavLink {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .mobileMenuOpen .mobileNavLink:nth-child(1) {
+    transition-delay: 0.1s;
+  }
+
+  .mobileMenuOpen .mobileNavLink:nth-child(2) {
+    transition-delay: 0.15s;
+  }
+
+  .mobileMenuOpen .mobileNavLink:nth-child(3) {
+    transition-delay: 0.2s;
+  }
+
+  .mobileMenuOpen .mobileNavLink:nth-child(4) {
+    transition-delay: 0.25s;
+  }
+
+  .mobileNavText {
+    font-size: 18px;
+    color: var(--color-purple);
+    transition: color 0.3s ease-in-out;
+  }
+
+  .mobileNavLink:hover .mobileNavText {
+    color: var(--color-orange);
+  }
+
+  .mobileButtonText {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-purple);
+    border-radius: 30px;
+    border: 1px solid var(--color-purple);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+  }
+
+  .mobileNavLink:hover .mobileButtonText {
+    background-color: #520030;
+    color: #fcf5ec;
+    border-color: #520030;
+  }
+
+  :global(html[data-theme="dark"]) .mobileButtonText {
+    color: #f4f7fb;
+    border-color: rgba(244, 247, 251, 0.5);
+  }
+
+  :global(html[data-theme="dark"]) .mobileNavLink:hover .mobileButtonText {
+    background-color: var(--color-orange);
+    color: #ffffff;
+    border-color: var(--color-orange);
+  }
+
+  .mobileNavLink:last-child {
+    border-bottom: none;
+    text-align: right;
+  }
+}

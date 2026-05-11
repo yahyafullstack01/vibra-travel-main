@@ -1,0 +1,75 @@
+.dtContainer {
+  width: 85vw;
+  margin: 0 auto 50px auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  background-color: var(--surface-card);
+}
+
+.dtTitle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-size: 64px;
+  color: var(--color-purple);
+}
+
+.dtCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 10vw;
+}
+
+.destCard {
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  transition: all 0.3s ease;
+}
+
+.destCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 15px var(--color-shadow-hover);
+}
+
+.destTitle {
+  margin-bottom: 8px;
+  font-size: 24px;
+  color: var(--color-purple);
+}
+
+.destDesc {
+  color: var(--color-muted);
+}
+
+.destCard img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  display: block;
+}
+
+.destInfo {
+  padding: 12px;
+}
+
+@media (max-width: 768px) {
+  .dtCards {
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .destCard {
+    width: 100%;
+  }
+
+  .dtTitle {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+}

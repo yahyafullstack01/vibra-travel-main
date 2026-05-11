@@ -1,0 +1,103 @@
+.wrap {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.trigger {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  height: 40px;
+  padding: 0 8px;
+  border: none;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--color-orange);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+
+.trigger:hover {
+  opacity: 0.88;
+  transform: scale(1.03);
+}
+
+.triggerIcon {
+  display: block;
+  flex-shrink: 0;
+}
+
+.triggerCode {
+  min-width: 1.75rem;
+  text-align: center;
+}
+
+.menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  min-width: 200px;
+  border-radius: 12px;
+  background-color: var(--surface-card);
+  box-shadow: 0 8px 24px var(--color-shadow-card);
+  border: 1px solid var(--color-divider);
+  z-index: 1200;
+}
+
+.option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 12px;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--color-purple);
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: start;
+  transition: background-color 0.15s ease;
+}
+
+.option:hover {
+  background-color: var(--color-card-shine);
+}
+
+.optionActive {
+  color: var(--color-orange);
+}
+
+.optionLabel {
+  flex: 1;
+}
+
+.optionCode {
+  font-size: 11px;
+  font-weight: 600;
+  opacity: 0.65;
+  letter-spacing: 0.06em;
+}
+
+@media (max-width: 768px) {
+  .triggerCode {
+    display: none;
+  }
+
+  .trigger {
+    padding: 0 6px;
+  }
+}

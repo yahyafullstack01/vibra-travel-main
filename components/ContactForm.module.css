@@ -1,0 +1,170 @@
+.contactFormContainer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-cream);
+  position: relative;
+}
+
+.contactFormContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  min-width: 200px;
+  width: 90vw;
+  padding: clamp(40px, 8vw, 0px) 0px;
+}
+
+.trDecoration {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: clamp(60px, 8vw, 120px);
+  height: clamp(60px, 8vw, 120px);
+}
+
+.contactFormWrap {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.trDecoration svg {
+  width: 100%;
+  height: 100%;
+}
+
+.contactItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  padding-top: 120px;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 115%;
+  text-align: center;
+  margin: 0;
+  color: var(--color-purple);
+}
+
+.desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: var(--color-muted);
+  margin-top: 20px;
+}
+
+.contactForm {
+  width: 45vw;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.formLine {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.formGroup {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.formGroup label {
+  display: block;
+  color: var(--color-purple);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  font-size: 14px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.28);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.formGroup input::placeholder,
+.formGroup textarea::placeholder {
+  color: #999;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  border-color: var(--color-orange);
+  outline: none;
+  color: var(--color-purple);
+  background-color: var(--surface-card);
+}
+
+.formGroup textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.formSubmit {
+  width: 100%;
+}
+
+.btnContact {
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 113%;
+  color: var(--color-on-primary);
+  padding: 10px 20px;
+  border: 1px solid var(--color-orange);
+  background-color: var(--color-orange);
+  border-radius: 25px;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnContact:hover {
+  background-color: var(--surface-card);
+  color: var(--color-orange);
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 38px;
+  }
+
+  .contactForm {
+    padding-top: 0px;
+    width: 90vw;
+  }
+
+  .contactFormContent {
+    padding-top: 0px;
+  }
+
+  .formLine {
+    flex-direction: column;
+    width: 90vw;
+  }
+
+  .formGroup {
+    margin-bottom: 15px;
+  }
+}

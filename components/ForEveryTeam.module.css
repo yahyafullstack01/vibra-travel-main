@@ -1,0 +1,78 @@
+.fetContainer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--surface-card);
+}
+
+.fetContent {
+  margin: 50px 0;
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.fetTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.fetTopTitle {
+  height: 150px;
+  max-width: 600px;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 115%;
+  color: var(--color-purple);
+}
+
+.fetTopSubtitle {
+  display: flex;
+  align-items: end;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: var(--color-muted);
+  width: 30vw;
+}
+
+.fetBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 30px 0;
+}
+
+@media (max-width: 768px) {
+  .fetContainer {
+    width: 100vw;
+    margin-top: 0px;
+  }
+
+  .fetContent {
+    width: 90vw;
+    gap: 0;
+  }
+
+  .fetTop {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fetTopTitle {
+    font-size: 40px;
+    width: 100%;
+    height: 100px;
+  }
+
+  .fetTopSubtitle {
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+  }
+}

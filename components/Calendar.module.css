@@ -1,0 +1,30 @@
+.calendarContainer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-cream);
+  padding-bottom: clamp(60px, 8vw, 120px);
+}
+
+.calendarContent {
+  background-color: var(--surface-card);
+  width: 45vw;
+  max-width: 800px;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.calendarContent:hover {
+  box-shadow: 5px 5px 15px var(--color-shadow-card);
+}
+
+.calendarContent iframe {
+  display: block;
+  border: 0;
+  border-radius: 30px;
+}
+
+@media (max-width: 768px) {
+  .calendarContent {
+    width: 95vw;
+  }
+}

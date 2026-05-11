@@ -1,0 +1,128 @@
+.readySection {
+  margin: 0;
+}
+
+.readyContainer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-cream);
+  position: relative;
+}
+
+.readyContainer.orangeVariant {
+  background-color: var(--color-orange);
+}
+
+.readyContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  min-width: 200px;
+  width: 90vw;
+  padding: clamp(60px, 8vw, 120px) 0px;
+  position: relative;
+}
+
+.trDecoration {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: clamp(60px, 8vw, 120px);
+  height: clamp(60px, 8vw, 120px);
+}
+
+.blDecoration {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: clamp(60px, 8vw, 120px);
+  height: clamp(60px, 8vw, 120px);
+}
+
+.trDecoration svg,
+.blDecoration svg {
+  width: 100%;
+  height: 100%;
+}
+
+.readyItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 25px;
+}
+
+.title {
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 115%;
+  text-align: center;
+  margin: 0;
+  color: var(--color-purple);
+}
+
+.description {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  text-align: center;
+  max-width: 532px;
+  min-height: 72px;
+  color: var(--color-muted);
+}
+
+.buttonLink {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 113%;
+  color: var(--color-on-primary);
+  padding: 10px 20px;
+  border: 1px solid var(--color-orange);
+  background-color: var(--color-orange);
+  border-radius: 25px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.buttonLink:hover {
+  background-color: var(--color-cream);
+  color: var(--color-orange);
+}
+
+.readyContainer.orangeVariant .title,
+.readyContainer.orangeVariant .description,
+.readyContainer.orangeVariant :global(.cooper-font),
+.readyContainer.orangeVariant :global(.fgrotesk-font) {
+  color: #fcf5ec !important;
+}
+
+.readyContainer.orangeVariant .buttonLink {
+  background-color: #ffffff;
+  color: var(--color-orange);
+  border: 1px solid var(--color-orange);
+}
+
+.readyContainer.orangeVariant .buttonLink:hover {
+  background-color: var(--color-orange);
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 38px;
+  }
+
+  .description {
+    width: 90%;
+  }
+}

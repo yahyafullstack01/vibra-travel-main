@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "groups": "Grupos",
+    "corporate": "Empresas",
+    "schools": "Colegios",
+    "whyVibra": "Por qué Vibra",
+    "planTrip": "Planifica tu viaje"
+  },
+  "footer": {
+    "tagline": "Tu aventura de pádel en España empieza aquí.",
+    "explore": "Explorar",
+    "aboutUs": "Sobre nosotros",
+    "followTrips": "Sigue nuestros viajes",
+    "copyright": "© 2026 Vibra Travel. Todos los derechos reservados. Hecho con ❤️ para amantes del pádel.",
+    "terms": "Términos y condiciones",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "contact": "Contacto"
+  },
+  "a11y": {
+    "home": "Inicio",
+    "toggleMenu": "Abrir menú",
+    "language": "Idioma",
+    "chooseLanguage": "Elegir idioma",
+    "switchToLight": "Modo claro",
+    "switchToDark": "Modo oscuro"
+  },
+  "home": {
+    "heroPlaceholderAlt": "Vista previa de la presentación",
+    "videoLine1": "De la pista a la cultura",
+    "videoLine2": "Una experiencia de pádel en España",
+    "subtitleBefore": "Vacaciones de pádel personalizadas en ",
+    "subtitleBetween": " y ",
+    "subtitleAfter": " que combinan tiempo de juego inolvidable con experiencias auténticas.",
+    "planTrip": "Planifica tu viaje"
+  },
+  "moreThanPadel": {
+    "head1": "Más que pádel.",
+    "head2Before": "Es una ",
+    "head2Accent": "experiencia.",
+    "descBefore": "Del coaching a cultura local, nuestros viajes en ",
+    "descBetween": " y ",
+    "descAfter": " van más allá de la pista.",
+    "learnMore": "Saber más",
+    "cards": [
+      {
+        "title": "Paraíso del pádel",
+        "desc": "Grandes pistas, entrenadores expertos y torneos con jugadores locales. ¡Todos los niveles!"
+      },
+      {
+        "title": "España auténtica",
+        "desc": "Fuera de la pista: viñedos, festivales, rutas y noches de tapas."
+      },
+      {
+        "title": "A tu medida",
+        "desc": "Viajes diseñados para el nivel, los intereses y la dinámica de tu grupo."
+      },
+      {
+        "title": "Viaje sin estrés",
+        "desc": "Nosotros gestionamos la logística; tú entrenas, exploras y descansas."
+      }
+    ]
+  },
+  "images": {
+    "resting": "Descanso",
+    "paella": "Paella",
+    "walk": "Paseo",
+    "beers": "Cervezas"
+  },
+  "groupsSteps": {
+    "title": "Tu viaje de pádel en pocos pasos",
+    "subtitle": "Planificar tu aventura con Vibra Travel es sencillo. Así lo hacemos.",
+    "step1Title": "Cuéntanos tu idea",
+    "step1Desc": "Ubicación, tamaño del grupo, fechas, objetivos y cultura que te interese. Cata de vinos, rutas o competición: lo adaptamos. ¡Más detalles, mejor viaje!",
+    "step2Title": "Diseñamos el itinerario",
+    "step2Desc": "Un paquete totalmente personalizado según nivel e intereses: más pista, más cultura o equilibrio, con un plan fluido e inolvidable.",
+    "step3Title": "Juega, explora, disfruta",
+    "step3Desc": "Con todo preparado, solo queda vivir el pádel y el encanto español. ¡Prepárate para Vibra!",
+    "startNow": "Empezar"
+  },
+  "readyAdventure": {
+    "titleBefore": "¿Listos para una ",
+    "titleAccent": "inolvidable",
+    "titleAfter": " aventura de pádel?",
+    "description": "Creamos vacaciones de pádel que van más allá de lo habitual: pasión por el juego y conocimiento local para recuerdos que duran años.",
+    "planTrip": "Planifica tu viaje"
+  }
+}

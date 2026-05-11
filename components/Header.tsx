@@ -1,0 +1,180 @@
+"use client";
+
+import Link from "next/link";
+import { useEffect, useState } from "react";
+import { IconVibraTravel } from "@/components/icons/IconVibraTravel";
+import { IconMoon } from "@/components/icons/IconMoon";
+import { IconSun } from "@/components/icons/IconSun";
+import { useTheme } from "@/components/ThemeProvider";
+import { useLocale } from "@/components/LocaleProvider";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import styles from "./Header.module.css";
+
+export function Header() {
+  const { theme, toggleTheme } = useTheme();
+  const { t } = useLocale();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [hasShadow, setHasShadow] = useState(false);
+  const [themeToggleMounted, setThemeToggleMounted] = useState(false);
+
+  useEffect(() => {
+    setThemeToggleMounted(true);
+  }, []);
+
+  useEffect(() => {
+    const handleScroll = () => setHasShadow(window.scrollY > 0);
+    window.addEventListener("scroll", handleScroll);
+    if ("scrollRestoration" in window.history) {
+      window.history.scrollRestoration = "manual";
+    }
+    window.scrollTo(0, 0);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  return (
+    <div
+      dir="ltr"
+      className={`${styles.headerContainer} ${hasShadow ? styles.headerShadow : ""} ${isMobileMenuOpen ? styles.headerMobileMenuOpen : ""}`}
+    >
+      <div className={styles.headerContent}>
+        <div className={styles.desktopNav}>
+          <div className={styles.headerSides}>
+            <Link href="/groups" className="nav-link">
+              <span className={styles.headerText}>{t("nav.groups")}</span>
+            </Link>
+            <Link href="/corporate" className="nav-link">
+              <span className={styles.headerText}>{t("nav.corporate")}</span>
+            </Link>
+            <Link href="/schools" className="nav-link">
+              <span className={styles.headerText}>{t("nav.schools")}</span>
+            </Link>
+          </div>
+          <div className={styles.icon}>
+            <Link href="/" aria-label={t("a11y.home")}>
+              <IconVibraTravel />
+            </Link>
+          </div>
+          <div>
+            <div className={styles.headerSides}>
+              <Link href="/why-vibra" className="nav-link">
+                <span className={styles.headerText}>{t("nav.whyVibra")}</span>
+              </Link>
+              <div className={styles.headerTools}>
+                <LanguageSwitcher />
+                <button
+                  type="button"
+                  className={styles.themeToggle}
+                  onClick={toggleTheme}
+                  aria-label={
+                    theme === "dark"
+                      ? t("a11y.switchToLight")
+                      : t("a11y.switchToDark")
+                  }
+                  suppressHydrationWarning
+                >
+                  {themeToggleMounted && theme === "dark" ? (
+                    <IconSun />
+                  ) : themeToggleMounted ? (
+                    <IconMoon className={styles.themeToggleIcon} />
+                  ) : (
+                    <span className={styles.themeTogglePlaceholder} aria-hidden />
+                  )}
+                </button>
+              </div>
+              <Link href="/contact" className="nav-link">
+                <p className={styles.buttonText}>{t("nav.planTrip")}</p>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.mobileNav}>
+          <div className={styles.mobileHeader}>
+            <div className={styles.mobileLogo}>
+              <Link href="/" aria-label={t("a11y.home")}>
+                <IconVibraTravel />
+              </Link>
+            </div>
+            <div className={styles.mobileHeaderActions}>
+              <LanguageSwitcher />
+              <button
+                type="button"
+                className={styles.themeToggle}
+                onClick={toggleTheme}
+                aria-label={
+                  theme === "dark"
+                    ? t("a11y.switchToLight")
+                    : t("a11y.switchToDark")
+                }
+                suppressHydrationWarning
+              >
+                {themeToggleMounted && theme === "dark" ? (
+                  <IconSun />
+                ) : themeToggleMounted ? (
+                  <IconMoon className={styles.themeToggleIcon} />
+                ) : (
+                  <span className={styles.themeTogglePlaceholder} aria-hidden />
+                )}
+              </button>
+              <button
+                type="button"
+                className={`${styles.mobileMenuToggle} ${isMobileMenuOpen ? styles.mobileMenuToggleActive : ""}`}
+                onClick={() => setIsMobileMenuOpen((o) => !o)}
+                aria-expanded={isMobileMenuOpen}
+                aria-label={t("a11y.toggleMenu")}
+              >
+                <span className={styles.hamburgerLine} />
+                <span className={styles.hamburgerLine} />
+                <span className={styles.hamburgerLine} />
+              </button>
+            </div>
+          </div>
+
+          <div
+            className={`${styles.mobileMenu} ${isMobileMenuOpen ? styles.mobileMenuOpen : ""}`}
+          >
+            <div className={styles.mobileMenuItems}>
+              <Link
+                href="/groups"
+                className={styles.mobileNavLink}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                <span className={styles.mobileNavText}>{t("nav.groups")}</span>
+              </Link>
+              <Link
+                href="/corporate"
+                className={styles.mobileNavLink}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                <span className={styles.mobileNavText}>
+                  {t("nav.corporate")}
+                </span>
+              </Link>
+              <Link
+                href="/schools"
+                className={styles.mobileNavLink}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                <span className={styles.mobileNavText}>{t("nav.schools")}</span>
+              </Link>
+              <Link
+                href="/why-vibra"
+                className={styles.mobileNavLink}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                <span className={styles.mobileNavText}>
+                  {t("nav.whyVibra")}
+                </span>
+              </Link>
+              <Link href="/contact" className={styles.mobileNavLink}>
+                <span className={styles.mobileButtonText}>
+                  {t("nav.planTrip")}
+                </span>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "groups": "Groupes",
+    "corporate": "Entreprises",
+    "schools": "Écoles",
+    "whyVibra": "Pourquoi Vibra",
+    "planTrip": "Planifiez votre voyage"
+  },
+  "footer": {
+    "tagline": "Votre aventure padel en Espagne commence ici.",
+    "explore": "Explorer",
+    "aboutUs": "À propos",
+    "followTrips": "Suivez nos voyages",
+    "copyright": "© 2026 Vibra Travel. Tous droits réservés. Fait avec ❤️ pour les amoureux du padel.",
+    "terms": "Conditions générales",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "contact": "Contact"
+  },
+  "a11y": {
+    "home": "Accueil",
+    "toggleMenu": "Ouvrir le menu",
+    "language": "Langue",
+    "chooseLanguage": "Choisir la langue",
+    "switchToLight": "Mode clair",
+    "switchToDark": "Mode sombre"
+  },
+  "home": {
+    "heroPlaceholderAlt": "Aperçu de la présentation",
+    "videoLine1": "De la piste à la culture",
+    "videoLine2": "Une expérience padel espagnole",
+    "subtitleBefore": "Séjours padel sur mesure à ",
+    "subtitleBetween": " et ",
+    "subtitleAfter": " — temps de jeu inoubliable et Espagne authentique.",
+    "planTrip": "Planifiez votre voyage"
+  },
+  "moreThanPadel": {
+    "head1": "Plus que le padel.",
+    "head2Before": "C'est une ",
+    "head2Accent": "expérience.",
+    "descBefore": "Du coaching sur mesure aux extras culturels, nos séjours à ",
+    "descBetween": " et ",
+    "descAfter": " vont bien au-delà du court.",
+    "learnMore": "En savoir plus",
+    "cards": [
+      {
+        "title": "Paradis du padel",
+        "desc": "Top terrains, coachs experts et tournois avec des locaux. Tous niveaux bienvenus !"
+      },
+      {
+        "title": "Espagne authentique",
+        "desc": "Hors court : vignobles, festivals, randos et soirées tapas."
+      },
+      {
+        "title": "Sur mesure",
+        "desc": "Des voyages adaptés au niveau, aux envies et à la dynamique du groupe."
+      },
+      {
+        "title": "Voyage sans stress",
+        "desc": "Nous gérons la logistique ; vous jouez, explorez et vous détendez."
+      }
+    ]
+  },
+  "images": {
+    "resting": "Repos",
+    "paella": "Paella",
+    "walk": "Promenade",
+    "beers": "Bières"
+  },
+  "groupsSteps": {
+    "title": "Votre voyage padel en quelques étapes",
+    "subtitle": "Préparer votre aventure avec Vibra Travel est simple. Voici comment.",
+    "step1Title": "Parlez-nous de votre vision",
+    "step1Desc": "Lieu, taille du groupe, dates, objectifs padel et envies culturelles — dégustations, rando ou compétition : nous adaptons. Plus vous précisez, mieux c'est !",
+    "step2Title": "Nous créons l'itinéraire",
+    "step2Desc": "Un forfait entièrement personnalisé selon niveaux et envies : plus de court, plus de culture ou un mix, avec un planning fluide et mémorable.",
+    "step3Title": "Jouez, explorez, profitez",
+    "step3Desc": "Une fois tout prêt, il ne reste qu'à vivre le padel et le charme espagnol. Préparez-vous pour Vibra !",
+    "startNow": "Commencer"
+  },
+  "readyAdventure": {
+    "titleBefore": "Prêts pour une ",
+    "titleAccent": "inoubliable",
+    "titleAfter": " aventure padel ?",
+    "description": "Nous créons des vacances padel qui dépassent l'ordinaire : passion du jeu et connaissance locale pour des souvenirs durables.",
+    "planTrip": "Planifiez votre voyage"
+  }
+}

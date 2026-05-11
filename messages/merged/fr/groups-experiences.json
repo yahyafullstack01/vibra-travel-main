@@ -1,0 +1,147 @@
+{
+  "groups": {
+    "presentation": {
+      "title": "Créez vos vacances padel idéales en Espagne",
+      "descBefore": "Découvrez comment Vibra Travel combine coaching haut niveau et expériences locales inoubliables pour des séjours de groupe entièrement personnalisés à ",
+      "descBetween": " et ",
+      "planTrip": "Planifiez votre voyage",
+      "imagineTrip": "Imaginez votre voyage"
+    },
+    "packages": {
+      "titleHtml": "Chaque forfait Vibra <br /> inclut",
+      "subtitle": "Nous posons les bases d’un voyage exceptionnel. Chaque élément peut être ajusté, ajouté ou retiré selon les envies du groupe.",
+      "cards": [
+        {
+          "title": "Hôtel 4★ et petit-déjeuner",
+          "desc": "3 nuits avec surclassement possible en appartement ou villa."
+        },
+        {
+          "title": "Coaching padel quotidien",
+          "desc": "2 h chaque matin adaptées au niveau du groupe. Plus ou moins d’heures ? Nous ajustons le planning."
+        },
+        {
+          "title": "Tournoi Americano",
+          "desc": "Compétition conviviale avec des joueurs du club local."
+        },
+        {
+          "title": "Repas d’au revoir",
+          "desc": "BBQ détendue ou paella traditionnelle."
+        },
+        {
+          "title": "Expérience culturelle",
+          "desc": "Choisissez une immersion locale authentique : nous la rendrons mémorable."
+        },
+        {
+          "title": "Guide local personnalisé",
+          "desc": "Conseils sur événements, festivals et adresses confidentielles."
+        }
+      ]
+    },
+    "schedule": {
+      "titleLine1": "Un aperçu de ce que pourrait être ",
+      "titleLine2": "votre voyage padel Vibra.",
+      "day1Title": "Jour 1 : Arrivée et lancement padel",
+      "day1i1": "Matinée : vol, transfert, installation et repos.",
+      "day1i2": "17h00–19h00 : première séance de coaching collectif.",
+      "day1i3": "19h00 : boissons de bienvenue au club.",
+      "day2Title": "Jour 2 : Technique, calme et jeu social",
+      "day2i1": "8h00 : petit-déjeuner.",
+      "day2i2": "9h00–9h45 : yoga optionnel.",
+      "day2i3": "10h00–12h00 : coaching collectif.",
+      "day2i4": "12h00–17h30 : activité culturelle ou temps libre pour déjeuner et explorer.",
+      "day3Title": "Jour 3 : Coaching et immersion culturelle",
+      "day3i1": "8h00 : petit-déjeuner.",
+      "day3i2": "10h00–12h00 : coaching collectif.",
+      "day3i3": "12h00–19h00 : expérience culturelle l’après-midi.",
+      "day4Title": "Jour 4 : Compétition, célébration et départ",
+      "day4i1": "8h00 : petit-déjeuner.",
+      "day4i2": "10h00–12h00 : Americano avec des membres du club.",
+      "day4i3": "12h00 : boissons d’au revoir et BBQ/paella.",
+      "day4i4": "Après-midi : vol retour.",
+      "footerTitle": "Tout est entièrement personnalisable !",
+      "planTrip": "Planifiez votre voyage"
+    }
+  },
+  "makeItYours": {
+    "titleLine1": "Rendez-le ",
+    "titleBreak": "unique et ",
+    "titleAccent": "vôtre",
+    "subtitle": "Enrichissez votre séjour padel avec aventure, bien-être ou culture locale. Composez selon les intérêts du groupe."
+  },
+  "experiences": {
+    "cultureTitle": "Culture & gastronomie",
+    "culture": [
+      {
+        "id": 1,
+        "title": "Vignoble, dégustation & tapas",
+        "description": "Visite près de Barcelone ou Séville, dégustation avec vue et tapas."
+      },
+      {
+        "id": 3,
+        "title": "Jour de match La Liga",
+        "description": "Match en direct selon calendrier et disponibilité."
+      },
+      {
+        "id": 4,
+        "title": "Tournée de tapas",
+        "description": "Bars authentiques, spécialités régionales et boissons classiques."
+      },
+      {
+        "id": 5,
+        "title": "Atelier flamenco (Séville uniquement)",
+        "description": "Cours dynamique puis tapas dans un bar local."
+      },
+      {
+        "id": 6,
+        "title": "Spectacle flamenco (Séville uniquement)",
+        "description": "Flamenco live dans une ambiance intimiste."
+      },
+      {
+        "id": 7,
+        "title": "Marché & cours de cuisine",
+        "description": "Marché animé puis atelier pratique avec un chef."
+      }
+    ],
+    "sportsTitle": "Sport & aventure",
+    "sports": [
+      {
+        "id": 1,
+        "title": "Randonnée l’après-midi",
+        "description": "2–3 h guidées, paysages et BBQ village optionnelle."
+      },
+      {
+        "id": 2,
+        "title": "Partie de golf",
+        "description": "Parcours proche : transferts, location et dîner optionnel au club."
+      },
+      {
+        "id": 4,
+        "title": "Running guidé lever/coucher du soleil",
+        "description": "Découverte de Barcelone ou Séville en course, distance adaptable."
+      },
+      {
+        "id": 5,
+        "title": "Kayak",
+        "description": "Côte barcelonaise ou fleuve à Séville ; SUP possible."
+      }
+    ],
+    "relaxTitle": "Relax & bien-être",
+    "relax": [
+      {
+        "id": 1,
+        "title": "Yoga lever/coucher du soleil",
+        "description": "En plein air pour étirer et récupérer après le padel."
+      },
+      {
+        "id": 2,
+        "title": "Pilates lever/coucher du soleil",
+        "description": "Renforcement, étirements et respiration en extérieur."
+      },
+      {
+        "id": 3,
+        "title": "Spa & bien-être",
+        "description": "Massage, spa ou soin beauté sur mesure."
+      }
+    ]
+  }
+}

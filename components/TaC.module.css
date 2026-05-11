@@ -1,0 +1,89 @@
+.tacContainer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-cream);
+  padding: 40px 0;
+}
+
+.tacContent {
+  width: 95vw;
+  max-width: 1300px;
+  background: var(--surface-card);
+  border-radius: 30px;
+  padding: 40px 60px;
+  box-shadow: 0 2px 12px var(--color-card-shine);
+}
+
+.tacTitle {
+  font-size: 48px;
+  color: var(--color-purple);
+  margin-bottom: 40px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.tacDesc {
+  font-size: 18px;
+  color: var(--color-muted);
+  margin-bottom: 30px;
+}
+
+.tacList {
+  color: var(--color-muted);
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+.tacList > li {
+  margin-bottom: 18px;
+}
+
+.tacSectionTitle {
+  color: var(--color-purple);
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+.tacList ul,
+.tacList ol {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.tacList p {
+  margin: 0;
+}
+
+.tacContact {
+  font-size: 16px;
+  color: var(--color-muted);
+  margin-top: 30px;
+}
+
+.tacContact a {
+  color: var(--color-orange);
+  text-decoration: none;
+}
+
+.tacContact a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .tacContent {
+    width: 99vw;
+    padding: 20px 10px;
+  }
+  .tacTitle {
+    font-size: 32px;
+    text-align: center;
+  }
+  .tacDesc {
+    font-size: 15px;
+    text-align: center;
+  }
+}
