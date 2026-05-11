@@ -38,14 +38,25 @@ export function Header() {
     >
       <div className={styles.headerContent}>
         <div className={styles.desktopNav}>
-          <div className={styles.headerSides}>
-            <Link href="/groups" className="nav-link">
-              <span className={styles.headerText}>{t("nav.groups")}</span>
-            </Link>
-            <Link href="/corporate" className="nav-link">
-              <span className={styles.headerText}>{t("nav.corporate")}</span>
-            </Link>
-            <Link href="/schools" className="nav-link">
+          <div className={`${styles.headerSides} ${styles.navLeft}`}>
+            <div className={styles.subMenu}>
+              <button
+                type="button"
+                className={styles.subMenuButton}
+                aria-haspopup="true"
+              >
+                <span className={styles.headerText}>{t("nav.trips")}</span>
+              </button>
+              <div className={styles.subMenuPanel}>
+                <Link href="/groups" className={styles.subMenuLink}>
+                  {t("nav.groups")}
+                </Link>
+                <Link href="/corporate" className={styles.subMenuLink}>
+                  {t("nav.corporate")}
+                </Link>
+              </div>
+            </div>
+            <Link href="/schools" className={styles.navItem}>
               <span className={styles.headerText}>{t("nav.schools")}</span>
             </Link>
           </div>
@@ -54,37 +65,38 @@ export function Header() {
               <IconVibraTravel />
             </Link>
           </div>
-          <div>
-            <div className={styles.headerSides}>
-              <Link href="/why-vibra" className="nav-link">
-                <span className={styles.headerText}>{t("nav.whyVibra")}</span>
-              </Link>
-              <div className={styles.headerTools}>
-                <LanguageSwitcher />
-                <button
-                  type="button"
-                  className={styles.themeToggle}
-                  onClick={toggleTheme}
-                  aria-label={
-                    theme === "dark"
-                      ? t("a11y.switchToLight")
-                      : t("a11y.switchToDark")
-                  }
-                  suppressHydrationWarning
-                >
-                  {themeToggleMounted && theme === "dark" ? (
-                    <IconSun />
-                  ) : themeToggleMounted ? (
-                    <IconMoon className={styles.themeToggleIcon} />
-                  ) : (
-                    <span className={styles.themeTogglePlaceholder} aria-hidden />
-                  )}
-                </button>
-              </div>
-              <Link href="/contact" className="nav-link">
-                <p className={styles.buttonText}>{t("nav.planTrip")}</p>
-              </Link>
+          <div className={`${styles.headerSides} ${styles.navRight}`}>
+            <Link href="/why-vibra" className={styles.navItem}>
+              <span className={styles.headerText}>{t("nav.aboutUs")}</span>
+            </Link>
+            <Link href="/testemonials" className={styles.navItem}>
+              <span className={styles.headerText}>{t("nav.testemonials")}</span>
+            </Link>
+            <div className={styles.headerTools}>
+              <LanguageSwitcher />
+              <button
+                type="button"
+                className={styles.themeToggle}
+                onClick={toggleTheme}
+                aria-label={
+                  theme === "dark"
+                    ? t("a11y.switchToLight")
+                    : t("a11y.switchToDark")
+                }
+                suppressHydrationWarning
+              >
+                {themeToggleMounted && theme === "dark" ? (
+                  <IconSun />
+                ) : themeToggleMounted ? (
+                  <IconMoon className={styles.themeToggleIcon} />
+                ) : (
+                  <span className={styles.themeTogglePlaceholder} aria-hidden />
+                )}
+              </button>
             </div>
+            <Link href="/contact" className="nav-link">
+              <p className={styles.buttonText}>{t("nav.planTrip")}</p>
+            </Link>
           </div>
         </div>
 
@@ -134,22 +146,25 @@ export function Header() {
             className={`${styles.mobileMenu} ${isMobileMenuOpen ? styles.mobileMenuOpen : ""}`}
           >
             <div className={styles.mobileMenuItems}>
-              <Link
-                href="/groups"
-                className={styles.mobileNavLink}
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                <span className={styles.mobileNavText}>{t("nav.groups")}</span>
-              </Link>
-              <Link
-                href="/corporate"
-                className={styles.mobileNavLink}
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                <span className={styles.mobileNavText}>
-                  {t("nav.corporate")}
-                </span>
-              </Link>
+              <div className={styles.mobileSubMenu}>
+                <span className={styles.mobileSubMenuTitle}>{t("nav.trips")}</span>
+                <Link
+                  href="/groups"
+                  className={styles.mobileNavLink}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  <span className={styles.mobileNavText}>{t("nav.groups")}</span>
+                </Link>
+                <Link
+                  href="/corporate"
+                  className={styles.mobileNavLink}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  <span className={styles.mobileNavText}>
+                    {t("nav.corporate")}
+                  </span>
+                </Link>
+              </div>
               <Link
                 href="/schools"
                 className={styles.mobileNavLink}
@@ -163,7 +178,16 @@ export function Header() {
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 <span className={styles.mobileNavText}>
-                  {t("nav.whyVibra")}
+                  {t("nav.aboutUs")}
+                </span>
+              </Link>
+              <Link
+                href="/testemonials"
+                className={styles.mobileNavLink}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                <span className={styles.mobileNavText}>
+                  {t("nav.testemonials")}
                 </span>
               </Link>
               <Link href="/contact" className={styles.mobileNavLink}>

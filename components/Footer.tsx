@@ -45,6 +45,9 @@ export function Footer() {
                 <Link href="/why-vibra" className="nav-link">
                   <p className={styles.buttonText}>{t("nav.whyVibra")}</p>
                 </Link>
+                <Link href="/testemonials" className="nav-link">
+                  <p className={styles.buttonText}>{t("nav.testemonials")}</p>
+                </Link>
                 <Link href="/contact" className="nav-link">
                   <p className={styles.buttonText}>{t("footer.contact")}</p>
                 </Link>

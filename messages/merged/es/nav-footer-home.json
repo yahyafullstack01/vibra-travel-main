@@ -2,8 +2,11 @@
   "nav": {
     "groups": "Grupos",
     "corporate": "Empresas",
+    "trips": "Viajes",
     "schools": "Colegios",
+    "aboutUs": "Sobre nosotros",
     "whyVibra": "Por qué Vibra",
+    "testemonials": "Testimonios",
     "planTrip": "Planifica tu viaje"
   },
   "footer": {
@@ -84,5 +87,36 @@
     "titleAfter": " aventura de pádel?",
     "description": "Creamos vacaciones de pádel que van más allá de lo habitual: pasión por el juego y conocimiento local para recuerdos que duran años.",
     "planTrip": "Planifica tu viaje"
+  },
+  "testemonials": {
+    "eyebrow": "Historias de viajeros",
+    "title": "Testimonios dentro y fuera de la pista",
+    "intro": "Opiniones reales de grupos que vinieron por el pádel, descubrieron España con gente local y se llevaron un viaje del que todavía hablan.",
+    "cta": "Planifica tu viaje",
+    "heroAlt": "Viajeros de Vibra Travel descansando después de jugar al pádel",
+    "listLabel": "Testimonios de viajeros",
+    "items": [
+      {
+        "quote": "Cada detalle estaba organizado, desde las reservas de pistas hasta las noches de tapas. El pádel fue excelente, pero las experiencias locales hicieron que el viaje se sintiera totalmente personal.",
+        "name": "Sophie Martin",
+        "meta": "Viaje de amigos, Barcelona",
+        "initials": "SM",
+        "ratingLabel": "Cinco de cinco estrellas"
+      },
+      {
+        "quote": "Nuestro equipo quería algo activo pero fácil de organizar. Vibra creó la mezcla perfecta de entrenamientos, partidos, cenas y tiempo para disfrutar juntos de la ciudad.",
+        "name": "Daniel Brooks",
+        "meta": "Grupo corporativo, Sevilla",
+        "initials": "DB",
+        "ratingLabel": "Cinco de cinco estrellas"
+      },
+      {
+        "quote": "El itinerario parecía hecho para nosotros. Mejoramos nuestro pádel, conocimos a jugadores locales increíbles y vimos una España que nunca habríamos encontrado solos.",
+        "name": "Laura Jensen",
+        "meta": "Vacaciones de club, Barcelona",
+        "initials": "LJ",
+        "ratingLabel": "Cinco de cinco estrellas"
+      }
+    ]
   }
 }

@@ -2,8 +2,11 @@
   "nav": {
     "groups": "Groups",
     "corporate": "Corporate",
+    "trips": "Trips",
     "schools": "Schools",
+    "aboutUs": "About Us",
     "whyVibra": "Why Vibra",
+    "testemonials": "Testimonials",
     "planTrip": "Plan your trip"
   },
   "footer": {
@@ -84,5 +87,36 @@
     "titleAfter": " Padel Adventure?",
     "description": "At Vibra Travel, we're passionate about creating Padel holidays that go beyond the ordinary. We combine our love for the game with deep local knowledge of Spain to deliver experiences you'll talk about for years.",
     "planTrip": "Plan your trip"
+  },
+  "testemonials": {
+    "eyebrow": "Guest stories",
+    "title": "Testimonials from the court and beyond",
+    "intro": "Real feedback from groups who came for padel, discovered Spain with locals, and left with a trip their friends still talk about.",
+    "cta": "Plan your trip",
+    "heroAlt": "Vibra Travel guests relaxing after padel",
+    "listLabel": "Guest testimonials",
+    "items": [
+      {
+        "quote": "Every detail was handled, from court bookings to tapas nights. The padel was excellent, but the local experiences made the trip feel completely personal.",
+        "name": "Sophie Martin",
+        "meta": "Friends trip, Barcelona",
+        "initials": "SM",
+        "ratingLabel": "Five out of five stars"
+      },
+      {
+        "quote": "Our team wanted something active but easy to organise. Vibra built the perfect mix of coaching, matches, dinners, and time to enjoy the city together.",
+        "name": "Daniel Brooks",
+        "meta": "Corporate group, Sevilla",
+        "initials": "DB",
+        "ratingLabel": "Five out of five stars"
+      },
+      {
+        "quote": "The itinerary felt made for us. We improved our padel, met great local players, and saw a side of Spain we never would have found on our own.",
+        "name": "Laura Jensen",
+        "meta": "Club holiday, Barcelona",
+        "initials": "LJ",
+        "ratingLabel": "Five out of five stars"
+      }
+    ]
   }
 }
