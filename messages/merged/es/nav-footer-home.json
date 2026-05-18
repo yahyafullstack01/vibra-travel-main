@@ -44,6 +44,12 @@
     "subtitleAfter": " que combinan tiempo de juego inolvidable con experiencias auténticas.",
     "planTrip": "Planifica tu viaje"
   },
+  "homeAbout": {
+    "eyebrow": "Sobre nosotros",
+    "title": "Creado por alguien que vive el pádel y la vida española",
+    "description": "Vibra Travel está dirigido por Charlie, que lleva más de una década viviendo en España. Los viajes combinan tiempo real en pista con comida local, ciudades, tradiciones y momentos sociales auténticos.",
+    "imageAlt": "Charlie de Vibra Travel"
+  },
   "moreThanPadel": {
     "head1": "Más que pádel.",
     "head2Before": "Es una ",

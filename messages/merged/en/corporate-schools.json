@@ -1,4 +1,44 @@
 {
+  "audienceIntro": {
+    "business": {
+      "eyebrow": "For businesses",
+      "title": "Team travel that feels easy to say yes to",
+      "description": "A hosted padel escape for companies that want more than a standard retreat: active time together, local culture, and logistics handled from start to finish.",
+      "points": [
+        {
+          "title": "Team building",
+          "text": "Padel sessions and shared experiences designed to bring people together naturally."
+        },
+        {
+          "title": "Incentives",
+          "text": "Reward your team or clients with a trip that feels premium, active, and memorable."
+        },
+        {
+          "title": "No planning stress",
+          "text": "We shape the itinerary, coordinate the details, and host the group locally."
+        }
+      ]
+    },
+    "schools": {
+      "eyebrow": "For schools",
+      "title": "Safe, active trips students actually remember",
+      "description": "Structured group travel for schools and youth groups, combining padel, culture, language, and supervised activities in Spain.",
+      "points": [
+        {
+          "title": "Safe structure",
+          "text": "Clear schedules, suitable accommodation, and hosted support throughout the trip."
+        },
+        {
+          "title": "Active learning",
+          "text": "Sport, language, and cultural moments keep students engaged beyond the classroom."
+        },
+        {
+          "title": "Flexible programmes",
+          "text": "Choose the right balance of padel, excursions, classes, meals, and free time."
+        }
+      ]
+    }
+  },
   "corporate": {
     "presentation": {
       "title": "Power Up Your Team with a Padel Adventure in Spain",

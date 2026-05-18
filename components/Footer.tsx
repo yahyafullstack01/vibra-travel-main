@@ -60,6 +60,24 @@ const socialLinks = [
   },
 ];
 
+const contactLinks = [
+  {
+    href: "https://wa.me/34744484995",
+    labelKey: "footer.whatsapp",
+    text: "WhatsApp",
+  },
+  {
+    href: "mailto:info@vibra-travel.com",
+    labelKey: "contactForm.emailLabel",
+    text: "info@vibra-travel.com",
+  },
+  {
+    href: "tel:+34744484995",
+    labelKey: "contactForm.phoneLabel",
+    text: "(+34) 744 484 995",
+  },
+];
+
 export function Footer() {
   const { t } = useLocale();
 
@@ -86,11 +104,11 @@ export function Footer() {
                 <Link href="/groups" className="nav-link">
                   <p className={styles.buttonText}>{t("nav.groups")}</p>
                 </Link>
-                <Link href="/corporate" className="nav-link">
-                  <p className={styles.buttonText}>{t("nav.corporate")}</p>
+                <Link href="/for-businesses" className="nav-link">
+                  <p className={styles.buttonText}>{t("nav.forBusinesses")}</p>
                 </Link>
                 <Link href="/schools" className="nav-link">
-                  <p className={styles.buttonText}>{t("nav.schools")}</p>
+                  <p className={styles.buttonText}>{t("nav.forSchools")}</p>
                 </Link>
               </div>
             </div>
@@ -106,6 +124,21 @@ export function Footer() {
                 <Link href="/contact" className="nav-link">
                   <p className={styles.buttonText}>{t("footer.contact")}</p>
                 </Link>
+              </div>
+            </div>
+            <div className={styles.footerLinksSection}>
+              <p className={styles.tripsTitle}>{t("footer.contact")}</p>
+              <div className={styles.contactLinks}>
+                {contactLinks.map(({ href, labelKey, text }) => (
+                  <a
+                    href={href}
+                    key={href}
+                    className={styles.contactLink}
+                    aria-label={t(labelKey)}
+                  >
+                    {text}
+                  </a>
+                ))}
               </div>
             </div>
             <div className={styles.footerLinksSection}>

@@ -70,7 +70,7 @@ export function Header() {
           </div>
           <div className={`${styles.headerSides} ${styles.navRight}`}>
             <Link href="/why-vibra" className={styles.navItem}>
-              <span className={styles.headerText}>{t("nav.aboutUs")}</span>
+              <span className={styles.headerText}>{t("nav.whyVibra")}</span>
             </Link>
             <Link href="/testemonials" className={styles.navItem}>
               <span className={styles.headerText}>{t("nav.testemonials")}</span>
@@ -192,7 +192,7 @@ export function Header() {
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 <span className={styles.mobileNavText}>
-                  {t("nav.aboutUs")}
+                  {t("nav.whyVibra")}
                 </span>
               </Link>
               <Link

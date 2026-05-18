@@ -1,0 +1,100 @@
+.section {
+  background: var(--color-cream);
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  align-items: stretch;
+  display: grid;
+  gap: 34px;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  margin: 64px 0;
+  max-width: 1250px;
+  width: 85vw;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.eyebrow {
+  color: var(--color-orange);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 113%;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.title {
+  color: var(--color-purple);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 113%;
+  max-width: 520px;
+}
+
+.description {
+  color: var(--color-muted);
+  font-size: 17px;
+  line-height: 155%;
+  margin-top: 22px;
+  max-width: 520px;
+}
+
+.points {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.point {
+  background: var(--surface-card);
+  border: 1px solid var(--color-divider);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px;
+}
+
+.pointTitle {
+  color: var(--color-purple);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.pointText {
+  color: var(--color-muted);
+  font-size: 15px;
+  line-height: 150%;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    margin: 42px 0;
+    width: 90vw;
+  }
+
+  .title {
+    font-size: 34px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .points {
+    grid-template-columns: 1fr;
+  }
+}

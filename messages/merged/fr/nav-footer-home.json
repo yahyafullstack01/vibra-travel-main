@@ -44,6 +44,12 @@
     "subtitleAfter": " — temps de jeu inoubliable et Espagne authentique.",
     "planTrip": "Planifiez votre voyage"
   },
+  "homeAbout": {
+    "eyebrow": "À propos",
+    "title": "Créé par quelqu'un qui vit vraiment le padel en Espagne",
+    "description": "Vibra Travel est porté par Charlie, installé en Espagne depuis plus de dix ans. Les voyages mêlent vrai temps sur le court, gastronomie locale, villes, traditions et moments de partage authentiques.",
+    "imageAlt": "Charlie de Vibra Travel"
+  },
   "moreThanPadel": {
     "head1": "Plus que le padel.",
     "head2Before": "C'est une ",
