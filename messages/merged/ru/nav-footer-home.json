@@ -1,9 +1,13 @@
 {
   "nav": {
     "groups": "Группы",
+    "padelClubs": "Падель-клубы",
+    "privateGroups": "Частные группы",
     "corporate": "Корпоратив",
+    "forBusinesses": "Для бизнеса",
     "trips": "Туры",
     "schools": "Школы",
+    "forSchools": "Для школ",
     "aboutUs": "О нас",
     "whyVibra": "Почему Vibra",
     "testemonials": "Отзывы",
@@ -16,7 +20,10 @@
     "followTrips": "Следите за поездками",
     "copyright": "© 2026 Vibra Travel. Все права защищены. Создано с ❤️ для любителей паделя.",
     "terms": "Условия использования",
+    "facebook": "Facebook",
     "instagram": "Instagram",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
     "tiktok": "TikTok",
     "contact": "Контакты"
   },

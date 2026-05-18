@@ -1,9 +1,13 @@
 {
   "nav": {
     "groups": "المجموعات",
+    "padelClubs": "نوادي البادل",
+    "privateGroups": "مجموعات خاصة",
     "corporate": "الشركات",
+    "forBusinesses": "للشركات",
     "trips": "الرحلات",
     "schools": "المدارس",
+    "forSchools": "للمدارس",
     "aboutUs": "من نحن",
     "whyVibra": "لماذا فيبرا",
     "testemonials": "آراء المسافرين",
@@ -16,7 +20,10 @@
     "followTrips": "تابع رحلاتنا",
     "copyright": "© 2026 فيبرا ترافل. جميع الحقوق محفوظة. صُنع بـ ❤️ لعشاق البادل.",
     "terms": "الشروط والأحكام",
+    "facebook": "فيسبوك",
     "instagram": "إنستغرام",
+    "whatsapp": "واتساب",
+    "linkedin": "لينكدإن",
     "tiktok": "تيك توك",
     "contact": "اتصل بنا"
   },

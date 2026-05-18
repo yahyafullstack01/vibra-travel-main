@@ -45,19 +45,22 @@ export function Header() {
                 className={styles.subMenuButton}
                 aria-haspopup="true"
               >
-                <span className={styles.headerText}>{t("nav.trips")}</span>
+                <span className={styles.headerText}>{t("nav.groups")}</span>
               </button>
               <div className={styles.subMenuPanel}>
                 <Link href="/groups" className={styles.subMenuLink}>
-                  {t("nav.groups")}
+                  {t("nav.padelClubs")}
                 </Link>
-                <Link href="/corporate" className={styles.subMenuLink}>
-                  {t("nav.corporate")}
+                <Link href="/groups" className={styles.subMenuLink}>
+                  {t("nav.privateGroups")}
                 </Link>
               </div>
             </div>
+            <Link href="/for-businesses" className={styles.navItem}>
+              <span className={styles.headerText}>{t("nav.forBusinesses")}</span>
+            </Link>
             <Link href="/schools" className={styles.navItem}>
-              <span className={styles.headerText}>{t("nav.schools")}</span>
+              <span className={styles.headerText}>{t("nav.forSchools")}</span>
             </Link>
           </div>
           <div className={styles.icon}>
@@ -147,30 +150,41 @@ export function Header() {
           >
             <div className={styles.mobileMenuItems}>
               <div className={styles.mobileSubMenu}>
-                <span className={styles.mobileSubMenuTitle}>{t("nav.trips")}</span>
+                <span className={styles.mobileSubMenuTitle}>{t("nav.groups")}</span>
                 <Link
                   href="/groups"
                   className={styles.mobileNavLink}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  <span className={styles.mobileNavText}>{t("nav.groups")}</span>
+                  <span className={styles.mobileNavText}>
+                    {t("nav.padelClubs")}
+                  </span>
                 </Link>
                 <Link
-                  href="/corporate"
+                  href="/groups"
                   className={styles.mobileNavLink}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   <span className={styles.mobileNavText}>
-                    {t("nav.corporate")}
+                    {t("nav.privateGroups")}
                   </span>
                 </Link>
               </div>
+              <Link
+                href="/for-businesses"
+                className={styles.mobileNavLink}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                <span className={styles.mobileNavText}>
+                  {t("nav.forBusinesses")}
+                </span>
+              </Link>
               <Link
                 href="/schools"
                 className={styles.mobileNavLink}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                <span className={styles.mobileNavText}>{t("nav.schools")}</span>
+                <span className={styles.mobileNavText}>{t("nav.forSchools")}</span>
               </Link>
               <Link
                 href="/why-vibra"

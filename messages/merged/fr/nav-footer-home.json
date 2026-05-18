@@ -1,9 +1,13 @@
 {
   "nav": {
     "groups": "Groupes",
+    "padelClubs": "Clubs de padel",
+    "privateGroups": "Groupes privés",
     "corporate": "Entreprises",
+    "forBusinesses": "Pour entreprises",
     "trips": "Voyages",
     "schools": "Écoles",
+    "forSchools": "Pour écoles",
     "aboutUs": "À propos",
     "whyVibra": "Pourquoi Vibra",
     "testemonials": "Témoignages",
@@ -16,7 +20,10 @@
     "followTrips": "Suivez nos voyages",
     "copyright": "© 2026 Vibra Travel. Tous droits réservés. Fait avec ❤️ pour les amoureux du padel.",
     "terms": "Conditions générales",
+    "facebook": "Facebook",
     "instagram": "Instagram",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
     "tiktok": "TikTok",
     "contact": "Contact"
   },
