@@ -1,0 +1,7 @@
+<svg width="320" height="96" viewBox="0 0 320 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="318" height="94" rx="18" fill="#FCF5EC"/>
+  <path d="M48 24L62 39L48 54L34 39L48 24Z" fill="#520030"/>
+  <path d="M48 42L60 58H36L48 42Z" fill="#F44C30"/>
+  <text x="94" y="44" fill="#520030" font-family="Arial, sans-serif" font-size="22" font-weight="700">Travel Circuit</text>
+  <text x="94" y="64" fill="#6A3B56" font-family="Arial, sans-serif" font-size="13" font-weight="400">Featured site</text>
+</svg>

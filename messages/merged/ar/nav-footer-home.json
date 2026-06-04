@@ -42,7 +42,9 @@
     "subtitleBefore": "عطلات بادل مخصصة في ",
     "subtitleBetween": " و",
     "subtitleAfter": " — تجمع بين وقت ممتع على الملعب وتجارب إسبانية أصيلة.",
-    "planTrip": "خطط رحلتك"
+    "planTrip": "خطط رحلتك",
+    "featuredLabel": "ظهرنا في",
+    "featuredIntro": "شعارات تجريبية لشريط الثقة بعد القسم الرئيسي."
   },
   "homeAbout": {
     "eyebrow": "من نحن",

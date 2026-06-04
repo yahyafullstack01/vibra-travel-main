@@ -1,10 +1,10 @@
-import { AudienceIntro } from "@/components/AudienceIntro";
-import { ChooseYourActivities } from "@/components/ChooseYourActivities";
-import { Destinations } from "@/components/Destinations";
-import { SchoolsPackagesSection } from "@/components/SchoolsPackagesSection";
-import { SchoolsPresentation } from "@/components/SchoolsPresentation";
-import { SchoolsSchedule } from "@/components/SchoolsSchedule";
-import { TestemonialsPreview } from "@/components/TestemonialsPreview";
+import { AudienceIntro } from "@/components/AudienceIntro/AudienceIntro";
+import { ChooseYourActivities } from "@/components/ChooseYourActivities/ChooseYourActivities";
+import { Destinations } from "@/components/Destinations/Destinations";
+import { SchoolsPackagesSection } from "@/components/SchoolsPackagesSection/SchoolsPackagesSection";
+import { SchoolsPresentation } from "@/components/SchoolsPresentation/SchoolsPresentation";
+import { SchoolsSchedule } from "@/components/SchoolsSchedule/SchoolsSchedule";
+import { TestemonialsPreview } from "@/components/TestemonialsPreview/TestemonialsPreview";
 
 export default function SchoolsPage() {
   return (

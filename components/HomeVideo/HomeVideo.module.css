@@ -1,0 +1,28 @@
+.blurryImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(20px);
+  z-index: 1;
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.videoContainer {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.videoContainer video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 0;
+}

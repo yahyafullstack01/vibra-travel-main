@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import "@/app/globals.css";
-import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
-import { PageTransition } from "@/components/PageTransition";
-import { HashScroll } from "@/components/HashScroll";
-import { ThemeProvider } from "@/components/ThemeProvider";
-import { LocaleProvider } from "@/components/LocaleProvider";
+import { Header } from "@/components/Header/Header";
+import { Footer } from "@/components/Footer/Footer";
+import { PageTransition } from "@/components/PageTransition/PageTransition";
+import { HashScroll } from "@/components/HashScroll/HashScroll";
+import { ThemeProvider } from "@/components/ThemeProvider/ThemeProvider";
+import { LocaleProvider } from "@/components/LocaleProvider/LocaleProvider";
 
 export const metadata: Metadata = {
   title: "Vibra Travel",
@@ -36,7 +36,7 @@ export default function RootLayout({
       </head>
       <body>
         <Script id="vibra-theme-locale-init" strategy="beforeInteractive">
-          {`(function(){try{var t=localStorage.getItem('vibra-theme');if(t==='dark')document.documentElement.setAttribute('data-theme','dark');var L=localStorage.getItem('vibra-locale');var loc=(L==='ru'||L==='ar'||L==='es'||L==='fr'||L==='en')?L:'en';document.documentElement.setAttribute('lang',loc);document.documentElement.setAttribute('dir',loc==='ar'?'rtl':'ltr');}catch(e){}})();`}
+          {`(function(){try{var t=localStorage.getItem('vibra-theme');if(t==='dark')document.documentElement.setAttribute('data-theme','dark');var k='vibra-locale',vk='vibra-locale-default',vv='en-v1';var L=localStorage.getItem(k);if(localStorage.getItem(vk)!==vv){L='en';localStorage.setItem(k,L);localStorage.setItem(vk,vv);}var loc=(L==='ru'||L==='ar'||L==='es'||L==='fr'||L==='en')?L:'en';document.documentElement.setAttribute('lang',loc);document.documentElement.setAttribute('dir',loc==='ar'?'rtl':'ltr');}catch(e){}})();`}
         </Script>
         <ThemeProvider>
           <LocaleProvider>

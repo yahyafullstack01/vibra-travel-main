@@ -1,0 +1,8 @@
+<svg width="320" height="96" viewBox="0 0 320 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="318" height="94" rx="18" fill="#FCF5EC"/>
+  <circle cx="48" cy="48" r="30" fill="#520030"/>
+  <path d="M36 49C36 42.3726 41.3726 37 48 37C54.6274 37 60 42.3726 60 49C60 55.6274 54.6274 61 48 61C41.3726 61 36 55.6274 36 49Z" stroke="#FCF5EC" stroke-width="4"/>
+  <path d="M40 49H56" stroke="#FCF5EC" stroke-width="3" stroke-linecap="round"/>
+  <text x="92" y="44" fill="#520030" font-family="Arial, sans-serif" font-size="26" font-weight="700">Padel Hub</text>
+  <text x="92" y="64" fill="#6A3B56" font-family="Arial, sans-serif" font-size="13" font-weight="400">Featured partner</text>
+</svg>

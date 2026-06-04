@@ -1,9 +1,9 @@
-import { GroupsPackagesSection } from "@/components/GroupsPackagesSection";
-import { GroupsPresentation } from "@/components/GroupsPresentation";
-import { MakeItYours } from "@/components/MakeItYours";
-import { ReadyAdventure } from "@/components/ReadyAdventure";
-import { Schedule } from "@/components/Schedule";
-import { TestemonialsPreview } from "@/components/TestemonialsPreview";
+import { GroupsPackagesSection } from "@/components/GroupsPackagesSection/GroupsPackagesSection";
+import { GroupsPresentation } from "@/components/GroupsPresentation/GroupsPresentation";
+import { MakeItYours } from "@/components/MakeItYours/MakeItYours";
+import { ReadyAdventure } from "@/components/ReadyAdventure/ReadyAdventure";
+import { Schedule } from "@/components/Schedule/Schedule";
+import { TestemonialsPreview } from "@/components/TestemonialsPreview/TestemonialsPreview";
 
 export default function GroupsPage() {
   return (

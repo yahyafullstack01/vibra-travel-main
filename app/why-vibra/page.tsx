@@ -1,5 +1,5 @@
-import { ReadyAdventure } from "@/components/ReadyAdventure";
-import { WhyVibraPresentation } from "@/components/WhyVibraPresentation";
+import { ReadyAdventure } from "@/components/ReadyAdventure/ReadyAdventure";
+import { WhyVibraPresentation } from "@/components/WhyVibraPresentation/WhyVibraPresentation";
 
 export default function WhyVibraPage() {
   return (

@@ -1,6 +1,12 @@
-/** Public folder paths under `public/assets/photos` and `public/assets/videos`. */
+/** Public folder paths. */
 export const media = {
   photos: {
+    padelPics: {
+      privatePage: encodeURI("/PadelPics/private page .jpg"),
+      privateGroups: encodeURI("/PadelPics/private groups.jpg"),
+      paella: "/PadelPics/paella-CdJLdOuj.webp",
+      beers: "/PadelPics/beers-BK3ioEqu.webp",
+    },
     walk: "/assets/photos/walk.webp",
     resting: "/assets/photos/resting.webp",
     paella: "/assets/photos/paella.webp",
@@ -34,5 +40,5 @@ export const media = {
     flamencoDancer: "/assets/photos/flamencoDancer.webp",
     hostel: "/assets/photos/hostel.jpg",
   },
-  videoHero: encodeURI("/assets/videos/Video Vibra Travel_newOK .mp4"),
+  videoHero: "/HeroVideo.mp4",
 } as const;
