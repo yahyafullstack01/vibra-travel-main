@@ -271,10 +271,6 @@
   color: var(--color-orange);
 }
 
-:global(html[data-theme="dark"]) .brand svg {
-  filter: brightness(0) invert(1);
-}
-
 .mobileHeaderActions {
   display: flex;
   flex-direction: row;
