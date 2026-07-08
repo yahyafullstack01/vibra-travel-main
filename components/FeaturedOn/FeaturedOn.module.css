@@ -1,9 +1,11 @@
 .featuredSection {
   width: 100%;
   background:
-    linear-gradient(180deg, #f8efe4 0%, #fcf5ec 100%);
-  border-top: 1px solid rgba(82, 0, 48, 0.08);
-  border-bottom: 1px solid rgba(82, 0, 48, 0.08);
+    radial-gradient(circle at 12% 50%, rgba(244, 76, 48, 0.12), transparent 42%),
+    radial-gradient(circle at 88% 40%, rgba(20, 58, 98, 0.1), transparent 40%),
+    linear-gradient(180deg, #edf3fb 0%, #f8efe4 45%, #fcf5ec 100%);
+  border-top: 1px solid rgba(20, 58, 98, 0.1);
+  border-bottom: 1px solid rgba(244, 76, 48, 0.12);
   position: relative;
   z-index: 3;
   margin-top: -22px;
@@ -13,7 +15,37 @@
     border-color 0.35s ease;
 }
 
+.featuredSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    var(--color-orange) 0%,
+    #143a62 35%,
+    #f44c30 65%,
+    #143a62 100%
+  );
+  background-size: 220% 100%;
+  animation: stripeShift 8s ease-in-out infinite;
+}
+
+.featuredGlow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 30% 100%, rgba(244, 76, 48, 0.08), transparent 50%),
+    radial-gradient(circle at 70% 0%, rgba(20, 58, 98, 0.08), transparent 45%);
+  animation: glowPulse 6s ease-in-out infinite alternate;
+}
+
 .featuredInner {
+  position: relative;
+  z-index: 1;
   width: 100%;
   padding: 14px 0 18px;
   display: flex;
@@ -31,21 +63,37 @@
 }
 
 .featuredLabel {
-  color: var(--color-purple);
+  color: var(--color-orange);
   font-family: "Familjen Grotesk", -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 13px;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.12em;
   line-height: 1;
   text-transform: uppercase;
   margin: 0;
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.featuredLabel::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 48px;
+  height: 2px;
+  transform: translateX(-50%);
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--color-orange), #143a62);
+  animation: underlineGrow 3s ease-in-out infinite alternate;
 }
 
 .featuredIntro {
-  color: var(--color-muted);
+  color: #143a62;
   font-size: 14px;
   line-height: 1.45;
   margin: 0;
+  opacity: 0.85;
 }
 
 .marquee {
@@ -67,7 +115,7 @@
 
 .marquee::before {
   left: 0;
-  background: linear-gradient(90deg, #fcf5ec 0%, rgba(252, 245, 236, 0) 100%);
+  background: linear-gradient(90deg, #edf3fb 0%, rgba(237, 243, 251, 0) 100%);
 }
 
 .marquee::after {
@@ -88,7 +136,7 @@
 
 .logoRow {
   display: flex;
-  gap: 56px;
+  gap: 28px;
   list-style: none;
   margin: 0;
   padding: 0 32px;
@@ -99,7 +147,35 @@
   align-items: center;
   justify-content: center;
   flex: 0 0 auto;
-  transition: transform 0.28s ease;
+  animation: logoFloat 5s ease-in-out infinite;
+}
+
+.marquee:hover .logoItem {
+  animation-play-state: paused;
+}
+
+.logoCard {
+  padding: 12px 22px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(20, 58, 98, 0.1);
+  border-top: 3px solid rgba(244, 76, 48, 0.35);
+  box-shadow: 0 8px 22px rgba(20, 58, 98, 0.08);
+  transition:
+    transform 0.32s ease,
+    border-color 0.32s ease,
+    box-shadow 0.32s ease,
+    background-color 0.32s ease;
+}
+
+.logoItem:hover .logoCard {
+  transform: translateY(-6px) scale(1.03);
+  border-top-color: var(--color-orange);
+  border-color: rgba(244, 76, 48, 0.35);
+  background: #ffffff;
+  box-shadow:
+    0 16px 36px rgba(244, 76, 48, 0.18),
+    0 4px 12px rgba(20, 58, 98, 0.1);
 }
 
 .logoLink {
@@ -107,21 +183,21 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  border-radius: 18px;
-  transition:
-    transform 0.28s ease,
-    filter 0.28s ease;
-}
-
-.logoItem:hover,
-.logoLink:hover {
-  transform: scale(1.06);
+  border-radius: 12px;
 }
 
 .logoLink:focus-visible {
   outline: 2px solid var(--color-orange);
-  outline-offset: 6px;
-  border-radius: 18px;
+  outline-offset: 4px;
+  border-radius: 12px;
+}
+
+.logoImageColor,
+.logoItem:hover .logoImageColor,
+.logoLink:hover .logoImageColor,
+.logoLink:focus-visible .logoImageColor {
+  filter: none;
+  opacity: 1;
 }
 
 .logoImage {
@@ -131,45 +207,52 @@
   max-width: 380px;
   height: 88px;
   object-fit: contain;
-  filter: grayscale(1);
-  opacity: 0.78;
+  filter: grayscale(0.35) saturate(1.1);
+  opacity: 0.92;
   transition:
-    filter 0.28s ease,
-    opacity 0.28s ease,
-    transform 0.28s ease,
-    box-shadow 0.28s ease;
+    filter 0.35s ease,
+    opacity 0.35s ease,
+    transform 0.35s ease;
 }
 
 .logoItem:hover .logoImage,
 .logoLink:hover .logoImage,
 .logoLink:focus-visible .logoImage {
-  filter: grayscale(0);
+  filter: grayscale(0) saturate(1.2);
   opacity: 1;
   transform: scale(1.02);
-  box-shadow: 0 12px 28px rgba(82, 0, 48, 0.14);
 }
 
 :global(html[data-theme="dark"]) .featuredSection {
   background:
-    linear-gradient(180deg, #ffffff 0%, #f7f1e8 100%);
-  border-top-color: rgba(82, 0, 48, 0.08);
-  border-bottom-color: rgba(82, 0, 48, 0.08);
-}
-
-:global(html[data-theme="dark"]) .marquee::before {
-  background: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
-}
-
-:global(html[data-theme="dark"]) .marquee::after {
-  background: linear-gradient(270deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
-}
-
-:global(html[data-theme="dark"]) .featuredLabel {
-  color: var(--color-purple);
+    radial-gradient(circle at 12% 50%, rgba(255, 107, 74, 0.14), transparent 42%),
+    radial-gradient(circle at 88% 40%, rgba(26, 79, 124, 0.2), transparent 40%),
+    linear-gradient(180deg, #0c1f36 0%, #111d32 100%);
+  border-top-color: rgba(255, 255, 255, 0.08);
+  border-bottom-color: rgba(244, 76, 48, 0.2);
 }
 
 :global(html[data-theme="dark"]) .featuredIntro {
-  color: rgba(82, 0, 48, 0.72);
+  color: rgba(252, 245, 236, 0.78);
+}
+
+:global(html[data-theme="dark"]) .marquee::before {
+  background: linear-gradient(90deg, #0c1f36 0%, rgba(12, 31, 54, 0) 100%);
+}
+
+:global(html[data-theme="dark"]) .marquee::after {
+  background: linear-gradient(270deg, #111d32 0%, rgba(17, 29, 50, 0) 100%);
+}
+
+:global(html[data-theme="dark"]) .logoCard {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.1);
+  border-top-color: rgba(244, 76, 48, 0.5);
+}
+
+:global(html[data-theme="dark"]) .logoItem:hover .logoCard {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(244, 76, 48, 0.45);
 }
 
 @keyframes marqueeScroll {
@@ -182,7 +265,58 @@
   }
 }
 
+@keyframes stripeShift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes glowPulse {
+  from {
+    opacity: 0.65;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes underlineGrow {
+  from {
+    width: 36px;
+    opacity: 0.7;
+  }
+
+  to {
+    width: 56px;
+    opacity: 1;
+  }
+}
+
+@keyframes logoFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
+  .featuredSection::before,
+  .featuredGlow,
+  .logoItem,
+  .featuredLabel::after {
+    animation: none;
+  }
+
   .marqueeTrack {
     animation: none;
     transform: translateX(0);
@@ -204,8 +338,12 @@
   }
 
   .logoRow {
-    gap: 36px;
+    gap: 20px;
     padding: 0 20px;
+  }
+
+  .logoCard {
+    padding: 10px 16px;
   }
 
   .logoImage {

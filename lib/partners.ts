@@ -2,10 +2,22 @@ export type PartnerLogo = {
   src: string;
   alt: string;
   href: string;
+  colorLogo?: boolean;
 };
 
-// Update href values with each partner's official website URL.
 export const partnerLogos: PartnerLogo[] = [
+  {
+    src: "/featured/raquex.png",
+    alt: "Raquex",
+    href: "https://www.raquex.com/discount/VIBRATRAVEL10",
+    colorLogo: true,
+  },
+  {
+    src: "/featured/deite.png",
+    alt: "Déité",
+    href: "https://deite.co.uk/discount/VIBRA10",
+    colorLogo: true,
+  },
   {
     src: "/featured/court-culture.svg",
     alt: "Court & Culture",

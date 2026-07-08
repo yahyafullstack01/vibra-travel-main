@@ -10,6 +10,7 @@ export function FeaturedOn() {
 
   return (
     <section className={styles.featuredSection} aria-label={t("home.featuredLabel")}>
+      <div className={styles.featuredGlow} aria-hidden="true" />
       <div className={styles.featuredInner}>
         <div className={styles.featuredHeading}>
           <p className={styles.featuredLabel}>{t("home.featuredLabel")}</p>
@@ -22,20 +23,34 @@ export function FeaturedOn() {
           <div className={styles.marqueeTrack}>
             <ul className={styles.logoRow}>
               {repeatedLogos.map((logo, idx) => (
-                <li key={`${logo.src}-${idx}`} className={styles.logoItem}>
-                  {logo.href ? (
-                    <a
-                      href={logo.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={styles.logoLink}
-                      aria-label={logo.alt}
-                    >
-                      <img className={styles.logoImage} src={logo.src} alt="" />
-                    </a>
-                  ) : (
-                    <img className={styles.logoImage} src={logo.src} alt={logo.alt} />
-                  )}
+                <li
+                  key={`${logo.src}-${idx}`}
+                  className={styles.logoItem}
+                  style={{ animationDelay: `${(idx % partnerLogos.length) * 0.35}s` }}
+                >
+                  <div className={styles.logoCard}>
+                    {logo.href ? (
+                      <a
+                        href={logo.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.logoLink}
+                        aria-label={logo.alt}
+                      >
+                        <img
+                          className={`${styles.logoImage} ${logo.colorLogo ? styles.logoImageColor : ""}`}
+                          src={logo.src}
+                          alt=""
+                        />
+                      </a>
+                    ) : (
+                      <img
+                        className={`${styles.logoImage} ${logo.colorLogo ? styles.logoImageColor : ""}`}
+                        src={logo.src}
+                        alt={logo.alt}
+                      />
+                    )}
+                  </div>
                 </li>
               ))}
             </ul>

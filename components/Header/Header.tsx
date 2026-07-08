@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { IconVibraTravel } from "@/components/icons/IconVibraTravel";
 import { IconMoon } from "@/components/icons/IconMoon";
 import { IconSun } from "@/components/icons/IconSun";
@@ -14,10 +14,8 @@ export function Header() {
   const { theme, toggleTheme } = useTheme();
   const { t } = useLocale();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isGroupsOpen, setIsGroupsOpen] = useState(false);
   const [hasShadow, setHasShadow] = useState(false);
   const [themeToggleMounted, setThemeToggleMounted] = useState(false);
-  const groupsMenuRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     setThemeToggleMounted(true);
@@ -33,22 +31,6 @@ export function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  useEffect(() => {
-    if (!isGroupsOpen) return;
-
-    const handlePointerDown = (event: MouseEvent) => {
-      if (
-        groupsMenuRef.current &&
-        !groupsMenuRef.current.contains(event.target as Node)
-      ) {
-        setIsGroupsOpen(false);
-      }
-    };
-
-    document.addEventListener("mousedown", handlePointerDown);
-    return () => document.removeEventListener("mousedown", handlePointerDown);
-  }, [isGroupsOpen]);
-
   return (
     <div
       dir="ltr"
@@ -62,36 +44,9 @@ export function Header() {
             </Link>
           </div>
           <nav className={styles.desktopLinks} aria-label={t("nav.groups")}>
-            <div
-              ref={groupsMenuRef}
-              className={`${styles.subMenu} ${isGroupsOpen ? styles.subMenuOpen : ""}`}
-            >
-              <button
-                type="button"
-                className={styles.subMenuButton}
-                aria-haspopup="true"
-                aria-expanded={isGroupsOpen}
-                onClick={() => setIsGroupsOpen((open) => !open)}
-              >
-                <span className={styles.headerText}>{t("nav.groups")}</span>
-              </button>
-              <div className={styles.subMenuPanel}>
-                <Link
-                  href="/groups"
-                  className={styles.subMenuLink}
-                  onClick={() => setIsGroupsOpen(false)}
-                >
-                  {t("nav.padelClubs")}
-                </Link>
-                <Link
-                  href="/groups"
-                  className={styles.subMenuLink}
-                  onClick={() => setIsGroupsOpen(false)}
-                >
-                  {t("nav.privateGroups")}
-                </Link>
-              </div>
-            </div>
+            <Link href="/groups" className={styles.navItem}>
+              <span className={styles.headerText}>{t("nav.groups")}</span>
+            </Link>
             <Link href="/for-businesses" className={styles.navItem}>
               <span className={styles.headerText}>{t("nav.forBusinesses")}</span>
             </Link>
@@ -180,27 +135,13 @@ export function Header() {
             className={`${styles.mobileMenu} ${isMobileMenuOpen ? styles.mobileMenuOpen : ""}`}
           >
             <div className={styles.mobileMenuItems}>
-              <div className={styles.mobileSubMenu}>
-                <span className={styles.mobileSubMenuTitle}>{t("nav.groups")}</span>
-                <Link
-                  href="/groups"
-                  className={styles.mobileNavLink}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  <span className={styles.mobileNavText}>
-                    {t("nav.padelClubs")}
-                  </span>
-                </Link>
-                <Link
-                  href="/groups"
-                  className={styles.mobileNavLink}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  <span className={styles.mobileNavText}>
-                    {t("nav.privateGroups")}
-                  </span>
-                </Link>
-              </div>
+              <Link
+                href="/groups"
+                className={styles.mobileNavLink}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                <span className={styles.mobileNavText}>{t("nav.groups")}</span>
+              </Link>
               <Link
                 href="/for-businesses"
                 className={styles.mobileNavLink}
