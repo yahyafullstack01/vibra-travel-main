@@ -119,8 +119,7 @@
   z-index: 1200;
 }
 
-.subMenu:hover .subMenuPanel,
-.subMenu:focus-within .subMenuPanel {
+.subMenuOpen .subMenuPanel {
   opacity: 1;
   pointer-events: auto;
   transform: translate(-50%, 0);

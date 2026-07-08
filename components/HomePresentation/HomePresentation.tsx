@@ -20,11 +20,17 @@ export function HomePresentation() {
               {h.videoLine2}
             </h1>
             <p className={styles.presentationSubtitle}>
-              {h.subtitleBefore}
-              <span>Barcelona</span>
-              {h.subtitleBetween}
-              <span>Sevilla</span>
-              {h.subtitleAfter}
+              {"subtitle" in h && h.subtitle
+                ? h.subtitle
+                : (
+                  <>
+                    {"subtitleBefore" in h ? h.subtitleBefore : null}
+                    <span>Barcelona</span>
+                    {"subtitleBetween" in h ? h.subtitleBetween : null}
+                    <span>Sevilla</span>
+                    {"subtitleAfter" in h ? h.subtitleAfter : null}
+                  </>
+                )}
             </p>
             <div className={styles.buttonRow}>
               <Link href="/groups" className={`${styles.presentationButton} ${styles.primaryButton} fgrotesk-font`}>

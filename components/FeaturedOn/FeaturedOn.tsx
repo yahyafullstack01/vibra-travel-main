@@ -1,25 +1,21 @@
 "use client";
 
+import { partnerLogos } from "@/lib/partners";
 import { useLocale } from "@/components/LocaleProvider/LocaleProvider";
 import styles from "./FeaturedOn.module.css";
 
-const logos = [
-  { src: "/featured/court-culture.svg", alt: "Court & Culture" },
-  { src: "/featured/padel-hub.svg", alt: "Padel Hub" },
-  { src: "/featured/spain-collective.svg", alt: "Spain Collective" },
-  { src: "/featured/travel-circuit.svg", alt: "Travel Circuit" },
-];
-
 export function FeaturedOn() {
   const { t } = useLocale();
-  const repeatedLogos = [...logos, ...logos];
+  const repeatedLogos = [...partnerLogos, ...partnerLogos];
 
   return (
     <section className={styles.featuredSection} aria-label={t("home.featuredLabel")}>
       <div className={styles.featuredInner}>
         <div className={styles.featuredHeading}>
           <p className={styles.featuredLabel}>{t("home.featuredLabel")}</p>
-          <p className={styles.featuredIntro}>{t("home.featuredIntro")}</p>
+          {t("home.featuredIntro") ? (
+            <p className={styles.featuredIntro}>{t("home.featuredIntro")}</p>
+          ) : null}
         </div>
 
         <div className={styles.marquee}>
@@ -27,7 +23,19 @@ export function FeaturedOn() {
             <ul className={styles.logoRow}>
               {repeatedLogos.map((logo, idx) => (
                 <li key={`${logo.src}-${idx}`} className={styles.logoItem}>
-                  <img className={styles.logoImage} src={logo.src} alt={logo.alt} />
+                  {logo.href ? (
+                    <a
+                      href={logo.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.logoLink}
+                      aria-label={logo.alt}
+                    >
+                      <img className={styles.logoImage} src={logo.src} alt="" />
+                    </a>
+                  ) : (
+                    <img className={styles.logoImage} src={logo.src} alt={logo.alt} />
+                  )}
                 </li>
               ))}
             </ul>

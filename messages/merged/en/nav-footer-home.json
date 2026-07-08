@@ -4,7 +4,7 @@
     "padelClubs": "Padel clubs",
     "privateGroups": "Private groups",
     "corporate": "Corporate",
-    "forBusinesses": "For Businesses",
+    "forBusinesses": "Business Teams",
     "trips": "Trips",
     "schools": "Schools",
     "forSchools": "For Schools",
@@ -18,7 +18,7 @@
     "explore": "Explore",
     "aboutUs": "About Us",
     "followTrips": "Follow our trips",
-    "copyright": "© 2026 Vibra Travel. All Rights Reserved. Crafted with ❤️ for Padel Lovers.",
+    "copyright": "© 2026 Vibra Travel. All Rights Reserved.",
     "terms": "Terms & Conditions",
     "facebook": "Facebook",
     "instagram": "Instagram",
@@ -39,43 +39,43 @@
     "heroPlaceholderAlt": "Presentation preview",
     "videoLine1": "From Court to Culture",
     "videoLine2": "A Spanish Padel Experience",
-    "subtitleBefore": "Personalised Padel holidays in ",
-    "subtitleBetween": " and ",
-    "subtitleAfter": " - combining unforgettable court time with authentic Spanish experiences.",
+    "subtitle": "Personalised Padel holidays in Spain - combining unforgettable court time with authentic Spanish experiences.",
     "planTrip": "Plan your trip",
-    "featuredLabel": "Featured on",
-    "featuredIntro": "Example logos for the trust bar after the hero."
+    "featuredLabel": "Proudly Partnering With",
+    "featuredIntro": ""
   },
   "homeAbout": {
     "eyebrow": "About us",
-    "title": "Built by someone who lives the Spanish padel life",
-    "description": "Vibra Travel is led by Charlie, who has called Spain home for over a decade. The trips combine proper court time with the local food, cities, traditions, and social moments that make Spain feel real.",
+    "title": "Built by people who live the Spanish padel life",
+    "description": "Vibra Travel is led by Charlie, who has called Spain home for over a decade. We combine exceptional padel with authentic Spanish culture—from great food and vibrant cities to local traditions and unforgettable shared experiences.",
     "imageAlt": "Charlie from Vibra Travel"
   },
   "moreThanPadel": {
-    "head1": "More than Padel.",
-    "head2Before": "It's an ",
-    "head2Accent": "experience.",
-    "descBefore": "Tailored coaching to handpicked cultural add-ons, our padel trips in ",
-    "descBetween": " and ",
-    "descAfter": " go beyond the court.",
-    "learnMore": "Learn more",
+    "head1": "More Than Padel.",
+    "head2Before": "It's Your ",
+    "head2Accent": "Spanish Experience.",
+    "desc": "From tailored coaching programmes to handpicked cultural experiences, our padel holidays go far beyond the court.",
+    "learnMore": "Learn More",
     "cards": [
       {
-        "title": "Padel paradise",
-        "desc": "Top courts, expert coaching, and tournaments with local players. All skill levels welcome!"
+        "title": "Padel Paradise",
+        "desc": "Top clubs, expert coaching, and matches with local players. All levels welcome."
       },
       {
         "title": "Authentic Spain",
-        "desc": "Beyond the court: dive into local life with vineyard tours, food festivals, scenic hikes and endless tapas nights."
+        "desc": "Experience the real Spain through tapas tours, vineyard visits, local festivals, and exclusive La Liga experiences."
       },
       {
-        "title": "Tailored for you",
-        "desc": "Custom trips designed around your group's skill level, interests and dynamic."
+        "title": "Tailored for You",
+        "desc": "Every trip is designed around your group's playing level, interests, and travel style."
       },
       {
-        "title": "Hassle-free travel",
-        "desc": "We handle the logistics, from courts to culture, leaving you free to train, explore and relax."
+        "title": "Your Perfect Setting",
+        "desc": "From luxury resorts and beach escapes to boutique city breaks, choose the Spain that suits you."
+      },
+      {
+        "title": "Hassle-Free Travel",
+        "desc": "We handle the details from accommodation and courts to activities and transfers leaving you free to train, explore and relax."
       }
     ]
   },
@@ -89,7 +89,7 @@
     "title": "Your Padel trip in simple steps",
     "subtitle": "Planning your ultimate Padel adventure with Vibra Travel is easy. Here's how to make it happen.",
     "step1Title": "Tell us your vision",
-    "step1Desc": "Share your preferred location, group size, ideal dates, padel goals, and the cultural experiences you're interested in. Whether it's wine tastings, coastal hikes, or competitive matchplay—we'll shape it around you. The more you share, the better!",
+    "step1Desc": "Share your preferred location, group size, ideal dates, padel goals, and the cultural experiences you're interested in. From vineyard tours and tapas nights to local festivals and competitive match play, we'll tailor every detail to your group. The more you share, the better!",
     "step2Title": "We craft your itinerary",
     "step2Desc": "We will create a fully personalised package tailored specifically to your group's preferences, skill levels, and interests. Whether you want more court time, cultural experiences, or a mix of both, we'll design a seamless plan that fits your unique vision and ensures an unforgettable trip.",
     "step3Title": "Play, Explore, Enjoy",
@@ -105,31 +105,31 @@
   },
   "testemonials": {
     "eyebrow": "Guest stories",
-    "title": "Testimonials from the court and beyond",
-    "intro": "Real feedback from groups who came for padel, discovered Spain with locals, and left with a trip their friends still talk about.",
+    "title": "Testimonials",
+    "intro": "Real feedback from guests who came for padel, discovered Spain with locals, and left with a trip their friends still talk about.",
     "cta": "Plan your trip",
     "heroAlt": "Vibra Travel guests relaxing after padel",
     "listLabel": "Guest testimonials",
     "items": [
       {
-        "quote": "Every detail was handled, from court bookings to tapas nights. The padel was excellent, but the local experiences made the trip feel completely personal.",
-        "name": "Sophie Martin",
-        "meta": "Friends trip, Barcelona",
-        "initials": "SM",
+        "quote": "They went above and beyond with every aspect of the trip. They were always available, regularly checking that everything was going smoothly and making sure we were enjoying ourselves. Everything was perfectly organised, and we had an amazing experience.",
+        "name": "Monique",
+        "meta": "France · Valencia trip, May 2026",
+        "initials": "MO",
         "ratingLabel": "Five out of five stars"
       },
       {
-        "quote": "Our team wanted something active but easy to organise. Vibra built the perfect mix of coaching, matches, dinners, and time to enjoy the city together.",
-        "name": "Daniel Brooks",
-        "meta": "Corporate group, Sevilla",
-        "initials": "DB",
+        "quote": "Charlie, who runs the trips, is very friendly and organised and, having lived in Seville for 5 years, he has an in-depth knowledge of the city. The hotel is very comfortable and right in the heart of the old town, a minute's walk from the Cathedral. Each morning we were taken by taxi to the padel club around 15–20 minutes away. The club has indoor and outdoor courts and friendly coaches who all speak good English. It also has a gym and a pleasant bar serving food and drink. It's a very well organised place, but it's friendly, and not remotely corporate in its feel. In the afternoon you can either play more padel or wander round Seville, as you can in the evening when the old town is buzzing and very convivial. It must be one of the best cities in Europe. The whole trip is a perfect mix of sport and culture, and the Friday night tapas tour is a particular highlight. I can't recommend it enough.",
+        "name": "Harry",
+        "meta": "London · Sevilla trip, March 2026",
+        "initials": "HA",
         "ratingLabel": "Five out of five stars"
       },
       {
-        "quote": "The itinerary felt made for us. We improved our padel, met great local players, and saw a side of Spain we never would have found on our own.",
-        "name": "Laura Jensen",
-        "meta": "Club holiday, Barcelona",
-        "initials": "LJ",
+        "quote": "This trip was really fabulous. Nice clean hotel in a great central location near the cathedral. On Tuesday evening we had coaching at the iconico club in Seville with a great coach and later went out with Charlie to a great old tapas restaurant which was delicious. Wednesday we had more coaching which has stood me in good stead I'm happy to report. Had lunch at iconico and went back to explore the city before our tapas tour in the evening. I must say Charlie did all he could to make the experience really honest and very informative. On the Friday we played in the socials with local players and it was the highlight of my holiday. Really enjoyed playing against some great players on the fabulous courts. I would recommend Vibra Travel and would do it again. Thank you. Since I came back from Spain my padel mates all say I have improved my game! So I'm really grateful — I learnt so much.",
+        "name": "Stuart",
+        "meta": "Sussex · Sevilla trip, April 2026",
+        "initials": "ST",
         "ratingLabel": "Five out of five stars"
       }
     ]

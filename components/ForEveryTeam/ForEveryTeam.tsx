@@ -12,29 +12,21 @@ export function ForEveryTeam() {
       <div className={styles.fetContent}>
         <div className={styles.fetTop}>
           <div className={styles.fetTopTitle}>
-            <p className="cooper-font">
-              {f.titleLine1}
-              <br />
-              {f.titleLine2}
-            </p>
+            <p className="cooper-font">{f.title}</p>
           </div>
           <div className={styles.fetTopSubtitle}>
-            <p>
-              {f.p1Before}
-              <span className="orange">Barcelona</span>
-              {f.p1Mid}
-              <span className="orange">Sevilla</span>
-              {f.p1After}
-              <br />
-              <br />
-              {f.p2}
-              <br />
-              <br />
-              {f.p3}
-            </p>
+            <p>{f.p1}</p>
+            <p>{f.p2}</p>
           </div>
         </div>
-        <div className={styles.fetBottom} />
+        <div className={styles.fetBottom}>
+          <p className={styles.inclusionsLabel}>{f.inclusionsLabel}</p>
+          <ul className={styles.inclusionsList}>
+            {f.inclusions.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );

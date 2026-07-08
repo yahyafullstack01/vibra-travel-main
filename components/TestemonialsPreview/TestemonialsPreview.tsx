@@ -4,19 +4,23 @@ import Link from "next/link";
 import { useLocale } from "@/components/LocaleProvider/LocaleProvider";
 import styles from "./TestemonialsPreview.module.css";
 
-export function TestemonialsPreview() {
+type TestemonialsPreviewProps = {
+  audience?: "default" | "schools";
+};
+
+export function TestemonialsPreview({ audience = "default" }: TestemonialsPreviewProps) {
   const { messages, t } = useLocale();
-  const testemonials = messages.testemonials.items.slice(0, 3);
+  const section =
+    audience === "schools" ? messages.schools.testemonials : messages.testemonials;
+  const testemonials = section.items.slice(0, 3);
 
   return (
     <section className={styles.section}>
       <div className={styles.content}>
         <div className={styles.header}>
           <div>
-            <p className={styles.eyebrow}>{messages.testemonials.eyebrow}</p>
-            <h2 className={`${styles.title} cooper-font`}>
-              {messages.testemonials.title}
-            </h2>
+            <p className={styles.eyebrow}>{section.eyebrow}</p>
+            <h2 className={`${styles.title} cooper-font`}>{section.title}</h2>
           </div>
           <Link href="/testemonials" className={`nav-link ${styles.link}`}>
             {t("nav.testemonials")}

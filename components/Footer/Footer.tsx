@@ -39,7 +39,7 @@ function LinkedinIcon() {
 
 const socialLinks = [
   {
-    href: "https://www.facebook.com/vibratravel",
+    href: "https://www.facebook.com/vibratravel__",
     labelKey: "footer.facebook",
     Icon: FacebookIcon,
   },
@@ -85,79 +85,82 @@ export function Footer() {
     <div dir="ltr" className={styles.footerContainer}>
       <div className={styles.footerContent}>
         <div className={styles.footerTop}>
-          <div className={styles.logoAndTitle}>
-            <div className={styles.icon}>
-              <Link href="/" aria-label={t("a11y.home")}>
+          <div className={styles.brandBlock}>
+            <div className={styles.logoCell}>
+              <Link href="/" aria-label={t("a11y.home")} className={styles.logoLink}>
                 <IconVibraTravel />
               </Link>
             </div>
-            <div className={styles.footerTitle}>
+
+            <div className={styles.taglineCell}>
               <p className={`${styles.footerTitleText} cooper-font`}>
                 {t("footer.tagline")}
               </p>
             </div>
           </div>
-          <div className={styles.footerLinksContent}>
-            <div className={styles.footerLinksSection}>
-              <p className={styles.tripsTitle}>{t("footer.explore")}</p>
-              <div className={styles.links}>
-                <Link href="/groups" className="nav-link">
-                  <p className={styles.buttonText}>{t("nav.groups")}</p>
-                </Link>
-                <Link href="/for-businesses" className="nav-link">
-                  <p className={styles.buttonText}>{t("nav.forBusinesses")}</p>
-                </Link>
-                <Link href="/schools" className="nav-link">
-                  <p className={styles.buttonText}>{t("nav.forSchools")}</p>
-                </Link>
-              </div>
+
+          <div className={styles.footerColumn}>
+            <p className={styles.tripsTitle}>{t("footer.explore")}</p>
+            <div className={styles.links}>
+              <Link href="/groups" className="nav-link">
+                <p className={styles.buttonText}>{t("nav.groups")}</p>
+              </Link>
+              <Link href="/for-businesses" className="nav-link">
+                <p className={styles.buttonText}>{t("nav.forBusinesses")}</p>
+              </Link>
+              <Link href="/schools" className="nav-link">
+                <p className={styles.buttonText}>{t("nav.forSchools")}</p>
+              </Link>
             </div>
-            <div className={styles.footerLinksSection}>
-              <p className={styles.tripsTitle}>{t("footer.aboutUs")}</p>
-              <div className={styles.links}>
-                <Link href="/why-vibra" className="nav-link">
-                  <p className={styles.buttonText}>{t("nav.whyVibra")}</p>
-                </Link>
-                <Link href="/testemonials" className="nav-link">
-                  <p className={styles.buttonText}>{t("nav.testemonials")}</p>
-                </Link>
-                <Link href="/contact" className="nav-link">
-                  <p className={styles.buttonText}>{t("footer.contact")}</p>
-                </Link>
-              </div>
+          </div>
+
+          <div className={styles.footerColumn}>
+            <p className={styles.tripsTitle}>{t("footer.aboutUs")}</p>
+            <div className={styles.links}>
+              <Link href="/why-vibra" className="nav-link">
+                <p className={styles.buttonText}>{t("nav.whyVibra")}</p>
+              </Link>
+              <Link href="/testemonials" className="nav-link">
+                <p className={styles.buttonText}>{t("nav.testemonials")}</p>
+              </Link>
+              <Link href="/contact" className="nav-link">
+                <p className={styles.buttonText}>{t("footer.contact")}</p>
+              </Link>
             </div>
-            <div className={styles.footerLinksSection}>
-              <p className={styles.tripsTitle}>{t("footer.contact")}</p>
-              <div className={styles.contactLinks}>
-                {contactLinks.map(({ href, labelKey, text }) => (
-                  <a
-                    href={href}
-                    key={href}
-                    className={styles.contactLink}
-                    aria-label={t(labelKey)}
-                  >
-                    {text}
-                  </a>
-                ))}
-              </div>
+          </div>
+
+          <div className={styles.footerColumn}>
+            <p className={styles.tripsTitle}>{t("footer.contact")}</p>
+            <div className={styles.contactLinks}>
+              {contactLinks.map(({ href, labelKey, text }) => (
+                <a
+                  href={href}
+                  key={href}
+                  className={styles.contactLink}
+                  aria-label={t(labelKey)}
+                >
+                  {text}
+                </a>
+              ))}
             </div>
-            <div className={styles.footerLinksSection}>
-              <p className={styles.tripsTitle}>{t("footer.followTrips")}</p>
-              <div className={styles.socialLinks}>
-                {socialLinks.map(({ href, labelKey, Icon }) => (
-                  <a
-                    href={href}
-                    key={labelKey}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.socialLink}
-                    aria-label={t(labelKey)}
-                    title={t(labelKey)}
-                  >
-                    <Icon />
-                  </a>
-                ))}
-              </div>
+          </div>
+
+          <div className={styles.footerColumn}>
+            <p className={styles.tripsTitle}>{t("footer.followTrips")}</p>
+            <div className={styles.socialLinks}>
+              {socialLinks.map(({ href, labelKey, Icon }) => (
+                <a
+                  href={href}
+                  key={labelKey}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.socialLink}
+                  aria-label={t(labelKey)}
+                  title={t(labelKey)}
+                >
+                  <Icon />
+                </a>
+              ))}
             </div>
           </div>
         </div>

@@ -104,37 +104,88 @@
 
 @media (max-width: 768px) {
   .ptsContainer {
-    width: 100vw;
-    margin-top: 0px;
+    width: 100%;
   }
 
   .ptsContent {
     width: 90vw;
+    margin: 44px auto;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
   }
 
   .ptsTop {
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    gap: 16px;
   }
 
   .ptsTopTitle {
-    font-size: 40px;
+    font-size: 36px;
     max-width: 100%;
-    height: 0;
+    height: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .ptsTopTitle p {
+    margin: 0;
   }
 
   .ptsTopSubtitle {
     width: 100%;
-    margin-top: 20px;
+    height: auto;
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .ptsTopSubtitle p {
+    margin: 0;
+    max-width: 32rem;
   }
 
   .ptsBottom {
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    margin: 0;
+    gap: 36px;
   }
 
   .ptsCard {
-    width: 90vw;
-    margin-bottom: 20px;
+    width: 100%;
+    max-width: 32rem;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .ptsBottomNumber,
+  .ptsBottomTitle,
+  .ptsBottomDesc {
+    text-align: center;
+  }
+
+  .ptsBottomNumber p,
+  .ptsBottomTitle p {
+    margin: 0;
+  }
+
+  .ptsBottomDesc {
+    margin: 0 auto;
+    max-width: 32rem;
+  }
+
+  .navLink {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .startNow {
+    margin: 0 auto;
   }
 }

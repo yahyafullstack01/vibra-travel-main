@@ -1,64 +1,100 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { media } from "@/lib/media";
 import { useLocale } from "@/components/LocaleProvider/LocaleProvider";
 import styles from "./SchoolsPresentation.module.css";
 
+type SchoolsPresentationCopy = {
+  eyebrow?: string;
+  title?: string;
+  titleLine1?: string;
+  titleLine2?: string;
+  titleLine3?: string;
+  desc?: string;
+  descBefore?: string;
+  descBetween?: string;
+  descAfter?: string;
+  highlights?: string[];
+  planTrip: string;
+  imagineTrip: string;
+  heroAlt?: string;
+};
+
+function getTitle(p: SchoolsPresentationCopy) {
+  if (p.title) return p.title;
+  return [p.titleLine1, p.titleLine2, p.titleLine3].filter(Boolean).join(" ");
+}
+
 export function SchoolsPresentation() {
-  const pathname = usePathname();
   const router = useRouter();
   const { messages } = useLocale();
-  const p = messages.schools.presentation;
+  const p = messages.schools.presentation as SchoolsPresentationCopy;
+  const eyebrow = p.eyebrow ?? messages.audienceIntro.schools.eyebrow;
 
-  function scrollToTimetable(e: React.MouseEvent) {
+  function goToTimetable(e: React.MouseEvent) {
     e.preventDefault();
-    if (pathname === "/schools") {
-      document.getElementById("timetable")?.scrollIntoView({ behavior: "smooth" });
-    } else {
-      router.push("/schools#timetable");
+    const timetable = document.getElementById("timetable");
+    if (timetable) {
+      timetable.scrollIntoView({ behavior: "smooth" });
+      return;
     }
+    router.push("/schools#timetable");
   }
 
   return (
-    <div className={styles.presentationContainer}>
-      <div className={styles.presentationContent}>
-        <div className={styles.leftContent}>
-          <p className={`${styles.title} cooper-font`}>
-            {p.titleLine1}
-            <br /> {p.titleLine2}
-            <br />
-            {p.titleLine3}
-          </p>
-          <p className={`${styles.desc} fgrotesk-font`}>
-            {p.descBefore}
-            <span className="orange">Barcelona</span>
-            {p.descBetween}
-            <span className="orange">Sevilla</span>
-            {p.descAfter}
-          </p>
-          <div className={styles.buttons}>
-            <Link href="/contact" className={`nav-link fgrotesk-font ${styles.planBtn}`}>
-              {p.planTrip}
-            </Link>
-            <button
-              type="button"
-              className={`nav-link fgrotesk-font ${styles.imagineBtn}`}
-              onClick={scrollToTimetable}
-            >
-              {p.imagineTrip}
-            </button>
+    <section className={styles.hero} aria-label={getTitle(p)}>
+      <div className={styles.media} aria-hidden="true">
+        <img
+          className={styles.heroImage}
+          src={media.photos.padelKids}
+          fetchPriority="high"
+          alt={p.heroAlt ?? ""}
+        />
+      </div>
+
+      <div className={styles.overlay}>
+        <div className={styles.inner}>
+          <div className={styles.copy}>
+            {eyebrow ? <p className={styles.eyebrow}>{eyebrow}</p> : null}
+            <h1 className={`${styles.title} cooper-font`}>{getTitle(p)}</h1>
+
+            {p.desc ? (
+              <p className={`${styles.desc} fgrotesk-font`}>{p.desc}</p>
+            ) : (
+              <p className={`${styles.desc} fgrotesk-font`}>
+                {p.descBefore}
+                <span className="orange">Barcelona</span>
+                {p.descBetween}
+                <span className="orange">Sevilla</span>
+                {p.descAfter}
+              </p>
+            )}
+
+            {p.highlights?.length ? (
+              <ul className={styles.highlights}>
+                {p.highlights.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            ) : null}
+
+            <div className={styles.buttons}>
+              <Link href="/contact" className={`nav-link fgrotesk-font ${styles.planBtn}`}>
+                {p.planTrip}
+              </Link>
+              <button
+                type="button"
+                className={`nav-link fgrotesk-font ${styles.imagineBtn}`}
+                onClick={goToTimetable}
+              >
+                {p.imagineTrip}
+              </button>
+            </div>
           </div>
         </div>
-        <div className={styles.rightContent}>
-          <img
-            src={media.photos.padelKids}
-            fetchPriority="high"
-            alt={p.heroAlt}
-          />
-        </div>
       </div>
-    </div>
+    </section>
   );
 }

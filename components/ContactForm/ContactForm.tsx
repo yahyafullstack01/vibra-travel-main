@@ -120,12 +120,6 @@ export function ContactForm() {
                 </div>
               </form>
             </div>
-            <div className={`${styles.contactItems} cooper-font`}>
-              <div className={styles.title}>
-                <span>{f.consultTitle}</span>
-              </div>
-              <div className={`${styles.desc} fgrotesk-font`}>{f.consultDesc}</div>
-            </div>
           </div>
         </div>
       </div>

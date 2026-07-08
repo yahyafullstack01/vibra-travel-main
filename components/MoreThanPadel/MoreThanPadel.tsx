@@ -4,10 +4,12 @@ import Link from "next/link";
 import { IconHeart } from "@/components/icons/IconHeart";
 import { IconTailor } from "@/components/icons/IconTailor";
 import { IconHassle } from "@/components/icons/IconHassle";
+import { IconTrophy } from "@/components/icons/IconTrophy";
+import { IconGlobeOutline } from "@/components/icons/IconGlobeOutline";
 import { useLocale } from "@/components/LocaleProvider/LocaleProvider";
 import styles from "./MoreThanPadel.module.css";
 
-const cardIcons = [IconHeart, IconHeart, IconTailor, IconHassle];
+const cardIcons = [IconTrophy, IconHeart, IconTailor, IconGlobeOutline, IconHassle];
 
 export function MoreThanPadel() {
   const { messages } = useLocale();
@@ -23,11 +25,17 @@ export function MoreThanPadel() {
             <span className="orange">{m.head2Accent}</span>
           </h1>
           <p className={styles.mtpLeftDesc}>
-            {m.descBefore}
-            <span className="orange">Barcelona</span>
-            {m.descBetween}
-            <span className="orange">Sevilla</span>
-            {m.descAfter}
+            {"desc" in m && m.desc
+              ? m.desc
+              : (
+                <>
+                  {"descBefore" in m ? m.descBefore : null}
+                  <span className="orange">Barcelona</span>
+                  {"descBetween" in m ? m.descBetween : null}
+                  <span className="orange">Sevilla</span>
+                  {"descAfter" in m ? m.descAfter : null}
+                </>
+              )}
           </p>
           <Link href="/groups" className={`nav-link fgrotesk-font ${styles.learnMore}`}>
             {m.learnMore}

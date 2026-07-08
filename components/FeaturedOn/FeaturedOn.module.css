@@ -7,43 +7,49 @@
   position: relative;
   z-index: 3;
   margin-top: -22px;
+  overflow: hidden;
   transition:
     background-color 0.35s ease,
     border-color 0.35s ease;
 }
 
 .featuredInner {
-  width: min(1240px, calc(100vw - 48px));
-  margin: 0 auto;
-  padding: 26px 0;
-  display: grid;
-  grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
-  gap: 24px;
-  align-items: center;
+  width: 100%;
+  padding: 14px 0 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .featuredHeading {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 6px;
+  padding: 0 24px;
+  text-align: center;
 }
 
 .featuredLabel {
   color: var(--color-purple);
   font-family: "Familjen Grotesk", -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.08em;
   line-height: 1;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .featuredIntro {
   color: var(--color-muted);
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.45;
+  margin: 0;
 }
 
 .marquee {
+  width: 100%;
   overflow: hidden;
   position: relative;
 }
@@ -54,7 +60,7 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 56px;
+  width: 72px;
   z-index: 1;
   pointer-events: none;
 }
@@ -72,53 +78,75 @@
 .marqueeTrack {
   display: flex;
   width: max-content;
-  gap: 14px;
-  animation: marqueeLeftToRight 26s linear infinite;
+  animation: marqueeScroll 32s linear infinite;
   will-change: transform;
+}
+
+.marquee:hover .marqueeTrack {
+  animation-play-state: paused;
 }
 
 .logoRow {
   display: flex;
-  gap: 14px;
+  gap: 56px;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0 32px;
 }
 
 .logoItem {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 72px;
-  padding: 14px 18px;
-  border-radius: 16px;
-  background: var(--surface-card);
-  border: 1px solid var(--color-divider);
-  box-shadow: 0 10px 30px var(--color-shadow-card);
+  flex: 0 0 auto;
+  transition: transform 0.28s ease;
+}
+
+.logoLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 18px;
   transition:
-    background-color 0.35s ease,
-    border-color 0.35s ease,
-    box-shadow 0.35s ease;
+    transform 0.28s ease,
+    filter 0.28s ease;
+}
+
+.logoItem:hover,
+.logoLink:hover {
+  transform: scale(1.06);
+}
+
+.logoLink:focus-visible {
+  outline: 2px solid var(--color-orange);
+  outline-offset: 6px;
+  border-radius: 18px;
 }
 
 .logoImage {
   display: block;
-  width: 100%;
-  max-width: 170px;
-  height: 34px;
+  width: auto;
+  min-width: 300px;
+  max-width: 380px;
+  height: 88px;
   object-fit: contain;
   filter: grayscale(1);
-  opacity: 0.88;
+  opacity: 0.78;
   transition:
-    filter 0.2s ease,
-    opacity 0.2s ease,
-    transform 0.2s ease;
+    filter 0.28s ease,
+    opacity 0.28s ease,
+    transform 0.28s ease,
+    box-shadow 0.28s ease;
 }
 
-.logoItem:hover .logoImage {
+.logoItem:hover .logoImage,
+.logoLink:hover .logoImage,
+.logoLink:focus-visible .logoImage {
   filter: grayscale(0);
   opacity: 1;
-  transform: translateY(-1px);
+  transform: scale(1.02);
+  box-shadow: 0 12px 28px rgba(82, 0, 48, 0.14);
 }
 
 :global(html[data-theme="dark"]) .featuredSection {
@@ -144,13 +172,7 @@
   color: rgba(82, 0, 48, 0.72);
 }
 
-:global(html[data-theme="dark"]) .logoItem {
-  background: rgba(255, 255, 255, 0.82);
-  border-color: rgba(82, 0, 48, 0.08);
-  box-shadow: 0 10px 30px rgba(82, 0, 48, 0.06);
-}
-
-@keyframes marqueeLeftToRight {
+@keyframes marqueeScroll {
   from {
     transform: translateX(-50%);
   }
@@ -167,38 +189,33 @@
   }
 }
 
-@media (max-width: 960px) {
-  .featuredInner {
-    grid-template-columns: 1fr;
-  }
-
-  .marquee {
-    width: 100%;
-  }
-}
-
 @media (max-width: 640px) {
   .featuredSection {
     margin-top: -12px;
   }
 
   .featuredInner {
-    width: min(100vw - 20px, 1240px);
-    padding: 18px 0;
-    gap: 16px;
+    padding: 14px 0 18px;
+    gap: 12px;
   }
 
-  .logoItem {
-    min-width: 180px;
-    flex: 0 0 180px;
+  .featuredHeading {
+    padding: 0 20px;
+  }
+
+  .logoRow {
+    gap: 36px;
+    padding: 0 20px;
+  }
+
+  .logoImage {
+    min-width: 240px;
+    max-width: 300px;
+    height: 68px;
   }
 
   .marquee::before,
   .marquee::after {
-    width: 32px;
-  }
-
-  .featuredIntro {
-    font-size: 14px;
+    width: 40px;
   }
 }

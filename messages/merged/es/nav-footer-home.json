@@ -18,7 +18,7 @@
     "explore": "Explorar",
     "aboutUs": "Sobre nosotros",
     "followTrips": "Sigue nuestros viajes",
-    "copyright": "© 2026 Vibra Travel. Todos los derechos reservados. Hecho con ❤️ para amantes del pádel.",
+    "copyright": "© 2026 Vibra Travel. Todos los derechos reservados.",
     "terms": "Términos y condiciones",
     "facebook": "Facebook",
     "instagram": "Instagram",
@@ -74,6 +74,10 @@
         "desc": "Viajes diseñados para el nivel, los intereses y la dinámica de tu grupo."
       },
       {
+        "title": "Tu escenario ideal",
+        "desc": "Desde resorts de lujo y escapadas a la playa hasta escapadas urbanas boutique, elige la España que más te encaje."
+      },
+      {
         "title": "Viaje sin estrés",
         "desc": "Nosotros gestionamos la logística; tú entrenas, exploras y descansas."
       }
@@ -105,33 +109,10 @@
   },
   "testemonials": {
     "eyebrow": "Historias de viajeros",
-    "title": "Testimonios dentro y fuera de la pista",
-    "intro": "Opiniones reales de grupos que vinieron por el pádel, descubrieron España con gente local y se llevaron un viaje del que todavía hablan.",
+    "title": "Testimonios",
+    "intro": "Opiniones reales de viajeros que vinieron por el pádel, descubrieron España con gente local y se llevaron un viaje del que todavía hablan.",
     "cta": "Planifica tu viaje",
     "heroAlt": "Viajeros de Vibra Travel descansando después de jugar al pádel",
-    "listLabel": "Testimonios de viajeros",
-    "items": [
-      {
-        "quote": "Cada detalle estaba organizado, desde las reservas de pistas hasta las noches de tapas. El pádel fue excelente, pero las experiencias locales hicieron que el viaje se sintiera totalmente personal.",
-        "name": "Sophie Martin",
-        "meta": "Viaje de amigos, Barcelona",
-        "initials": "SM",
-        "ratingLabel": "Cinco de cinco estrellas"
-      },
-      {
-        "quote": "Nuestro equipo quería algo activo pero fácil de organizar. Vibra creó la mezcla perfecta de entrenamientos, partidos, cenas y tiempo para disfrutar juntos de la ciudad.",
-        "name": "Daniel Brooks",
-        "meta": "Grupo corporativo, Sevilla",
-        "initials": "DB",
-        "ratingLabel": "Cinco de cinco estrellas"
-      },
-      {
-        "quote": "El itinerario parecía hecho para nosotros. Mejoramos nuestro pádel, conocimos a jugadores locales increíbles y vimos una España que nunca habríamos encontrado solos.",
-        "name": "Laura Jensen",
-        "meta": "Vacaciones de club, Barcelona",
-        "initials": "LJ",
-        "ratingLabel": "Cinco de cinco estrellas"
-      }
-    ]
+    "listLabel": "Testimonios de viajeros"
   }
 }

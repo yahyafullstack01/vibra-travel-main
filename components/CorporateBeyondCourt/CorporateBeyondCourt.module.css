@@ -1,0 +1,130 @@
+.section {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-cream);
+}
+
+.content {
+  width: min(92vw, 1180px);
+  margin: 72px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+  max-width: 44rem;
+}
+
+.eyebrow {
+  margin: 0;
+  color: var(--color-orange);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(36px, 5vw, 54px);
+  line-height: 115%;
+  color: var(--color-purple);
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 17px;
+  line-height: 155%;
+  color: var(--color-muted);
+}
+
+.categories {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.categoryCard {
+  background: var(--surface-card);
+  border: 1px solid var(--color-divider);
+  border-radius: 20px;
+  padding: 28px 24px;
+  border-top: 3px solid #143a62;
+  box-shadow: 0 14px 34px var(--color-shadow-card);
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.categoryCard:hover {
+  transform: translateY(-5px);
+  border-color: rgba(244, 76, 48, 0.45);
+  box-shadow: 0 22px 40px rgba(20, 58, 98, 0.14);
+}
+
+.categoryTitle {
+  margin: 0 0 12px;
+  font-size: 24px;
+  line-height: 1.15;
+  color: var(--color-purple);
+}
+
+.categoryDesc {
+  margin: 0;
+  font-size: 15px;
+  line-height: 155%;
+  color: var(--color-muted);
+}
+
+.cta {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 113%;
+  color: var(--color-on-primary);
+  padding: 0 26px;
+  border: 1px solid var(--color-orange);
+  background-color: var(--color-orange);
+  border-radius: 999px;
+  height: 52px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition:
+    transform 0.25s ease,
+    background-color 0.25s ease,
+    color 0.25s ease;
+  box-shadow: 0 12px 28px rgba(244, 76, 48, 0.22);
+}
+
+.cta:hover {
+  transform: translateY(-2px);
+  background-color: var(--surface-card);
+  color: var(--color-orange);
+}
+
+@media (max-width: 900px) {
+  .categories {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    margin: 48px 0;
+    gap: 28px;
+  }
+
+  .categoryCard {
+    text-align: center;
+  }
+}

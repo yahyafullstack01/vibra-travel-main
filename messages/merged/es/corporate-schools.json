@@ -1,51 +1,32 @@
 {
   "corporate": {
     "presentation": {
-      "title": "Potencia a tu equipo con una aventura de pádel en España",
-      "desc": "La experiencia definitiva de team building: viajes de pádel totalmente a medida para colaborar, motivar y crear vínculos duraderos.",
-      "planTrip": "Planifica tu viaje",
-      "imagineTrip": "Imagina tu viaje"
+      "eyebrow": "Business Teams",
+      "title": "Team Padel Trips in Spain",
+      "heroAlt": "Corporate team on a padel court in Spain",
+      "desc": "Bring your team together through padel, authentic Spanish experiences, and effortless planning.",
+      "highlights": [
+        "Team building & incentives",
+        "Beginners to advanced",
+        "Fully hosted in Spain"
+      ],
+      "planTrip": "Plan your trip",
+      "imagineTrip": "Imagine your trip"
     },
     "forEveryTeam": {
-      "titleLine1": "Viajes de pádel perfectos ",
-      "titleLine2": "para cualquier empresa",
-      "p1Before": "Lleva a tu equipo al siguiente nivel con una experiencia corporativa en ",
-      "p1Mid": " o ",
-      "p1After": " — conexiones, motivación y recuerdos inolvidables. ",
-      "p2": "Ya sea un viaje con clientes, un incentive o una pausa del despacho, organizamos una escapada completa. ",
-      "p3": "Todos los elementos se pueden ajustar, añadir o quitar según las preferencias del grupo."
-    },
-    "allInclusive": {
-      "line1a": "El ",
-      "line1Accent": "Todo incluido",
-      "line2": "Experiencia de equipo Vibra",
-      "desc": "Nos encargamos de todo para que el equipo se centre en conectar, jugar al pádel y disfrutar del sol español.",
-      "organiseBtn": "Organiza tu viaje",
-      "cards": [
-        {
-          "title": "Alojamiento",
-          "desc": "Selección cuidada: hoteles urbanos o retiros con encanto, comodidad y carácter local."
-        },
-        {
-          "title": "Gastronomía local",
-          "desc": "Desayunos energéticos y comidas/cenas de grupo con sabores auténticos y opciones saludables."
-        },
-        {
-          "title": "Clases grupales de pádel",
-          "desc": "Sesiones diarias: trabajo en equipo, estrategia y diversión para todos los niveles."
-        },
-        {
-          "title": "Juego organizado",
-          "desc": "Tiempo de pista, rotaciones y sesiones sociales de pádel."
-        },
-        {
-          "title": "Actividades de team building",
-          "desc": "Cenas, salidas culturales y retos opcionales para reforzar el grupo."
-        },
-        {
-          "title": "Anfitrión Vibra dedicado",
-          "desc": "Apoyo in situ para que todo fluya y el equipo disfrute al máximo."
-        }
+      "title": "Every Corporate Trip is Tailored",
+      "p1": "No two companies are the same.",
+      "p2": "Whether you're rewarding top performers, onboarding new employees or bringing remote teams together, we'll create an itinerary around your goals, budget and schedule.",
+      "inclusionsLabel": "Possible inclusions:",
+      "inclusions": [
+        "Accommodation",
+        "Padel coaching & tournaments",
+        "Meeting spaces (if required)",
+        "Airport transfers",
+        "Restaurants & private dining",
+        "Cultural experiences",
+        "Wellness & recovery",
+        "Dedicated local host"
       ]
     },
     "readyTeam": {
@@ -54,6 +35,69 @@
       "titleLine2": "?",
       "description": "Nuestros viajes de team building combinan resultados y recuerdos inolvidables; también adaptamos cada detalle a objetivos, presupuesto y estilo del equipo.",
       "planTrip": "Planifica tu viaje"
+    },
+    "whyCompaniesChoose": {
+      "title": "Why Companies Choose Vibra",
+      "benefits": [
+        "Fully customised itineraries",
+        "Suitable for beginners to advanced players",
+        "Flexible budgets",
+        "Dedicated local support",
+        "Everything organised for you"
+      ]
+    },
+    "beyondCourt": {
+      "eyebrow": "Beyond the Court",
+      "title": "Create Shared Experiences",
+      "subtitle": "The best team moments often happen away from the court. Choose from a range of experiences designed to bring people together and create lasting memories.",
+      "categories": [
+        {
+          "title": "Food & Drink",
+          "desc": "Interactive cooking classes, tapas tours, wine tastings, private group dinners, and vineyard experiences."
+        },
+        {
+          "title": "Team Adventures",
+          "desc": "Private boat trips, kayaking, beach games, hiking, golf, and outdoor challenges."
+        },
+        {
+          "title": "Culture & Entertainment",
+          "desc": "Flamenco experiences, La Liga matchdays, guided city tours, local festivals, and authentic Spanish experiences."
+        }
+      ],
+      "cta": "Explore Activities"
+    },
+    "schedule": {
+      "titleLine1": "Sample corporate itinerary",
+      "titleLine2": "",
+      "day1Title": "Day 1: Arrival & Team Kick-Off",
+      "day1Items": [
+        "AM: Arrival, private transfer to your accommodation, check in and relax.",
+        "17:00 – 19:00: Welcome Padel Session – meet the coaches, get to know the group, and enjoy a relaxed coaching session with friendly match play.",
+        "19:30: Welcome dinner and drinks to kick off the trip."
+      ],
+      "day2Title": "Day 2: Play, Connect & Explore",
+      "day2Items": [
+        "08:00: Breakfast.",
+        "10:00 – 12:00: Group padel coaching, team challenges, and friendly match play.",
+        "Afternoon: Shared team experience, such as a private boat trip or vineyard tour.",
+        "Evening: Dinner at a handpicked local restaurant."
+      ],
+      "day3Title": "Day 3: Team Tournament & Local Experiences",
+      "day3Items": [
+        "08:00: Breakfast.",
+        "10:00 – 12:00: Friendly team tournament or Americano competition.",
+        "Afternoon: Explore the city or enjoy some free time together.",
+        "Evening: Interactive cooking class or guided tapas tour."
+      ],
+      "day4Title": "Day 4: One Last Match & Departure",
+      "day4Items": [
+        "08:00: Breakfast.",
+        "10:00 – 11:30: Final social matches, prize presentation, and team photo.",
+        "12:00: Farewell lunch before your private transfer to the airport.",
+        "PM: Departure."
+      ],
+      "footerTitle": "Remember: Every Vibra itinerary is fully personalised and designed around your team's goals, interests, and schedule.",
+      "planTrip": "Plan your trip"
     }
   },
   "schools": {

@@ -1,21 +1,21 @@
 {
   "audienceIntro": {
     "business": {
-      "eyebrow": "For businesses",
-      "title": "Team travel that feels easy to say yes to",
-      "description": "A hosted padel escape for companies that want more than a standard retreat: active time together, local culture, and logistics handled from start to finish.",
+      "eyebrow": "",
+      "title": "Why Choose a Padel Retreat?",
+      "description": "",
       "points": [
         {
-          "title": "Team building",
-          "text": "Padel sessions and shared experiences designed to bring people together naturally."
+          "title": "Team Building",
+          "text": "Build stronger relationships through coaching, friendly competition and shared experiences."
         },
         {
-          "title": "Incentives",
-          "text": "Reward your team or clients with a trip that feels premium, active, and memorable."
+          "title": "Reward & Incentivise",
+          "text": "Treat employees or clients to a memorable experience they'll genuinely enjoy."
         },
         {
-          "title": "No planning stress",
-          "text": "We shape the itinerary, coordinate the details, and host the group locally."
+          "title": "Zero Planning",
+          "text": "We organise everything—from accommodation and transfers to padel and activities."
         }
       ]
     },
@@ -41,53 +41,96 @@
   },
   "corporate": {
     "presentation": {
-      "title": "Power Up Your Team with a Padel Adventure in Spain",
-      "heroAlt": "Corporate team on a padel court",
-      "desc": "Discover the ultimate team building experience: Fully tailored Padel trips designed to foster collaboration, boost morale, and create lasting bonds",
+      "eyebrow": "Business Teams",
+      "title": "Team Padel Trips in Spain",
+      "heroAlt": "Corporate team on a padel court in Spain",
+      "desc": "Bring your team together through padel, authentic Spanish experiences, and effortless planning.",
+      "highlights": [
+        "Team building & incentives",
+        "Beginners to advanced",
+        "Fully hosted in Spain"
+      ],
       "planTrip": "Plan your trip",
       "imagineTrip": "Imagine your trip"
     },
     "forEveryTeam": {
-      "titleLine1": "Perfect Padel trips ",
-      "titleLine2": "for any company",
-      "p1Before": "Take your team to the next level with a corporate padel experience in ",
-      "p1Mid": " or ",
-      "p1After": " - designed to strengthen connections, boost motivation, and create lasting memories. ",
-      "p2": "Whether it's a client getaway, team incentive, or break from the boardroom, we'll craft a fully hosted escape where everything is taken care of. ",
-      "p3": "All elements can be adjusted, added, or removed to suit your group's preferences. We'll shape the experience around you."
-    },
-    "allInclusive": {
-      "line1a": "The ",
-      "line1Accent": "All-inclusive",
-      "line2": "Vibra Team Experience",
-      "desc": "We take care of everything, so your team can focus on bonding, playing Padel, and soaking up the Spanish sun. Our team packages are designed for convenience and maximum fun.",
-      "organiseBtn": "Organise your trip",
-      "cards": [
-        {
-          "title": "Accommodation Options",
-          "desc": "Choose from a carefully selected range of accommodation to suit your group — from stylish city hotels to boutique countryside retreats, all chosen for comfort, convenience, and local charm."
-        },
-        {
-          "title": "Local Cuisine",
-          "desc": "Start each day with a delicious, energising breakfast, and enjoy tailored options for group lunches and dinners featuring authentic Spanish flavours and healthy choices."
-        },
-        {
-          "title": "Group Padel Lessons",
-          "desc": "Daily Padel coaching sessions designed for groups, focusing on teamwork, strategy, and fun for all skill levels."
-        },
-        {
-          "title": "Organized Padel Play",
-          "desc": "Plenty of court time for friendly matches, round-robin tournaments, and social Padel sessions."
-        },
-        {
-          "title": "Team Building Activities",
-          "desc": "Optional curated activities beyond Padel, like group dinners, cultural outings, or fun challenges to enhance bonding."
-        },
-        {
-          "title": "Dedicated Vibra Host",
-          "desc": "On-site support from a Vibra Travel host to ensure everything runs smoothly and your team has a fantastic experience."
-        }
+      "title": "Every Corporate Trip is Tailored",
+      "p1": "No two companies are the same.",
+      "p2": "Whether you're rewarding top performers, onboarding new employees or bringing remote teams together, we'll create an itinerary around your goals, budget and schedule.",
+      "inclusionsLabel": "Possible inclusions:",
+      "inclusions": [
+        "Accommodation",
+        "Padel coaching & tournaments",
+        "Meeting spaces (if required)",
+        "Airport transfers",
+        "Restaurants & private dining",
+        "Cultural experiences",
+        "Wellness & recovery",
+        "Dedicated local host"
       ]
+    },
+    "whyCompaniesChoose": {
+      "title": "Why Companies Choose Vibra",
+      "benefits": [
+        "Fully customised itineraries",
+        "Suitable for beginners to advanced players",
+        "Flexible budgets",
+        "Dedicated local support",
+        "Everything organised for you"
+      ]
+    },
+    "beyondCourt": {
+      "eyebrow": "Beyond the Court",
+      "title": "Create Shared Experiences",
+      "subtitle": "The best team moments often happen away from the court. Choose from a range of experiences designed to bring people together and create lasting memories.",
+      "categories": [
+        {
+          "title": "Food & Drink",
+          "desc": "Interactive cooking classes, tapas tours, wine tastings, private group dinners, and vineyard experiences."
+        },
+        {
+          "title": "Team Adventures",
+          "desc": "Private boat trips, kayaking, beach games, hiking, golf, and outdoor challenges."
+        },
+        {
+          "title": "Culture & Entertainment",
+          "desc": "Flamenco experiences, La Liga matchdays, guided city tours, local festivals, and authentic Spanish experiences."
+        }
+      ],
+      "cta": "Explore Activities"
+    },
+    "schedule": {
+      "titleLine1": "Sample corporate itinerary",
+      "titleLine2": "",
+      "day1Title": "Day 1: Arrival & Team Kick-Off",
+      "day1Items": [
+        "AM: Arrival, private transfer to your accommodation, check in and relax.",
+        "17:00 – 19:00: Welcome Padel Session – meet the coaches, get to know the group, and enjoy a relaxed coaching session with friendly match play.",
+        "19:30: Welcome dinner and drinks to kick off the trip."
+      ],
+      "day2Title": "Day 2: Play, Connect & Explore",
+      "day2Items": [
+        "08:00: Breakfast.",
+        "10:00 – 12:00: Group padel coaching, team challenges, and friendly match play.",
+        "Afternoon: Shared team experience, such as a private boat trip or vineyard tour.",
+        "Evening: Dinner at a handpicked local restaurant."
+      ],
+      "day3Title": "Day 3: Team Tournament & Local Experiences",
+      "day3Items": [
+        "08:00: Breakfast.",
+        "10:00 – 12:00: Friendly team tournament or Americano competition.",
+        "Afternoon: Explore the city or enjoy some free time together.",
+        "Evening: Interactive cooking class or guided tapas tour."
+      ],
+      "day4Title": "Day 4: One Last Match & Departure",
+      "day4Items": [
+        "08:00: Breakfast.",
+        "10:00 – 11:30: Final social matches, prize presentation, and team photo.",
+        "12:00: Farewell lunch before your private transfer to the airport.",
+        "PM: Departure."
+      ],
+      "footerTitle": "Remember: Every Vibra itinerary is fully personalised and designed around your team's goals, interests, and schedule.",
+      "planTrip": "Plan your trip"
     },
     "readyTeam": {
       "titleLine1": "Ready to build a",
@@ -99,13 +142,15 @@
   },
   "schools": {
     "presentation": {
+      "eyebrow": "Schools & Youth Groups",
+      "title": "Active, Educational, Unforgettable",
       "heroAlt": "Students playing padel",
-      "titleLine1": "Active,",
-      "titleLine2": "Educational,",
-      "titleLine3": "Unforgettable",
-      "descBefore": "Take your students beyond the classroom with a fully tailored trip to ",
-      "descBetween": " or ",
-      "descAfter": ". Padel, language, and cultural experiences designed to inspire and connect.",
+      "desc": "Take your students beyond the classroom with a fully tailored trip to Spain. Padel, language, and cultural experiences designed to inspire and connect.",
+      "highlights": [
+        "Safe & supervised",
+        "Padel, culture & language",
+        "Fully hosted in Spain"
+      ],
       "planTrip": "Plan your trip",
       "imagineTrip": "Imagine your trip"
     },
@@ -218,6 +263,30 @@
       "day5i1": "Breakfast and transfer to the airport.",
       "footerTitle": "Remember, this is fully customisable!",
       "planTrip": "Plan your trip"
+    },
+    "testemonials": {
+      "eyebrow": "School stories",
+      "title": "What schools say about their trips",
+      "items": [
+        {
+          "quote": "Our students loved the mix of padel, Spanish lessons, and cultural visits. The schedule was clear, supervision was excellent, and we felt supported at every step.",
+          "name": "Emma Richardson",
+          "meta": "PE teacher, secondary school trip — Barcelona",
+          "ratingLabel": "Five out of five stars"
+        },
+        {
+          "quote": "Vibra understood exactly what schools need: safe accommodation, engaging activities, and flexibility for different abilities. It was the standout trip of the year.",
+          "name": "James O'Connor",
+          "meta": "Youth sports coordinator — Sevilla",
+          "ratingLabel": "Five out of five stars"
+        },
+        {
+          "quote": "From airport transfers to the friendly padel tournament on the last day, everything ran smoothly. Parents are still hearing stories from our students months later.",
+          "name": "María López",
+          "meta": "International school group leader — Barcelona",
+          "ratingLabel": "Five out of five stars"
+        }
+      ]
     }
   }
 }

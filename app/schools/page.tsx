@@ -15,7 +15,7 @@ export default function SchoolsPage() {
       <ChooseYourActivities />
       <Destinations />
       <SchoolsSchedule />
-      <TestemonialsPreview />
+      <TestemonialsPreview audience="schools" />
     </div>
   );
 }
