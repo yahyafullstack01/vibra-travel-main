@@ -1,42 +1,86 @@
 {
   "groups": {
     "presentation": {
-      "title": "Build Your Ideal Padel Holiday in Spain",
+      "eyebrow": "Groups",
+      "title": "Build Your Ideal Padel Trip to Spain",
       "heroAlt": "Padel players on court in Spain",
-      "descBefore": "Discover how Vibra Travel combine top-tier padel coaching with unforgettable local experiences to craft truly personalised group adventures in ",
-      "descBetween": " and ",
-      "planTrip": "Plan your trip",
+      "desc": "Whether you're a padel club, community, group of friends or private organiser, we'll create a personalised Spanish padel experience around your group.",
+      "planTrip": "Plan Your Trip",
       "imagineTrip": "Imagine your trip"
     },
-    "packages": {
-      "titleHtml": "Every Vibra <br /> Package Includes",
-      "subtitle": "We lay the foundation for an incredible trip. All elements can be adjusted, added, or removed to suit your group's preferences. We'll shape the experience around you.",
-      "cards": [
-        {
-          "title": "4★ Hotel & Breakfast",
-          "desc": "3 nights with optional upgrade to private apartment or villa."
-        },
-        {
-          "title": "Daily Padel Coaching",
-          "desc": "2 hours each morning, tailored to your group's level. Want more or fewer hours? We'll adapt the schedule to match your preferences."
-        },
-        {
-          "title": "Americano Tournament",
-          "desc": "Friendly competition with local club players."
-        },
-        {
-          "title": "Farewell Meal",
-          "desc": "Relaxed BBQ or traditional paella."
-        },
-        {
-          "title": "Cultural Experience",
-          "desc": "Choose your own authentic local experience – we'll make it unforgettable."
-        },
-        {
-          "title": "Personalised Local Guide",
-          "desc": "Tips for local events, festivals, and hidden gems."
-        }
-      ]
+    "overview": {
+      "whyTravel": {
+        "title": "Why Travel with Vibra?",
+        "intro": "More than a padel trip, we create unforgettable group experiences that combine world-class padel with authentic Spain.",
+        "benefits": [
+          "Tailored coaching for every level",
+          "Flexible accommodation and destinations",
+          "Authentic local experiences",
+          "Local knowledge and guidance",
+          "Stress-free planning from start to finish"
+        ]
+      },
+      "builtAroundYou": {
+        "title": "Every Trip is Built Around You",
+        "intro": "No fixed packages. No one-size-fits-all itineraries. Every Vibra trip is designed around your group's goals, budget and travel style.",
+        "chooseLabel": "Choose:",
+        "options": [
+          "Multiple destinations around Spain",
+          "Hotels, apartments or private villas",
+          "Coaching, tournaments and social play",
+          "Cultural experiences, nightlife or relaxation",
+          "Range of padel clubs and experiences"
+        ]
+      },
+      "whatsIncluded": {
+        "title": "What's Included?",
+        "intro": "Every itinerary is different, but your trip can include:",
+        "categories": [
+          {
+            "icon": "🏨",
+            "title": "Stay",
+            "items": [
+              "Hotels, apartments or villas",
+              "Breakfast & selected meals",
+              "Airport transfers"
+            ]
+          },
+          {
+            "icon": "🎾",
+            "title": "Play",
+            "items": [
+              "Coaching",
+              "Court bookings",
+              "Match play",
+              "Friendly and competitive tournaments"
+            ]
+          },
+          {
+            "icon": "🇪🇸",
+            "title": "Experience",
+            "items": [
+              "Cultural activities",
+              "Food & wine experiences",
+              "Sporting events",
+              "Wellness & recovery"
+            ]
+          },
+          {
+            "icon": "🤝",
+            "title": "We Handle the Rest",
+            "items": [
+              "Personalised itinerary",
+              "Local recommendations",
+              "Dedicated support throughout your trip"
+            ]
+          }
+        ]
+      },
+      "designedAround": {
+        "title": "Designed Around Your Group",
+        "description": "Every Vibra itinerary is unique. Blend exceptional padel with authentic Spanish experiences to create the perfect balance of sport, culture, relaxation, and adventure.",
+        "cta": "Explore Activities and Locations"
+      }
     },
     "schedule": {
       "titleLine1": "Get a taste of what your Vibra ",

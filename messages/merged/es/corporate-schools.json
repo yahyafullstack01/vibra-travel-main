@@ -53,21 +53,40 @@
       "categories": [
         {
           "title": "Food & Drink",
-          "desc": "Interactive cooking classes, tapas tours, wine tastings, private group dinners, and vineyard experiences."
+          "items": [
+            "Interactive cooking classes",
+            "Tapas tours",
+            "Wine tastings",
+            "Private group dinners",
+            "Vineyard experiences"
+          ]
         },
         {
           "title": "Team Adventures",
-          "desc": "Private boat trips, kayaking, beach games, hiking, golf, and outdoor challenges."
+          "items": [
+            "Private boat trips",
+            "Kayaking",
+            "Beach games",
+            "Hiking",
+            "Golf",
+            "Outdoor challenges"
+          ]
         },
         {
           "title": "Culture & Entertainment",
-          "desc": "Flamenco experiences, La Liga matchdays, guided city tours, local festivals, and authentic Spanish experiences."
+          "items": [
+            "Flamenco experiences",
+            "La Liga matchdays",
+            "Guided city tours",
+            "Local festivals",
+            "Authentic Spanish experiences"
+          ]
         }
       ],
       "cta": "Explore Activities"
     },
     "schedule": {
-      "titleLine1": "Sample corporate itinerary",
+      "titleLine1": "Sample Corporate Itinerary",
       "titleLine2": "",
       "day1Title": "Day 1: Arrival & Team Kick-Off",
       "day1Items": [

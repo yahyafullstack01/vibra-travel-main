@@ -6,6 +6,8 @@ import { Images } from "@/components/Images/Images";
 import { MoreThanPadel } from "@/components/MoreThanPadel/MoreThanPadel";
 import { ReadyAdventure } from "@/components/ReadyAdventure/ReadyAdventure";
 import { TestemonialsPreview } from "@/components/TestemonialsPreview/TestemonialsPreview";
+import { PartnerPromos } from "@/components/PartnerPromos/PartnerPromos";
+import { UpcomingTrips } from "@/components/UpcomingTrips/UpcomingTrips";
 
 export default function HomePage() {
   return (
@@ -14,6 +16,8 @@ export default function HomePage() {
       <FeaturedOn />
       <MoreThanPadel />
       <HomeAbout />
+      <UpcomingTrips />
+      <PartnerPromos />
       <TestemonialsPreview />
       <Images />
       <GroupsSteps />

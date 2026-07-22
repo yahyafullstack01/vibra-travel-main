@@ -21,7 +21,13 @@ export function CorporateBeyondCourt() {
           {b.categories.map((category) => (
             <article className={styles.categoryCard} key={category.title}>
               <h3 className={styles.categoryTitle}>{category.title}</h3>
-              <p className={styles.categoryDesc}>{category.desc}</p>
+              <ul className={styles.categoryList}>
+                {category.items.map((item) => (
+                  <li className={styles.categoryItem} key={item}>
+                    {item}
+                  </li>
+                ))}
+              </ul>
             </article>
           ))}
         </div>

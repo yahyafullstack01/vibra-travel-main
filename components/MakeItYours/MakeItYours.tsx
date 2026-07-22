@@ -11,7 +11,7 @@ export function MakeItYours() {
   const m = messages.makeItYours;
 
   return (
-    <div className={styles.miyContainer}>
+    <div className={styles.miyContainer} id="activities">
       <div className={styles.miyContent}>
         <div className={styles.miyTop}>
           <p className={`${styles.topTitle} cooper-font`}>

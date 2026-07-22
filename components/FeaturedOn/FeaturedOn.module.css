@@ -29,8 +29,6 @@
     #f44c30 65%,
     #143a62 100%
   );
-  background-size: 220% 100%;
-  animation: stripeShift 8s ease-in-out infinite;
 }
 
 .featuredGlow {
@@ -40,7 +38,6 @@
   background:
     radial-gradient(circle at 30% 100%, rgba(244, 76, 48, 0.08), transparent 50%),
     radial-gradient(circle at 70% 0%, rgba(20, 58, 98, 0.08), transparent 45%);
-  animation: glowPulse 6s ease-in-out infinite alternate;
 }
 
 .featuredInner {
@@ -85,7 +82,6 @@
   transform: translateX(-50%);
   border-radius: 999px;
   background: linear-gradient(90deg, var(--color-orange), #143a62);
-  animation: underlineGrow 3s ease-in-out infinite alternate;
 }
 
 .featuredIntro {
@@ -147,11 +143,6 @@
   align-items: center;
   justify-content: center;
   flex: 0 0 auto;
-  animation: logoFloat 5s ease-in-out infinite;
-}
-
-.marquee:hover .logoItem {
-  animation-play-state: paused;
 }
 
 .logoCard {

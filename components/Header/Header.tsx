@@ -23,11 +23,8 @@ export function Header() {
 
   useEffect(() => {
     const handleScroll = () => setHasShadow(window.scrollY > 0);
-    window.addEventListener("scroll", handleScroll);
-    if ("scrollRestoration" in window.history) {
-      window.history.scrollRestoration = "manual";
-    }
-    window.scrollTo(0, 0);
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 

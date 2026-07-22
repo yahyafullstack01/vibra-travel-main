@@ -103,6 +103,88 @@
     "description": "At Vibra Travel, we're passionate about creating Padel holidays that go beyond the ordinary. We combine our love for the game with deep local knowledge of Spain to deliver experiences you'll talk about for years.",
     "planTrip": "Plan your trip"
   },
+  "partnerPromos": {
+    "eyebrow": "Partner perks",
+    "title": "Exclusive Offers for Vibra Guests",
+    "subtitle": "Use these promo codes at checkout with our partner brands.",
+    "promoLabel": "Your promo code",
+    "copyCode": "Copy",
+    "copied": "Copied!",
+    "shopNow": "Shop now",
+    "partners": {
+      "deite": {
+        "name": "Déité",
+        "description": "Padel shoes & apparel",
+        "promoCode": "VIBRA10"
+      },
+      "raquex": {
+        "name": "Raquex",
+        "description": "Padel rackets & gear",
+        "promoCode": "VIBRATRAVEL10"
+      }
+    }
+  },
+  "upcomingTrips": {
+    "eyebrow": "Book your spot",
+    "title": "Upcoming Trips",
+    "subtitle": "Fixed-date padel holidays across Spain. View details and book directly on WeTravel.",
+    "viewDetails": "View Details",
+    "askQuestion": "Ask a Question",
+    "depositLabel": "Deposit",
+    "dateFromLabel": "From",
+    "dateToLabel": "to",
+    "viewAllTrips": "View all trips on WeTravel →",
+    "trips": [
+      {
+        "title": "3 Nights in Sevilla, September",
+        "location": "Seville, Spain",
+        "dateFrom": "10 Sep 2026",
+        "dateTo": "13 Sep 2026",
+        "price": "",
+        "deposit": "",
+        "image": "/PadelPics/private-page.jpg",
+        "imageAlt": "Padel in Sevilla",
+        "href": "",
+        "sections": []
+      },
+      {
+        "title": "The Catalan Luxury Padel Retreat",
+        "location": "Reus, Catalunya, Spain",
+        "dateFrom": "16 Sep 2026",
+        "dateTo": "20 Sep 2026",
+        "price": "",
+        "deposit": "",
+        "image": "/PadelPics/private-groups.jpg",
+        "imageAlt": "Catalan padel retreat",
+        "href": "",
+        "sections": []
+      },
+      {
+        "title": "3 Nights in September, Barcelona",
+        "location": "Barcelona, Spain",
+        "dateFrom": "24 Sep 2026",
+        "dateTo": "27 Sep 2026",
+        "price": "",
+        "deposit": "",
+        "image": "/PadelPics/private-groups.jpg",
+        "imageAlt": "Padel in Barcelona",
+        "href": "",
+        "sections": []
+      },
+      {
+        "title": "Trip title",
+        "location": "City, Spain",
+        "dateFrom": "Dates TBC",
+        "dateTo": "Dates TBC",
+        "price": "",
+        "deposit": "",
+        "image": "/images/company featured/hero.png",
+        "imageAlt": "Trip preview",
+        "href": "",
+        "sections": []
+      }
+    ]
+  },
   "testemonials": {
     "eyebrow": "Guest stories",
     "title": "Testimonials",

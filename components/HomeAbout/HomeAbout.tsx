@@ -13,7 +13,7 @@ export function HomeAbout() {
     <section className={styles.section}>
       <div className={styles.content}>
         <div className={styles.imageWrap}>
-          <img src={media.photos.charlie} alt={about.imageAlt} className={styles.image} />
+          <img src={media.photos.charlie} alt={about.imageAlt} className={styles.image} loading="lazy" decoding="async" />
         </div>
         <div className={styles.copy}>
           <p className={styles.eyebrow}>{about.eyebrow}</p>

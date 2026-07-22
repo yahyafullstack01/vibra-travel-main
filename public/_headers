@@ -1,2 +1,14 @@
 /assets/*
   Access-Control-Allow-Origin: https://vibra--travel-com.translate.goog
+
+/PadelPics/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/featured/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/HeroVideo.mp4
+  Cache-Control: public, max-age=604800
