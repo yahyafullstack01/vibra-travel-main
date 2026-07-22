@@ -15,6 +15,7 @@ export const media = {
     padelPresentation: encodeURI("/images/company featured/hero.png"),
     teamPresentation: encodeURI("/images/company featured/hero.png"),
     charlie: "/images/profile-picture-email-signature.png",
+    padelKids: "/PadelPics/private-groups.jpg",
     bcn: "/PadelPics/private-groups.jpg",
     seville: "/PadelPics/private-page.jpg",
     vineyard: "/PadelPics/private-groups.jpg",
