@@ -103,7 +103,9 @@ export function Footer() {
             <p className={styles.tripsTitle}>{t("footer.explore")}</p>
             <div className={styles.links}>
               <Link href="/groups" className="nav-link">
-                <p className={styles.buttonText}>{t("nav.groups")}</p>
+                <p className={styles.buttonText}>{t("nav.groups")}
+                  HELLOss
+                </p>
               </Link>
               <Link href="/for-businesses" className="nav-link">
                 <p className={styles.buttonText}>{t("nav.forBusinesses")}</p>
