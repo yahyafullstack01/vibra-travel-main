@@ -15,6 +15,7 @@ export const media = {
     padelPresentation: encodeURI("/images/company featured/hero.png"),
     teamPresentation: encodeURI("/images/company featured/hero.png"),
     charlie: "/images/profile-picture-email-signature.png",
+    homeAbout: "/images/home-about.jpg",
     padelKids: "/PadelPics/private-groups.jpg",
     bcn: "/PadelPics/private-groups.jpg",
     seville: "/PadelPics/private-page.jpg",
@@ -41,4 +42,18 @@ export const media = {
     hostel: "/assets/photos/hostel.jpg",
   },
   videoHero: "/HeroVideo.mp4",
+  whyVibra: {
+    hero: "/images/why-vibra/IMAGE.jpg",
+    gallery: [
+      "/images/why-vibra/IMG_2157.jpg",
+      "/images/why-vibra/IMG_2333.jpg",
+      "/images/why-vibra/IMG_2464.jpg",
+      "/images/why-vibra/IMG_2512.jpg",
+      "/images/why-vibra/IMG_2555.jpg",
+      "/images/why-vibra/IMG_3421.jpg",
+      "/images/why-vibra/IMG_3542.jpg",
+      "/images/why-vibra/IMG_3882.jpg",
+      "/images/why-vibra/f1d2b802.jpg",
+    ],
+  },
 } as const;

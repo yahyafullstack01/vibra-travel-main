@@ -23,7 +23,10 @@ html {
 
 :root {
   --zoom-level: 0.9; /* zoom out requested by client */
-  font-family: "Host Grotesk"; /* replace with downlaoded font */
+  --font-display: "Cooper Lt BT", Georgia, "Times New Roman", serif;
+  --font-ui: "Familjen Grotesk", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: "Host Grotesk", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: var(--font-body);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -67,9 +70,32 @@ html[data-theme="dark"] {
 body {
   background-color: var(--color-cream);
   color: var(--color-purple);
+  font-family: var(--font-body);
   transition:
     background-color 0.35s ease,
     color 0.35s ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  font-weight: 400;
+}
+
+button,
+input,
+select,
+textarea,
+.nav-link {
+  font-family: var(--font-ui);
+}
+
+[class*="eyebrow"] {
+  font-family: var(--font-ui);
 }
 
 html[data-theme="dark"] body {
@@ -92,11 +118,11 @@ html[data-theme="dark"] body {
 }
 
 .fgrotesk-font {
-  font-family: "Familjen Grotesk", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: var(--font-ui);
 }
 
 .cooper-font {
-  font-family: "Cooper Lt BT", Georgia, "Times New Roman", serif;
+  font-family: var(--font-display);
 }
 
 .nav-link {

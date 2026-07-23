@@ -23,11 +23,6 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link rel="preconnect" href="https://fonts.cdnfonts.com" crossOrigin="" />
-        <link
-          href="https://fonts.cdnfonts.com/css/elsa"
-          rel="stylesheet"
-        />
         <link
           href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;700&amp;display=swap"
           rel="stylesheet"

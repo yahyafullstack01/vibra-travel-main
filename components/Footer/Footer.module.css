@@ -50,6 +50,7 @@
 }
 
 .footerTitleText {
+  font-family: var(--font-display);
   font-size: clamp(22px, 6vw, 28px);
   font-weight: 200;
   line-height: 118%;
@@ -66,6 +67,7 @@
 
 .tripsTitle {
   color: #fcf5ec;
+  font-family: var(--font-ui);
   font-size: 18px;
   line-height: 1.2;
   margin: 0;

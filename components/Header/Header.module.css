@@ -142,6 +142,7 @@
 .subMenuLink {
   border-radius: 6px;
   color: var(--color-purple);
+  font-family: var(--font-ui);
   font-size: 16px;
   line-height: 113%;
   padding: 10px 12px;
@@ -173,6 +174,7 @@
   align-items: center;
   height: 48px;
   line-height: 1.2;
+  font-family: var(--font-ui);
   font-size: clamp(17px, 1.15vw, 20px);
   font-weight: 600;
   color: var(--color-purple);
@@ -224,6 +226,7 @@
   padding: 0 20px;
   height: 48px;
   line-height: 1;
+  font-family: var(--font-ui);
   font-size: 16px;
   font-weight: 600;
   color: var(--color-on-primary);
@@ -457,6 +460,7 @@
 
   .mobileSubMenuTitle {
     color: var(--color-orange);
+    font-family: var(--font-ui);
     font-size: 13px;
     font-weight: 700;
     line-height: 113%;
@@ -465,6 +469,7 @@
   }
 
   .mobileNavText {
+    font-family: var(--font-ui);
     font-size: 20px;
     font-weight: 600;
     line-height: 130%;
