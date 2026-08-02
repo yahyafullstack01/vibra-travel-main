@@ -84,6 +84,10 @@ export function UpcomingTrips() {
                 <div className={styles.body}>
                   <h3 className={`${styles.cardTitle} cooper-font`}>{trip.title}</h3>
 
+                  {"subtitle" in trip && trip.subtitle ? (
+                    <p className={styles.cardSubtitle}>{trip.subtitle}</p>
+                  ) : null}
+
                   <p className={styles.location}>
                     <LocationIcon />
                     {trip.location}
@@ -101,6 +105,16 @@ export function UpcomingTrips() {
                     <p className={styles.deposit}>
                       {section.depositLabel}: {trip.deposit}
                     </p>
+                  ) : null}
+
+                  {"intro" in trip && Array.isArray(trip.intro) && trip.intro.length > 0 ? (
+                    <div className={styles.intro}>
+                      {trip.intro.map((paragraph) => (
+                        <p key={paragraph} className={styles.introText}>
+                          {paragraph}
+                        </p>
+                      ))}
+                    </div>
                   ) : null}
 
                   {trip.sections.length > 0 ? (

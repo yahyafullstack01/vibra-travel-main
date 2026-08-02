@@ -154,8 +154,8 @@
         "dateTo": "20 Sep 2026",
         "price": "",
         "deposit": "",
-        "image": "/PadelPics/private-groups.jpg",
-        "imageAlt": "Catalan padel retreat",
+        "image": "/images/upcoming-trips/reus-retreat.png",
+        "imageAlt": "Catalan luxury padel retreat in Reus",
         "href": "",
         "sections": []
       },
@@ -172,14 +172,15 @@
         "sections": []
       },
       {
-        "title": "Trip title",
-        "location": "City, Spain",
-        "dateFrom": "Dates TBC",
-        "dateTo": "Dates TBC",
+        "title": "Tom & Arj's Sevilla Padel Getaway",
+        "subtitle": "The Padel Hub Sevilla Getaway",
+        "location": "Seville, Spain",
+        "dateFrom": "1 Oct 2026",
+        "dateTo": "4 Oct 2026",
         "price": "",
         "deposit": "",
-        "image": "/images/company featured/hero.png",
-        "imageAlt": "Trip preview",
+        "image": "/images/upcoming-trips/padel-hub-sevilla.png",
+        "imageAlt": "Íconico Padel Club in Sevilla",
         "href": "",
         "sections": []
       }

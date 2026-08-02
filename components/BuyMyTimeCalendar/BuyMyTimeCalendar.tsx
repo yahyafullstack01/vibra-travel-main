@@ -13,7 +13,7 @@ export function BuyMyTimeCalendar() {
           title={messages.buyMyTime.iframeTitle}
           src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1EAhHjYwRs0wE69Jb-yRwvf3zWNcRfZuEeYl05dvobOQR9nwwppDczxwrT4I0IdYPSBiwh60PV?gv=true"
           width="100%"
-          height={900}
+          height={520}
         />
       </div>
     </div>

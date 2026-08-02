@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
-import { IconBallBL } from "@/components/icons/IconBallBL";
 import { getEmailJsConfig } from "@/lib/emailjs-config";
 import { useLocale } from "@/components/LocaleProvider/LocaleProvider";
 import styles from "./ContactForm.module.css";
@@ -34,93 +33,90 @@ export function ContactForm() {
   }
 
   return (
-    <section id="contact">
-      <div className={styles.contactFormContainer}>
-        <div className={styles.contactFormWrap}>
-          <div className={styles.trDecoration}>
-            <IconBallBL />
+    <section className={styles.section} id="contact">
+      <div className={styles.content}>
+        <div className={styles.formPanel}>
+          <div className={styles.formHeader}>
+            <p className={styles.formEyebrow}>
+              {"formEyebrow" in f ? f.formEyebrow : "Contact form"}
+            </p>
+            <h2 className={`${styles.formTitle} cooper-font`}>
+              {"formTitle" in f ? f.formTitle : "Send us a message"}
+            </h2>
+            <p className={styles.formIntro}>
+              {"formIntro" in f
+                ? f.formIntro
+                : "Share your dates, group size and what you are looking for."}
+            </p>
           </div>
-          <div className={styles.contactFormContent}>
-            <div className={styles.contactForm}>
-              <form onSubmit={submitEmail}>
-                <div className={styles.formLine}>
-                  <div className={styles.formGroup}>
-                    <label htmlFor="name">{f.nameLabel}</label>
-                    <input
-                      type="text"
-                      id="name"
-                      value={formData.name}
-                      onChange={(e) =>
-                        setFormData((p) => ({ ...p, name: e.target.value }))
-                      }
-                      placeholder={f.namePlaceholder}
-                      required
-                    />
-                  </div>
-                  <div className={styles.formGroup}>
-                    <label htmlFor="email">{f.emailLabel}</label>
-                    <input
-                      type="email"
-                      id="email"
-                      value={formData.email}
-                      onChange={(e) =>
-                        setFormData((p) => ({ ...p, email: e.target.value }))
-                      }
-                      placeholder={f.emailPlaceholder}
-                      required
-                    />
-                  </div>
-                </div>
-                <div className={styles.formLine}>
-                  <div className={styles.formGroup}>
-                    <label htmlFor="number">{f.phoneLabel}</label>
-                    <input
-                      type="number"
-                      id="number"
-                      value={formData.phone}
-                      onChange={(e) =>
-                        setFormData((p) => ({ ...p, phone: e.target.value }))
-                      }
-                      placeholder={f.phonePlaceholder}
-                      required
-                    />
-                  </div>
-                  <div className={styles.formGroup}>
-                    <label htmlFor="group">{f.groupLabel}</label>
-                    <input
-                      type="number"
-                      id="group"
-                      value={formData.groupSize}
-                      onChange={(e) =>
-                        setFormData((p) => ({ ...p, groupSize: e.target.value }))
-                      }
-                      placeholder={f.groupPlaceholder}
-                      required
-                    />
-                  </div>
-                </div>
 
-                <div className={styles.formGroup}>
-                  <label htmlFor="message">{f.messageLabel}</label>
-                  <textarea
-                    id="message"
-                    rows={6}
-                    value={formData.message}
-                    onChange={(e) =>
-                      setFormData((p) => ({ ...p, message: e.target.value }))
-                    }
-                    placeholder={f.messagePlaceholder}
-                    required
-                  />
-                  <div className={styles.formSubmit}>
-                    <button type="submit" className={styles.btnContact}>
-                      {f.send}
-                    </button>
-                  </div>
-                </div>
-              </form>
+          <form className={styles.form} onSubmit={submitEmail}>
+            <div className={styles.formRow}>
+              <div className={styles.formGroup}>
+                <label htmlFor="name">{f.nameLabel}</label>
+                <input
+                  type="text"
+                  id="name"
+                  value={formData.name}
+                  onChange={(e) => setFormData((p) => ({ ...p, name: e.target.value }))}
+                  placeholder={f.namePlaceholder}
+                  required
+                />
+              </div>
+              <div className={styles.formGroup}>
+                <label htmlFor="email">{f.emailLabel}</label>
+                <input
+                  type="email"
+                  id="email"
+                  value={formData.email}
+                  onChange={(e) => setFormData((p) => ({ ...p, email: e.target.value }))}
+                  placeholder={f.emailPlaceholder}
+                  required
+                />
+              </div>
             </div>
-          </div>
+
+            <div className={styles.formRow}>
+              <div className={styles.formGroup}>
+                <label htmlFor="number">{f.phoneLabel}</label>
+                <input
+                  type="tel"
+                  id="number"
+                  value={formData.phone}
+                  onChange={(e) => setFormData((p) => ({ ...p, phone: e.target.value }))}
+                  placeholder={f.phonePlaceholder}
+                  required
+                />
+              </div>
+              <div className={styles.formGroup}>
+                <label htmlFor="group">{f.groupLabel}</label>
+                <input
+                  type="number"
+                  id="group"
+                  value={formData.groupSize}
+                  onChange={(e) => setFormData((p) => ({ ...p, groupSize: e.target.value }))}
+                  placeholder={f.groupPlaceholder}
+                  required
+                />
+              </div>
+            </div>
+
+            <div className={styles.formGroup}>
+              <label htmlFor="message">{f.messageLabel}</label>
+              <textarea
+                id="message"
+                rows={6}
+                value={formData.message}
+                onChange={(e) => setFormData((p) => ({ ...p, message: e.target.value }))}
+                placeholder={f.messagePlaceholder}
+                required
+              />
+            </div>
+
+            <button type="submit" className={`${styles.btnContact} fgrotesk-font`}>
+              {f.send}
+            </button>
+          </form>
         </div>
       </div>
     </section>

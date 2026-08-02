@@ -5,6 +5,8 @@ export type UpcomingTripSection = {
 
 export type UpcomingTrip = {
   title: string;
+  subtitle?: string;
+  intro?: string[];
   location: string;
   dateFrom: string;
   dateTo: string;

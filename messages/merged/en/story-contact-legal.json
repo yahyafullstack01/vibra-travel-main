@@ -98,9 +98,52 @@
     "titleLine1": "Game On ",
     "titleLine2": "Let's Plan Your Trip",
     "photoAlt": "Charlie from Vibra Travel",
-    "desc": "Discover the ultimate padel getaway. Reach out through the contact form and let's start creating your ideal padel holiday with Vibra Travel."
+    "desc": "Discover the ultimate padel getaway. Reach out through the contact form and let's start creating your ideal padel holiday with Vibra Travel.",
+    "infoEyebrow": "Get in touch",
+    "infoBoxes": [
+      {
+        "title": "Email",
+        "value": "info@vibra-travel.com",
+        "href": "mailto:info@vibra-travel.com"
+      },
+      {
+        "title": "WhatsApp",
+        "value": "(+34) 744 484 995",
+        "href": "https://wa.me/34744484995"
+      },
+      {
+        "title": "Destinations",
+        "value": "Barcelona & Sevilla, Spain"
+      },
+      {
+        "title": "Who we plan for",
+        "value": "Groups, padel clubs, schools & corporate teams"
+      },
+      {
+        "title": "Response time",
+        "value": "We usually reply within 24–48 hours"
+      },
+      {
+        "title": "Languages",
+        "value": "English, Spanish & French"
+      }
+    ],
+    "planningTips": {
+      "title": "Help us plan your trip",
+      "items": [
+        "Preferred travel dates and trip length",
+        "Group size and padel levels",
+        "Barcelona, Sevilla or both",
+        "Coaching, match play and cultural experiences you want",
+        "Any special requests for your group"
+      ]
+    }
   },
   "contactForm": {
+    "formEyebrow": "Contact form",
+    "formTitle": "Send us a message",
+    "formIntro": "Share your dates, group size and what you are looking for — we will come back with ideas tailored to your trip.",
+    "consultEyebrow": "Free consultation",
     "nameLabel": "Name",
     "namePlaceholder": "Your name",
     "emailLabel": "Email",
