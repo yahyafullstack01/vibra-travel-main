@@ -9,7 +9,90 @@
     "p3": "After nearly a decade in Sevilla and now living in Barcelona with my Spanish wife and our Spanglish daughter, I created Vibra Travel to help others experience what makes Spain truly special — beyond the obvious sights.",
     "p4": "Vibra is about showing you the real Spain.\nThe one locals love.\nThe one you don't just visit — you feel.",
     "p5": "Through personalised padel holidays, we bring people into that world. It's not just about training or matches — it's about the joy of sport, culture, connection, and making memories with your group that you'll be talking about for years.",
-    "p6": "We're here to provide Padel Trips that are tailor-made by you."
+    "p6": "We're here to provide Padel Trips that are tailor-made by you.",
+    "extendedIntro": {
+      "title": "More Than a Padel Trip",
+      "paragraphs": [
+        "Anyone can organise a hotel, book some courts and arrange coaching.",
+        "What makes Vibra different is everything that happens before and after you step off the court.",
+        "Having lived in Spain for over twelve years, we've built genuine local relationships that allow us to create experiences you simply won't find on a standard sports holiday. We don't just show you the sights—we introduce you to the people, traditions and hidden places that have made us fall in love with Spain."
+      ]
+    },
+    "contentSections": [
+      {
+        "title": "The People Behind Every Experience",
+        "paragraphs": [
+          "One of the biggest reasons our trips feel different is the people you meet along the way.",
+          "In Sevilla, many of our experiences are led by our close friend Javi. Originally from Chile, he has made Andalucía his home and has an incredible passion for the city's history, food and traditions. Whether you're wandering through hidden alleyways, discovering tucked-away tapas bars or learning the stories behind Sevilla's most famous landmarks, Javi brings the city to life in a way no guidebook ever could.",
+          "Our local coaches, guides and partners aren't suppliers—they're friends we've met over years of living and working in Spain."
+        ]
+      },
+      {
+        "title": "Places With Character",
+        "paragraphs": [
+          "We carefully choose hotels that reflect the places you're visiting.",
+          "In Sevilla, guests stay at Casa Tomás, a beautifully restored traditional Andalusian townhouse tucked away in the heart of the old town. Rather than a large chain hotel, it offers an authentic base within walking distance of the city's historic streets, vibrant plazas and countless tapas bars.",
+          "In Barcelona, we work with carefully selected four-star hotels close to the city while also giving guests access to some of the world's best padel facilities."
+        ]
+      },
+      {
+        "title": "World-Class Padel",
+        "paragraphs": [
+          "Padel is at the heart of everything we do.",
+          "Whether you're training at Bela Padel Center, founded by 16-time world champion Fernando Belasteguín, or playing against local Spanish players in Sevilla, our focus is always on creating sessions that are enjoyable, social and suitable for every level.",
+          "Small coaching groups, organised match play and friendly competition mean everyone improves while having fun."
+        ]
+      },
+      {
+        "title": "Spain Beyond the Court",
+        "paragraphs": [
+          "The best moments on our trips often happen when the padel finishes.",
+          "One afternoon might end with wine tasting at L'Olivera, a beautiful vineyard hidden inside Barcelona's Collserola Natural Park, sharing local wines as the sun sets over the vineyards.",
+          "Another evening could see you watching Sevilla FC or Real Betis with passionate local supporters before heading for tapas in neighbourhood bars that most visitors never discover.",
+          "Depending on the time of year, we might take you to a traditional village festival, a beach sardinada (sardine festival) on the Catalan coast, a flamenco performance, a local food market or a family-run winery.",
+          "No two trips are exactly the same because Spain is constantly celebrating something."
+        ]
+      },
+      {
+        "title": "Authentic Spain",
+        "paragraphs": [
+          "Spain is famous for its warmth and hospitality, and we want every guest to experience that.",
+          "We encourage people to meet local players, chat with coaches over coffee after training and discover neighbourhoods beyond the usual tourist routes.",
+          "It's these moments—the conversations, the meals, the unexpected recommendations—that often become the highlights of the trip."
+        ]
+      },
+      {
+        "title": "Everything Tailored To You",
+        "paragraphs": [
+          "No two groups are the same.",
+          "Some want to spend every possible hour on court.",
+          "Others want a more relaxed weekend combining padel with wine, food, football or wellness.",
+          "Because every trip is tailor-made, we build each itinerary around the people travelling rather than offering a one-size-fits-all package."
+        ]
+      }
+    ],
+    "vibraDifference": {
+      "title": "The Vibra Difference",
+      "items": [
+        { "icon": "🇪🇸", "label": "Local knowledge from people who live here" },
+        { "icon": "🎾", "label": "Professional coaching at Spain's leading clubs" },
+        { "icon": "🍷", "label": "Authentic food, wine and cultural experiences" },
+        { "icon": "⚽️", "label": "Unique sporting experiences including La Liga football" },
+        { "icon": "🏨", "label": "Handpicked boutique and premium hotels" },
+        { "icon": "🤝", "label": "Play alongside local Spanish players" },
+        { "icon": "🚐", "label": "Small groups with personal service" },
+        { "icon": "✨", "label": "Every itinerary is tailor-made" }
+      ]
+    },
+    "closingSection": {
+      "title": "Why Vibra?",
+      "paragraphs": [
+        "We believe the best trips aren't measured by how many hours you spend on court.",
+        "They're measured by the conversations over tapas, the people you meet, the places you discover and the memories you take home.",
+        "Padel simply brings everyone together.",
+        "The rest is what makes Vibra different."
+      ]
+    }
   },
   "contact": {
     "titleLine1": "Game On ",
