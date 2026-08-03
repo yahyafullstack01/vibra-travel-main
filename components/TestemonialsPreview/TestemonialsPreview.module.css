@@ -170,3 +170,28 @@
     min-height: auto;
   }
 }
+
+:global(html[data-theme="dark"]) .section {
+  background: var(--color-cream);
+}
+
+:global(html[data-theme="dark"]) .card,
+:global(html[data-theme="dark"]) .highlightCard {
+  background: var(--surface-card);
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+}
+
+:global(html[data-theme="dark"]) .highlightCard {
+  background: linear-gradient(
+    135deg,
+    rgba(21, 42, 66, 0.98) 0%,
+    rgba(255, 107, 74, 0.14) 100%
+  );
+  border-color: rgba(255, 107, 74, 0.35);
+}
+
+:global(html[data-theme="dark"]) .avatar {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.14);
+}

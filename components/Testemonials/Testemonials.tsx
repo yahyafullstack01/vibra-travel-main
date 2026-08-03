@@ -9,7 +9,7 @@ import {
 import { useLocale } from "@/components/LocaleProvider/LocaleProvider";
 import styles from "./Testemonials.module.css";
 
-type ImageKey = keyof typeof media.testimonials;
+type TestimonialPhotoKey = Exclude<keyof typeof media.testimonials, "videos">;
 
 export function Testemonials() {
   const { messages } = useLocale();
@@ -36,7 +36,7 @@ export function Testemonials() {
           </h2>
 
           {storyItems.map((item, index) => {
-            const imageKey = item.imageKey as ImageKey | undefined;
+            const imageKey = item.imageKey as TestimonialPhotoKey | undefined;
             const imageSrc = imageKey ? media.testimonials[imageKey] : null;
 
             return (

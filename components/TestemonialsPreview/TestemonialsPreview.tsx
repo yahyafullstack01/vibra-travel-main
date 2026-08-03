@@ -16,9 +16,12 @@ export function TestemonialsPreview({ audience = "default" }: TestemonialsPrevie
   const { messages, t } = useLocale();
   const section =
     audience === "schools" ? messages.schools.testemonials : messages.testemonials;
-  const storyItems = getPreviewTestimonialItems(section.items);
+  const storyItems =
+    audience === "schools"
+      ? messages.schools.testemonials.items.slice(0, 3)
+      : getPreviewTestimonialItems(messages.testemonials.items);
   const highlightItems =
-    audience === "schools" ? [] : getHighlightTestimonialItems(section.items);
+    audience === "schools" ? [] : getHighlightTestimonialItems(messages.testemonials.items);
 
   return (
     <section className={styles.section}>
@@ -35,13 +38,13 @@ export function TestemonialsPreview({ audience = "default" }: TestemonialsPrevie
 
         <div className={styles.grid}>
           {storyItems.map((item) => (
-            <article className={styles.card} key={item.id ?? item.name}>
+            <article className={styles.card} key={item.name}>
               <div className={styles.rating} aria-label={item.ratingLabel}>
                 {"★★★★★"}
               </div>
               <p className={styles.quote}>“{item.quote}”</p>
               <div className={styles.person}>
-                {"initials" in item && item.initials ? (
+                {"initials" in item && typeof item.initials === "string" ? (
                   <span className={styles.avatar} aria-hidden>
                     {item.initials}
                   </span>
@@ -58,13 +61,13 @@ export function TestemonialsPreview({ audience = "default" }: TestemonialsPrevie
         {highlightItems.length > 0 ? (
           <div className={styles.highlights}>
             {highlightItems.map((item) => (
-              <article key={item.id ?? item.name} className={styles.highlightCard}>
+              <article key={item.name} className={styles.highlightCard}>
                 <div className={styles.rating} aria-label={item.ratingLabel}>
                   {"★★★★★"}
                 </div>
                 <p className={styles.highlightQuote}>“{item.quote}”</p>
                 <div className={styles.person}>
-                  {"initials" in item && item.initials ? (
+                  {"initials" in item && typeof item.initials === "string" ? (
                     <span className={styles.avatar} aria-hidden>
                       {item.initials}
                     </span>
