@@ -6,12 +6,11 @@
 
 .presentationContent {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   width: 85vw;
   margin: 125px 0;
   gap: 20px;
-  position: relative;
 }
 
 .leftContent {
@@ -19,25 +18,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 450px;
-  max-width: 50%;
-  flex: 1;
-}
-
-.rightContent {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.rightContent img {
-  max-height: 500px;
-  max-width: 800px;
-  width: 40vw;
-  min-width: 300px;
-  position: absolute;
-  right: -13vw;
-  top: 0;
-  object-fit: contain;
+  max-width: 720px;
 }
 
 .eyebrow {
@@ -128,15 +109,6 @@
   .desc {
     text-align: center;
     width: 90vw;
-  }
-
-  .rightContent {
-    justify-content: center;
-    width: 100%;
-  }
-
-  .rightContent img {
-    display: none;
   }
 
   .leftContent {

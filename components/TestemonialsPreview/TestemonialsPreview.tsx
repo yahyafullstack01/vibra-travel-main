@@ -1,6 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import {
+  getHighlightTestimonialItems,
+  getPreviewTestimonialItems,
+} from "@/lib/testimonials";
 import { useLocale } from "@/components/LocaleProvider/LocaleProvider";
 import styles from "./TestemonialsPreview.module.css";
 
@@ -12,7 +16,9 @@ export function TestemonialsPreview({ audience = "default" }: TestemonialsPrevie
   const { messages, t } = useLocale();
   const section =
     audience === "schools" ? messages.schools.testemonials : messages.testemonials;
-  const testemonials = section.items.slice(0, 3);
+  const storyItems = getPreviewTestimonialItems(section.items);
+  const highlightItems =
+    audience === "schools" ? [] : getHighlightTestimonialItems(section.items);
 
   return (
     <section className={styles.section}>
@@ -26,20 +32,52 @@ export function TestemonialsPreview({ audience = "default" }: TestemonialsPrevie
             {t("nav.testemonials")}
           </Link>
         </div>
+
         <div className={styles.grid}>
-          {testemonials.map((item) => (
-            <article className={styles.card} key={item.name}>
+          {storyItems.map((item) => (
+            <article className={styles.card} key={item.id ?? item.name}>
               <div className={styles.rating} aria-label={item.ratingLabel}>
                 {"★★★★★"}
               </div>
               <p className={styles.quote}>“{item.quote}”</p>
-              <div>
-                <p className={styles.name}>{item.name}</p>
-                <p className={styles.meta}>{item.meta}</p>
+              <div className={styles.person}>
+                {"initials" in item && item.initials ? (
+                  <span className={styles.avatar} aria-hidden>
+                    {item.initials}
+                  </span>
+                ) : null}
+                <div>
+                  <p className={styles.name}>{item.name}</p>
+                  <p className={styles.meta}>{item.meta}</p>
+                </div>
               </div>
             </article>
           ))}
         </div>
+
+        {highlightItems.length > 0 ? (
+          <div className={styles.highlights}>
+            {highlightItems.map((item) => (
+              <article key={item.id ?? item.name} className={styles.highlightCard}>
+                <div className={styles.rating} aria-label={item.ratingLabel}>
+                  {"★★★★★"}
+                </div>
+                <p className={styles.highlightQuote}>“{item.quote}”</p>
+                <div className={styles.person}>
+                  {"initials" in item && item.initials ? (
+                    <span className={styles.avatar} aria-hidden>
+                      {item.initials}
+                    </span>
+                  ) : null}
+                  <div>
+                    <p className={styles.name}>{item.name}</p>
+                    <p className={styles.meta}>{item.meta}</p>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+        ) : null}
       </div>
     </section>
   );

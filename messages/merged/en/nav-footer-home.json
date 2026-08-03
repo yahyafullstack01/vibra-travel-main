@@ -191,30 +191,49 @@
     "title": "Testimonials",
     "intro": "Real feedback from guests who came for padel, discovered Spain with locals, and left with a trip their friends still talk about.",
     "cta": "Plan your trip",
-    "heroAlt": "Vibra Travel guests relaxing after padel",
+    "photoSectionTitle": "Our guests in Spain",
     "listLabel": "Guest testimonials",
     "items": [
       {
+        "id": "monique",
         "quote": "They went above and beyond with every aspect of the trip. They were always available, regularly checking that everything was going smoothly and making sure we were enjoying ourselves. Everything was perfectly organised, and we had an amazing experience.",
         "name": "Monique",
         "meta": "France · Valencia trip, May 2026",
         "initials": "MO",
-        "ratingLabel": "Five out of five stars"
+        "ratingLabel": "Five out of five stars",
+        "imageKey": "monique"
       },
       {
+        "id": "harry",
         "quote": "Charlie, who runs the trips, is very friendly and organised and, having lived in Seville for 5 years, he has an in-depth knowledge of the city. The hotel is very comfortable and right in the heart of the old town, a minute's walk from the Cathedral. Each morning we were taken by taxi to the padel club around 15–20 minutes away. The club has indoor and outdoor courts and friendly coaches who all speak good English. It also has a gym and a pleasant bar serving food and drink. It's a very well organised place, but it's friendly, and not remotely corporate in its feel. In the afternoon you can either play more padel or wander round Seville, as you can in the evening when the old town is buzzing and very convivial. It must be one of the best cities in Europe. The whole trip is a perfect mix of sport and culture, and the Friday night tapas tour is a particular highlight. I can't recommend it enough.",
         "name": "Harry",
         "meta": "London · Sevilla trip, March 2026",
         "initials": "HA",
-        "ratingLabel": "Five out of five stars"
+        "ratingLabel": "Five out of five stars",
+        "imageKey": "harry"
       },
       {
-        "quote": "This trip was really fabulous. Nice clean hotel in a great central location near the cathedral. On Tuesday evening we had coaching at the iconico club in Seville with a great coach and later went out with Charlie to a great old tapas restaurant which was delicious. Wednesday we had more coaching which has stood me in good stead I'm happy to report. Had lunch at iconico and went back to explore the city before our tapas tour in the evening. I must say Charlie did all he could to make the experience really honest and very informative. On the Friday we played in the socials with local players and it was the highlight of my holiday. Really enjoyed playing against some great players on the fabulous courts. I would recommend Vibra Travel and would do it again. Thank you. Since I came back from Spain my padel mates all say I have improved my game! So I'm really grateful — I learnt so much.",
+        "id": "stuart",
+        "quote": "This trip was really fabulous. Nice clean hotel in a great central location near the cathedral. On Tuesday evening we had coaching at the iconico club in Seville with a great coach and later went out with Charlie to a great old tapas restaurant which was delicious. Wednesday we had more coaching which has stood me in good stead I'm happy to report. Had lunch at iconico and went back to explore the city before our tapas tour in the evening. I must say Charlie did all he could to make the experience really honest and very informative. On the Friday we played in the socials with local players and it was the highlight of my holiday. Really enjoyed playing against some great players on the fabulous courts. I would recommend Vibra Travel and would do it again. Thank you.",
         "name": "Stuart",
         "meta": "Sussex · Sevilla trip, April 2026",
         "initials": "ST",
-        "ratingLabel": "Five out of five stars"
+        "ratingLabel": "Five out of five stars",
+        "imageKey": "stuart"
+      },
+      {
+        "id": "stuart-followup",
+        "quote": "Since I came back from Spain my padel mates all say I have improved my game! So I'm really grateful — I learnt so much.",
+        "name": "Stuart",
+        "meta": "Sussex · Sevilla trip, April 2026",
+        "initials": "ST",
+        "ratingLabel": "Five out of five stars",
+        "variant": "highlight"
       }
-    ]
+    ],
+    "videoSectionTitle": "Hear from our guests",
+    "videoSectionIntro": "Real video testimonials from Vibra Travel guests on their trips in Spain.",
+    "videoListLabel": "Guest video testimonials",
+    "videoCardLabel": "Guest story"
   }
 }

@@ -47,6 +47,23 @@ export const media = {
     hostel: "/assets/photos/hostel.jpg",
   },
   videoHero: "/HeroVideo.mp4",
+  testimonials: {
+    monique: "/images/why-vibra/IMG_2157.jpg",
+    harry: "/images/why-vibra/IMG_2333.jpg",
+    stuart: "/images/why-vibra/IMG_2464.jpg",
+    videos: [
+      {
+        id: "guest-1",
+        src: "/videos/testimonials/IMG_2546.mp4",
+        poster: "/images/why-vibra/IMG_2157.jpg",
+      },
+      {
+        id: "guest-2",
+        src: "/videos/testimonials/IMG_2547.mp4",
+        poster: "/images/why-vibra/IMG_2333.jpg",
+      },
+    ],
+  },
   whyVibra: {
     hero: "/images/why-vibra/IMAGE.jpg",
     gallery: [

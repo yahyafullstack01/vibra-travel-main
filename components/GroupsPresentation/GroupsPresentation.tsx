@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { media } from "@/lib/media";
 import { useLocale } from "@/components/LocaleProvider/LocaleProvider";
 import styles from "./GroupsPresentation.module.css";
 
@@ -40,13 +39,6 @@ export function GroupsPresentation() {
               {p.imagineTrip}
             </button>
           </div>
-        </div>
-        <div className={styles.rightContent}>
-          <img
-            src={media.photos.padelPresentation}
-            fetchPriority="high"
-            alt={p.heroAlt}
-          />
         </div>
       </div>
     </div>
