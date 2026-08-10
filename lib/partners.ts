@@ -18,24 +18,4 @@ export const partnerLogos: PartnerLogo[] = [
     href: "https://deite.co.uk/discount/VIBRA10",
     colorLogo: true,
   },
-  {
-    src: "/featured/court-culture.svg",
-    alt: "Court & Culture",
-    href: "",
-  },
-  {
-    src: "/featured/padel-hub.svg",
-    alt: "Padel Hub",
-    href: "",
-  },
-  {
-    src: "/featured/spain-collective.svg",
-    alt: "Spain Collective",
-    href: "",
-  },
-  {
-    src: "/featured/travel-circuit.svg",
-    alt: "Travel Circuit",
-    href: "",
-  },
 ];

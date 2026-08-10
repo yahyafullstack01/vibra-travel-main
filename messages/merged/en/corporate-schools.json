@@ -15,7 +15,7 @@
         },
         {
           "title": "Zero Planning",
-          "text": "We organise everything—from accommodation and transfers to padel and activities."
+          "text": "We organise everything, from accommodation and transfers to padel and activities."
         }
       ]
     },
@@ -124,7 +124,7 @@
       "day1Title": "Day 1: Arrival & Team Kick-Off",
       "day1Items": [
         "AM: Arrival, private transfer to your accommodation, check in and relax.",
-        "17:00 – 19:00: Welcome Padel Session – meet the coaches, get to know the group, and enjoy a relaxed coaching session with friendly match play.",
+        "17:00 – 19:00: Welcome Padel Session, meet the coaches, get to know the group, and enjoy a relaxed coaching session with friendly match play.",
         "19:30: Welcome dinner and drinks to kick off the trip."
       ],
       "day2Title": "Day 2: Play, Connect & Explore",
@@ -207,7 +207,7 @@
       "titleBefore": "Choose your ",
       "titleAccent": "activities",
       "subtitle": "Every school group is different, so we design each trip around your goals and interests. Mix and match from our wide range of activities to create the perfect balance of sport, culture, and fun for your students.",
-      "note": "You decide what to include — we'll build the ideal itinerary for your group."
+      "note": "You decide what to include, we'll build the ideal itinerary for your group."
     },
     "schoolActivities": {
       "sectionTitle": "Pick your adventure!",
@@ -277,7 +277,7 @@
       "day4Title": "Day 4: Tournament & Free Time",
       "day4i1": "Friendly padel tournament in the morning.",
       "day4i2": "Paella lunch at the padel club.",
-      "day4i3": "Interactive cooking class – learn how to make local dishes.",
+      "day4i3": "Interactive cooking class, learning how to make local dishes.",
       "day5Title": "Day 5: Departure",
       "day5i1": "Breakfast and transfer to the airport.",
       "footerTitle": "Remember, this is fully customisable!",
@@ -290,19 +290,19 @@
         {
           "quote": "Our students loved the mix of padel, Spanish lessons, and cultural visits. The schedule was clear, supervision was excellent, and we felt supported at every step.",
           "name": "Emma Richardson",
-          "meta": "PE teacher, secondary school trip — Barcelona",
+          "meta": "PE teacher, secondary school trip, Barcelona",
           "ratingLabel": "Five out of five stars"
         },
         {
           "quote": "Vibra understood exactly what schools need: safe accommodation, engaging activities, and flexibility for different abilities. It was the standout trip of the year.",
           "name": "James O'Connor",
-          "meta": "Youth sports coordinator — Sevilla",
+          "meta": "Youth sports coordinator, Sevilla",
           "ratingLabel": "Five out of five stars"
         },
         {
           "quote": "From airport transfers to the friendly padel tournament on the last day, everything ran smoothly. Parents are still hearing stories from our students months later.",
           "name": "María López",
-          "meta": "International school group leader — Barcelona",
+          "meta": "International school group leader, Barcelona",
           "ratingLabel": "Five out of five stars"
         }
       ]
