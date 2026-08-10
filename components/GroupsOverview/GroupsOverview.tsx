@@ -12,19 +12,24 @@ export function GroupsOverview() {
 
   function scrollToActivities(e: React.MouseEvent) {
     e.preventDefault();
-    if (pathname === "/groups") {
-      document.getElementById("activities")?.scrollIntoView({ behavior: "smooth" });
-    } else {
-      router.push("/groups#activities");
+    const target = document.getElementById("activities");
+    if (pathname === "/groups" && target) {
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+      window.history.replaceState(null, "", "#activities");
+      return;
     }
+    router.push("/groups#activities");
   }
 
   return (
     <div className={styles.wrapper}>
       <section className={styles.whySection}>
-        <div className={styles.whyCard}>
-          <h2 className={`${styles.whyTitle} cooper-font`}>{o.whyTravel.title}</h2>
-          <p className={styles.whyIntro}>{o.whyTravel.intro}</p>
+        <div className={styles.whyInner}>
+          <header className={styles.whyHeader}>
+            <p className={styles.eyebrow}>Why Vibra</p>
+            <h2 className={`${styles.whyTitle} cooper-font`}>{o.whyTravel.title}</h2>
+            <p className={styles.whyIntro}>{o.whyTravel.intro}</p>
+          </header>
           <ul className={styles.benefitsGrid}>
             {o.whyTravel.benefits.map((benefit) => (
               <li className={styles.benefitPill} key={benefit}>
@@ -42,7 +47,6 @@ export function GroupsOverview() {
             <p className={styles.sectionIntro}>{o.builtAroundYou.intro}</p>
           </div>
           <div className={styles.choosePanel}>
-            <p className={styles.chooseLabel}>{o.builtAroundYou.chooseLabel}</p>
             <ul className={styles.optionGrid}>
               {o.builtAroundYou.options.map((option) => (
                 <li className={styles.optionChip} key={option}>
@@ -57,6 +61,7 @@ export function GroupsOverview() {
       <section className={styles.includedSection}>
         <div className={styles.includedInner}>
           <div className={styles.includedHeader}>
+            <p className={styles.eyebrow}>Included</p>
             <h2 className={`${styles.sectionTitle} cooper-font`}>{o.whatsIncluded.title}</h2>
             <p className={styles.sectionIntro}>{o.whatsIncluded.intro}</p>
           </div>
@@ -80,6 +85,7 @@ export function GroupsOverview() {
 
       <section className={styles.ctaSection}>
         <div className={styles.ctaInner}>
+          <p className={styles.eyebrow}>Your trip</p>
           <h2 className={`${styles.ctaTitle} cooper-font`}>{o.designedAround.title}</h2>
           <p className={styles.ctaText}>{o.designedAround.description}</p>
           <button

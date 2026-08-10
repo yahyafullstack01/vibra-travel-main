@@ -8,7 +8,6 @@ const cultureLayout: Record<number, { image: string; doubleWidth: boolean }> = {
   1: { image: media.photos.vineyard, doubleWidth: true },
   3: { image: media.photos.laLigaMatchdaySevilla, doubleWidth: false },
   4: { image: media.photos.tapasTour, doubleWidth: true },
-  5: { image: media.photos.flamencoWorkshopSevilla, doubleWidth: false },
   6: { image: media.photos.flamencoShowSevilla, doubleWidth: false },
   7: { image: media.photos.foodMarketCookingClass, doubleWidth: false },
 };

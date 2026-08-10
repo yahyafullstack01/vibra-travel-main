@@ -32,7 +32,7 @@ export function CorporateBeyondCourt() {
           ))}
         </div>
 
-        <Link href="/groups" className={`nav-link fgrotesk-font ${styles.cta}`}>
+        <Link href="/groups#activities" className={`nav-link fgrotesk-font ${styles.cta}`}>
           {b.cta}
         </Link>
       </div>

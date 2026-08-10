@@ -94,7 +94,7 @@
   color: #ffffff;
   font-size: clamp(44px, 5.8vw, 84px);
   font-weight: 400;
-  line-height: 0.95;
+  line-height: 1.12;
   max-width: 11ch;
   text-wrap: balance;
   word-spacing: 0.1em;

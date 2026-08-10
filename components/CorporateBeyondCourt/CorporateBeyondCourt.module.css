@@ -57,7 +57,8 @@
   border: 1px solid var(--color-divider);
   border-radius: 20px;
   padding: 28px 24px;
-  border-top: 3px solid #143a62;
+  border-top: 3px solid var(--color-orange);
+  border-color: rgba(244, 76, 48, 0.14);
   box-shadow: 0 14px 34px var(--color-shadow-card);
   transition:
     transform 0.25s ease,
@@ -68,7 +69,7 @@
 .categoryCard:hover {
   transform: translateY(-5px);
   border-color: rgba(244, 76, 48, 0.45);
-  box-shadow: 0 22px 40px rgba(20, 58, 98, 0.14);
+  box-shadow: 0 22px 40px rgba(244, 76, 48, 0.14);
 }
 
 .categoryTitle {
@@ -98,7 +99,7 @@
 
 .categoryItem::before {
   content: "•";
-  color: var(--color-muted);
+  color: var(--color-orange);
   margin-right: 8px;
 }
 

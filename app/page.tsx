@@ -1,5 +1,6 @@
 import { GroupsSteps } from "@/components/GroupsSteps/GroupsSteps";
 import { HomeAbout } from "@/components/HomeAbout/HomeAbout";
+import { HomeDestinations } from "@/components/HomeDestinations/HomeDestinations";
 import { HomePresentation } from "@/components/HomePresentation/HomePresentation";
 import { FeaturedOn } from "@/components/FeaturedOn/FeaturedOn";
 import { Images } from "@/components/Images/Images";
@@ -16,6 +17,7 @@ export default function HomePage() {
       <FeaturedOn />
       <MoreThanPadel />
       <HomeAbout />
+      <HomeDestinations />
       <UpcomingTrips />
       <PartnerPromos />
       <TestemonialsPreview />

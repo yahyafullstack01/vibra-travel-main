@@ -50,6 +50,26 @@
     "description": "Vibra Travel is led by Charlie, who has called Spain home for over a decade. We combine exceptional padel with authentic Spanish culture, from great food and vibrant cities to local traditions and unforgettable shared experiences.",
     "imageAlt": "Charlie from Vibra Travel"
   },
+  "homeDestinations": {
+    "eyebrow": "Where we go",
+    "title": "Destinations",
+    "subtitle": "Handpicked Spanish cities built for padel, culture, and unforgettable group trips.",
+    "note": "Other destinations across Spain are available on request.",
+    "items": [
+      {
+        "id": "valencia",
+        "title": "Valencia",
+        "description": "Mediterranean light, world-class padel, and a city that blends beach energy with rich culture and incredible food.",
+        "imageAlt": "City of Arts and Sciences in Valencia"
+      },
+      {
+        "id": "sevilla",
+        "title": "Sevilla",
+        "description": "Andalusian charm, historic streets, passionate culture, and unforgettable padel in one of Spain's most vibrant cities.",
+        "imageAlt": "Plaza de España in Sevilla"
+      }
+    ]
+  },
   "moreThanPadel": {
     "head1": "More Than Padel.",
     "head2Before": "It's Your ",

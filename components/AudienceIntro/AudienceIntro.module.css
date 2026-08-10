@@ -4,21 +4,22 @@
   justify-content: center;
 }
 
-.businessSection {
+.brandSection {
   background:
-    radial-gradient(circle at 92% 0%, rgba(244, 76, 48, 0.1), transparent 34%),
-    linear-gradient(180deg, #edf3fb 0%, var(--color-cream) 48%, var(--color-cream) 100%);
+    radial-gradient(circle at 12% 20%, rgba(244, 76, 48, 0.12), transparent 40%),
+    radial-gradient(circle at 88% 80%, rgba(82, 0, 48, 0.05), transparent 42%),
+    var(--color-cream);
   position: relative;
 }
 
-.businessSection::before {
+.brandSection::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, var(--color-orange) 0%, #143a62 100%);
+  background: linear-gradient(90deg, var(--color-orange) 0%, #ff8a6e 50%, var(--color-orange) 100%);
 }
 
 .content {
@@ -35,14 +36,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.businessSection .copy {
   padding: 34px 32px;
-  border-radius: 20px;
-  background: linear-gradient(145deg, #143a62 0%, #1a4f7c 52%, #0f2f4f 100%);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 18px 40px rgba(20, 58, 98, 0.22);
+  border-radius: 24px;
+  background: var(--surface-card);
+  border: 1px solid rgba(244, 76, 48, 0.18);
+  box-shadow:
+    0 18px 40px rgba(82, 0, 48, 0.08),
+    0 2px 0 rgba(244, 76, 48, 0.3) inset;
 }
 
 .eyebrow {
@@ -59,13 +59,8 @@
   font-size: clamp(34px, 4.5vw, 52px);
   font-weight: 400;
   line-height: 113%;
-  max-width: 520px;
-  margin: 0;
-}
-
-.businessSection .title {
-  color: #ffffff;
   max-width: none;
+  margin: 0;
 }
 
 .description {
@@ -76,10 +71,6 @@
   max-width: 520px;
 }
 
-.businessSection .description {
-  color: rgba(252, 245, 236, 0.86);
-}
-
 .points {
   display: grid;
   gap: 16px;
@@ -88,8 +79,9 @@
 
 .point {
   background: var(--surface-card);
-  border: 1px solid var(--color-divider);
+  border: 1px solid rgba(244, 76, 48, 0.14);
   border-radius: 16px;
+  border-top: 3px solid var(--color-orange);
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -101,14 +93,10 @@
     box-shadow 0.25s ease;
 }
 
-.businessSection .point {
-  border-top: 3px solid var(--color-orange);
-}
-
 .point:hover {
   transform: translateY(-4px);
-  border-color: rgba(244, 76, 48, 0.35);
-  box-shadow: 0 18px 36px rgba(20, 58, 98, 0.14);
+  border-color: rgba(244, 76, 48, 0.4);
+  box-shadow: 0 18px 36px rgba(244, 76, 48, 0.12);
 }
 
 .pointIndex {
@@ -134,15 +122,15 @@
   margin: 0;
 }
 
-:global(html[data-theme="dark"]) .businessSection {
+:global(html[data-theme="dark"]) .brandSection {
   background:
-    radial-gradient(circle at 88% 0%, rgba(255, 107, 74, 0.16), transparent 36%),
-    linear-gradient(180deg, #0c1f36 0%, #111d32 100%);
+    radial-gradient(circle at 12% 20%, rgba(255, 107, 74, 0.14), transparent 40%),
+    var(--color-cream);
 }
 
-:global(html[data-theme="dark"]) .businessSection .copy {
-  background: linear-gradient(145deg, #1a4f7c 0%, #143a62 55%, #0c1f36 100%);
-  border-color: rgba(255, 255, 255, 0.12);
+:global(html[data-theme="dark"]) .copy {
+  background: var(--surface-card);
+  border-color: rgba(255, 107, 74, 0.25);
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
 }
 
@@ -173,9 +161,6 @@
   .copy {
     align-items: center;
     text-align: center;
-  }
-
-  .businessSection .copy {
     padding: 28px 22px;
   }
 

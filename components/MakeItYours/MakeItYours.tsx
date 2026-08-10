@@ -1,17 +1,32 @@
 "use client";
 
+import { useEffect } from "react";
 import { CultureGastronomy } from "@/components/CultureGastronomy/CultureGastronomy";
 import { RelaxWellness } from "@/components/RelaxWellness/RelaxWellness";
 import { SportsAdventure } from "@/components/SportsAdventure/SportsAdventure";
 import { useLocale } from "@/components/LocaleProvider/LocaleProvider";
 import styles from "./MakeItYours.module.css";
 
+function scrollToActivitiesSection() {
+  const el = document.getElementById("activities");
+  if (!el) return;
+  el.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
 export function MakeItYours() {
   const { messages } = useLocale();
   const m = messages.makeItYours;
 
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    if (window.location.hash !== "#activities") return;
+
+    const timeoutId = window.setTimeout(scrollToActivitiesSection, 80);
+    return () => window.clearTimeout(timeoutId);
+  }, []);
+
   return (
-    <div className={styles.miyContainer} id="activities">
+    <section className={styles.miyContainer} id="activities" aria-label={m.titleAccent}>
       <div className={styles.miyContent}>
         <div className={styles.miyTop}>
           <p className={`${styles.topTitle} cooper-font`}>
@@ -29,6 +44,6 @@ export function MakeItYours() {
           <RelaxWellness />
         </div>
       </div>
-    </div>
+    </section>
   );
 }

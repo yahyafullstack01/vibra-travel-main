@@ -50,10 +50,10 @@
   gap: 16px;
   padding: 28px;
   border-radius: 20px;
-  background: linear-gradient(145deg, #143a62 0%, #1a4f7c 55%, #0f2f4f 100%);
-  border-top: 3px solid var(--color-orange);
+  background: var(--color-orange);
+  border-top: 3px solid #ffffff;
   color: #fcf5ec;
-  box-shadow: 0 20px 40px rgba(20, 58, 98, 0.24);
+  box-shadow: 0 20px 40px rgba(244, 76, 48, 0.28);
 }
 
 .inclusionsLabel {
@@ -62,7 +62,7 @@
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: rgba(252, 245, 236, 0.78);
+  color: rgba(252, 245, 236, 0.9);
 }
 
 .inclusionsList {
@@ -86,7 +86,7 @@
   content: "•";
   position: absolute;
   left: 0;
-  color: var(--color-orange);
+  color: #ffffff;
 }
 
 @media (max-width: 900px) {

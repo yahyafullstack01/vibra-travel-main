@@ -5,10 +5,9 @@ import { useLocale } from "@/components/LocaleProvider/LocaleProvider";
 import styles from "../ExperienceGrid/ExperienceGrid.module.css";
 
 const sportsLayout: Record<number, { image: string; doubleWidth: boolean }> = {
-  1: { image: media.photos.hike, doubleWidth: true },
-  2: { image: media.photos.golf, doubleWidth: false },
+  2: { image: media.photos.golf, doubleWidth: true },
   4: { image: media.photos.running, doubleWidth: false },
-  5: { image: media.photos.kayak, doubleWidth: false },
+  5: { image: media.photos.kayak, doubleWidth: true },
 };
 
 export function SportsAdventure() {

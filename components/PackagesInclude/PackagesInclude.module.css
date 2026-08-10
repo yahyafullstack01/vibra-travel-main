@@ -52,6 +52,12 @@
 .piCard {
   width: 25vw;
   margin: 40px 0;
+  padding: 20px 18px;
+  border-radius: 18px;
+  border: 1px solid rgba(244, 76, 48, 0.12);
+  border-top: 3px solid var(--color-orange);
+  background: var(--color-cream);
+  box-shadow: 0 10px 24px var(--color-shadow-card);
 }
 
 .piCardIcon {

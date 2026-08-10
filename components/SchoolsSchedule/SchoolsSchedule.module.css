@@ -120,7 +120,7 @@
 
 .activityItem::before {
   content: "•";
-  color: var(--color-muted);
+  color: var(--color-orange);
   margin-right: 8px;
 }
 

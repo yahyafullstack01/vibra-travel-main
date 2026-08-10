@@ -13,7 +13,7 @@ export function AudienceIntro({ audience }: AudienceIntroProps) {
 
   return (
     <section
-      className={`${styles.section} ${audience === "business" ? styles.businessSection : ""}`}
+      className={`${styles.section} ${styles.brandSection}`}
     >
       <div className={styles.content}>
         <div className={styles.copy}>

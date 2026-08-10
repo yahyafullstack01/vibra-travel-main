@@ -19,7 +19,7 @@ export default function ForBusinessesPage() {
       <CorporateBeyondCourt />
       <CorporateSchedule />
       <TestemonialsPreview />
-      <ReadyTeam />
+      <ReadyTeam variant="orange" />
     </div>
   );
 }
