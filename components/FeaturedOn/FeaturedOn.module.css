@@ -122,7 +122,7 @@
 .marqueeTrack {
   display: flex;
   width: max-content;
-  animation: marqueeScroll 32s linear infinite;
+  animation: marqueeScroll 8s linear infinite;
   will-change: transform;
 }
 
