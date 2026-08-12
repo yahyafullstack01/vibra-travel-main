@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { LocalizedLink as Link } from "@/components/LocalizedLink/LocalizedLink";
 import { IconVibraTravel } from "@/components/icons/IconVibraTravel";
 import { useLocale } from "@/components/LocaleProvider/LocaleProvider";
 import styles from "./Footer.module.css";

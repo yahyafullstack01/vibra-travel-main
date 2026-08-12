@@ -67,6 +67,12 @@
         "title": "Sevilla",
         "description": "Andalusian charm, historic streets, passionate culture, and unforgettable padel in one of Spain's most vibrant cities.",
         "imageAlt": "Plaza de España in Sevilla"
+      },
+      {
+        "id": "barcelona",
+        "title": "Barcelona",
+        "description": "Top clubs, Gaudí landmarks, beachside living, and a vibrant city rhythm that makes every trip feel special.",
+        "imageAlt": "Sagrada Família and cityscape in Barcelona"
       }
     ]
   },
@@ -141,13 +147,19 @@
         "name": "Raquex",
         "description": "Padel rackets & gear",
         "promoCode": "VIBRATRAVEL10"
+      },
+      "preserva": {
+        "name": "Preserva",
+        "description": "Padel ball pressurisers",
+        "promoCode": "VIBRA10"
       }
     }
   },
   "upcomingTrips": {
     "eyebrow": "Book your spot",
     "title": "Upcoming Trips",
-    "subtitle": "Fixed-date padel holidays across Spain. View details and book directly on WeTravel.",
+    "subtitle": "Fixed-date padel trips for individuals, couples and small groups. Book your place directly through WeTravel.",
+    "subtitleNote": "Want a trip built around your group? Get in touch for a bespoke experience.",
     "viewDetails": "View Details",
     "askQuestion": "Ask a Question",
     "depositLabel": "Deposit",
@@ -249,6 +261,30 @@
         "initials": "ST",
         "ratingLabel": "Five out of five stars",
         "variant": "highlight"
+      },
+      {
+        "id": "neil",
+        "quote": "Loved my time with Vibra travel in Seville. The tapas tour was a real highlight with great food and amazing insights into the culture of this beautiful city. The padel club was one of the best I've ever seen with high quality coaching and a really fun and well organised tournament to finish. Overall a great experience.",
+        "name": "Neil Adebowale",
+        "meta": "Risk HQ · UK Padel Insurance Providers · Sevilla, January 2026",
+        "initials": "NA",
+        "ratingLabel": "Five out of five stars"
+      },
+      {
+        "id": "gabriel",
+        "quote": "I love Sevilla, so it was great to come back and experience the city on a padel trip. Iconico is an incredible club with a really friendly atmosphere, and Sevilla itself is, as always, a fantastic city to explore. Watching Sevilla FC was a fantastic experience and made the trip even more memorable.",
+        "name": "Gabriel",
+        "meta": "UK · Sevilla, February 2026",
+        "initials": "GA",
+        "ratingLabel": "Five out of five stars"
+      },
+      {
+        "id": "robert",
+        "quote": "I came on the trip with my son and we had a brilliant time. The padel was fantastic, but we enjoyed the food and exploring the local area just as much. The tapas bars were a real highlight, and the countryside restaurant overlooking the national park was an amazing experience. A great mix of padel, food and getting out and experiencing Spain.",
+        "name": "Robert Gold",
+        "meta": "Austin, USA · Barcelona, May 2026",
+        "initials": "RG",
+        "ratingLabel": "Five out of five stars"
       }
     ],
     "videoSectionTitle": "Hear from our guests",

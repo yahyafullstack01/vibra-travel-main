@@ -1,11 +1,88 @@
 {
   "groups": {
     "presentation": {
+      "eyebrow": "Grupos",
       "title": "Crea tus vacaciones ideales de pádel en España",
-      "descBefore": "Descubre cómo Vibra Travel combina coaching de alto nivel con experiencias locales inolvidables para diseñar aventuras de grupo totalmente personalizadas en ",
-      "descBetween": " y ",
+      "heroAlt": "Jugadores de pádel en una pista en España",
+      "desc": "Tanto si sois un club de pádel, una comunidad, un grupo de amigos o un organizador de eventos, crearemos una experiencia de pádel en España personalizada para vuestro grupo.",
       "planTrip": "Planifica tu viaje",
       "imagineTrip": "Imagina tu viaje"
+    },
+    "overview": {
+      "whyTravel": {
+        "eyebrow": "Por qué Vibra",
+        "title": "¿Por qué viajar con Vibra?",
+        "intro": "Más que un viaje de pádel, creamos experiencias de grupo inolvidables que combinan coaching de alto nivel con la España auténtica.",
+        "benefits": [
+          "Coaching adaptado a todos los niveles",
+          "Alojamiento y destinos flexibles",
+          "Experiencias locales auténticas",
+          "Conocimiento y guía local",
+          "Planificación sin estrés de principio a fin"
+        ]
+      },
+      "builtAroundYou": {
+        "title": "Cada viaje se construye a tu medida",
+        "intro": "Sin paquetes fijos. Sin itinerarios estándar. Cada viaje Vibra se diseña en torno a los objetivos, presupuesto y estilo de viaje de tu grupo.",
+        "options": [
+          "Varios destinos por toda España",
+          "Hoteles, apartamentos o villas privadas",
+          "Coaching, torneos y juego social",
+          "Experiencias culturales, ocio nocturno o relax",
+          "Amplia variedad de clubs y experiencias de pádel"
+        ]
+      },
+      "whatsIncluded": {
+        "eyebrow": "Incluido",
+        "title": "¿Qué incluye?",
+        "intro": "Cada itinerario es diferente, pero tu viaje puede incluir:",
+        "categories": [
+          {
+            "icon": "🏨",
+            "title": "Estancia",
+            "items": [
+              "Hoteles, apartamentos o villas",
+              "Desayuno y comidas seleccionadas",
+              "Traslados al aeropuerto"
+            ]
+          },
+          {
+            "icon": "🎾",
+            "title": "Juego",
+            "items": [
+              "Entrenamiento",
+              "Reservas de pistas",
+              "Partidos",
+              "Torneos amistosos y competitivos"
+            ]
+          },
+          {
+            "icon": "🇪🇸",
+            "title": "Experiencia",
+            "items": [
+              "Actividades culturales",
+              "Experiencias de gastronomía y vino",
+              "Eventos deportivos",
+              "Bienestar y recuperación"
+            ]
+          },
+          {
+            "icon": "🤝",
+            "title": "Nosotros nos ocupamos del resto",
+            "items": [
+              "Itinerario personalizado",
+              "Recomendaciones locales",
+              "Soporte dedicado durante todo el viaje"
+            ]
+          }
+        ]
+      },
+      "designedAround": {
+        "eyebrow": "Tu viaje",
+        "title": "Diseñado para tu grupo",
+        "description": "Cada itinerario Vibra es único. Combina pádel excepcional con experiencias españolas auténticas para el equilibrio perfecto entre deporte, cultura, relax y aventura.",
+        "cta": "Explorar actividades y destinos"
+      }
     },
     "packages": {
       "titleHtml": "Cada paquete Vibra <br /> incluye",
@@ -87,14 +164,9 @@
         "description": "Tour guiado por bares auténticos: tapas regionales y bebidas clásicas."
       },
       {
-        "id": 5,
-        "title": "Taller de flamenco (solo Sevilla)",
-        "description": "Clase práctica con expertos locales y tapas después."
-      },
-      {
         "id": 6,
-        "title": "Espectáculo de flamenco (solo Sevilla)",
-        "description": "Flamenco en vivo en un ambiente íntimo."
+        "title": "Espectáculo de flamenco",
+        "description": "Flamenco en vivo en un ambiente íntimo, una experiencia cultural inolvidable de Andalucía."
       },
       {
         "id": 7,
@@ -104,11 +176,6 @@
     ],
     "sportsTitle": "Deporte y aventura",
     "sports": [
-      {
-        "id": 1,
-        "title": "Senderismo por la tarde",
-        "description": "Ruta guiada de 2–3 h, aire libre y opcional BBQ por la noche."
-      },
       {
         "id": 2,
         "title": "Vuelta de golf",
@@ -131,11 +198,6 @@
         "id": 1,
         "title": "Yoga al amanecer o atardecer",
         "description": "Sesiones al aire libre para estirar y recuperarte tras el pádel."
-      },
-      {
-        "id": 2,
-        "title": "Pilates al amanecer o atardecer",
-        "description": "Fortalecimiento, estiramiento y respiración al aire libre."
       },
       {
         "id": 3,

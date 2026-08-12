@@ -27,6 +27,14 @@ export function Destinations() {
             <p className={styles.destDesc}>{d.sevilleDesc}</p>
           </div>
         </div>
+
+        <div className={styles.destCard}>
+          <img src={media.photos.valencia} alt={d.valenciaTitle} />
+          <div className={styles.destInfo}>
+            <h3 className={styles.destTitle}>{d.valenciaTitle}</h3>
+            <p className={styles.destDesc}>{d.valenciaDesc}</p>
+          </div>
+        </div>
       </div>
     </div>
   );

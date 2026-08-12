@@ -18,4 +18,10 @@ export const partnerLogos: PartnerLogo[] = [
     href: "https://deite.co.uk/discount/VIBRA10",
     colorLogo: true,
   },
+  {
+    src: "/featured/preserva.png",
+    alt: "Preserva",
+    href: "https://www.preserva.co.uk/discount/VIBRA10",
+    colorLogo: true,
+  },
 ];

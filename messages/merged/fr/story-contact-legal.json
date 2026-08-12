@@ -2,20 +2,173 @@
   "whyVibra": {
     "titleLine1": "Rencontrez le cœur ",
     "titleLine2": "de Vibra",
+    "photoAlt": "Charlie de Vibra Travel",
     "heading": "Salut, je suis Charlie, et l’Espagne est chez moi depuis plus de 12 ans.",
-    "p1": "Ce qui a commencé à Séville est devenu une passion pour la vie espagnole : le rythme, les bars où tu es le seul étranger, les nuits tapas, les courts de padel et les fêtes hors des guides.",
-    "p2": "Le padel n’est pas qu’un sport, c’est un mode de vie, comme partager repas, bière et vin entre amis.",
-    "p3": "Après près de 12 ans à Séville et maintenant Barcelone avec ma famille, j’ai créé Vibra Travel pour montrer une Espagne au-delà des clichés.",
-    "p4": "Vibra, c’est l’Espagne réelle, celle des locaux, celle que l’on ne visite pas seulement, on la ressent.",
-    "p5": "Avec des vacances padel sur mesure, nous vous ouvrons ce monde, joie du sport, culture et souvenirs durables.",
-    "p6": "Ici, les voyages padel sont façonnés par vous."
+    "p1": "Ce qui a commencé par un déménagement à Séville est devenu bien plus profond : un amour pour la vie espagnole sous toutes ses formes. Pas seulement le soleil et la sangria, mais le rythme plus lent, les rencontres spontanées, le bar où tu es le seul étranger, les conversations tardives autour des tapas, les courts de padel remplis de rires et de compétition, les petits festivals que les touristes ne voient jamais.",
+    "p2": "Le padel n’est pas seulement un sport ici, c’est un mode de vie. Tout comme partager une bonne table, des bières fraîches, du vin local et, surtout, le faire entre amis.",
+    "p3": "Après près de 12 ans à Séville et maintenant à Barcelone avec ma femme espagnole et notre fille Spanglish, j’ai créé Vibra Travel pour aider les autres à vivre ce qui rend l’Espagne vraiment spéciale, au-delà des lieux évidents.",
+    "p4": "Vibra, c’est vous montrer l’Espagne réelle.\nCelle que les locaux aiment.\nCelle que l’on ne visite pas seulement : on la ressent.",
+    "p5": "À travers des vacances padel personnalisées, nous vous faisons entrer dans ce monde. Ce n’est pas seulement l’entraînement ou les matchs : c’est la joie du sport, de la culture, du lien, et des souvenirs avec votre groupe dont vous parlerez pendant des années.",
+    "p6": "Nous sommes là pour des voyages padel sur mesure, façonnés par vous.",
+    "extendedIntro": {
+      "title": "Plus qu’un voyage padel",
+      "paragraphs": [
+        "N’importe qui peut réserver un hôtel, des courts et du coaching.",
+        "Ce qui rend Vibra différent, c’est tout ce qui se passe avant et après que vous quittiez le court.",
+        "Après plus de douze ans en Espagne, nous avons tissé de vraies relations locales qui nous permettent de créer des expériences introuvables dans un séjour sportif standard. Nous ne vous montrons pas seulement les sites : nous vous présentons les gens, les traditions et les lieux cachés qui nous ont fait tomber amoureux de l’Espagne."
+      ]
+    },
+    "contentSections": [
+      {
+        "title": "Les personnes derrière chaque expérience",
+        "paragraphs": [
+          "L’une des grandes raisons pour lesquelles nos voyages sont différents, ce sont les personnes que vous rencontrez en chemin.",
+          "À Séville, beaucoup d’expériences sont menées par notre ami proche Javi. Originaire du Chili, il a fait de l’Andalousie sa maison et a une passion incroyable pour l’histoire, la gastronomie et les traditions de la ville. Que vous flâniez dans des ruelles cachées, découvriez des bars à tapas discrets ou appreniez les histoires derrière les monuments les plus célèbres de Séville, Javi fait vivre la ville d’une façon qu’aucun guide ne peut égaler.",
+          "Nos coaches, guides et partenaires locaux ne sont pas des prestataires : ce sont des amis rencontrés au fil des années de vie et de travail en Espagne."
+        ]
+      },
+      {
+        "title": "Des lieux avec du caractère",
+        "paragraphs": [
+          "Nous choisissons avec soin des hôtels qui reflètent les lieux que vous visitez.",
+          "À Séville, les voyageurs séjournent à Casa Tomás, une maison de ville andalouse magnifiquement restaurée au cœur de la vieille ville. Plutôt qu’une grande chaîne, elle offre une base authentique à pied des rues historiques, des places animées et d’innombrables bars à tapas.",
+          "À Barcelone, nous travaillons avec des hôtels quatre étoiles soigneusement sélectionnés, proches de la ville tout en donnant accès à certains des meilleurs clubs de padel au monde."
+        ]
+      },
+      {
+        "title": "Padel de niveau mondial",
+        "paragraphs": [
+          "Le padel est au cœur de tout ce que nous faisons.",
+          "Que vous vous entraîniez au Bela Padel Center, fondé par Fernando Belasteguín, 16 fois champion du monde, ou que vous jouiez contre des joueurs espagnols locaux à Séville, notre priorité est de créer des sessions agréables, sociales et adaptées à tous les niveaux.",
+          "Petits groupes de coaching, matchs organisés et compétition conviviale : tout le monde progresse en s’amusant."
+        ]
+      },
+      {
+        "title": "L’Espagne au-delà du court",
+        "paragraphs": [
+          "Les meilleurs moments de nos voyages arrivent souvent quand le padel s’arrête.",
+          "Un après-midi peut se terminer par une dégustation à L’Olivera, un magnifique vignoble caché dans le parc naturel de Collserola à Barcelone, en partageant des vins locaux au coucher du soleil.",
+          "Une autre soirée peut vous emmener voir le Sevilla FC ou le Real Betis avec des supporters locaux passionnés, avant des tapas dans des bars de quartier que la plupart des visiteurs ne découvrent jamais.",
+          "Selon la saison, nous pouvons vous emmener à une fête de village traditionnelle, une sardinada (fête de la sardine) sur la côte catalane, un spectacle de flamenco, un marché local ou un domaine familial.",
+          "Aucun voyage n’est exactement le même, parce que l’Espagne célèbre quelque chose en permanence."
+        ]
+      },
+      {
+        "title": "L’Espagne authentique",
+        "paragraphs": [
+          "L’Espagne est célèbre pour sa chaleur et son hospitalité, et nous voulons que chaque voyageur la vive.",
+          "Nous encourageons les rencontres avec des joueurs locaux, les cafés avec les coaches après l’entraînement et la découverte de quartiers hors des circuits touristiques habituels.",
+          "Ce sont ces moments — les conversations, les repas, les recommandations inattendues — qui deviennent souvent les points forts du voyage."
+        ]
+      },
+      {
+        "title": "Tout est taillé pour vous",
+        "paragraphs": [
+          "Aucun groupe n’est identique.",
+          "Certains veulent passer chaque heure possible sur le court.",
+          "D’autres préfèrent un week-end plus détendu alliant padel, vin, gastronomie, football ou bien-être.",
+          "Parce que chaque voyage est sur mesure, nous construisons chaque itinéraire autour des voyageurs, plutôt qu’un forfait unique pour tous."
+        ]
+      }
+    ],
+    "vibraDifference": {
+      "title": "La différence Vibra",
+      "items": [
+        {
+          "icon": "🇪🇸",
+          "label": "Savoir local de gens qui vivent ici"
+        },
+        {
+          "icon": "🎾",
+          "label": "Coaching pro dans les meilleurs clubs d’Espagne"
+        },
+        {
+          "icon": "🍷",
+          "label": "Cuisine, vin et expériences culturelles authentiques"
+        },
+        {
+          "icon": "⚽️",
+          "label": "Expériences sportives uniques, dont le football de La Liga"
+        },
+        {
+          "icon": "🏨",
+          "label": "Hôtels boutique et premium sélectionnés"
+        },
+        {
+          "icon": "🤝",
+          "label": "Jouer aux côtés de joueurs espagnols locaux"
+        },
+        {
+          "icon": "🚐",
+          "label": "Petits groupes et service personnel"
+        },
+        {
+          "icon": "✨",
+          "label": "Chaque itinéraire est sur mesure"
+        }
+      ]
+    },
+    "closingSection": {
+      "title": "Pourquoi Vibra ?",
+      "paragraphs": [
+        "Nous croyons que les meilleurs voyages ne se mesurent pas au nombre d’heures passées sur le court.",
+        "Ils se mesurent aux conversations autour des tapas, aux personnes rencontrées, aux lieux découverts et aux souvenirs que vous ramenez.",
+        "Le padel rassemble simplement tout le monde.",
+        "Le reste, c’est ce qui rend Vibra différent."
+      ]
+    }
   },
   "contact": {
     "titleLine1": "C’est parti, ",
     "titleLine2": "planifions votre voyage",
-    "desc": "Le meilleur séjour padel commence par un message. Écrivez-nous et créons ensemble vos vacances idéales avec Vibra Travel."
+    "desc": "Le meilleur séjour padel commence par un message. Écrivez-nous et créons ensemble vos vacances idéales avec Vibra Travel.",
+    "infoEyebrow": "Contactez-nous",
+    "infoBoxes": [
+      {
+        "title": "E-mail",
+        "value": "info@vibra-travel.com",
+        "href": "mailto:info@vibra-travel.com"
+      },
+      {
+        "title": "WhatsApp",
+        "value": "(+34) 744 484 995",
+        "href": "https://wa.me/34744484995"
+      },
+      {
+        "title": "Destinations",
+        "value": "Barcelone et Séville, Espagne"
+      },
+      {
+        "title": "Pour qui nous planifions",
+        "value": "Groupes, clubs de padel, écoles et équipes d'entreprise"
+      },
+      {
+        "title": "Délai de réponse",
+        "value": "Nous répondons généralement sous 24–48 heures"
+      },
+      {
+        "title": "Langues",
+        "value": "Anglais, espagnol et français"
+      }
+    ],
+    "planningTips": {
+      "title": "Aidez-nous à planifier votre voyage",
+      "items": [
+        "Dates de voyage préférées et durée du séjour",
+        "Taille du groupe et niveaux de padel",
+        "Barcelone, Séville ou les deux",
+        "Coaching, matchs et expériences culturelles souhaités",
+        "Toute demande particulière pour votre groupe"
+      ]
+    },
+    "photoAlt": "Charlie de Vibra Travel"
   },
   "contactForm": {
+    "formEyebrow": "Formulaire de contact",
+    "formTitle": "Envoyez-nous un message",
+    "formIntro": "Indiquez vos dates, la taille du groupe et ce que vous recherchez ; nous reviendrons avec des idées adaptées à votre voyage.",
+    "consultEyebrow": "Consultation gratuite",
+    "photoAlt": "Charlie de Vibra Travel",
     "nameLabel": "Nom",
     "namePlaceholder": "Votre nom",
     "emailLabel": "E-mail",
@@ -77,7 +230,7 @@
     "s9p": "En participant, vous acceptez l’usage marketing de photos/vidéos. Prévenez-nous si vous refusez d’apparaître.",
     "s10Title": "Droit applicable",
     "s10p": "Ces conditions sont régies par le droit espagnol ; litiges devant les tribunaux espagnols.",
-    "contactHeading": "Contact",
+    "contactHeading": "Contactez-nous",
     "contactIntro": "Pour toute question sur ces conditions :"
   }
 }

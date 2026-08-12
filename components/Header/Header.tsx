@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { LocalizedLink as Link } from "@/components/LocalizedLink/LocalizedLink";
 import { useEffect, useState } from "react";
 import { IconVibraTravel } from "@/components/icons/IconVibraTravel";
 import { IconMoon } from "@/components/icons/IconMoon";

@@ -1,33 +1,155 @@
 {
+  "audienceIntro": {
+    "business": {
+      "eyebrow": "",
+      "title": "Зачем выбирать падель-ретрит?",
+      "description": "",
+      "points": [
+        {
+          "title": "Тимбилдинг",
+          "text": "Укрепляйте отношения через коучинг, дружескую конкуренцию и общие впечатления."
+        },
+        {
+          "title": "Награда и мотивация",
+          "text": "Подарите сотрудникам или клиентам незабываемый опыт, который им действительно понравится."
+        },
+        {
+          "title": "Ноль планирования",
+          "text": "Мы организуем всё: проживание, трансферы, падель и активности."
+        }
+      ]
+    },
+    "schools": {
+      "eyebrow": "Для школ",
+      "title": "Безопасные активные поездки, которые ученики запоминают",
+      "description": "Структурированные групповые поездки для школ и молодёжи: падель, культура, язык и сопровождаемые активности в Испании.",
+      "points": [
+        {
+          "title": "Безопасная структура",
+          "text": "Понятное расписание, подходящее проживание и сопровождение на протяжении всей поездки."
+        },
+        {
+          "title": "Активное обучение",
+          "text": "Спорт, язык и культурные моменты удерживают внимание учеников за пределами класса."
+        },
+        {
+          "title": "Гибкие программы",
+          "text": "Выберите баланс паделя, экскурсий, занятий, питания и свободного времени."
+        }
+      ]
+    }
+  },
   "corporate": {
     "presentation": {
-      "eyebrow": "Business Teams",
-      "title": "Team Padel Trips in Spain",
-      "heroAlt": "Corporate team on a padel court in Spain",
-      "desc": "Bring your team together through padel, authentic Spanish experiences, and effortless planning.",
+      "eyebrow": "Корпоративные команды",
+      "title": "Командные падель-туры по Испании",
+      "heroAlt": "Корпоративная команда на падель-корте в Испании",
+      "desc": "Соберите команду вокруг паделя, аутентичных испанских впечатлений и лёгкой организации.",
       "highlights": [
-        "Team building & incentives",
-        "Beginners to advanced",
-        "Fully hosted in Spain"
+        "Тимбилдинг и incentives",
+        "От новичков до продвинутых",
+        "Полное сопровождение в Испании"
       ],
-      "planTrip": "Plan your trip",
-      "imagineTrip": "Imagine your trip"
+      "planTrip": "Запланировать поездку",
+      "imagineTrip": "Представить поездку"
     },
     "forEveryTeam": {
-      "title": "Every Corporate Trip is Tailored",
-      "p1": "No two companies are the same.",
-      "p2": "Whether you're rewarding top performers, onboarding new employees or bringing remote teams together, we'll create an itinerary around your goals, budget and schedule.",
-      "inclusionsLabel": "Possible inclusions:",
+      "title": "Каждая корпоративная поездка — под заказ",
+      "p1": "Нет двух одинаковых компаний.",
+      "p2": "Награждаете ли вы лучших сотрудников, адаптируете новичков или собираете удалённые команды — мы построим маршрут под ваши цели, бюджет и график.",
+      "inclusionsLabel": "Возможные включения:",
       "inclusions": [
-        "Accommodation",
-        "Padel coaching & tournaments",
-        "Meeting spaces (if required)",
-        "Airport transfers",
-        "Restaurants & private dining",
-        "Cultural experiences",
-        "Wellness & recovery",
-        "Dedicated local host"
+        "Проживание",
+        "Падель-коучинг и турниры",
+        "Переговорные (по запросу)",
+        "Трансферы из аэропорта",
+        "Рестораны и частные ужины",
+        "Культурные впечатления",
+        "Велнес и восстановление",
+        "Выделенный местный хост"
       ]
+    },
+    "whyCompaniesChoose": {
+      "title": "Почему компании выбирают Vibra",
+      "benefits": [
+        "Полностью кастомные маршруты",
+        "Подходит от новичков до продвинутых",
+        "Гибкие бюджеты",
+        "Выделенная локальная поддержка",
+        "Всё организовано за вас"
+      ]
+    },
+    "beyondCourt": {
+      "eyebrow": "За пределами корта",
+      "title": "Создавайте общие впечатления",
+      "subtitle": "Лучшие командные моменты часто случаются вне корта. Выбирайте из впечатлений, которые сближают людей и создают долгие воспоминания.",
+      "categories": [
+        {
+          "title": "Еда и напитки",
+          "items": [
+            "Интерактивные кулинарные классы",
+            "Тапас-туры",
+            "Дегустации вина",
+            "Частные групповые ужины",
+            "Винодельни"
+          ]
+        },
+        {
+          "title": "Командные приключения",
+          "items": [
+            "Частные прогулки на лодке",
+            "Каякинг",
+            "Пляжные игры",
+            "Хайкинг",
+            "Гольф",
+            "Активности на свежем воздухе"
+          ]
+        },
+        {
+          "title": "Культура и развлечения",
+          "items": [
+            "Фламенко",
+            "Матчи Ла Лиги",
+            "Экскурсии по городу",
+            "Местные фестивали",
+            "Аутентичные испанские впечатления"
+          ]
+        }
+      ],
+      "cta": "Смотреть активности"
+    },
+    "schedule": {
+      "titleLine1": "Пример корпоративного маршрута",
+      "titleLine2": "",
+      "day1Title": "День 1: Прибытие и старт команды",
+      "day1Items": [
+        "Утро: Прибытие, частный трансфер к проживанию, заселение и отдых.",
+        "17:00 – 19:00: Приветственная падель-сессия, знакомство с тренерами и группой, лёгкий коучинг и дружеские матчи.",
+        "19:30: Приветственный ужин и напитки, чтобы открыть поездку."
+      ],
+      "day2Title": "День 2: Игра, связь и исследование",
+      "day2Items": [
+        "08:00: Завтрак.",
+        "10:00 – 12:00: Групповой падель-коучинг, командные челленджи и дружеские матчи.",
+        "День: Общий опыт — например, частная лодка или винный тур.",
+        "Вечер: Ужин в тщательно выбранном локальном ресторане."
+      ],
+      "day3Title": "День 3: Командный турнир и местные впечатления",
+      "day3Items": [
+        "08:00: Завтрак.",
+        "10:00 – 12:00: Дружеский командный турнир или Americano.",
+        "День: Исследование города или свободное время вместе.",
+        "Вечер: Интерактивный кулинарный класс или гид по тапас."
+      ],
+      "day4Title": "День 4: Последний матч и отъезд",
+      "day4Items": [
+        "08:00: Завтрак.",
+        "10:00 – 11:30: Финальные социальные матчи, награждение и командное фото.",
+        "12:00: Прощальный обед перед частным трансфером в аэропорт.",
+        "День: Отъезд."
+      ],
+      "footerTitle": "Каждый маршрут Vibra полностью персонализирован и строится под цели, интересы и график вашей команды.",
+      "planTrip": "Запланировать поездку"
     },
     "readyTeam": {
       "titleLine1": "Готовы к",
@@ -35,98 +157,19 @@
       "titleLine2": "команде?",
       "description": "Корпоративные туры под результат и эмоции: готовые пакеты и тонкая настройка под цели, бюджет и стиль команды.",
       "planTrip": "Запланировать поездку"
-    },
-    "whyCompaniesChoose": {
-      "title": "Why Companies Choose Vibra",
-      "benefits": [
-        "Fully customised itineraries",
-        "Suitable for beginners to advanced players",
-        "Flexible budgets",
-        "Dedicated local support",
-        "Everything organised for you"
-      ]
-    },
-    "beyondCourt": {
-      "eyebrow": "Beyond the Court",
-      "title": "Create Shared Experiences",
-      "subtitle": "The best team moments often happen away from the court. Choose from a range of experiences designed to bring people together and create lasting memories.",
-      "categories": [
-        {
-          "title": "Food & Drink",
-          "items": [
-            "Interactive cooking classes",
-            "Tapas tours",
-            "Wine tastings",
-            "Private group dinners",
-            "Vineyard experiences"
-          ]
-        },
-        {
-          "title": "Team Adventures",
-          "items": [
-            "Private boat trips",
-            "Kayaking",
-            "Beach games",
-            "Hiking",
-            "Golf",
-            "Outdoor challenges"
-          ]
-        },
-        {
-          "title": "Culture & Entertainment",
-          "items": [
-            "Flamenco experiences",
-            "La Liga matchdays",
-            "Guided city tours",
-            "Local festivals",
-            "Authentic Spanish experiences"
-          ]
-        }
-      ],
-      "cta": "Explore Activities"
-    },
-    "schedule": {
-      "titleLine1": "Sample Corporate Itinerary",
-      "titleLine2": "",
-      "day1Title": "Day 1: Arrival & Team Kick-Off",
-      "day1Items": [
-        "AM: Arrival, private transfer to your accommodation, check in and relax.",
-        "17:00 – 19:00: Welcome Padel Session, meet the coaches, get to know the group, and enjoy a relaxed coaching session with friendly match play.",
-        "19:30: Welcome dinner and drinks to kick off the trip."
-      ],
-      "day2Title": "Day 2: Play, Connect & Explore",
-      "day2Items": [
-        "08:00: Breakfast.",
-        "10:00 – 12:00: Group padel coaching, team challenges, and friendly match play.",
-        "Afternoon: Shared team experience, such as a private boat trip or vineyard tour.",
-        "Evening: Dinner at a handpicked local restaurant."
-      ],
-      "day3Title": "Day 3: Team Tournament & Local Experiences",
-      "day3Items": [
-        "08:00: Breakfast.",
-        "10:00 – 12:00: Friendly team tournament or Americano competition.",
-        "Afternoon: Explore the city or enjoy some free time together.",
-        "Evening: Interactive cooking class or guided tapas tour."
-      ],
-      "day4Title": "Day 4: One Last Match & Departure",
-      "day4Items": [
-        "08:00: Breakfast.",
-        "10:00 – 11:30: Final social matches, prize presentation, and team photo.",
-        "12:00: Farewell lunch before your private transfer to the airport.",
-        "PM: Departure."
-      ],
-      "footerTitle": "Every Vibra itinerary is fully personalised and designed around your team's goals, interests, and schedule.",
-      "planTrip": "Plan your trip"
     }
   },
   "schools": {
     "presentation": {
-      "titleLine1": "Активно,",
-      "titleLine2": "познавательно,",
-      "titleLine3": "незабываемо",
-      "descBefore": "Вынесите учебу за пределы класса: индивидуальный тур в ",
-      "descBetween": " или ",
-      "descAfter": ". Падель, язык и культура, которые вдохновляют.",
+      "eyebrow": "Школы и молодёжные группы",
+      "title": "Активно, познавательно, незабываемо",
+      "heroAlt": "Ученики играют в падель",
+      "desc": "Вынесите учеников за пределы класса: индивидуальный тур по Испании. Падель, язык и культура — чтобы вдохновлять и сближать.",
+      "highlights": [
+        "Безопасно и с сопровождением",
+        "Падель, культура и язык",
+        "Полное сопровождение в Испании"
+      ],
       "planTrip": "Запланировать поездку",
       "imagineTrip": "Представить поездку"
     },
@@ -163,7 +206,7 @@
     "chooseActivities": {
       "titleBefore": "Выберите ",
       "titleAccent": "активности",
-      "subtitle": "Каждая школьная группа уникальна: собираем программу под цели и интересы.",
+      "subtitle": "Каждая школьная группа уникальна: собираем программу под цели и интересы. Смешивайте активности для идеального баланса спорта, культуры и веселья.",
       "note": "Вы решаете состав, мы соберём идеальный маршрут."
     },
     "schoolActivities": {
@@ -172,51 +215,53 @@
         {
           "id": 1,
           "title": "Падель",
-          "description": "Ежедневные занятия для всех уровней, фокус на игре и веселье; матчи и турниры с локальными игроками."
+          "description": "Ежедневные занятия для всех уровней. Сессии адаптируются под группу в игровой форме. Также можем организовать матчи и турниры с местными игроками."
         },
         {
           "id": 2,
           "title": "Другие виды спорта",
-          "description": "Теннис, футбол, гольф, плавание, хоккей и др.; игры с местными командами."
+          "description": "Падель — наша специализация, но мы также создаём программы по теннису, футболу, гольфу, плаванию, хоккею и др. Возможны матчи с местными командами."
         },
         {
           "id": 3,
           "title": "Активности на природе",
-          "description": "Вело, походы, каякинг и водные активности под уровень группы."
+          "description": "Вело, походы, каякинг и водные виды спорта — приключения под любой интерес и уровень."
         },
         {
           "id": 4,
           "title": "Испанский язык",
-          "description": "Интерактивные уроки для уверенной разговорной практики."
+          "description": "Интерактивные уроки для всех уровней: уверенность и беглость речи в динамичной поддерживающей среде."
         },
         {
           "id": 5,
           "title": "Кулинарные мастер-классы",
-          "description": "Тапас, паэля и десерты руками участников под руководством шефов."
+          "description": "Готовьте как местные! Тапас, паэлья и традиционные десерты с шефами. Попробуйте свои блюда в интерактивной атмосфере."
         },
         {
           "id": 6,
           "title": "Культура",
-          "description": "Пешие туры, фламенко в Севилье, танцевальные классы и тапас-маршруты."
+          "description": "Погружение в культуру Испании: пешие туры, фламенко в Севилье, танцевальные классы с живой музыкой и тапас-дегустации."
         },
         {
           "id": 7,
           "title": "Профессиональный спорт",
-          "description": "Стадионы и матчи топ-клубов, включая Barcelona FC и Sevilla FC."
+          "description": "Эксклюзивные туры по стадионам и живые матчи топ-клубов, включая Barcelona FC и Sevilla FC."
         },
         {
           "id": 8,
           "title": "Проживание и питание",
-          "description": "Комфортное размещение для студентов, полный или частичный пансион."
+          "description": "Комфортное размещение для студентов с гибким полным или частичным пансионом — без стресса и с удовольствием."
         }
       ]
     },
     "destinations": {
       "title": "Направления",
       "barcelonaTitle": "Барселона",
-      "barcelonaDesc": "Средиземноморская энергия, архитектура Гауди, пляжи и районы, где интересно молодёжи.",
+      "barcelonaDesc": "Яркий средиземноморский город, где современная энергия встречает культурные сокровища. От архитектуры Гауди до живых пляжей и районов, удобных для молодёжи — идеальный микс учёбы и веселья.",
       "sevilleTitle": "Севилья",
-      "sevilleDesc": "История и шарм: монументы, фламенко и культура тапас."
+      "sevilleDesc": "Город истории и шарма, идеальный для настоящей Испании. Исследуйте монументы, откройте страсть фламенко и вкус знаменитой культуры тапас.",
+      "valenciaTitle": "Валенсия",
+      "valenciaDesc": "Средиземноморское солнце, падель мирового уровня и одни из лучших впечатлений еды, пляжа и культуры Испании — всё в одном ярком городе."
     },
     "schedule": {
       "titleLine1": "Загляните, как может выглядеть ",
@@ -239,6 +284,30 @@
       "day5i1": "Завтрак и трансфер в аэропорт.",
       "footerTitle": "Всё можно изменить под ваш запрос!",
       "planTrip": "Запланировать поездку"
+    },
+    "testemonials": {
+      "eyebrow": "Школьные истории",
+      "title": "Что школы говорят о своих поездках",
+      "items": [
+        {
+          "quote": "Ученики полюбили сочетание паделя, уроков испанского и культурных визитов. Расписание было понятным, сопровождение отличным, и мы чувствовали поддержку на каждом шаге.",
+          "name": "Neil McManus",
+          "meta": "FE Education, поездка в Барселону",
+          "ratingLabel": "Пять из пяти звёзд"
+        },
+        {
+          "quote": "Vibra точно поняла, что нужно школам: безопасное проживание, вовлекающие активности и гибкость для разных уровней. Это была лучшая поездка года.",
+          "name": "Ronnie Reid",
+          "meta": "Координатор образования, Севилья",
+          "ratingLabel": "Пять из пяти звёзд"
+        },
+        {
+          "quote": "От трансферов из аэропорта до дружеского падель-турнира в последний день всё прошло гладко. Родители до сих пор слышат рассказы учеников месяцы спустя.",
+          "name": "Enzo Lampreda",
+          "meta": "Координатор профподготовки, Валенсия",
+          "ratingLabel": "Пять из пяти звёзд"
+        }
+      ]
     }
   }
 }

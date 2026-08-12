@@ -19,7 +19,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  gap: 10vw;
+  gap: clamp(20px, 3vw, 40px);
 }
 
 .destCard {
@@ -27,7 +27,9 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  width: 40vw;
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 360px;
   transition: all 0.3s ease;
 }
 
@@ -57,6 +59,18 @@
   padding: 12px;
 }
 
+@media (max-width: 1024px) {
+  .dtCards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .destCard {
+    flex: 1 1 280px;
+    max-width: 420px;
+  }
+}
+
 @media (max-width: 768px) {
   .dtCards {
     flex-direction: column;
@@ -66,6 +80,7 @@
 
   .destCard {
     width: 100%;
+    max-width: none;
   }
 
   .dtTitle {

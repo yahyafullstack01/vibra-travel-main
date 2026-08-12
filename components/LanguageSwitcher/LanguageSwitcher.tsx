@@ -1,13 +1,17 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { LOCALE_LABELS, LOCALES } from "@/lib/i18n/catalog";
+import { usePathname, useRouter } from "next/navigation";
+import { LOCALE_LABELS, LOCALES, type Locale } from "@/lib/i18n/catalog";
+import { stripLocaleFromPathname, withLocalePrefix } from "@/lib/i18n/path";
 import { IconGlobeOutline } from "@/components/icons/IconGlobeOutline";
 import { useLocale } from "@/components/LocaleProvider/LocaleProvider";
 import styles from "./LanguageSwitcher.module.css";
 
 export function LanguageSwitcher() {
   const { locale, setLocale, t } = useLocale();
+  const pathname = usePathname();
+  const router = useRouter();
   const [open, setOpen] = useState(false);
   const rootRef = useRef<HTMLDivElement>(null);
 
@@ -19,6 +23,18 @@ export function LanguageSwitcher() {
     document.addEventListener("mousedown", onDoc);
     return () => document.removeEventListener("mousedown", onDoc);
   }, [open]);
+
+  function switchLocale(code: Locale) {
+    const currentPath =
+      typeof window !== "undefined" ? window.location.pathname : pathname;
+    const barePath = stripLocaleFromPathname(currentPath);
+    const nextPath = withLocalePrefix(barePath, code);
+    setLocale(code);
+    setOpen(false);
+    if (nextPath !== currentPath) {
+      router.push(nextPath);
+    }
+  }
 
   return (
     <div className={styles.wrap} ref={rootRef}>
@@ -44,10 +60,7 @@ export function LanguageSwitcher() {
                 role="option"
                 aria-selected={code === locale}
                 className={`${styles.option} ${code === locale ? styles.optionActive : ""}`}
-                onClick={() => {
-                  setLocale(code);
-                  setOpen(false);
-                }}
+                onClick={() => switchLocale(code)}
               >
                 <span className={styles.optionLabel}>{LOCALE_LABELS[code]}</span>
                 <span className={styles.optionCode}>{code.toUpperCase()}</span>

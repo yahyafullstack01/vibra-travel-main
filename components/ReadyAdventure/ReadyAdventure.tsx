@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { LocalizedLink as Link } from "@/components/LocalizedLink/LocalizedLink";
 import { IconBallTR } from "@/components/icons/IconBallTR";
 import { IconBallTRDark } from "@/components/icons/IconBallTRDark";
 import { IconBallBL } from "@/components/icons/IconBallBL";

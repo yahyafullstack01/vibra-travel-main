@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { LocalizedLink as Link } from "@/components/LocalizedLink/LocalizedLink";
 import type { UpcomingTrip } from "@/lib/i18n/upcomingTrips";
 import { useLocale } from "@/components/LocaleProvider/LocaleProvider";
 import { WETRAVEL_PROFILE_URL } from "@/lib/wetravel";
@@ -53,6 +53,9 @@ export function UpcomingTrips() {
           <h2 className={`${styles.title} cooper-font`}>{section.title}</h2>
           {section.subtitle ? (
             <p className={styles.subtitle}>{section.subtitle}</p>
+          ) : null}
+          {"subtitleNote" in section && section.subtitleNote ? (
+            <p className={styles.subtitle}>{section.subtitleNote}</p>
           ) : null}
         </div>
 

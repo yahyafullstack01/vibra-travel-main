@@ -39,47 +39,69 @@
     "heroPlaceholderAlt": "Vista previa de la presentación",
     "videoLine1": "De la pista a la cultura",
     "videoLine2": "Una experiencia de pádel en España",
-    "subtitleBefore": "Vacaciones de pádel personalizadas en ",
-    "subtitleBetween": " y ",
-    "subtitleAfter": " que combinan tiempo de juego inolvidable con experiencias auténticas.",
+    "subtitle": "Vacaciones de pádel personalizadas en España, que combinan tiempo de juego inolvidable con experiencias españolas auténticas.",
     "planTrip": "Planifica tu viaje",
-    "featuredLabel": "Destacado en",
-    "featuredIntro": "Logos de ejemplo para la franja de confianza después del hero."
+    "featuredLabel": "Orgullosos de colaborar con",
+    "featuredIntro": ""
   },
   "homeAbout": {
     "eyebrow": "Sobre nosotros",
-    "title": "Creado por alguien que vive el pádel y la vida española",
-    "description": "Vibra Travel está dirigido por Charlie, que lleva más de una década viviendo en España. Los viajes combinan tiempo real en pista con comida local, ciudades, tradiciones y momentos sociales auténticos.",
+    "title": "Creado por quien vive el pádel y la vida española",
+    "description": "Vibra Travel está dirigido por Charlie, que lleva más de 12 años viviendo en España. Combinamos pádel excepcional con cultura española auténtica: buena comida, ciudades vibrantes, tradiciones locales y experiencias compartidas inolvidables.",
     "imageAlt": "Charlie de Vibra Travel"
+  },
+  "homeDestinations": {
+    "eyebrow": "A dónde vamos",
+    "title": "Destinos",
+    "subtitle": "Ciudades españolas seleccionadas para pádel, cultura y viajes de grupo inolvidables.",
+    "note": "Otros destinos en toda España disponibles bajo petición.",
+    "items": [
+      {
+        "id": "valencia",
+        "title": "Valencia",
+        "description": "Sol mediterráneo, pádel de primer nivel y una ciudad que mezcla energía de playa con cultura y una gastronomía increíble.",
+        "imageAlt": "Ciudad de las Artes y las Ciencias en Valencia"
+      },
+      {
+        "id": "sevilla",
+        "title": "Sevilla",
+        "description": "Encanto andaluz, calles históricas, cultura apasionada y pádel inolvidable en una de las ciudades más vibrantes de España.",
+        "imageAlt": "Plaza de España en Sevilla"
+      },
+      {
+        "id": "barcelona",
+        "title": "Barcelona",
+        "description": "Grandes clubs, monumentos de Gaudí, vida junto al mar y un ritmo urbano que hace especial cada viaje.",
+        "imageAlt": "Sagrada Família y paisaje urbano de Barcelona"
+      }
+    ]
   },
   "moreThanPadel": {
     "head1": "Más que pádel.",
-    "head2Before": "Es una ",
-    "head2Accent": "experiencia.",
-    "descBefore": "Del coaching a cultura local, nuestros viajes en ",
-    "descBetween": " y ",
-    "descAfter": " van más allá de la pista.",
+    "head2Before": "Es tu ",
+    "head2Accent": "experiencia española.",
+    "desc": "Desde programas de coaching a medida hasta experiencias culturales seleccionadas, nuestras vacaciones de pádel van mucho más allá de la pista.",
     "learnMore": "Saber más",
     "cards": [
       {
         "title": "Paraíso del pádel",
-        "desc": "Grandes pistas, entrenadores expertos y torneos con jugadores locales. ¡Todos los niveles!"
+        "desc": "Mejores clubs, coaching experto y partidos con jugadores locales. Todos los niveles son bienvenidos."
       },
       {
         "title": "España auténtica",
-        "desc": "Fuera de la pista: viñedos, festivales, rutas y noches de tapas."
+        "desc": "Vive la España real: rutas de tapas, visitas a viñedos, festivales locales y experiencias exclusivas de La Liga."
       },
       {
         "title": "A tu medida",
-        "desc": "Viajes diseñados para el nivel, los intereses y la dinámica de tu grupo."
+        "desc": "Cada viaje se diseña según el nivel de juego, los intereses y el estilo de viaje de tu grupo."
       },
       {
         "title": "Tu escenario ideal",
-        "desc": "Desde resorts de lujo y escapadas a la playa hasta escapadas urbanas boutique, elige la España que más te encaje."
+        "desc": "Desde resorts de lujo y escapadas a la playa hasta city breaks boutique, elige la España que más te encaje."
       },
       {
         "title": "Viaje sin estrés",
-        "desc": "Nosotros gestionamos la logística; tú entrenas, exploras y descansas."
+        "desc": "Nosotros nos ocupamos de alojamiento, pistas, actividades y traslados para que tú entrenes, explores y descanses."
       }
     ]
   },
@@ -93,26 +115,181 @@
     "title": "Tu viaje de pádel en pocos pasos",
     "subtitle": "Planificar tu aventura con Vibra Travel es sencillo. Así lo hacemos.",
     "step1Title": "Cuéntanos tu idea",
-    "step1Desc": "Ubicación, tamaño del grupo, fechas, objetivos y cultura que te interese. Cata de vinos, rutas o competición: lo adaptamos. ¡Más detalles, mejor viaje!",
+    "step1Desc": "Comparte ubicación preferida, tamaño del grupo, fechas, objetivos de pádel y las experiencias culturales que te interesan. Desde visitas a viñedos y noches de tapas hasta festivales y juego competitivo, adaptamos cada detalle. ¡Cuanto más compartas, mejor!",
     "step2Title": "Diseñamos el itinerario",
-    "step2Desc": "Un paquete totalmente personalizado según nivel e intereses: más pista, más cultura o equilibrio, con un plan fluido e inolvidable.",
+    "step2Desc": "Crearemos un paquete totalmente personalizado según las preferencias, niveles e intereses de tu grupo. Ya quieras más pista, más cultura o un equilibrio de ambos, diseñamos un plan fluido e inolvidable.",
     "step3Title": "Juega, explora, disfruta",
-    "step3Desc": "Con todo preparado, solo queda vivir el pádel y el encanto español. ¡Prepárate para Vibra!",
+    "step3Desc": "Con todo organizado, solo queda vivir el pádel y el encanto español. ¡Prepárate para un viaje Vibra inolvidable!",
     "startNow": "Empezar"
   },
   "readyAdventure": {
     "titleBefore": "¿Listos para una ",
     "titleAccent": "inolvidable",
     "titleAfter": " aventura de pádel?",
-    "description": "Creamos vacaciones de pádel que van más allá de lo habitual: pasión por el juego y conocimiento local para recuerdos que duran años.",
+    "description": "En Vibra Travel nos apasiona crear vacaciones de pádel que van más allá de lo habitual. Combinamos nuestra pasión por el juego con un profundo conocimiento local de España para ofrecerte experiencias de las que hablarás durante años.",
     "planTrip": "Planifica tu viaje"
+  },
+  "partnerPromos": {
+    "eyebrow": "Ventajas de partners",
+    "title": "Ofertas exclusivas para huéspedes Vibra",
+    "subtitle": "Usa estos códigos promocionales al pagar con nuestras marcas partners.",
+    "promoLabel": "Tu código promocional",
+    "copyCode": "Copiar",
+    "copied": "¡Copiado!",
+    "shopNow": "Comprar ahora",
+    "partners": {
+      "deite": {
+        "name": "Déité",
+        "description": "Zapatillas y ropa de pádel",
+        "promoCode": "VIBRA10"
+      },
+      "raquex": {
+        "name": "Raquex",
+        "description": "Palas y material de pádel",
+        "promoCode": "VIBRATRAVEL10"
+      },
+      "preserva": {
+        "name": "Preserva",
+        "description": "Presurizadores de bolas de pádel",
+        "promoCode": "VIBRA10"
+      }
+    }
+  },
+  "upcomingTrips": {
+    "eyebrow": "Reserva tu plaza",
+    "title": "Próximos viajes",
+    "subtitle": "Viajes de pádel con fechas fijas para personas, parejas y grupos pequeños. Reserva tu plaza directamente a través de WeTravel.",
+    "subtitleNote": "¿Quieres un viaje a medida para tu grupo? Contáctanos para una experiencia personalizada.",
+    "viewDetails": "Ver detalles",
+    "askQuestion": "Hacer una pregunta",
+    "depositLabel": "Depósito",
+    "dateFromLabel": "Del",
+    "dateToLabel": "al",
+    "viewAllTrips": "Ver todos los viajes en WeTravel →",
+    "trips": [
+      {
+        "title": "3 noches en Sevilla, septiembre",
+        "location": "Sevilla, España",
+        "dateFrom": "10 sep 2026",
+        "dateTo": "13 sep 2026",
+        "price": "",
+        "deposit": "",
+        "image": "/images/upcoming-trips/sevilla-september.png",
+        "imageAlt": "Pádel en Sevilla",
+        "href": "",
+        "sections": []
+      },
+      {
+        "title": "Retiro de pádel de lujo en Cataluña",
+        "location": "Reus, Cataluña, España",
+        "dateFrom": "16 sep 2026",
+        "dateTo": "20 sep 2026",
+        "price": "",
+        "deposit": "",
+        "image": "/images/upcoming-trips/reus-retreat.png",
+        "imageAlt": "Retiro de pádel de lujo en Reus",
+        "href": "",
+        "sections": []
+      },
+      {
+        "title": "3 noches en septiembre, Barcelona",
+        "location": "Barcelona, España",
+        "dateFrom": "24 sep 2026",
+        "dateTo": "27 sep 2026",
+        "price": "",
+        "deposit": "",
+        "image": "/PadelPics/private-groups.jpg",
+        "imageAlt": "Pádel en Barcelona",
+        "href": "",
+        "sections": []
+      },
+      {
+        "title": "Escapada de pádel a Sevilla de Tom y Arj",
+        "subtitle": "Escapada Padel Hub Sevilla",
+        "location": "Sevilla, España",
+        "dateFrom": "1 oct 2026",
+        "dateTo": "4 oct 2026",
+        "price": "",
+        "deposit": "",
+        "image": "/images/upcoming-trips/padel-hub-sevilla.png",
+        "imageAlt": "Íconico Padel Club en Sevilla",
+        "href": "",
+        "sections": []
+      }
+    ]
   },
   "testemonials": {
     "eyebrow": "Historias de viajeros",
     "title": "Testimonios",
     "intro": "Opiniones reales de viajeros que vinieron por el pádel, descubrieron España con gente local y se llevaron un viaje del que todavía hablan.",
     "cta": "Planifica tu viaje",
-    "heroAlt": "Viajeros de Vibra Travel descansando después de jugar al pádel",
-    "listLabel": "Testimonios de viajeros"
+    "photoSectionTitle": "Nuestros huéspedes en España",
+    "listLabel": "Testimonios de viajeros",
+    "items": [
+      {
+        "id": "monique",
+        "quote": "Fueron más allá en cada aspecto del viaje. Siempre estaban disponibles, comprobando que todo iba bien y que lo disfrutáramos. Todo estuvo perfectamente organizado y fue una experiencia increíble.",
+        "name": "Monique",
+        "meta": "Francia · Viaje a Valencia, mayo 2026",
+        "initials": "MO",
+        "ratingLabel": "Cinco de cinco estrellas",
+        "imageKey": "monique"
+      },
+      {
+        "id": "harry",
+        "quote": "Charlie, que organiza los viajes, es muy amable y organizado y, tras haber vivido en Sevilla 5 años, conoce la ciudad a fondo. El hotel es muy cómodo y está en pleno casco antiguo, a un minuto a pie de la Catedral. Cada mañana nos llevaban en taxi al club de pádel, a unos 15–20 minutos. El club tiene pistas indoor y outdoor y coaches amables que hablan buen inglés. También hay gimnasio y un bar agradable con comida y bebida. Es un sitio muy bien organizado, pero cercano, nada corporativo. Por la tarde puedes seguir jugando o pasear por Sevilla, igual que por la noche, cuando el casco antiguo está animado y muy agradable. Debe de ser una de las mejores ciudades de Europa. El viaje es una mezcla perfecta de deporte y cultura, y el tour de tapas del viernes es un punto álgido. Lo recomiendo sin dudarlo.",
+        "name": "Harry",
+        "meta": "Londres · Viaje a Sevilla, marzo 2026",
+        "initials": "HA",
+        "ratingLabel": "Cinco de cinco estrellas",
+        "imageKey": "harry"
+      },
+      {
+        "id": "stuart",
+        "quote": "Este viaje fue realmente fabuloso. Hotel limpio y céntrico cerca de la catedral. El martes por la noche tuvimos coaching en el club Iconico de Sevilla con un gran coach y luego salimos con Charlie a un fantástico restaurante de tapas. El miércoles más coaching, que me ha venido muy bien. Comimos en Iconico y volvimos a explorar la ciudad antes del tour de tapas por la noche. Charlie hizo todo lo posible por hacer la experiencia auténtica e informativa. El viernes jugamos con jugadores locales y fue lo mejor de mis vacaciones. Disfruté mucho jugando en esas pistas fabulosas. Recomiendo Vibra Travel y lo volvería a hacer. Gracias.",
+        "name": "Stuart",
+        "meta": "Sussex · Viaje a Sevilla, abril 2026",
+        "initials": "ST",
+        "ratingLabel": "Cinco de cinco estrellas",
+        "imageKey": "stuart"
+      },
+      {
+        "id": "stuart-followup",
+        "quote": "Desde que volví de España, mis compañeros de pádel dicen que he mejorado. Estoy muy agradecido, aprendí muchísimo.",
+        "name": "Stuart",
+        "meta": "Sussex · Viaje a Sevilla, abril 2026",
+        "initials": "ST",
+        "ratingLabel": "Cinco de cinco estrellas",
+        "variant": "highlight"
+      },
+      {
+        "id": "neil",
+        "quote": "Me encantó mi tiempo con Vibra Travel en Sevilla. El tour de tapas fue un verdadero destacado: gran comida e increíbles insights sobre la cultura de esta hermosa ciudad. El club de pádel es de los mejores que he visto, con coaching de alta calidad y un torneo final muy divertido y bien organizado. En conjunto, una gran experiencia.",
+        "name": "Neil Adebowale",
+        "meta": "Risk HQ · UK Padel Insurance Providers · Sevilla, enero 2026",
+        "initials": "NA",
+        "ratingLabel": "Cinco de cinco estrellas"
+      },
+      {
+        "id": "gabriel",
+        "quote": "Me encanta Sevilla, así que fue genial volver y vivir la ciudad en un viaje de pádel. Iconico es un club increíble, con un ambiente muy amable, y Sevilla sigue siendo una ciudad fantástica para explorar. Ver al Sevilla FC fue una experiencia fantástica y hizo el viaje aún más memorable.",
+        "name": "Gabriel",
+        "meta": "Reino Unido · Sevilla, febrero 2026",
+        "initials": "GA",
+        "ratingLabel": "Cinco de cinco estrellas"
+      },
+      {
+        "id": "robert",
+        "quote": "Fui al viaje con mi hijo y lo pasamos genial. El pádel fue fantástico, pero disfrutamos tanto de la comida y de explorar la zona. Los bares de tapas fueron un verdadero destacado, y el restaurante en el campo con vistas al parque nacional fue una experiencia increíble. Una gran mezcla de pádel, comida y vivir España.",
+        "name": "Robert Gold",
+        "meta": "Austin, EE. UU. · Barcelona, mayo 2026",
+        "initials": "RG",
+        "ratingLabel": "Cinco de cinco estrellas"
+      }
+    ],
+    "videoSectionTitle": "Escucha a nuestros huéspedes",
+    "videoSectionIntro": "Testimonios en vídeo reales de viajeros de Vibra Travel en España.",
+    "videoListLabel": "Testimonios en vídeo",
+    "videoCardLabel": "Historia de viajero"
   }
 }

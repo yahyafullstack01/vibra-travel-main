@@ -1,33 +1,155 @@
 {
+  "audienceIntro": {
+    "business": {
+      "eyebrow": "",
+      "title": "Pourquoi choisir une retraite padel ?",
+      "description": "",
+      "points": [
+        {
+          "title": "Team building",
+          "text": "Renforcez les liens grâce au coaching, à une compétition conviviale et à des expériences partagées."
+        },
+        {
+          "title": "Récompenser & motiver",
+          "text": "Offrez aux collaborateurs ou clients une expérience mémorable qu'ils apprécieront vraiment."
+        },
+        {
+          "title": "Zéro organisation",
+          "text": "Nous gérons tout : hébergement, transferts, padel et activités."
+        }
+      ]
+    },
+    "schools": {
+      "eyebrow": "Pour les écoles",
+      "title": "Des voyages actifs et sûrs dont les élèves se souviennent",
+      "description": "Voyages de groupe structurés pour écoles et groupes de jeunes, alliant padel, culture, langue et activités encadrées en Espagne.",
+      "points": [
+        {
+          "title": "Cadre sécurisé",
+          "text": "Horaires clairs, hébergement adapté et accompagnement sur place tout au long du séjour."
+        },
+        {
+          "title": "Apprentissage actif",
+          "text": "Sport, langue et moments culturels engagent les élèves au-delà de la salle de classe."
+        },
+        {
+          "title": "Programmes flexibles",
+          "text": "Équilibrez padel, excursions, cours, repas et temps libre selon vos besoins."
+        }
+      ]
+    }
+  },
   "corporate": {
     "presentation": {
-      "eyebrow": "Business Teams",
-      "title": "Team Padel Trips in Spain",
-      "heroAlt": "Corporate team on a padel court in Spain",
-      "desc": "Bring your team together through padel, authentic Spanish experiences, and effortless planning.",
+      "eyebrow": "Équipes entreprises",
+      "title": "Voyages padel d'équipe en Espagne",
+      "heroAlt": "Équipe corporate sur un court de padel en Espagne",
+      "desc": "Rassemblez votre équipe autour du padel, d'expériences espagnoles authentiques et d'une organisation sans effort.",
       "highlights": [
-        "Team building & incentives",
-        "Beginners to advanced",
-        "Fully hosted in Spain"
+        "Team building et incentives",
+        "Du débutant à l'avancé",
+        "Entièrement accompagné en Espagne"
       ],
-      "planTrip": "Plan your trip",
-      "imagineTrip": "Imagine your trip"
+      "planTrip": "Planifiez votre voyage",
+      "imagineTrip": "Imaginez votre voyage"
     },
     "forEveryTeam": {
-      "title": "Every Corporate Trip is Tailored",
-      "p1": "No two companies are the same.",
-      "p2": "Whether you're rewarding top performers, onboarding new employees or bringing remote teams together, we'll create an itinerary around your goals, budget and schedule.",
-      "inclusionsLabel": "Possible inclusions:",
+      "title": "Chaque voyage corporate est sur mesure",
+      "p1": "Aucune entreprise n'est identique.",
+      "p2": "Que vous récompensiez vos meilleurs talents, intégriez de nouveaux collaborateurs ou réunissiez des équipes à distance, nous créons un itinéraire autour de vos objectifs, de votre budget et de votre calendrier.",
+      "inclusionsLabel": "Inclusions possibles :",
       "inclusions": [
-        "Accommodation",
-        "Padel coaching & tournaments",
-        "Meeting spaces (if required)",
-        "Airport transfers",
-        "Restaurants & private dining",
-        "Cultural experiences",
-        "Wellness & recovery",
-        "Dedicated local host"
+        "Hébergement",
+        "Coaching padel & tournois",
+        "Espaces de réunion (si besoin)",
+        "Transferts aéroport",
+        "Restaurants & dîners privés",
+        "Expériences culturelles",
+        "Bien-être & récupération",
+        "Hôte local dédié"
       ]
+    },
+    "whyCompaniesChoose": {
+      "title": "Pourquoi les entreprises choisissent Vibra",
+      "benefits": [
+        "Itinéraires entièrement personnalisés",
+        "Adapté des débutants aux joueurs avancés",
+        "Budgets flexibles",
+        "Accompagnement local dédié",
+        "Tout organisé pour vous"
+      ]
+    },
+    "beyondCourt": {
+      "eyebrow": "Au-delà du court",
+      "title": "Créez des expériences partagées",
+      "subtitle": "Les meilleurs moments d'équipe se vivent souvent hors du court. Choisissez parmi des expériences conçues pour rapprocher les gens et créer des souvenirs durables.",
+      "categories": [
+        {
+          "title": "Gastronomie & boissons",
+          "items": [
+            "Cours de cuisine interactifs",
+            "Tours tapas",
+            "Dégustations de vin",
+            "Dîners privés de groupe",
+            "Expériences vignobles"
+          ]
+        },
+        {
+          "title": "Aventures d'équipe",
+          "items": [
+            "Sorties en bateau privées",
+            "Kayak",
+            "Jeux de plage",
+            "Randonnée",
+            "Golf",
+            "Défis en plein air"
+          ]
+        },
+        {
+          "title": "Culture & divertissement",
+          "items": [
+            "Expériences flamenco",
+            "Journées de match La Liga",
+            "Visites guidées de la ville",
+            "Festivals locaux",
+            "Expériences espagnoles authentiques"
+          ]
+        }
+      ],
+      "cta": "Explorer les activités"
+    },
+    "schedule": {
+      "titleLine1": "Exemple d'itinéraire corporate",
+      "titleLine2": "",
+      "day1Title": "Jour 1 : Arrivée & lancement d'équipe",
+      "day1Items": [
+        "Matin : Arrivée, transfert privé vers l'hébergement, check-in et détente.",
+        "17:00 – 19:00 : Session padel de bienvenue, rencontre des coaches, découverte du groupe et coaching détendu avec matchs amicaux.",
+        "19:30 : Dîner de bienvenue et boissons pour lancer le séjour."
+      ],
+      "day2Title": "Jour 2 : Jouer, connecter & explorer",
+      "day2Items": [
+        "08:00 : Petit-déjeuner.",
+        "10:00 – 12:00 : Coaching padel en groupe, défis d'équipe et matchs amicaux.",
+        "Après-midi : Expérience partagée, comme une sortie bateau privée ou une visite de vignoble.",
+        "Soirée : Dîner dans un restaurant local soigneusement choisi."
+      ],
+      "day3Title": "Jour 3 : Tournoi d'équipe & expériences locales",
+      "day3Items": [
+        "08:00 : Petit-déjeuner.",
+        "10:00 – 12:00 : Tournoi d'équipe amical ou compétition Americano.",
+        "Après-midi : Exploration de la ville ou temps libre ensemble.",
+        "Soirée : Cours de cuisine interactif ou tour tapas guidé."
+      ],
+      "day4Title": "Jour 4 : Dernier match & départ",
+      "day4Items": [
+        "08:00 : Petit-déjeuner.",
+        "10:00 – 11:30 : Derniers matchs sociaux, remise des prix et photo d'équipe.",
+        "12:00 : Déjeuner d'au revoir avant le transfert privé vers l'aéroport.",
+        "Après-midi : Départ."
+      ],
+      "footerTitle": "Chaque itinéraire Vibra est entièrement personnalisé et conçu selon les objectifs, intérêts et planning de votre équipe.",
+      "planTrip": "Planifiez votre voyage"
     },
     "readyTeam": {
       "titleLine1": "Prêts à bâtir une",
@@ -35,98 +157,19 @@
       "titleLine2": " ?",
       "description": "Nos séjours team building allient résultats et souvenirs ; nous adaptons chaque détail aux objectifs, au budget et au style d’équipe.",
       "planTrip": "Planifiez votre voyage"
-    },
-    "whyCompaniesChoose": {
-      "title": "Why Companies Choose Vibra",
-      "benefits": [
-        "Fully customised itineraries",
-        "Suitable for beginners to advanced players",
-        "Flexible budgets",
-        "Dedicated local support",
-        "Everything organised for you"
-      ]
-    },
-    "beyondCourt": {
-      "eyebrow": "Beyond the Court",
-      "title": "Create Shared Experiences",
-      "subtitle": "The best team moments often happen away from the court. Choose from a range of experiences designed to bring people together and create lasting memories.",
-      "categories": [
-        {
-          "title": "Food & Drink",
-          "items": [
-            "Interactive cooking classes",
-            "Tapas tours",
-            "Wine tastings",
-            "Private group dinners",
-            "Vineyard experiences"
-          ]
-        },
-        {
-          "title": "Team Adventures",
-          "items": [
-            "Private boat trips",
-            "Kayaking",
-            "Beach games",
-            "Hiking",
-            "Golf",
-            "Outdoor challenges"
-          ]
-        },
-        {
-          "title": "Culture & Entertainment",
-          "items": [
-            "Flamenco experiences",
-            "La Liga matchdays",
-            "Guided city tours",
-            "Local festivals",
-            "Authentic Spanish experiences"
-          ]
-        }
-      ],
-      "cta": "Explore Activities"
-    },
-    "schedule": {
-      "titleLine1": "Sample Corporate Itinerary",
-      "titleLine2": "",
-      "day1Title": "Day 1: Arrival & Team Kick-Off",
-      "day1Items": [
-        "AM: Arrival, private transfer to your accommodation, check in and relax.",
-        "17:00 – 19:00: Welcome Padel Session, meet the coaches, get to know the group, and enjoy a relaxed coaching session with friendly match play.",
-        "19:30: Welcome dinner and drinks to kick off the trip."
-      ],
-      "day2Title": "Day 2: Play, Connect & Explore",
-      "day2Items": [
-        "08:00: Breakfast.",
-        "10:00 – 12:00: Group padel coaching, team challenges, and friendly match play.",
-        "Afternoon: Shared team experience, such as a private boat trip or vineyard tour.",
-        "Evening: Dinner at a handpicked local restaurant."
-      ],
-      "day3Title": "Day 3: Team Tournament & Local Experiences",
-      "day3Items": [
-        "08:00: Breakfast.",
-        "10:00 – 12:00: Friendly team tournament or Americano competition.",
-        "Afternoon: Explore the city or enjoy some free time together.",
-        "Evening: Interactive cooking class or guided tapas tour."
-      ],
-      "day4Title": "Day 4: One Last Match & Departure",
-      "day4Items": [
-        "08:00: Breakfast.",
-        "10:00 – 11:30: Final social matches, prize presentation, and team photo.",
-        "12:00: Farewell lunch before your private transfer to the airport.",
-        "PM: Departure."
-      ],
-      "footerTitle": "Every Vibra itinerary is fully personalised and designed around your team's goals, interests, and schedule.",
-      "planTrip": "Plan your trip"
     }
   },
   "schools": {
     "presentation": {
-      "titleLine1": "Actif,",
-      "titleLine2": "éducatif,",
-      "titleLine3": "inoubliable",
-      "descBefore": "Sortez les élèves du cadre avec un voyage sur mesure à ",
-      "descBetween": " ou ",
-      "descAfter": ". Padel, langue et culture pour inspirer et créer du lien.",
+      "eyebrow": "Écoles & groupes de jeunes",
+      "title": "Actif, éducatif, inoubliable",
+      "heroAlt": "Élèves jouant au padel",
+      "desc": "Sortez vos élèves de la salle de classe avec un voyage sur mesure en Espagne. Padel, langue et expériences culturelles conçus pour inspirer et créer du lien.",
+      "highlights": [
+        "Sûr & encadré",
+        "Padel, culture & langue",
+        "Entièrement accompagnés en Espagne"
+      ],
       "planTrip": "Planifiez votre voyage",
       "imagineTrip": "Imaginez votre voyage"
     },
@@ -163,7 +206,7 @@
     "chooseActivities": {
       "titleBefore": "Choisissez vos ",
       "titleAccent": "activités",
-      "subtitle": "Chaque groupe scolaire est unique : nous concevons le voyage selon vos objectifs.",
+      "subtitle": "Chaque groupe scolaire est unique : nous concevons le voyage selon vos objectifs et intérêts. Mélangez nos activités pour le parfait équilibre sport, culture et plaisir.",
       "note": "Vous choisissez le contenu, nous bâtissons l’itinéraire idéal."
     },
     "schoolActivities": {
@@ -172,51 +215,53 @@
         {
           "id": 1,
           "title": "Padel",
-          "description": "Cours quotidiens tous niveaux ; matchs et tournois avec des locaux."
+          "description": "Cours quotidiens tous niveaux. Les séances s'adaptent aux besoins du groupe, de façon ludique et engageante. Nous pouvons aussi organiser matchs et tournois avec des joueurs locaux."
         },
         {
           "id": 2,
           "title": "Autres sports",
-          "description": "Tennis, football, golf, natation, hockey et plus ; matchs contre équipes locales."
+          "description": "Le padel est notre spécialité, mais nous créons aussi des programmes sur mesure en tennis, football, golf, natation, hockey et plus. Matchs contre équipes locales possibles."
         },
         {
           "id": 3,
           "title": "Activités plein air",
-          "description": "Vélo, randonnée, kayak et sports nautiques selon le groupe."
+          "description": "Vélo, randonnée, kayak et sports nautiques : des aventures pour tous les niveaux et intérêts."
         },
         {
           "id": 4,
           "title": "Cours d’espagnol",
-          "description": "Cours interactifs pour gagner en fluidité orale."
+          "description": "Cours interactifs tous niveaux pour gagner en confiance et fluidité orale dans un cadre dynamique et bienveillant."
         },
         {
           "id": 5,
           "title": "Ateliers cuisine espagnole",
-          "description": "Tapas, paella et desserts avec des chefs."
+          "description": "Cuisinez comme un local ! Tapas, paella et desserts traditionnels avec des chefs experts. Goûtez vos créations dans une ambiance interactive."
         },
         {
           "id": 6,
           "title": "Expériences culturelles",
-          "description": "Visites guidées, flamenco à Séville, cours de danse et tapas."
+          "description": "Plongez dans la culture espagnole : visites guidées, flamenco à Séville, cours de danse avec orchestre live et tours de dégustation de tapas."
         },
         {
           "id": 7,
           "title": "Sport pro local",
-          "description": "Stades et matchs avec de grands clubs dont Barcelona FC et Sevilla FC."
+          "description": "Visites exclusives de stades et matchs en live avec de grands clubs locaux, dont Barcelona FC et Sevilla FC."
         },
         {
           "id": 8,
           "title": "Hébergement & repas",
-          "description": "Hébergement confortable pour étudiants, pension complète ou demi-pension."
+          "description": "Hébergement confortable pour étudiants, pension complète ou demi-pension, pour un séjour serein et agréable."
         }
       ]
     },
     "destinations": {
       "title": "Destinations",
       "barcelonaTitle": "Barcelone",
-      "barcelonaDesc": "Énergie méditerranéenne, architecture de Gaudí, plages et quartiers adaptés aux jeunes.",
+      "barcelonaDesc": "Une ville méditerranéenne vibrante où l'énergie moderne rencontre les trésors culturels. De l'architecture de Gaudí aux plages animées et quartiers adaptés aux jeunes, Barcelone offre le parfait mélange d'apprentissage et de plaisir.",
       "sevilleTitle": "Séville",
-      "sevilleDesc": "Histoire et charme : monuments, flamenco et culture des tapas."
+      "sevilleDesc": "Une ville pleine d'histoire et de charme, idéale pour vivre l'Espagne authentique. Explorez ses monuments, découvrez la passion du flamenco et goûtez à la fameuse culture des tapas.",
+      "valenciaTitle": "Valence",
+      "valenciaDesc": "Soleil méditerranéen, padel de haut niveau et parmi les meilleures expériences gastronomiques, de plage et de culture d'Espagne, le tout dans une ville vibrante."
     },
     "schedule": {
       "titleLine1": "Un aperçu de ce que pourrait être ",
@@ -239,6 +284,30 @@
       "day5i1": "Petit-déjeuner et transfert aéroport.",
       "footerTitle": "Tout est personnalisable !",
       "planTrip": "Planifiez votre voyage"
+    },
+    "testemonials": {
+      "eyebrow": "Histoires d'écoles",
+      "title": "Ce que disent les écoles de leurs voyages",
+      "items": [
+        {
+          "quote": "Nos élèves ont adoré le mélange de padel, de cours d'espagnol et de visites culturelles. Le planning était clair, l'encadrement excellent, et nous nous sommes sentis accompagnés à chaque étape.",
+          "name": "Neil McManus",
+          "meta": "FE Education, voyage à Barcelone",
+          "ratingLabel": "Cinq étoiles sur cinq"
+        },
+        {
+          "quote": "Vibra a parfaitement compris les besoins des écoles : hébergement sûr, activités engageantes et flexibilité selon les niveaux. Ce fut le voyage phare de l'année.",
+          "name": "Ronnie Reid",
+          "meta": "Coordinateur pédagogique, Séville",
+          "ratingLabel": "Cinq étoiles sur cinq"
+        },
+        {
+          "quote": "Des transferts aéroport au tournoi padel amical du dernier jour, tout s'est déroulé sans accroc. Les parents entendent encore les récits de nos élèves des mois plus tard.",
+          "name": "Enzo Lampreda",
+          "meta": "Coordinateur de formation professionnelle, Valence",
+          "ratingLabel": "Cinq étoiles sur cinq"
+        }
+      ]
     }
   }
 }

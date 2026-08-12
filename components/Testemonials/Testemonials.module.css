@@ -98,6 +98,10 @@
   order: 1;
 }
 
+.storyRowQuoteOnly {
+  grid-template-columns: 1fr;
+}
+
 .photoWrap {
   border-radius: 16px;
   overflow: hidden;

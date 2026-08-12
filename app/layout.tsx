@@ -34,7 +34,7 @@ export default function RootLayout({
       </head>
       <body>
         <Script id="vibra-theme-locale-init" strategy="beforeInteractive">
-          {`(function(){try{var t=localStorage.getItem('vibra-theme');if(t==='dark')document.documentElement.setAttribute('data-theme','dark');var k='vibra-locale',vk='vibra-locale-default',vv='en-v1';var L=localStorage.getItem(k);if(localStorage.getItem(vk)!==vv){L='en';localStorage.setItem(k,L);localStorage.setItem(vk,vv);}var loc=(L==='ru'||L==='ar'||L==='es'||L==='fr'||L==='en')?L:'en';document.documentElement.setAttribute('lang',loc);document.documentElement.setAttribute('dir',loc==='ar'?'rtl':'ltr');}catch(e){}})();`}
+          {`(function(){try{var t=localStorage.getItem('vibra-theme');if(t==='dark')document.documentElement.setAttribute('data-theme','dark');var seg=location.pathname.split('/').filter(Boolean)[0];var loc=(seg==='es'||seg==='fr'||seg==='ru'||seg==='ar')?seg:(localStorage.getItem('vibra-locale')||'en');if(!(loc==='ru'||loc==='ar'||loc==='es'||loc==='fr'||loc==='en'))loc='en';localStorage.setItem('vibra-locale',loc);document.documentElement.setAttribute('lang',loc);document.documentElement.setAttribute('dir',loc==='ar'?'rtl':'ltr');}catch(e){}})();`}
         </Script>
         <ThemeProvider>
           <LocaleProvider>

@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { LocalizedLink as Link } from "@/components/LocalizedLink/LocalizedLink";
 import { media } from "@/lib/media";
 import { useLocale } from "@/components/LocaleProvider/LocaleProvider";
 import styles from "./HomeAbout.module.css";

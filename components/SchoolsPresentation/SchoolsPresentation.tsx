@@ -1,9 +1,10 @@
 "use client";
 
-import Link from "next/link";
+import { LocalizedLink as Link } from "@/components/LocalizedLink/LocalizedLink";
 import { useRouter } from "next/navigation";
 import { media } from "@/lib/media";
 import { useLocale } from "@/components/LocaleProvider/LocaleProvider";
+import { withLocalePrefix } from "@/lib/i18n/path";
 import styles from "./SchoolsPresentation.module.css";
 
 type SchoolsPresentationCopy = {
@@ -29,7 +30,7 @@ function getTitle(p: SchoolsPresentationCopy) {
 
 export function SchoolsPresentation() {
   const router = useRouter();
-  const { messages } = useLocale();
+  const { messages, locale } = useLocale();
   const p = messages.schools.presentation as SchoolsPresentationCopy;
   const eyebrow = p.eyebrow ?? messages.audienceIntro.schools.eyebrow;
 
@@ -40,7 +41,7 @@ export function SchoolsPresentation() {
       timetable.scrollIntoView({ behavior: "smooth" });
       return;
     }
-    router.push("/schools#timetable");
+    router.push(withLocalePrefix("/schools#timetable", locale));
   }
 
   return (

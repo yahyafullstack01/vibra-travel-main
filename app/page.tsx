@@ -16,9 +16,9 @@ export default function HomePage() {
       <HomePresentation />
       <FeaturedOn />
       <MoreThanPadel />
+      <UpcomingTrips />
       <HomeAbout />
       <HomeDestinations />
-      <UpcomingTrips />
       <PartnerPromos />
       <TestemonialsPreview />
       <Images />

@@ -37,17 +37,9 @@ export function ContactForm() {
       <div className={styles.content}>
         <div className={styles.formPanel}>
           <div className={styles.formHeader}>
-            <p className={styles.formEyebrow}>
-              {"formEyebrow" in f ? f.formEyebrow : "Contact form"}
-            </p>
-            <h2 className={`${styles.formTitle} cooper-font`}>
-              {"formTitle" in f ? f.formTitle : "Send us a message"}
-            </h2>
-            <p className={styles.formIntro}>
-              {"formIntro" in f
-                ? f.formIntro
-                : "Share your dates, group size and what you are looking for."}
-            </p>
+            <p className={styles.formEyebrow}>{f.formEyebrow}</p>
+            <h2 className={`${styles.formTitle} cooper-font`}>{f.formTitle}</h2>
+            <p className={styles.formIntro}>{f.formIntro}</p>
           </div>
 
           <form className={styles.form} onSubmit={submitEmail}>

@@ -6,7 +6,6 @@ import styles from "../ExperienceGrid/ExperienceGrid.module.css";
 
 const relaxLayout: Record<number, { image: string; doubleWidth: boolean }> = {
   1: { image: media.photos.yoga, doubleWidth: false },
-  2: { image: media.photos.pilates, doubleWidth: false },
   3: { image: media.photos.massage, doubleWidth: true },
 };
 

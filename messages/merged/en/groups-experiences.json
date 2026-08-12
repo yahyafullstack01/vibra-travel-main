@@ -10,6 +10,7 @@
     },
     "overview": {
       "whyTravel": {
+        "eyebrow": "Why Vibra",
         "title": "Why Travel with Vibra?",
         "intro": "More than a padel trip, we create unforgettable group experiences that combine top-level padel coaching with authentic Spain.",
         "benefits": [
@@ -32,6 +33,7 @@
         ]
       },
       "whatsIncluded": {
+        "eyebrow": "Included",
         "title": "What's Included?",
         "intro": "Every itinerary is different, but your trip can include:",
         "categories": [
@@ -76,6 +78,7 @@
         ]
       },
       "designedAround": {
+        "eyebrow": "Your trip",
         "title": "Designed Around Your Group",
         "description": "Every Vibra itinerary is unique. Blend exceptional padel with authentic Spanish experiences to create the perfect balance of sport, culture, relaxation, and adventure.",
         "cta": "Explore Activities and Locations"
@@ -132,7 +135,7 @@
       },
       {
         "id": 6,
-        "title": "Flamenco Show (Sevilla Only)",
+        "title": "Flamenco Show",
         "description": "Experience the power and passion of live flamenco in an intimate setting, an unforgettable cultural experience unique to Andalucia."
       },
       {
@@ -165,11 +168,6 @@
         "id": 1,
         "title": "Sunrise or Sunset Yoga",
         "description": "Outdoor yoga sessions in serene settings, ideal for stretching out and resetting your body post-padel."
-      },
-      {
-        "id": 2,
-        "title": "Sunrise or Sunset Pilates",
-        "description": "Guided pilates in the open air to strengthen, stretch, and reconnect with your breath."
       },
       {
         "id": 3,

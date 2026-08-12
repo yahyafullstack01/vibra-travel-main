@@ -1,22 +1,23 @@
 "use client";
 
-import Link from "next/link";
+import { LocalizedLink as Link } from "@/components/LocalizedLink/LocalizedLink";
 import { usePathname, useRouter } from "next/navigation";
 import { useLocale } from "@/components/LocaleProvider/LocaleProvider";
+import { pathWithoutLocaleEquals, withLocalePrefix } from "@/lib/i18n/path";
 import styles from "./GroupsPresentation.module.css";
 
 export function GroupsPresentation() {
   const pathname = usePathname();
   const router = useRouter();
-  const { messages } = useLocale();
+  const { messages, locale } = useLocale();
   const p = messages.groups.presentation;
 
   function scrollToTimetable(e: React.MouseEvent) {
     e.preventDefault();
-    if (pathname === "/groups") {
+    if (pathWithoutLocaleEquals(pathname, "/groups")) {
       document.getElementById("timetable")?.scrollIntoView({ behavior: "smooth" });
     } else {
-      router.push("/groups#timetable");
+      router.push(withLocalePrefix("/groups#timetable", locale));
     }
   }
 

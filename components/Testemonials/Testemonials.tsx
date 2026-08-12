@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { LocalizedLink as Link } from "@/components/LocalizedLink/LocalizedLink";
 import { media } from "@/lib/media";
 import {
   getHighlightTestimonialItems,
@@ -38,11 +38,14 @@ export function Testemonials() {
           {storyItems.map((item, index) => {
             const imageKey = item.imageKey as TestimonialPhotoKey | undefined;
             const imageSrc = imageKey ? media.testimonials[imageKey] : null;
+            const hasPhoto = Boolean(imageSrc);
 
             return (
               <article
                 key={item.id}
-                className={`${styles.storyRow} ${index % 2 === 1 ? styles.storyRowReverse : ""}`}
+                className={`${styles.storyRow} ${
+                  hasPhoto && index % 2 === 1 ? styles.storyRowReverse : ""
+                } ${hasPhoto ? "" : styles.storyRowQuoteOnly}`}
               >
                 {imageSrc ? (
                   <div className={styles.photoWrap}>

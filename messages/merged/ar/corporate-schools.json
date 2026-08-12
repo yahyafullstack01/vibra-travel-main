@@ -1,33 +1,155 @@
 {
+  "audienceIntro": {
+    "business": {
+      "eyebrow": "",
+      "title": "لماذا تختارون ملاذ بادل؟",
+      "description": "",
+      "points": [
+        {
+          "title": "بناء الفريق",
+          "text": "ابنوا علاقات أقوى عبر التدريب والمنافسة الودية والتجارب المشتركة."
+        },
+        {
+          "title": "مكافأة وتحفيز",
+          "text": "امنحوا الموظفين أو العملاء تجربة لا تُنسى يستمتعون بها حقاً."
+        },
+        {
+          "title": "صفر تخطيط",
+          "text": "ننظم كل شيء: الإقامة والنقل والبادل والأنشطة."
+        }
+      ]
+    },
+    "schools": {
+      "eyebrow": "للمدارس",
+      "title": "رحلات آمنة ونشيطة يتذكرها الطلاب",
+      "description": "سفر جماعي منظم للمدارس ومجموعات الشباب يجمع البادل والثقافة واللغة وأنشطة بإشراف في إسبانيا.",
+      "points": [
+        {
+          "title": "هيكل آمن",
+          "text": "جداول واضحة وإقامة مناسبة ودعم مضيف طوال الرحلة."
+        },
+        {
+          "title": "تعلم نشط",
+          "text": "الرياضة واللغة واللحظات الثقافية تبقي الطلاب منخرطين خارج الصف."
+        },
+        {
+          "title": "برامج مرنة",
+          "text": "اختاروا التوازن المناسب بين البادل والرحلات والدروس والوجبات والوقت الحر."
+        }
+      ]
+    }
+  },
   "corporate": {
     "presentation": {
-      "eyebrow": "Business Teams",
-      "title": "Team Padel Trips in Spain",
-      "heroAlt": "Corporate team on a padel court in Spain",
-      "desc": "Bring your team together through padel, authentic Spanish experiences, and effortless planning.",
+      "eyebrow": "فرق الأعمال",
+      "title": "رحلات بادل للفرق في إسبانيا",
+      "heroAlt": "فريق شركات على ملعب بادل في إسبانيا",
+      "desc": "اجمعوا فريقكم حول البادل وتجارب إسبانية أصيلة وتنظيم بلا عناء.",
       "highlights": [
-        "Team building & incentives",
-        "Beginners to advanced",
-        "Fully hosted in Spain"
+        "بناء فريق وحوافز",
+        "من المبتدئين إلى المتقدمين",
+        "استضافة كاملة في إسبانيا"
       ],
-      "planTrip": "Plan your trip",
-      "imagineTrip": "Imagine your trip"
+      "planTrip": "خطط رحلتك",
+      "imagineTrip": "تخيّل رحلتك"
     },
     "forEveryTeam": {
-      "title": "Every Corporate Trip is Tailored",
-      "p1": "No two companies are the same.",
-      "p2": "Whether you're rewarding top performers, onboarding new employees or bringing remote teams together, we'll create an itinerary around your goals, budget and schedule.",
-      "inclusionsLabel": "Possible inclusions:",
+      "title": "كل رحلة شركات مصممة خصيصاً",
+      "p1": "لا شركتان متشابهتان.",
+      "p2": "سواء كنت تكافئ أفضل الأداء أو تدمج موظفين جدداً أو تجمع فرقاً عن بُعد، نبني برنامجاً حول أهدافكم وميزانيتكم وجدولكم.",
+      "inclusionsLabel": "ما يمكن تضمينه:",
       "inclusions": [
-        "Accommodation",
-        "Padel coaching & tournaments",
-        "Meeting spaces (if required)",
-        "Airport transfers",
-        "Restaurants & private dining",
-        "Cultural experiences",
-        "Wellness & recovery",
-        "Dedicated local host"
+        "الإقامة",
+        "تدريب بادل وبطولات",
+        "مساحات اجتماعات (عند الحاجة)",
+        "نقل من المطار",
+        "مطاعم وعشاء خاص",
+        "تجارب ثقافية",
+        "عافية واستشفاء",
+        "مضيف محلي مخصص"
       ]
+    },
+    "whyCompaniesChoose": {
+      "title": "لماذا تختار الشركات فيبرا",
+      "benefits": [
+        "برامج مخصصة بالكامل",
+        "مناسبة من المبتدئين إلى المتقدمين",
+        "ميزانيات مرنة",
+        "دعم محلي مخصص",
+        "كل شيء منظم لكم"
+      ]
+    },
+    "beyondCourt": {
+      "eyebrow": "ما بعد الملعب",
+      "title": "اصنعوا تجارب مشتركة",
+      "subtitle": "أفضل لحظات الفريق غالباً تحدث بعيداً عن الملعب. اختاروا من تجارب مصممة لتقريب الناس وخلق ذكريات دائمة.",
+      "categories": [
+        {
+          "title": "طعام وشراب",
+          "items": [
+            "ورش طبخ تفاعلية",
+            "جولات تاباس",
+            "تذوق نبيذ",
+            "عشاءات جماعية خاصة",
+            "تجارب كروم"
+          ]
+        },
+        {
+          "title": "مغامرات الفريق",
+          "items": [
+            "رحلات قارب خاصة",
+            "كاياك",
+            "ألعاب شاطئ",
+            "مشي في الطبيعة",
+            "غولف",
+            "تحديات في الهواء الطلق"
+          ]
+        },
+        {
+          "title": "ثقافة وترفيه",
+          "items": [
+            "تجارب فلامنكو",
+            "أيام مباريات الليغا",
+            "جولات مدينة بإرشاد",
+            "مهرجانات محلية",
+            "تجارب إسبانية أصيلة"
+          ]
+        }
+      ],
+      "cta": "استكشفوا الأنشطة"
+    },
+    "schedule": {
+      "titleLine1": "نموذج برنامج شركات",
+      "titleLine2": "",
+      "day1Title": "اليوم 1: الوصول وانطلاقة الفريق",
+      "day1Items": [
+        "صباحاً: الوصول، نقل خاص إلى الإقامة، تسجيل الدخول والاسترخاء.",
+        "17:00 – 19:00: جلسة بادل ترحيبية، لقاء المدربين والتعارف، وتدريب مريح مع مباريات ودية.",
+        "19:30: عشاء ترحيبي ومشروبات لافتتاح الرحلة."
+      ],
+      "day2Title": "اليوم 2: لعب وتواصل واستكشاف",
+      "day2Items": [
+        "08:00: الإفطار.",
+        "10:00 – 12:00: تدريب بادل جماعي وتحديات فريق ومباريات ودية.",
+        "بعد الظهر: تجربة مشتركة مثل رحلة قارب خاصة أو جولة كروم.",
+        "المساء: عشاء في مطعم محلي مختار بعناية."
+      ],
+      "day3Title": "اليوم 3: بطولة فريق وتجارب محلية",
+      "day3Items": [
+        "08:00: الإفطار.",
+        "10:00 – 12:00: بطولة فريق ودية أو منافسة Americano.",
+        "بعد الظهر: استكشاف المدينة أو وقت حر معاً.",
+        "المساء: ورشة طبخ تفاعلية أو جولة تاباس بإرشاد."
+      ],
+      "day4Title": "اليوم 4: مباراة أخيرة والمغادرة",
+      "day4Items": [
+        "08:00: الإفطار.",
+        "10:00 – 11:30: مباريات اجتماعية أخيرة وتقديم جوائز وصورة الفريق.",
+        "12:00: غداء وداع قبل النقل الخاص إلى المطار.",
+        "بعد الظهر: المغادرة."
+      ],
+      "footerTitle": "كل برنامج فيبرا مخصص بالكامل ومصمم حول أهداف فريقكم واهتماماته وجدولكم.",
+      "planTrip": "خطط رحلتك"
     },
     "readyTeam": {
       "titleLine1": "مستعدون لبناء",
@@ -35,98 +157,19 @@
       "titleLine2": "؟",
       "description": "رحلاتنا للشركات تجمع بين النتائج والذكريات، ونضبط التفاصيل حسب الأهداف والميزانية.",
       "planTrip": "خطط رحلتك"
-    },
-    "whyCompaniesChoose": {
-      "title": "Why Companies Choose Vibra",
-      "benefits": [
-        "Fully customised itineraries",
-        "Suitable for beginners to advanced players",
-        "Flexible budgets",
-        "Dedicated local support",
-        "Everything organised for you"
-      ]
-    },
-    "beyondCourt": {
-      "eyebrow": "Beyond the Court",
-      "title": "Create Shared Experiences",
-      "subtitle": "The best team moments often happen away from the court. Choose from a range of experiences designed to bring people together and create lasting memories.",
-      "categories": [
-        {
-          "title": "Food & Drink",
-          "items": [
-            "Interactive cooking classes",
-            "Tapas tours",
-            "Wine tastings",
-            "Private group dinners",
-            "Vineyard experiences"
-          ]
-        },
-        {
-          "title": "Team Adventures",
-          "items": [
-            "Private boat trips",
-            "Kayaking",
-            "Beach games",
-            "Hiking",
-            "Golf",
-            "Outdoor challenges"
-          ]
-        },
-        {
-          "title": "Culture & Entertainment",
-          "items": [
-            "Flamenco experiences",
-            "La Liga matchdays",
-            "Guided city tours",
-            "Local festivals",
-            "Authentic Spanish experiences"
-          ]
-        }
-      ],
-      "cta": "Explore Activities"
-    },
-    "schedule": {
-      "titleLine1": "Sample Corporate Itinerary",
-      "titleLine2": "",
-      "day1Title": "Day 1: Arrival & Team Kick-Off",
-      "day1Items": [
-        "AM: Arrival, private transfer to your accommodation, check in and relax.",
-        "17:00 – 19:00: Welcome Padel Session, meet the coaches, get to know the group, and enjoy a relaxed coaching session with friendly match play.",
-        "19:30: Welcome dinner and drinks to kick off the trip."
-      ],
-      "day2Title": "Day 2: Play, Connect & Explore",
-      "day2Items": [
-        "08:00: Breakfast.",
-        "10:00 – 12:00: Group padel coaching, team challenges, and friendly match play.",
-        "Afternoon: Shared team experience, such as a private boat trip or vineyard tour.",
-        "Evening: Dinner at a handpicked local restaurant."
-      ],
-      "day3Title": "Day 3: Team Tournament & Local Experiences",
-      "day3Items": [
-        "08:00: Breakfast.",
-        "10:00 – 12:00: Friendly team tournament or Americano competition.",
-        "Afternoon: Explore the city or enjoy some free time together.",
-        "Evening: Interactive cooking class or guided tapas tour."
-      ],
-      "day4Title": "Day 4: One Last Match & Departure",
-      "day4Items": [
-        "08:00: Breakfast.",
-        "10:00 – 11:30: Final social matches, prize presentation, and team photo.",
-        "12:00: Farewell lunch before your private transfer to the airport.",
-        "PM: Departure."
-      ],
-      "footerTitle": "Every Vibra itinerary is fully personalised and designed around your team's goals, interests, and schedule.",
-      "planTrip": "Plan your trip"
     }
   },
   "schools": {
     "presentation": {
-      "titleLine1": "نشيط،",
-      "titleLine2": "تعليمي،",
-      "titleLine3": "لا يُنسى",
-      "descBefore": "اخرجوا الطلاب من الفصل برحلة مخصصة إلى ",
-      "descBetween": " أو ",
-      "descAfter": ". بادل ولغة وثقافة تلهم وتربط.",
+      "eyebrow": "مدارس ومجموعات شباب",
+      "title": "نشيط، تعليمي، لا يُنسى",
+      "heroAlt": "طلاب يلعبون البادل",
+      "desc": "اخرجوا طلابكم من الصف برحلة مخصصة إلى إسبانيا. بادل ولغة وتجارب ثقافية تلهم وتربط.",
+      "highlights": [
+        "آمن وبإشراف",
+        "بادل وثقافة ولغة",
+        "استضافة كاملة في إسبانيا"
+      ],
       "planTrip": "خطط رحلتك",
       "imagineTrip": "تخيّل رحلتك"
     },
@@ -163,8 +206,8 @@
     "chooseActivities": {
       "titleBefore": "اختاروا ",
       "titleAccent": "الأنشطة",
-      "subtitle": "كل مجموعة مدرسية مختلفة؛ نصمم الرحلة حسب أهدافكم واهتماماتكم.",
-      "note": "أنتم تقررون المحتوى, نبني المسار المثالي."
+      "subtitle": "كل مجموعة مدرسية مختلفة؛ نصمم الرحلة حسب أهدافكم واهتماماتكم. امزجوا الأنشطة لتوازن مثالي بين الرياضة والثقافة والمرح.",
+      "note": "أنتم تقررون المحتوى، نبني المسار المثالي."
     },
     "schoolActivities": {
       "sectionTitle": "اختاروا مغامرتكم!",
@@ -172,51 +215,53 @@
         {
           "id": 1,
           "title": "البادل",
-          "description": "دروس يومية لكل المستويات؛ مباريات وبطولات مع لاعبين محليين."
+          "description": "دروس يومية لكل المستويات. يمكن تخصيص الجلسات لاحتياجات المجموعة بطريقة ممتعة. يمكننا أيضاً ترتيب مباريات وبطولات مع لاعبين محليين."
         },
         {
           "id": 2,
           "title": "رياضات أخرى",
-          "description": "تنس وكرة قدم وغولف وسباحة وهوكي وغيرها؛ مباريات ضد فرق محلية."
+          "description": "البادل تخصصنا، لكننا نصمم أيضاً برامج في التنس وكرة القدم والغولف والسباحة والهوكي وغيرها. مباريات ضد فرق محلية ممكنة."
         },
         {
           "id": 3,
           "title": "أنشطة في الهواء الطلق",
-          "description": "دراجات ومسيرات وكاياك ورياضات مائية حسب المستوى."
+          "description": "من الدراجات والمشي إلى الكاياك ورياضات مائية أخرى — مغامرات لكل الاهتمامات والمستويات."
         },
         {
           "id": 4,
           "title": "دروس إسبانية",
-          "description": "دروس تفاعلية لتعزيز الطلاقة والثقة في التحدث."
+          "description": "دروس تفاعلية لكل المستويات لتعزيز الثقة والطلاقة في بيئة ديناميكية داعمة."
         },
         {
           "id": 5,
           "title": "ورش طبخ إسباني",
-          "description": "تاباس وباييا وحلويات بإشراف طهاة."
+          "description": "اطبخوا مثل المحليين! تاباس وباييا وحلويات تقليدية بإرشاد طهاة خبراء. تذوقوا إبداعاتكم في أجواء تفاعلية."
         },
         {
           "id": 6,
           "title": "تجارب ثقافية",
-          "description": "جولات في المدن، فلامنكو في إشبيلية، رقص ومسارات تاباس."
+          "description": "انغمسوا في ثقافة إسبانيا: جولات مشي مرشدة، فلامنكو في إشبيلية، دروس رقص مع فرقة حية، وجولات تذوق تاباس."
         },
         {
           "id": 7,
           "title": "رياضة احترافية محلية",
-          "description": "ملاعب ومباريات مع كبار الأندية بما فيها برشلونة وإشبيلية."
+          "description": "جولات ملاعب حصرية ومباريات حية مع كبار الأندية بما فيها برشلونة وإشبيلية."
         },
         {
           "id": 8,
           "title": "إقامة ووجبات",
-          "description": "إقامة مريحة للطلاب مع إفطار كامل أو نصف إقامة."
+          "description": "إقامة مريحة للطلاب مع خيارات إقامة كاملة أو نصف إقامة لإقامة مريحة بلا توتر."
         }
       ]
     },
     "destinations": {
       "title": "الوجهات",
       "barcelonaTitle": "برشلونة",
-      "barcelonaDesc": "مدينة متوسطية نابضة: فن غاودي وشواطئ وأحياء مناسبة للشباب.",
+      "barcelonaDesc": "مدينة متوسطية نابضة حيث تلتقي الطاقة الحديثة بالكنوز الثقافية. من عمارة غاودي إلى الشواطئ الحية والأحياء المناسبة للشباب — مزيج مثالي من التعلم والمرح.",
       "sevilleTitle": "إشبيلية",
-      "sevilleDesc": "تاريخ وسحر: معالم وفلامنكو وثقافة التاباس."
+      "sevilleDesc": "مدينة مليئة بالتاريخ والسحر، مثالية لتجربة إسبانيا الأصيلة. استكشفوا معالمها واكتشفوا شغف الفلامنكو واستمتعوا بثقافة التاباس الشهيرة.",
+      "valenciaTitle": "فالنسيا",
+      "valenciaDesc": "شمس متوسطية وبادل عالمي المستوى وبعض أفضل تجارب الطعام والشواطئ والثقافة في إسبانيا — كلها في مدينة نابضة."
     },
     "schedule": {
       "titleLine1": "لمحة عما قد تبدو عليه ",
@@ -239,6 +284,30 @@
       "day5i1": "إفطار ونقل إلى المطار.",
       "footerTitle": "كل شيء قابل للتخصيص!",
       "planTrip": "خطط رحلتك"
+    },
+    "testemonials": {
+      "eyebrow": "قصص المدارس",
+      "title": "ماذا تقول المدارس عن رحلاتها",
+      "items": [
+        {
+          "quote": "أحب طلابنا مزيج البادل ودروس الإسبانية والزيارات الثقافية. كان الجدول واضحاً والإشراف ممتازاً، وشعرنا بالدعم في كل خطوة.",
+          "name": "Neil McManus",
+          "meta": "FE Education، رحلة برشلونة",
+          "ratingLabel": "خمس نجوم من خمس"
+        },
+        {
+          "quote": "فهمت فيبرا تماماً ما تحتاجه المدارس: إقامة آمنة وأنشطة جذابة ومرونة لمستويات مختلفة. كانت رحلة العام المميزة.",
+          "name": "Ronnie Reid",
+          "meta": "منسق تعليمي، إشبيلية",
+          "ratingLabel": "خمس نجوم من خمس"
+        },
+        {
+          "quote": "من النقل من المطار إلى بطولة البادل الودية في اليوم الأخير، سار كل شيء بسلاسة. لا يزال الأهالي يسمعون قصص طلابنا بعد أشهر.",
+          "name": "Enzo Lampreda",
+          "meta": "منسق تدريب مهني، فالنسيا",
+          "ratingLabel": "خمس نجوم من خمس"
+        }
+      ]
     }
   }
 }

@@ -16,4 +16,9 @@ export const partnerPromos: PartnerPromo[] = [
     logo: "/featured/raquex.png",
     href: "https://www.raquex.com/discount/VIBRATRAVEL10",
   },
+  {
+    id: "preserva",
+    logo: "/featured/preserva.png",
+    href: "https://www.preserva.co.uk/discount/VIBRA10",
+  },
 ];

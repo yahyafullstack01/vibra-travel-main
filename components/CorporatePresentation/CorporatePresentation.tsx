@@ -1,14 +1,15 @@
 "use client";
 
-import Link from "next/link";
+import { LocalizedLink as Link } from "@/components/LocalizedLink/LocalizedLink";
 import { useRouter } from "next/navigation";
 import { media } from "@/lib/media";
 import { useLocale } from "@/components/LocaleProvider/LocaleProvider";
+import { withLocalePrefix } from "@/lib/i18n/path";
 import styles from "./CorporatePresentation.module.css";
 
 export function CorporatePresentation() {
   const router = useRouter();
-  const { messages } = useLocale();
+  const { messages, locale } = useLocale();
   const p = messages.corporate.presentation;
 
   function goToTimetable(e: React.MouseEvent) {
@@ -18,7 +19,7 @@ export function CorporatePresentation() {
       timetable.scrollIntoView({ behavior: "smooth" });
       return;
     }
-    router.push("/for-businesses#timetable");
+    router.push(withLocalePrefix("/for-businesses#timetable", locale));
   }
 
   return (

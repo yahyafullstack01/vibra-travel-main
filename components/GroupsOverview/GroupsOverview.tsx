@@ -2,23 +2,24 @@
 
 import { usePathname, useRouter } from "next/navigation";
 import { useLocale } from "@/components/LocaleProvider/LocaleProvider";
+import { pathWithoutLocaleEquals, withLocalePrefix } from "@/lib/i18n/path";
 import styles from "./GroupsOverview.module.css";
 
 export function GroupsOverview() {
   const pathname = usePathname();
   const router = useRouter();
-  const { messages } = useLocale();
+  const { messages, locale } = useLocale();
   const o = messages.groups.overview;
 
   function scrollToActivities(e: React.MouseEvent) {
     e.preventDefault();
     const target = document.getElementById("activities");
-    if (pathname === "/groups" && target) {
+    if (pathWithoutLocaleEquals(pathname, "/groups") && target) {
       target.scrollIntoView({ behavior: "smooth", block: "start" });
       window.history.replaceState(null, "", "#activities");
       return;
     }
-    router.push("/groups#activities");
+    router.push(withLocalePrefix("/groups#activities", locale));
   }
 
   return (
@@ -26,7 +27,7 @@ export function GroupsOverview() {
       <section className={styles.whySection}>
         <div className={styles.whyInner}>
           <header className={styles.whyHeader}>
-            <p className={styles.eyebrow}>Why Vibra</p>
+            <p className={styles.eyebrow}>{o.whyTravel.eyebrow}</p>
             <h2 className={`${styles.whyTitle} cooper-font`}>{o.whyTravel.title}</h2>
             <p className={styles.whyIntro}>{o.whyTravel.intro}</p>
           </header>
@@ -61,7 +62,7 @@ export function GroupsOverview() {
       <section className={styles.includedSection}>
         <div className={styles.includedInner}>
           <div className={styles.includedHeader}>
-            <p className={styles.eyebrow}>Included</p>
+            <p className={styles.eyebrow}>{o.whatsIncluded.eyebrow}</p>
             <h2 className={`${styles.sectionTitle} cooper-font`}>{o.whatsIncluded.title}</h2>
             <p className={styles.sectionIntro}>{o.whatsIncluded.intro}</p>
           </div>
@@ -85,7 +86,7 @@ export function GroupsOverview() {
 
       <section className={styles.ctaSection}>
         <div className={styles.ctaInner}>
-          <p className={styles.eyebrow}>Your trip</p>
+          <p className={styles.eyebrow}>{o.designedAround.eyebrow}</p>
           <h2 className={`${styles.ctaTitle} cooper-font`}>{o.designedAround.title}</h2>
           <p className={styles.ctaText}>{o.designedAround.description}</p>
           <button

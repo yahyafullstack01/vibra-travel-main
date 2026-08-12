@@ -2,20 +2,173 @@
   "whyVibra": {
     "titleLine1": "Conoce el corazón ",
     "titleLine2": "de Vibra",
+    "photoAlt": "Charlie de Vibra Travel",
     "heading": "Hola, soy Charlie, y España es mi hogar desde hace más de 12 años.",
-    "p1": "Lo que empezó en Sevilla se convirtió en amor por la vida española: el ritmo, los bares donde eres el único extranjero, las noches de tapas, las pistas de pádel y los festivales que casi no ven los turistas.",
-    "p2": "El pádel no es solo un deporte, es un estilo de vida, como compartir comida, cerveza y vino con amigos.",
-    "p3": "Tras casi 12 años en Sevilla y ahora en Barcelona con mi familia, creé Vibra Travel para mostrar una España más allá de lo obvio.",
-    "p4": "Vibra es la España real, la que viven los locales, la que no solo visitas, sientes.",
-    "p5": "Con vacaciones de pádel personalizadas te acercamos a ese mundo, no solo entrenos o partidos, sino alegría, cultura y recuerdos para años.",
-    "p6": "Aquí los viajes de pádel los diseñas tú."
+    "p1": "Lo que empezó como un traslado a Sevilla se convirtió en algo mucho más profundo: un amor por la vida española en todas sus formas. No solo el sol y la sangría, sino el ritmo más pausado, las quedadas espontáneas, el bar donde eres el único extranjero, las conversaciones nocturnas sobre tapas, las pistas de pádel llenas de risas y competición, los pequeños festivales que casi ningún turista ve.",
+    "p2": "El pádel no es solo un deporte aquí, es una forma de vida. Como compartir buena comida, cervezas frías, vino local y, sobre todo, hacerlo con amigos.",
+    "p3": "Tras casi 12 años en Sevilla y ahora viviendo en Barcelona con mi mujer española y nuestra hija Spanglish, creé Vibra Travel para ayudar a otros a vivir lo que hace a España realmente especial, más allá de lo obvio.",
+    "p4": "Vibra es mostrarte la España real.\nLa que aman los locales.\nLa que no solo visitas: sientes.",
+    "p5": "Con vacaciones de pádel personalizadas te acercamos a ese mundo. No es solo entrenamiento o partidos: es la alegría del deporte, la cultura, la conexión y los recuerdos con tu grupo de los que hablarás durante años.",
+    "p6": "Estamos aquí para ofrecer viajes de pádel a medida, diseñados por ti.",
+    "extendedIntro": {
+      "title": "Más que un viaje de pádel",
+      "paragraphs": [
+        "Cualquiera puede organizar un hotel, reservar pistas y contratar coaching.",
+        "Lo que hace diferente a Vibra es todo lo que ocurre antes y después de que bajes de la pista.",
+        "Tras más de doce años viviendo en España, hemos construido relaciones locales reales que nos permiten crear experiencias que no encontrarás en unas vacaciones deportivas estándar. No solo te enseñamos los lugares: te presentamos a las personas, las tradiciones y los rincones ocultos que nos hicieron enamorar de España."
+      ]
+    },
+    "contentSections": [
+      {
+        "title": "Las personas detrás de cada experiencia",
+        "paragraphs": [
+          "Una de las grandes razones por las que nuestros viajes se sienten distintos son las personas que conoces por el camino.",
+          "En Sevilla, muchas de nuestras experiencias las lidera nuestro amigo cercano Javi. Originario de Chile, ha hecho de Andalucía su hogar y tiene una pasión increíble por la historia, la comida y las tradiciones de la ciudad. Ya sea paseando por callejones escondidos, descubriendo bares de tapas apartados o aprendiendo las historias detrás de los monumentos más famosos de Sevilla, Javi da vida a la ciudad de un modo que ninguna guía puede igualar.",
+          "Nuestros coaches, guías y partners locales no son proveedores: son amigos que hemos conocido tras años viviendo y trabajando en España."
+        ]
+      },
+      {
+        "title": "Lugares con carácter",
+        "paragraphs": [
+          "Elegimos con cuidado hoteles que reflejan los lugares que visitas.",
+          "En Sevilla, los huéspedes se alojan en Casa Tomás, una casa tradicional andaluza magníficamente restaurada en el corazón del casco antiguo. En lugar de una gran cadena, ofrece una base auténtica a pie de las calles históricas, plazas animadas e incontables bares de tapas.",
+          "En Barcelona trabajamos con hoteles de cuatro estrellas cuidadosamente seleccionados, cerca de la ciudad y con acceso a algunos de los mejores clubs de pádel del mundo."
+        ]
+      },
+      {
+        "title": "Pádel de primer nivel",
+        "paragraphs": [
+          "El pádel está en el centro de todo lo que hacemos.",
+          "Ya entrenes en el Bela Padel Center, fundado por Fernando Belasteguín, 16 veces campeón del mundo, o juegues contra jugadores españoles locales en Sevilla, nuestro foco es siempre crear sesiones divertidas, sociales y aptas para todos los niveles.",
+          "Grupos pequeños de coaching, partidos organizados y competición amistosa hacen que todos mejoren mientras se lo pasan bien."
+        ]
+      },
+      {
+        "title": "España más allá de la pista",
+        "paragraphs": [
+          "Los mejores momentos de nuestros viajes suelen ocurrir cuando termina el pádel.",
+          "Una tarde puede acabar con una cata en L’Olivera, un hermoso viñedo escondido dentro del parque natural de Collserola en Barcelona, compartiendo vinos locales al atardecer.",
+          "Otra noche puede llevarte a ver al Sevilla FC o al Real Betis con aficionados locales apasionados antes de tapas en bares de barrio que la mayoría de visitantes nunca descubre.",
+          "Según la época del año, podemos llevarte a una fiesta tradicional de pueblo, una sardinada (fiesta de la sardina) en la costa catalana, un espectáculo de flamenco, un mercado local o una bodega familiar.",
+          "Ningún viaje es exactamente igual porque España celebra algo constantemente."
+        ]
+      },
+      {
+        "title": "España auténtica",
+        "paragraphs": [
+          "España es famosa por su calidez y hospitalidad, y queremos que cada huésped la viva.",
+          "Animamos a conocer jugadores locales, charlar con los coaches tras el entrenamiento y descubrir barrios más allá de las rutas turísticas habituales.",
+          "Son esos momentos — las conversaciones, las comidas, las recomendaciones inesperadas — los que a menudo se convierten en lo mejor del viaje."
+        ]
+      },
+      {
+        "title": "Todo a tu medida",
+        "paragraphs": [
+          "Ningún grupo es igual.",
+          "Algunos quieren pasar todas las horas posibles en la pista.",
+          "Otros prefieren un fin de semana más relajado combinando pádel con vino, comida, fútbol o bienestar.",
+          "Como cada viaje es a medida, construimos cada itinerario alrededor de quienes viajan, en lugar de ofrecer un paquete único para todos."
+        ]
+      }
+    ],
+    "vibraDifference": {
+      "title": "La diferencia Vibra",
+      "items": [
+        {
+          "icon": "🇪🇸",
+          "label": "Conocimiento local de quienes viven aquí"
+        },
+        {
+          "icon": "🎾",
+          "label": "Coaching profesional en los mejores clubs de España"
+        },
+        {
+          "icon": "🍷",
+          "label": "Comida, vino y experiencias culturales auténticas"
+        },
+        {
+          "icon": "⚽️",
+          "label": "Experiencias deportivas únicas, incluido fútbol de La Liga"
+        },
+        {
+          "icon": "🏨",
+          "label": "Hoteles boutique y premium seleccionados"
+        },
+        {
+          "icon": "🤝",
+          "label": "Jugar junto a jugadores españoles locales"
+        },
+        {
+          "icon": "🚐",
+          "label": "Grupos pequeños con servicio personal"
+        },
+        {
+          "icon": "✨",
+          "label": "Cada itinerario es a medida"
+        }
+      ]
+    },
+    "closingSection": {
+      "title": "¿Por qué Vibra?",
+      "paragraphs": [
+        "Creemos que los mejores viajes no se miden por las horas en la pista.",
+        "Se miden por las conversaciones sobre tapas, la gente que conoces, los lugares que descubres y los recuerdos que te llevas a casa.",
+        "El pádel simplemente reúne a todo el mundo.",
+        "El resto es lo que hace diferente a Vibra."
+      ]
+    }
   },
   "contact": {
     "titleLine1": "A jugar, ",
     "titleLine2": "planifiquemos tu viaje",
-    "desc": "El mejor getaway de pádel empieza con un mensaje. Escríbenos y creemos juntos tus vacaciones ideales con Vibra Travel."
+    "desc": "Las mejores vacaciones de pádel empiezan con un mensaje. Escríbenos y creemos juntos tu escapada ideal con Vibra Travel.",
+    "infoEyebrow": "Ponte en contacto",
+    "infoBoxes": [
+      {
+        "title": "Email",
+        "value": "info@vibra-travel.com",
+        "href": "mailto:info@vibra-travel.com"
+      },
+      {
+        "title": "WhatsApp",
+        "value": "(+34) 744 484 995",
+        "href": "https://wa.me/34744484995"
+      },
+      {
+        "title": "Destinos",
+        "value": "Barcelona y Sevilla, España"
+      },
+      {
+        "title": "Para quién planificamos",
+        "value": "Grupos, clubs de pádel, colegios y equipos de empresa"
+      },
+      {
+        "title": "Tiempo de respuesta",
+        "value": "Normalmente respondemos en 24–48 horas"
+      },
+      {
+        "title": "Idiomas",
+        "value": "Inglés, español y francés"
+      }
+    ],
+    "planningTips": {
+      "title": "Ayúdanos a planificar tu viaje",
+      "items": [
+        "Fechas preferidas y duración del viaje",
+        "Tamaño del grupo y niveles de pádel",
+        "Barcelona, Sevilla o ambos",
+        "Coaching, partidos y experiencias culturales que quieres",
+        "Cualquier petición especial para tu grupo"
+      ]
+    },
+    "photoAlt": "Charlie de Vibra Travel"
   },
   "contactForm": {
+    "formEyebrow": "Formulario de contacto",
+    "formTitle": "Envíanos un mensaje",
+    "formIntro": "Cuéntanos tus fechas, el tamaño del grupo y lo que buscas; te responderemos con ideas a medida para tu viaje.",
+    "consultEyebrow": "Consulta gratuita",
+    "photoAlt": "Charlie de Vibra Travel",
     "nameLabel": "Nombre",
     "namePlaceholder": "Tu nombre",
     "emailLabel": "Email",

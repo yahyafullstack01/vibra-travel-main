@@ -8,35 +8,21 @@ import {
   useMemo,
   useState,
 } from "react";
+import { usePathname } from "next/navigation";
 import {
   DEFAULT_LOCALE,
   type Locale,
   type Messages,
   catalogs,
-  isLocale,
 } from "@/lib/i18n/catalog";
+import { getLocaleFromPathname } from "@/lib/i18n/path";
 import { getMessageString } from "@/lib/i18n/translate";
 
 const STORAGE_KEY = "vibra-locale";
-const STORAGE_VERSION_KEY = "vibra-locale-default";
-const STORAGE_VERSION = "en-v1";
 
-function readStoredLocale(): Locale {
+function readBrowserLocale(): Locale {
   if (typeof window === "undefined") return DEFAULT_LOCALE;
-  try {
-    const version = localStorage.getItem(STORAGE_VERSION_KEY);
-    if (version !== STORAGE_VERSION) {
-      localStorage.setItem(STORAGE_KEY, DEFAULT_LOCALE);
-      localStorage.setItem(STORAGE_VERSION_KEY, STORAGE_VERSION);
-      return DEFAULT_LOCALE;
-    }
-
-    const v = localStorage.getItem(STORAGE_KEY);
-    if (isLocale(v)) return v;
-  } catch {
-    /* ignore */
-  }
-  return DEFAULT_LOCALE;
+  return getLocaleFromPathname(window.location.pathname);
 }
 
 function applyDocumentLocale(locale: Locale) {
@@ -54,29 +40,30 @@ const LocaleContext = createContext<{
 } | null>(null);
 
 export function LocaleProvider({ children }: { children: React.ReactNode }) {
+  // usePathname re-renders on navigation; locale is read from the real browser URL
+  // because middleware rewrites strip the locale prefix from the Next pathname.
+  const pathname = usePathname();
   const [locale, setLocaleState] = useState<Locale>(DEFAULT_LOCALE);
-  const [mounted, setMounted] = useState(false);
 
   useLayoutEffect(() => {
-    const next = readStoredLocale();
+    const next = readBrowserLocale();
     setLocaleState(next);
     applyDocumentLocale(next);
-    setMounted(true);
-  }, []);
-
-  useLayoutEffect(() => {
-    if (!mounted) return;
-    applyDocumentLocale(locale);
     try {
-      localStorage.setItem(STORAGE_KEY, locale);
-      localStorage.setItem(STORAGE_VERSION_KEY, STORAGE_VERSION);
+      localStorage.setItem(STORAGE_KEY, next);
     } catch {
       /* ignore */
     }
-  }, [locale, mounted]);
+  }, [pathname]);
 
   const setLocale = useCallback((next: Locale) => {
     setLocaleState(next);
+    applyDocumentLocale(next);
+    try {
+      localStorage.setItem(STORAGE_KEY, next);
+    } catch {
+      /* ignore */
+    }
   }, []);
 
   const messages = catalogs[locale];

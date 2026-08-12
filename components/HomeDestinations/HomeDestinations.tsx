@@ -7,6 +7,7 @@ import styles from "./HomeDestinations.module.css";
 const destinationImages = {
   valencia: media.photos.valencia,
   sevilla: media.photos.seville,
+  barcelona: media.photos.bcn,
 } as const;
 
 export function HomeDestinations() {
