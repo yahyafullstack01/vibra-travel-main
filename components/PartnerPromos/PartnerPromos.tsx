@@ -57,10 +57,20 @@ export function PartnerPromos() {
                   <img
                     src={partner.logo}
                     alt={copy.name}
-                    className={styles.logo}
+                    className={`${styles.logo}${partner.logoDark ? ` ${styles.logoLight}` : ""}`}
                     loading="lazy"
                     decoding="async"
                   />
+                  {partner.logoDark ? (
+                    <img
+                      src={partner.logoDark}
+                      alt=""
+                      aria-hidden="true"
+                      className={`${styles.logo} ${styles.logoDark}`}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  ) : null}
                 </div>
 
                 <h3 className={`${styles.partnerName} cooper-font`}>{copy.name}</h3>

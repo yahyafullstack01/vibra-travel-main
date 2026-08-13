@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { LocalizedLink as Link } from "@/components/LocalizedLink/LocalizedLink";
 import { useRouter } from "next/navigation";
 import { media } from "@/lib/media";
@@ -7,10 +8,21 @@ import { useLocale } from "@/components/LocaleProvider/LocaleProvider";
 import { withLocalePrefix } from "@/lib/i18n/path";
 import styles from "./CorporatePresentation.module.css";
 
+const bannerImages = media.photos.businessBanner;
+const SLIDE_MS = 5000;
+
 export function CorporatePresentation() {
   const router = useRouter();
   const { messages, locale } = useLocale();
   const p = messages.corporate.presentation;
+  const [active, setActive] = useState(0);
+
+  useEffect(() => {
+    const id = window.setInterval(() => {
+      setActive((current) => (current + 1) % bannerImages.length);
+    }, SLIDE_MS);
+    return () => window.clearInterval(id);
+  }, [active]);
 
   function goToTimetable(e: React.MouseEvent) {
     e.preventDefault();
@@ -25,12 +37,15 @@ export function CorporatePresentation() {
   return (
     <section className={styles.hero} aria-label={p.title}>
       <div className={styles.media} aria-hidden="true">
-        <img
-          className={styles.heroImage}
-          src={media.photos.teamPresentation}
-          fetchPriority="high"
-          alt=""
-        />
+        {bannerImages.map((src, index) => (
+          <img
+            key={src}
+            className={`${styles.heroImage} ${index === active ? styles.heroImageActive : ""}`}
+            src={src}
+            fetchPriority={index === 0 ? "high" : undefined}
+            alt=""
+          />
+        ))}
       </div>
 
       <div className={styles.overlay}>
@@ -64,6 +79,19 @@ export function CorporatePresentation() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className={styles.dots} role="tablist" aria-label="Banner photos">
+        {bannerImages.map((src, index) => (
+          <button
+            key={src}
+            type="button"
+            className={`${styles.dot} ${index === active ? styles.dotActive : ""}`}
+            aria-label={`${index + 1}`}
+            aria-current={index === active ? "true" : undefined}
+            onClick={() => setActive(index)}
+          />
+        ))}
       </div>
     </section>
   );

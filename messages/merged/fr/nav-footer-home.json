@@ -145,12 +145,22 @@
       },
       "raquex": {
         "name": "Raquex",
-        "description": "Raquettes et équipement de padel",
+        "description": "10 % de réduction avec le code VIBRATRAVEL10",
         "promoCode": "VIBRATRAVEL10"
       },
       "preserva": {
         "name": "Preserva",
         "description": "Pressuriseurs de balles de padel",
+        "promoCode": "VIBRA10"
+      },
+      "underscored": {
+        "name": "Underscored",
+        "description": "15 % de réduction avec le code VIBRA",
+        "promoCode": "VIBRA"
+      },
+      "courtero": {
+        "name": "Courtero",
+        "description": "10 % de réduction avec le code VIBRA10",
         "promoCode": "VIBRA10"
       }
     }

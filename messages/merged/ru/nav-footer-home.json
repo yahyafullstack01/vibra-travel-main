@@ -145,12 +145,22 @@
       },
       "raquex": {
         "name": "Raquex",
-        "description": "Ракетки и экипировка для паделя",
+        "description": "Скидка 10% по коду VIBRATRAVEL10",
         "promoCode": "VIBRATRAVEL10"
       },
       "preserva": {
         "name": "Preserva",
         "description": "Прессиризаторы мячей для паделя",
+        "promoCode": "VIBRA10"
+      },
+      "underscored": {
+        "name": "Underscored",
+        "description": "Скидка 15% по коду VIBRA",
+        "promoCode": "VIBRA"
+      },
+      "courtero": {
+        "name": "Courtero",
+        "description": "Скидка 10% по коду VIBRA10",
         "promoCode": "VIBRA10"
       }
     }

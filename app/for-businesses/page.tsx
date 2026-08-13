@@ -14,7 +14,7 @@ export default function ForBusinessesPage() {
       <CorporatePresentation />
       <AudienceIntro audience="business" />
       <ForEveryTeam />
-      <Images />
+      <Images variant="business" />
       <WhyCompaniesChoose />
       <CorporateBeyondCourt />
       <CorporateSchedule />

@@ -82,6 +82,7 @@
   justify-content: center;
   width: 100%;
   min-height: 72px;
+  position: relative;
 }
 
 .logo {
@@ -90,6 +91,18 @@
   width: auto;
   height: auto;
   object-fit: contain;
+}
+
+.logoDark {
+  display: none;
+}
+
+:global(html[data-theme="dark"]) .logoLight {
+  display: none;
+}
+
+:global(html[data-theme="dark"]) .logoDark {
+  display: block;
 }
 
 .partnerName {

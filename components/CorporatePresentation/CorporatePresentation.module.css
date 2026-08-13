@@ -13,11 +13,22 @@
 }
 
 .heroImage {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 68% center;
-  transform: scale(1.02);
+  object-position: center 40%;
+  opacity: 0;
+  transform: scale(1.04);
+  transition:
+    opacity 0.9s ease,
+    transform 6s ease;
+}
+
+.heroImageActive {
+  opacity: 1;
+  transform: scale(1.08);
 }
 
 .overlay {
@@ -27,8 +38,8 @@
   display: flex;
   align-items: flex-end;
   background:
-    linear-gradient(105deg, #3d0024 0%, #520030 32%, rgba(82, 0, 48, 0.72) 58%, rgba(244, 76, 48, 0.28) 100%),
-    linear-gradient(180deg, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0.45) 100%);
+    linear-gradient(105deg, rgba(61, 0, 36, 0.58) 0%, rgba(82, 0, 48, 0.32) 38%, rgba(82, 0, 48, 0.08) 68%, transparent 100%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.12) 0%, rgba(0, 0, 0, 0.08) 42%, rgba(0, 0, 0, 0.42) 100%);
 }
 
 .overlay::after {
@@ -37,8 +48,8 @@
   inset: 0;
   pointer-events: none;
   background:
-    radial-gradient(circle at 18% 88%, rgba(244, 76, 48, 0.22), transparent 42%),
-    radial-gradient(circle at 88% 12%, rgba(255, 255, 255, 0.08), transparent 28%);
+    radial-gradient(circle at 18% 88%, rgba(244, 76, 48, 0.12), transparent 42%),
+    radial-gradient(circle at 88% 12%, rgba(255, 255, 255, 0.06), transparent 28%);
 }
 
 .inner {
@@ -163,6 +174,34 @@
   border-color: #fcf5ec;
 }
 
+.dots {
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  bottom: 22px;
+  display: flex;
+  gap: 8px;
+  transform: translateX(-50%);
+}
+
+.dot {
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(252, 245, 236, 0.42);
+  cursor: pointer;
+  transition:
+    width 0.25s ease,
+    background-color 0.25s ease;
+}
+
+.dotActive {
+  width: 28px;
+  background: var(--color-orange);
+}
+
 @media (max-width: 900px) {
   .hero,
   .overlay {
@@ -170,12 +209,12 @@
   }
 
   .heroImage {
-    object-position: center 22%;
+    object-position: center 35%;
   }
 
   .overlay {
     background:
-      linear-gradient(180deg, rgba(12, 31, 54, 0.5) 0%, rgba(12, 31, 54, 0.92) 48%, rgba(12, 31, 54, 0.98) 100%);
+      linear-gradient(180deg, rgba(0, 0, 0, 0.18) 0%, rgba(61, 0, 36, 0.22) 38%, rgba(61, 0, 36, 0.72) 100%);
   }
 
   .inner {

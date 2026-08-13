@@ -1,5 +1,6 @@
 import { GroupsOverview } from "@/components/GroupsOverview/GroupsOverview";
 import { GroupsPresentation } from "@/components/GroupsPresentation/GroupsPresentation";
+import { Images } from "@/components/Images/Images";
 import { MakeItYours } from "@/components/MakeItYours/MakeItYours";
 import { ReadyAdventure } from "@/components/ReadyAdventure/ReadyAdventure";
 import { Schedule } from "@/components/Schedule/Schedule";
@@ -10,6 +11,7 @@ export default function GroupsPage() {
     <div>
       <GroupsPresentation />
       <GroupsOverview />
+      <Images variant="groups" />
       <MakeItYours />
       <Schedule />
       <TestemonialsPreview />

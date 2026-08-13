@@ -145,12 +145,22 @@
       },
       "raquex": {
         "name": "Raquex",
-        "description": "مضارب ومعدات بادل",
+        "description": "خصم 10% بالكود VIBRATRAVEL10",
         "promoCode": "VIBRATRAVEL10"
       },
       "preserva": {
         "name": "Preserva",
         "description": "أجهزة ضغط كرات البادل",
+        "promoCode": "VIBRA10"
+      },
+      "underscored": {
+        "name": "Underscored",
+        "description": "خصم 15% بالكود VIBRA",
+        "promoCode": "VIBRA"
+      },
+      "courtero": {
+        "name": "Courtero",
+        "description": "خصم 10% بالكود VIBRA10",
         "promoCode": "VIBRA10"
       }
     }

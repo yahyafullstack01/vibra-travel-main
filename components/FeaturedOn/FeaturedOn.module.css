@@ -175,6 +175,19 @@
   justify-content: center;
   text-decoration: none;
   border-radius: 12px;
+  position: relative;
+}
+
+.logoImageDark {
+  display: none;
+}
+
+:global(html[data-theme="dark"]) .logoImageLight {
+  display: none;
+}
+
+:global(html[data-theme="dark"]) .logoImageDark {
+  display: block;
 }
 
 .logoLink:focus-visible {
