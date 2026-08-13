@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "@/app/globals.css";
 import { Header } from "@/components/Header/Header";
@@ -7,10 +7,45 @@ import { PageTransition } from "@/components/PageTransition/PageTransition";
 import { HashScroll } from "@/components/HashScroll/HashScroll";
 import { ThemeProvider } from "@/components/ThemeProvider/ThemeProvider";
 import { LocaleProvider } from "@/components/LocaleProvider/LocaleProvider";
+import { PwaRegister } from "@/components/PwaRegister/PwaRegister";
+
+const APP_NAME = "Vibra Travel";
+const APP_DESCRIPTION =
+  "Personalised padel holidays in Spain — combining court time with authentic Spanish experiences.";
 
 export const metadata: Metadata = {
-  title: "Vibra Travel",
-  icons: [{ rel: "icon", url: "/Logo.svg", type: "image/svg+xml" }],
+  applicationName: APP_NAME,
+  title: {
+    default: APP_NAME,
+    template: `%s | ${APP_NAME}`,
+  },
+  description: APP_DESCRIPTION,
+  icons: [
+    { rel: "icon", url: "/Logo.svg", type: "image/svg+xml" },
+    { rel: "apple-touch-icon", url: "/icons/apple-touch-icon.png" },
+  ],
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: APP_NAME,
+  },
+  formatDetection: {
+    telephone: false,
+  },
+  openGraph: {
+    type: "website",
+    siteName: APP_NAME,
+    title: APP_NAME,
+    description: APP_DESCRIPTION,
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#F44C30" },
+    { media: "(prefers-color-scheme: dark)", color: "#0c1522" },
+  ],
+  colorScheme: "light dark",
 };
 
 export default function RootLayout({
@@ -31,6 +66,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Host+Grotesk&amp;display=swap"
           rel="stylesheet"
         />
+        <meta name="mobile-web-app-capable" content="yes" />
       </head>
       <body>
         <Script id="vibra-theme-locale-init" strategy="beforeInteractive">
@@ -46,6 +82,7 @@ export default function RootLayout({
               </main>
               <Footer />
             </div>
+            <PwaRegister />
           </LocaleProvider>
         </ThemeProvider>
       </body>

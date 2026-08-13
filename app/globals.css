@@ -22,6 +22,13 @@ html {
   zoom: var(--zoom-level); /* zoom out requested by client */
 }
 
+@media (max-width: 1100px) {
+  html {
+    scroll-padding-top: 80px;
+    zoom: 1;
+  }
+}
+
 :root {
   --zoom-level: 0.9; /* zoom out requested by client */
   --font-display: "Cooper Lt BT", Georgia, "Times New Roman", serif;
@@ -150,7 +157,13 @@ html[data-theme="dark"] body {
   }
 }
 
-/* Responsive typography for mobile */
+/* Responsive typography + fixed header offset for tablet/mobile */
+@media (max-width: 1100px) {
+  body {
+    padding-top: 70px; /* Match fixed header height */
+  }
+}
+
 @media (max-width: 768px) {
   :root {
     --font-size-xs: 0.7rem; /* 11.2px */
@@ -162,17 +175,14 @@ html[data-theme="dark"] body {
     --font-size-3xl: 1.5rem; /* 24px */
     --font-size-4xl: 1.875rem; /* 30px */
   }
-  body {
-    padding-top: 70px; /* Adjust this value to match the height of your header */
-  }
 
   /* Fix for zoom affecting centering on mobile */
   .fet-container,
   .miy-container,
   .pts-container,
   .pi-container {
-    width: 100vw;
-    margin-left: calc((100vw - 100%) / -2);
-    margin-right: calc((100vw - 100%) / -2);
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }

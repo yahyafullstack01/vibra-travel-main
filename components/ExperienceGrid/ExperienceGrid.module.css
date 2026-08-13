@@ -7,8 +7,10 @@
   color: var(--color-purple);
   margin-bottom: 2rem;
   font-weight: 500;
-  height: 67px;
-  width: 318px;
+  min-height: 67px;
+  width: fit-content;
+  max-width: 100%;
+  padding: 0 28px;
   background-color: var(--color-cream);
   border-radius: 50px;
   display: flex;
@@ -26,8 +28,8 @@
   border-radius: 16px;
   overflow: hidden;
   transition: all 0.3s ease;
-  flex: 1 1 300px;
-  min-width: 300px;
+  flex: 1 1 280px;
+  min-width: min(100%, 280px);
 }
 
 .experienceCard:hover {
@@ -82,17 +84,19 @@
   transition: all 0.3s ease;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .section {
     padding: 2rem 0;
   }
 
   .sectionTitle {
-    font-size: 24px;
+    font-size: clamp(18px, 4vw, 24px);
     line-height: 113%;
     font-weight: 500;
     color: var(--color-purple);
     margin-bottom: 1.5rem;
+    min-height: 52px;
+    padding: 12px 20px;
   }
 
   .experiencesGrid {
@@ -103,14 +107,19 @@
   .experienceCard {
     flex: none;
     min-width: auto;
+    width: 100%;
   }
 
   .doubleWidth {
     flex: none;
   }
 
+  .imageContainer {
+    height: min(52vw, 320px);
+  }
+
   .cardContent {
-    padding: 1rem;
+    padding: 1rem 0;
   }
 
   .cardContent h3 {

@@ -55,7 +55,7 @@
 .inner {
   position: relative;
   z-index: 1;
-  width: min(1240px, calc(100vw - 48px));
+  width: min(1240px, calc(100% - 48px));
   margin: 0 auto;
   padding: 88px 0 72px;
 }
@@ -218,7 +218,7 @@
   }
 
   .inner {
-    width: min(100vw - 32px, 1240px);
+    width: min(calc(100% - 32px), 1240px);
     padding: 120px 0 48px;
   }
 

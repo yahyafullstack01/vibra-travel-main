@@ -216,9 +216,24 @@
   .content {
     margin: 44px 0;
     gap: 24px;
+    width: min(92vw, 960px);
+  }
+
+  .promoBlock {
+    padding: 12px 14px;
   }
 
   .promoCode {
-    font-size: 18px;
+    font-size: 17px;
+  }
+
+  .promoRow {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .shopLink,
+  .copyBtn {
+    min-width: 0;
   }
 }

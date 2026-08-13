@@ -351,9 +351,9 @@
   }
 
   .logoImage {
-    min-width: 240px;
-    max-width: 300px;
-    height: 68px;
+    min-width: 180px;
+    max-width: 240px;
+    height: 56px;
   }
 
   .marquee::before,

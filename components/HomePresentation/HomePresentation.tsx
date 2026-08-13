@@ -46,9 +46,6 @@ export function HomePresentation() {
             <div className={styles.railCard}>
               <p className={styles.railLabel}>{t("nav.groups")}</p>
               <Link href="/groups" className={styles.railLink}>
-                {t("nav.padelClubs")}
-              </Link>
-              <Link href="/groups" className={styles.railLink}>
                 {t("nav.privateGroups")}
               </Link>
               <Link href="/for-businesses" className={styles.railLink}>

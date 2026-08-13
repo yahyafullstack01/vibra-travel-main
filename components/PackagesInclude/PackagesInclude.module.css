@@ -88,12 +88,12 @@
 
 @media (max-width: 768px) {
   .piContainer {
-    width: 100vw;
+    width: 100%;
     margin-top: 0px;
   }
 
   .piContent {
-    width: 90vw;
+    width: 92%;
     gap: 0;
   }
 

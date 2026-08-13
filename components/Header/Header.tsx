@@ -28,6 +28,15 @@ export function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    if (!isMobileMenuOpen) return;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [isMobileMenuOpen]);
+
   return (
     <div
       dir="ltr"
@@ -173,7 +182,11 @@ export function Header() {
                   {t("nav.testemonials")}
                 </span>
               </Link>
-              <Link href="/contact" className={styles.mobileNavLink}>
+              <Link
+                href="/contact"
+                className={styles.mobileNavLink}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
                 <span className={styles.mobileButtonText}>
                   {t("nav.planTrip")}
                 </span>
