@@ -1,4 +1,16 @@
+import type { Metadata } from "next";
 import { AudienceIntro } from "@/components/AudienceIntro/AudienceIntro";
+
+export const metadata: Metadata = {
+  title: "Corporate Team Trips in Spain",
+  description:
+    "Team-building padel trips in Spain for businesses. Boost morale with court time, cultural experiences, and bespoke corporate hospitality.",
+  openGraph: {
+    title: "Corporate Team Trips in Spain — Vibra Travel",
+    description:
+      "Team-building padel trips and corporate hospitality in Spain.",
+  },
+};
 import { CorporateBeyondCourt } from "@/components/CorporateBeyondCourt/CorporateBeyondCourt";
 import { CorporatePresentation } from "@/components/CorporatePresentation/CorporatePresentation";
 import { CorporateSchedule } from "@/components/CorporateSchedule/CorporateSchedule";
