@@ -4,7 +4,7 @@
     "titleLine2": "de Vibra",
     "photoAlt": "Charlie de Vibra Travel",
     "heading": "Salut, je suis Charlie, et l’Espagne est chez moi depuis plus de 12 ans.",
-    "p1": "Ce qui a commencé par un déménagement à Séville est devenu bien plus profond : un amour pour la vie espagnole sous toutes ses formes. Pas seulement le soleil et la sangria, mais le rythme plus lent, les rencontres spontanées, le bar où tu es le seul étranger, les conversations tardives autour des tapas, les courts de padel remplis de rires et de compétition, les petits festivals que les touristes ne voient jamais.",
+    "p1": "Ce qui a commencé par un déménagement à Séville est devenu bien plus profond : un amour pour la vie espagnole sous toutes ses formes. Pas seulement le soleil et la sangria, mais le rythme plus lent, les rencontres spontanées, les bars locaux où vous êtes le seul étranger, les conversations tardives autour des tapas, les courts de padel remplis de rires et de compétition, et les petits festivals que la plupart des touristes ne découvrent jamais.",
     "p2": "Le padel n’est pas seulement un sport ici, c’est un mode de vie. Tout comme partager une bonne table, des bières fraîches, du vin local et, surtout, le faire entre amis.",
     "p3": "Après près de 12 ans à Séville et maintenant à Barcelone avec ma femme espagnole et notre fille Spanglish, j’ai créé Vibra Travel pour aider les autres à vivre ce qui rend l’Espagne vraiment spéciale, au-delà des lieux évidents.",
     "p4": "Vibra, c’est vous montrer l’Espagne réelle.\nCelle que les locaux aiment.\nCelle que l’on ne visite pas seulement : on la ressent.",
@@ -30,9 +30,9 @@
       {
         "title": "Des lieux avec du caractère",
         "paragraphs": [
-          "Nous choisissons avec soin des hôtels qui reflètent les lieux que vous visitez.",
-          "À Séville, les voyageurs séjournent à Casa Tomás, une maison de ville andalouse magnifiquement restaurée au cœur de la vieille ville. Plutôt qu’une grande chaîne, elle offre une base authentique à pied des rues historiques, des places animées et d’innombrables bars à tapas.",
-          "À Barcelone, nous travaillons avec des hôtels quatre étoiles soigneusement sélectionnés, proches de la ville tout en donnant accès à certains des meilleurs clubs de padel au monde."
+          "Nous choisissons avec soin des hôtels qui reflètent le caractère des lieux que vous visitez et correspondent à ce que recherche votre groupe.",
+          "À Séville, les voyageurs peuvent séjourner à Casa Tomás, une maison de ville andalouse magnifiquement restaurée au cœur de la vieille ville. Elle offre une base authentique et confortable, à pied des rues historiques, des places animées et d’innombrables bars à tapas.",
+          "À Barcelone, nous travaillons avec des hôtels quatre étoiles soigneusement sélectionnés dans d’excellents emplacements, offrant à votre groupe une base confortable pour explorer la ville tout en profitant de certains des meilleurs clubs de padel au monde."
         ]
       },
       {
@@ -136,7 +136,7 @@
       },
       {
         "title": "Destinations",
-        "value": "Barcelone et Séville, Espagne"
+        "value": "Barcelone, Séville et Valence, Espagne. D’autres destinations à travers l’Espagne sont disponibles sur demande."
       },
       {
         "title": "Pour qui nous planifions",
@@ -156,7 +156,8 @@
       "items": [
         "Dates de voyage préférées et durée du séjour",
         "Taille du groupe et niveaux de padel",
-        "Barcelone, Séville ou les deux",
+        "Barcelone, Séville, Valence ou une autre destination",
+        "D’autres destinations à travers l’Espagne sont disponibles sur demande",
         "Coaching, matchs et expériences culturelles souhaités",
         "Toute demande particulière pour votre groupe"
       ]

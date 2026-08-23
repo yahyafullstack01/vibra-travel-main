@@ -4,7 +4,7 @@
     "titleLine2": "de Vibra",
     "photoAlt": "Charlie de Vibra Travel",
     "heading": "Hola, soy Charlie, y España es mi hogar desde hace más de 12 años.",
-    "p1": "Lo que empezó como un traslado a Sevilla se convirtió en algo mucho más profundo: un amor por la vida española en todas sus formas. No solo el sol y la sangría, sino el ritmo más pausado, las quedadas espontáneas, el bar donde eres el único extranjero, las conversaciones nocturnas sobre tapas, las pistas de pádel llenas de risas y competición, los pequeños festivales que casi ningún turista ve.",
+    "p1": "Lo que empezó como un traslado a Sevilla se convirtió en algo mucho más profundo: un amor por la vida española en todas sus formas. No solo el sol y la sangría, sino el ritmo más pausado, las quedadas espontáneas, los bares locales donde eres el único extranjero, las conversaciones nocturnas sobre tapas, las pistas de pádel llenas de risas y competición, y los pequeños festivales que la mayoría de turistas nunca descubren.",
     "p2": "El pádel no es solo un deporte aquí, es una forma de vida. Como compartir buena comida, cervezas frías, vino local y, sobre todo, hacerlo con amigos.",
     "p3": "Tras casi 12 años en Sevilla y ahora viviendo en Barcelona con mi mujer española y nuestra hija Spanglish, creé Vibra Travel para ayudar a otros a vivir lo que hace a España realmente especial, más allá de lo obvio.",
     "p4": "Vibra es mostrarte la España real.\nLa que aman los locales.\nLa que no solo visitas: sientes.",
@@ -30,9 +30,9 @@
       {
         "title": "Lugares con carácter",
         "paragraphs": [
-          "Elegimos con cuidado hoteles que reflejan los lugares que visitas.",
-          "En Sevilla, los huéspedes se alojan en Casa Tomás, una casa tradicional andaluza magníficamente restaurada en el corazón del casco antiguo. En lugar de una gran cadena, ofrece una base auténtica a pie de las calles históricas, plazas animadas e incontables bares de tapas.",
-          "En Barcelona trabajamos con hoteles de cuatro estrellas cuidadosamente seleccionados, cerca de la ciudad y con acceso a algunos de los mejores clubs de pádel del mundo."
+          "Elegimos con cuidado hoteles que reflejan el carácter de los lugares que visitas y se adaptan a lo que busca tu grupo.",
+          "En Sevilla, los huéspedes pueden alojarse en Casa Tomás, una casa tradicional andaluza magníficamente restaurada en el corazón del casco antiguo. Ofrece una base auténtica y cómoda, a pie de las calles históricas, plazas animadas e incontables bares de tapas.",
+          "En Barcelona trabajamos con hoteles de cuatro estrellas cuidadosamente seleccionados en excelentes ubicaciones, ofreciendo a tu grupo una base cómoda para explorar la ciudad y acceder a algunos de los mejores clubs de pádel del mundo."
         ]
       },
       {
@@ -136,7 +136,7 @@
       },
       {
         "title": "Destinos",
-        "value": "Barcelona y Sevilla, España"
+        "value": "Barcelona, Sevilla y Valencia, España. Otros destinos en España disponibles bajo petición."
       },
       {
         "title": "Para quién planificamos",
@@ -156,7 +156,8 @@
       "items": [
         "Fechas preferidas y duración del viaje",
         "Tamaño del grupo y niveles de pádel",
-        "Barcelona, Sevilla o ambos",
+        "Barcelona, Sevilla, Valencia u otro destino",
+        "Otros destinos en España disponibles bajo petición",
         "Coaching, partidos y experiencias culturales que quieres",
         "Cualquier petición especial para tu grupo"
       ]

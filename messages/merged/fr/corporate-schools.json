@@ -264,24 +264,63 @@
       "valenciaDesc": "Soleil méditerranéen, padel de haut niveau et parmi les meilleures expériences gastronomiques, de plage et de culture d'Espagne, le tout dans une ville vibrante."
     },
     "schedule": {
-      "titleLine1": "Un aperçu de ce que pourrait être ",
-      "titleLine2": "votre voyage padel Vibra.",
-      "day1Title": "Jour 1 : Arrivée",
-      "day1i1": "Installation et session padel de bienvenue, dîner tapas en groupe.",
-      "day2Title": "Jour 2 : Sport & langue",
-      "day2i1": "Petit-déjeuner à l’hôtel.",
-      "day2i2": "Matin : entraînement padel avec coachs.",
-      "day2i3": "Après-midi : espagnol pratique et interactif.",
-      "day3Title": "Jour 3 : Culture & découverte",
-      "day3i1": "Petit-déjeuner à l’hôtel.",
-      "day3i2": "Matin : entraînement padel.",
-      "day3i3": "Après-midi : visite guidée de Séville ou Barcelone.",
-      "day4Title": "Jour 4 : Tournoi & temps libre",
-      "day4i1": "Tournoi convivial le matin.",
-      "day4i2": "Déjeuner paella au club.",
-      "day4i3": "Cours de cuisine interactif.",
-      "day5Title": "Jour 5 : Départ",
-      "day5i1": "Petit-déjeuner et transfert aéroport.",
+      "titleLine1": "Exemple de voyage scolaire ",
+      "titleLine2": "padel de 5 jours",
+      "days": [
+        {
+          "title": "Jour 1 : Arrivée & bienvenue",
+          "items": [
+            "Transfert aéroport vers votre hébergement",
+            "Check-in et installation",
+            "Session padel de bienvenue avec des coachs professionnels",
+            "Dîner de groupe autour de tapas espagnoles locales"
+          ]
+        },
+        {
+          "title": "Jour 2 : Padel & espagnol",
+          "items": [
+            "Petit-déjeuner à l’hôtel",
+            "Transfert quotidien vers le club de padel",
+            "Entraînement padel le matin avec des coachs professionnels",
+            "Déjeuner au club",
+            "Cours d’espagnol l’après-midi avec des activités pratiques et interactives",
+            "Retour à l’hôtel",
+            "Soirée libre pour se détendre ou explorer"
+          ]
+        },
+        {
+          "title": "Jour 3 : Padel & culture",
+          "items": [
+            "Petit-déjeuner à l’hôtel",
+            "Transfert vers le club de padel",
+            "Entraînement padel le matin avec des coachs",
+            "Déjeuner au club",
+            "Visite guidée de la ville l’après-midi, à la découverte de l’histoire et de la culture de Séville ou Barcelone",
+            "Retour à l’hôtel",
+            "Dîner de groupe"
+          ]
+        },
+        {
+          "title": "Jour 4 : Tournoi, cuisine & football",
+          "items": [
+            "Petit-déjeuner à l’hôtel",
+            "Transfert vers le club de padel",
+            "Tournoi de padel amical",
+            "Déjeuner paella au club",
+            "Cours de cuisine espagnole interactif pour préparer des plats traditionnels locaux",
+            "Retour à l’hôtel",
+            "Soirée : match de Liga, comme Séville FC ou FC Barcelone, sous réserve du calendrier et de disponibilité"
+          ]
+        },
+        {
+          "title": "Jour 5 : Départ",
+          "items": [
+            "Petit-déjeuner à l’hôtel",
+            "Temps libre pour se détendre ou explorer",
+            "Transfert aéroport pour le vol retour"
+          ]
+        }
+      ],
       "footerTitle": "Tout est personnalisable !",
       "planTrip": "Planifiez votre voyage"
     },

@@ -4,7 +4,7 @@
     "titleLine2": "Behind Vibra",
     "photoAlt": "Charlie from Vibra Travel",
     "heading": "Hi, I'm Charlie, and Spain has been home for over 12 years.",
-    "p1": "What started as a move to Sevilla became something much deeper: a love for Spanish life in all its forms. Not just the sunshine and sangria, but the slower pace, the spontaneous gatherings, the bar where you're the only foreigner, the late-night conversations over tapas, the padel courts full of laughter and competition, the little festivals no tourist ever sees.",
+    "p1": "What started as a move to Sevilla became something much deeper: a love for Spanish life in all its forms. Not just the sunshine and sangria, but the slower pace, spontaneous gatherings, local bars where you're the only foreigner, late-night conversations over tapas, padel courts filled with laughter and competition, and the little festivals most tourists never discover.",
     "p2": "Padel isn't just a sport here, it's a way of life. So is sharing good food, cold beers, local wine, and most importantly, doing it all with friends.",
     "p3": "After nearly 12 years in Sevilla and now living in Barcelona with my Spanish wife and our Spanglish daughter, I created Vibra Travel to help others experience what makes Spain truly special, beyond the obvious sights.",
     "p4": "Vibra is about showing you the real Spain.\nThe one locals love.\nThe one you don't just visit, you feel.",
@@ -30,9 +30,9 @@
       {
         "title": "Places With Character",
         "paragraphs": [
-          "We carefully choose hotels that reflect the places you're visiting.",
-          "In Sevilla, guests stay at Casa Tomás, a beautifully restored traditional Andalusian townhouse tucked away in the heart of the old town. Rather than a large chain hotel, it offers an authentic base within walking distance of the city's historic streets, vibrant plazas and countless tapas bars.",
-          "In Barcelona, we work with carefully selected four-star hotels close to the city while also giving guests access to some of the world's best padel facilities."
+          "We carefully choose hotels that reflect the character of the places you're visiting and suit what your group is looking for.",
+          "In Sevilla, guests can stay at Casa Tomás, a beautifully restored traditional Andalusian townhouse in the heart of the old town. It offers an authentic and comfortable base, within walking distance of the city's historic streets, vibrant plazas and countless tapas bars.",
+          "In Barcelona, we work with carefully selected four-star hotels in great locations, giving your group a comfortable base to explore the city while enjoying access to some of the world's best padel facilities."
         ]
       },
       {
@@ -113,7 +113,7 @@
       },
       {
         "title": "Destinations",
-        "value": "Barcelona & Sevilla, Spain"
+        "value": "Barcelona, Sevilla & Valencia, Spain. Other destinations across Spain are available on request."
       },
       {
         "title": "Who we plan for",
@@ -133,7 +133,8 @@
       "items": [
         "Preferred travel dates and trip length",
         "Group size and padel levels",
-        "Barcelona, Sevilla or both",
+        "Barcelona, Sevilla, Valencia or another destination",
+        "Other destinations across Spain are available on request",
         "Coaching, match play and cultural experiences you want",
         "Any special requests for your group"
       ]

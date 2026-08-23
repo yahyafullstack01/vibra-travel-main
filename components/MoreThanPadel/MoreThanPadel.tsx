@@ -5,11 +5,11 @@ import { IconHeart } from "@/components/icons/IconHeart";
 import { IconTailor } from "@/components/icons/IconTailor";
 import { IconHassle } from "@/components/icons/IconHassle";
 import { IconTrophy } from "@/components/icons/IconTrophy";
-import { IconGlobeOutline } from "@/components/icons/IconGlobeOutline";
+import { IconMapPin } from "@/components/icons/IconMapPin";
 import { useLocale } from "@/components/LocaleProvider/LocaleProvider";
 import styles from "./MoreThanPadel.module.css";
 
-const cardIcons = [IconTrophy, IconHeart, IconTailor, IconGlobeOutline, IconHassle];
+const cardIcons = [IconTrophy, IconHeart, IconTailor, IconMapPin, IconHassle];
 
 export function MoreThanPadel() {
   const { messages } = useLocale();

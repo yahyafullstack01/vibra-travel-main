@@ -4,10 +4,10 @@
     "padelClubs": "Padel clubs",
     "privateGroups": "Private groups",
     "corporate": "Corporate",
-    "forBusinesses": "Business Teams",
+    "forBusinesses": "Businesses",
     "trips": "Trips",
     "schools": "Schools",
-    "forSchools": "For Schools",
+    "forSchools": "Schools",
     "aboutUs": "About Us",
     "whyVibra": "Why Vibra",
     "testemonials": "Testimonials",
@@ -59,7 +59,7 @@
       {
         "id": "valencia",
         "title": "Valencia",
-        "description": "Mediterranean light, world-class padel, and a city that blends beach energy with rich culture and incredible food.",
+        "description": "World-class padel, Mediterranean beaches and a vibrant city known for its culture, sunshine and incredible food.",
         "imageAlt": "City of Arts and Sciences in Valencia"
       },
       {
@@ -71,7 +71,7 @@
       {
         "id": "barcelona",
         "title": "Barcelona",
-        "description": "Top clubs, Gaudí landmarks, beachside living, and a vibrant city rhythm that makes every trip feel special.",
+        "description": "Top padel clubs, Gaudí landmarks, beachside living, and a vibrant city rhythm that makes every trip feel special.",
         "imageAlt": "Sagrada Família and cityscape in Barcelona"
       }
     ]
@@ -162,6 +162,21 @@
         "name": "Courtero",
         "description": "10% off with code VIBRA10",
         "promoCode": "VIBRA10"
+      },
+      "padelPlay": {
+        "name": "Padel Play",
+        "description": "10% off with code VIBRATRAVEL10",
+        "promoCode": "VIBRATRAVEL10"
+      },
+      "namethatball": {
+        "name": "Name That Ball",
+        "description": "10% off with code VIBRA10",
+        "promoCode": "VIBRA10"
+      },
+      "quantumBalls": {
+        "name": "Quantum Balls",
+        "description": "5% off with code VIBRA05",
+        "promoCode": "VIBRA05"
       }
     }
   },

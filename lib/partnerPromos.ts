@@ -10,6 +10,7 @@ export const partnerPromos: PartnerPromo[] = [
   {
     id: "deite",
     logo: "/featured/deite.png",
+    logoDark: "/featured/deite-light.png",
     href: "https://deite.co.uk/discount/VIBRA10",
   },
   {
@@ -21,17 +22,37 @@ export const partnerPromos: PartnerPromo[] = [
   {
     id: "preserva",
     logo: "/featured/preserva.png",
+    logoDark: "/featured/preserva-light.png",
     href: "https://www.preserva.co.uk/discount/VIBRA10",
   },
   {
     id: "underscored",
     logo: "/featured/underscored.png",
+    logoDark: "/featured/underscored-light.png",
     href: "https://underscored.uk/",
+  },
+  {
+    id: "padelPlay",
+    logo: "/featured/padel-play.png",
+    logoDark: "/featured/padel-play-light.png",
+    href: "https://www.padelplay.ai/",
   },
   {
     id: "courtero",
     logo: "/featured/courtero.png",
     logoDark: "/featured/courtero-light.png",
     href: "https://courtero.com/",
+  },
+  {
+    id: "namethatball",
+    logo: "/featured/namethatball.png",
+    logoDark: "/featured/namethatball-light.png",
+    href: "https://namethatball.co.uk/",
+  },
+  {
+    id: "quantumBalls",
+    logo: "/featured/quantum-balls.png",
+    logoDark: "/featured/quantum-balls-light.png",
+    href: "https://quantumpadel.co.uk/",
   },
 ];

@@ -1,14 +1,16 @@
 export function IconTailor() {
   return (
-    <svg width="57" height="57" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="0.5" y="0.5" width="56" height="56" rx="28" fill="#FCF5EC" />
-        <path
-          d="M28 21.5H28.4344C31.4816 21.5 33.0053 21.5 33.5836 22.0473C34.0836 22.5204 34.3051 23.2173 34.1702 23.8922C34.014 24.673 32.7701 25.5529 30.2823 27.3125L26.2177 30.1875C23.7299 31.9471 22.486 32.827 22.3298 33.6078C22.1949 34.2827 22.4164 34.9796 22.9164 35.4527C23.4947 36 25.0184 36 28.0656 36H29M24.5 21.5C24.5 23.1569 23.1569 24.5 21.5 24.5C19.8431 24.5 18.5 23.1569 18.5 21.5C18.5 19.8431 19.8431 18.5 21.5 18.5C23.1569 18.5 24.5 19.8431 24.5 21.5ZM38.5 35.5C38.5 37.1569 37.1569 38.5 35.5 38.5C33.8431 38.5 32.5 37.1569 32.5 35.5C32.5 33.8431 33.8431 32.5 35.5 32.5C37.1569 32.5 38.5 33.8431 38.5 35.5Z"
-          stroke="#F44C30"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+      {/* Sliders / custom fit */}
+      <path
+        d="M6 10h20M6 16h20M6 22h20"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+      />
+      <circle cx="12" cy="10" r="2.5" fill="currentColor" stroke="currentColor" strokeWidth="1" />
+      <circle cx="21" cy="16" r="2.5" fill="currentColor" stroke="currentColor" strokeWidth="1" />
+      <circle cx="14" cy="22" r="2.5" fill="currentColor" stroke="currentColor" strokeWidth="1" />
+    </svg>
   );
 }

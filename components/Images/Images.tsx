@@ -12,6 +12,31 @@ export function Images({ variant = "default" }: ImagesProps) {
   const { messages } = useLocale();
   const alt = messages.images;
 
+  if (variant === "groups") {
+    const [hero, , action, lifestyle] = media.photos.groupsGallery;
+    const shots = [
+      { src: hero, alt: alt.resting },
+      { src: action, alt: alt.walk },
+      { src: lifestyle, alt: alt.beers },
+    ];
+
+    return (
+      <section className={styles.groupsSection} aria-label={alt.walk}>
+        <div className={styles.groupsGrid}>
+          <figure className={`${styles.groupsFigure} ${styles.groupsHero}`}>
+            <img src={shots[0].src} alt={shots[0].alt} loading="lazy" decoding="async" />
+          </figure>
+          <figure className={`${styles.groupsFigure} ${styles.groupsSideTop}`}>
+            <img src={shots[1].src} alt={shots[1].alt} loading="lazy" decoding="async" />
+          </figure>
+          <figure className={`${styles.groupsFigure} ${styles.groupsSideBottom}`}>
+            <img src={shots[2].src} alt={shots[2].alt} loading="lazy" decoding="async" />
+          </figure>
+        </div>
+      </section>
+    );
+  }
+
   const pics =
     variant === "business"
       ? {
@@ -27,14 +52,7 @@ export function Images({ variant = "default" }: ImagesProps) {
             privateGroups: media.photos.schoolsGallery[2],
             beers: media.photos.schoolsGallery[3],
           }
-        : variant === "groups"
-          ? {
-              privatePage: media.photos.groupsGallery[0],
-              paella: media.photos.groupsGallery[1],
-              privateGroups: media.photos.groupsGallery[2],
-              beers: media.photos.groupsGallery[3],
-            }
-          : media.photos.padelPics;
+        : media.photos.padelPics;
 
   return (
     <div className={styles.imagesContainer}>

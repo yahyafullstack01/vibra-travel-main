@@ -4,10 +4,10 @@
     "padelClubs": "Падель-клубы",
     "privateGroups": "Частные группы",
     "corporate": "Корпоратив",
-    "forBusinesses": "Для бизнеса",
+    "forBusinesses": "Бизнес",
     "trips": "Туры",
     "schools": "Школы",
-    "forSchools": "Для школ",
+    "forSchools": "Школы",
     "aboutUs": "О нас",
     "whyVibra": "Почему Vibra",
     "testemonials": "Отзывы",
@@ -59,7 +59,7 @@
       {
         "id": "valencia",
         "title": "Валенсия",
-        "description": "Средиземноморское солнце, падель мирового уровня и город, где пляжная энергия сочетается с культурой и невероятной едой.",
+        "description": "Падель мирового уровня, средиземноморские пляжи и яркий город, известный культурой, солнцем и невероятной едой.",
         "imageAlt": "Город искусств и наук в Валенсии"
       },
       {
@@ -71,7 +71,7 @@
       {
         "id": "barcelona",
         "title": "Барселона",
-        "description": "Топ-клубы, шедевры Гауди, жизнь у моря и городской ритм, который делает каждую поездку особенной.",
+        "description": "Лучшие падель-клубы, шедевры Гауди, жизнь у моря и городской ритм, который делает каждую поездку особенной.",
         "imageAlt": "Саграда Фамилия и панорама Барселоны"
       }
     ]
@@ -162,6 +162,21 @@
         "name": "Courtero",
         "description": "Скидка 10% по коду VIBRA10",
         "promoCode": "VIBRA10"
+      },
+      "padelPlay": {
+        "name": "Padel Play",
+        "description": "Скидка 10% по коду VIBRATRAVEL10",
+        "promoCode": "VIBRATRAVEL10"
+      },
+      "namethatball": {
+        "name": "Name That Ball",
+        "description": "Скидка 10% по коду VIBRA10",
+        "promoCode": "VIBRA10"
+      },
+      "quantumBalls": {
+        "name": "Quantum Balls",
+        "description": "Скидка 5% по коду VIBRA05",
+        "promoCode": "VIBRA05"
       }
     }
   },

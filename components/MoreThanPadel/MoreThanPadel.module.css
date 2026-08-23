@@ -79,25 +79,41 @@
   height: 58px;
   margin-right: 24px;
   place-items: center;
-  border: 1px solid color-mix(in srgb, var(--color-orange) 22%, transparent);
-  border-radius: 18px;
-  background: color-mix(in srgb, var(--color-orange) 8%, var(--surface-card));
-  box-shadow: 0 8px 22px rgba(82, 0, 48, 0.08);
+  border: 1px solid color-mix(in srgb, var(--color-orange) 28%, transparent);
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--color-orange) 10%, var(--surface-card));
+  box-shadow: 0 6px 18px rgba(82, 0, 48, 0.06);
+  transition:
+    border-color 0.25s ease,
+    background-color 0.25s ease,
+    box-shadow 0.25s ease,
+    transform 0.25s ease;
+}
+
+.mtpCard:hover .mtpIcon {
+  border-color: color-mix(in srgb, var(--color-orange) 55%, transparent);
+  background: color-mix(in srgb, var(--color-orange) 16%, var(--surface-card));
+  box-shadow: 0 10px 24px rgba(244, 76, 48, 0.16);
+  transform: translateY(-2px);
 }
 
 .mtpIcon svg {
-  width: 32px;
-  height: 32px;
+  width: 28px;
+  height: 28px;
   color: var(--color-orange);
 }
 
+.mtpIcon svg path,
+.mtpIcon svg circle,
+.mtpIcon svg ellipse,
 .mtpIcon svg rect {
-  display: none;
+  stroke: currentColor;
 }
 
-.mtpIcon svg path,
-.mtpIcon svg circle {
-  stroke: currentColor;
+.mtpIcon svg circle[fill="currentColor"],
+.mtpIcon svg [fill="currentColor"] {
+  fill: currentColor;
+  stroke: none;
 }
 
 .mtpCardTitle {

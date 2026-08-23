@@ -4,10 +4,10 @@
     "padelClubs": "نوادي البادل",
     "privateGroups": "مجموعات خاصة",
     "corporate": "الشركات",
-    "forBusinesses": "للشركات",
+    "forBusinesses": "الشركات",
     "trips": "الرحلات",
     "schools": "المدارس",
-    "forSchools": "للمدارس",
+    "forSchools": "المدارس",
     "aboutUs": "من نحن",
     "whyVibra": "لماذا فيبرا",
     "testemonials": "آراء المسافرين",
@@ -59,7 +59,7 @@
       {
         "id": "valencia",
         "title": "فالنسيا",
-        "description": "شمس المتوسط وبادل عالمي المستوى ومدينة تمزج طاقة الشاطئ بالثقافة وطعام مذهل.",
+        "description": "بادل عالمي المستوى وشواطئ متوسطية ومدينة نابضة معروفة بثقافتها وشمسها وطعامها الرائع.",
         "imageAlt": "مدينة الفنون والعلوم في فالنسيا"
       },
       {
@@ -71,7 +71,7 @@
       {
         "id": "barcelona",
         "title": "برشلونة",
-        "description": "أندية رائدة ومعالم غاودي وحياة بجانب البحر وإيقاع مدينة يجعل كل رحلة مميزة.",
+        "description": "أفضل نوادي البادل ومعالم غاودي وحياة بجانب البحر وإيقاع مدينة يجعل كل رحلة مميزة.",
         "imageAlt": "ساغرادا فاميليا ومنظر برشلونة"
       }
     ]
@@ -162,6 +162,21 @@
         "name": "Courtero",
         "description": "خصم 10% بالكود VIBRA10",
         "promoCode": "VIBRA10"
+      },
+      "padelPlay": {
+        "name": "Padel Play",
+        "description": "خصم 10% بالكود VIBRATRAVEL10",
+        "promoCode": "VIBRATRAVEL10"
+      },
+      "namethatball": {
+        "name": "Name That Ball",
+        "description": "خصم 10% بالكود VIBRA10",
+        "promoCode": "VIBRA10"
+      },
+      "quantumBalls": {
+        "name": "Quantum Balls",
+        "description": "خصم 5% بالكود VIBRA05",
+        "promoCode": "VIBRA05"
       }
     }
   },

@@ -93,15 +93,15 @@
   object-fit: contain;
 }
 
-.logoDark {
+.logo.logoDark {
   display: none;
 }
 
-:global(html[data-theme="dark"]) .logoLight {
+:global(html[data-theme="dark"]) .logo.logoLight {
   display: none;
 }
 
-:global(html[data-theme="dark"]) .logoDark {
+:global(html[data-theme="dark"]) .logo.logoDark {
   display: block;
 }
 

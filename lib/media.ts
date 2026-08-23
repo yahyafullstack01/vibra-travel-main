@@ -35,9 +35,9 @@ export const media = {
       "/images/groups/groups-08-walk.jpg",
     ],
     groupsGallery: [
-      "/images/groups/groups-01-rooftop.jpg",
+      "/images/groups/groups-01-rooftop.jpg?v=tapas",
       "/images/groups/groups-03-court.jpg",
-      "/images/groups/groups-05-club.jpg",
+      "/images/groups/groups-05-club.jpg?v=iconico",
       "/images/groups/groups-06-bela.jpg",
     ],
     charlie: "/images/profile-picture-email-signature.png",
@@ -79,8 +79,8 @@ export const media = {
     kidsKayaking: "/images/schools/activity-outdoor.jpg",
     classroom: "/images/schools/spanish-class.jpg",
     kidsCooking: "/images/schools/activity-cooking.jpg",
-    flamencoDancer: "/images/groups/flamenco-show-sevilla.png",
-    hostel: "/images/schools/accommodation.jpg",
+    flamencoDancer: "/images/schools/flamenco-dancer.jpg?v=hq",
+    hostel: "/images/schools/accommodation.jpg?v=casatomas",
   },
   videoHero: "/HeroVideo.mp4",
   testimonials: {
