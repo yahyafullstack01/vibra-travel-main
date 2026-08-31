@@ -45,8 +45,8 @@ export const partnerPromos: PartnerPromo[] = [
   },
   {
     id: "namethatball",
-    logo: "/featured/namethatball.png",
-    logoDark: "/featured/namethatball-light.png",
+    logo: "/featured/namethatball.png?v=2026",
+    logoDark: "/featured/namethatball-light.png?v=2026",
     href: "https://namethatball.co.uk/",
   },
   {

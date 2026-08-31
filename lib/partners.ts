@@ -62,8 +62,8 @@ export const partnerLogos: PartnerLogo[] = [
     colorLogo: true,
   },
   {
-    src: "/featured/namethatball.png",
-    srcDark: "/featured/namethatball-light.png",
+    src: "/featured/namethatball.png?v=2026",
+    srcDark: "/featured/namethatball-light.png?v=2026",
     alt: "Name That Ball",
     href: "https://namethatball.co.uk/",
     colorLogo: true,
