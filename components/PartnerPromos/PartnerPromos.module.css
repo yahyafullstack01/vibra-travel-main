@@ -83,6 +83,8 @@
   width: 100%;
   min-height: 72px;
   position: relative;
+  background: transparent;
+  background-color: transparent;
 }
 
 .logo {
@@ -91,6 +93,8 @@
   width: auto;
   height: auto;
   object-fit: contain;
+  background: transparent;
+  background-color: transparent;
 }
 
 .logo.logoDark {
@@ -103,6 +107,8 @@
 
 :global(html[data-theme="dark"]) .logo.logoDark {
   display: block;
+  background: transparent;
+  background-color: transparent;
 }
 
 .partnerName {

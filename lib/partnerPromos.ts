@@ -9,8 +9,8 @@ export type PartnerPromo = {
 export const partnerPromos: PartnerPromo[] = [
   {
     id: "deite",
-    logo: "/featured/deite.png",
-    logoDark: "/featured/deite-light.png",
+    logo: "/featured/deite.png?v=transparent",
+    logoDark: "/featured/deite-light.png?v=transparent",
     href: "https://deite.co.uk/discount/VIBRA10",
   },
   {
@@ -21,8 +21,8 @@ export const partnerPromos: PartnerPromo[] = [
   },
   {
     id: "preserva",
-    logo: "/featured/preserva.png",
-    logoDark: "/featured/preserva-light.png",
+    logo: "/featured/preserva.png?v=nobg",
+    logoDark: "/featured/preserva-light.png?v=nobg",
     href: "https://www.preserva.co.uk/discount/VIBRA10",
   },
   {
