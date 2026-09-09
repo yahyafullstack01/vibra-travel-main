@@ -46,6 +46,7 @@
 }
 
 .cta {
+  display: inline-flex;
   align-items: center;
   background: var(--color-orange);
   border: 1px solid var(--color-orange);
@@ -57,12 +58,42 @@
   justify-content: center;
   line-height: 113%;
   padding: 10px 22px;
+  text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
 
 .cta:hover {
   background: transparent;
   color: var(--color-orange);
+}
+
+.ctaRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.ctaSecondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  padding: 10px 22px;
+  border-radius: 25px;
+  border: 1px solid var(--color-orange);
+  background: transparent;
+  color: var(--color-orange);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 113%;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.ctaSecondary:hover {
+  background: var(--color-orange);
+  color: var(--color-on-primary);
 }
 
 .stories {
@@ -204,6 +235,7 @@
 
 .videos {
   margin-top: 64px;
+  scroll-margin-top: 96px;
   display: flex;
   flex-direction: column;
   gap: 32px;

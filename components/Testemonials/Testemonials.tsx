@@ -25,9 +25,14 @@ export function Testemonials() {
           <p className={styles.eyebrow}>{t.eyebrow}</p>
           <h1 className={`${styles.title} cooper-font`}>{t.title}</h1>
           <p className={styles.intro}>{t.intro}</p>
-          <Link href="/contact" className={`nav-link ${styles.cta}`}>
-            {t.cta}
-          </Link>
+          <div className={styles.ctaRow}>
+            <Link href="/contact" className={`nav-link ${styles.cta}`}>
+              {t.cta}
+            </Link>
+            <a href="#video-testimonials" className={`nav-link ${styles.ctaSecondary}`}>
+              {t.videoCta}
+            </a>
+          </div>
         </header>
 
         <div className={styles.stories} aria-label={t.listLabel}>
@@ -99,7 +104,11 @@ export function Testemonials() {
           </div>
         ) : null}
 
-        <section className={styles.videos} aria-label={t.videoListLabel}>
+        <section
+          id="video-testimonials"
+          className={styles.videos}
+          aria-label={t.videoListLabel}
+        >
           <div className={styles.videosHeader}>
             <h2 className={`${styles.videoSectionTitle} cooper-font`}>
               {t.videoSectionTitle}
