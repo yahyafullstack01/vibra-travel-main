@@ -1,8 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import emailjs from "@emailjs/browser";
-import { getEmailJsConfig } from "@/lib/emailjs-config";
 import { useLocale } from "@/components/LocaleProvider/LocaleProvider";
 import styles from "./ContactForm.module.css";
 
@@ -25,10 +23,11 @@ export function ContactForm() {
   const { messages } = useLocale();
   const f = messages.contactForm;
   const [formData, setFormData] = useState(initial);
+  const [sending, setSending] = useState(false);
 
   async function submitEmail(e: React.FormEvent) {
     e.preventDefault();
-    const { publicKey, serviceId, templateId } = getEmailJsConfig();
+    if (sending) return;
 
     const contactLabel =
       formData.contactPreference === "email"
@@ -39,37 +38,26 @@ export function ContactForm() {
             ? f.contactCall
             : formData.contactPreference;
 
-    const composedMessage = [
-      `Preferred city: ${formData.preferredCity}`,
-      `Nationality: ${formData.nationality}`,
-      `Contact preference: ${contactLabel}`,
-      `Travel dates: ${formData.travelDates}`,
-      `Experiences interested in: ${formData.experiences}`,
-      `Padel level: ${formData.padelLevel}`,
-      "",
-      "Message:",
-      formData.message,
-      formData.comments ? `\nComments:\n${formData.comments}` : "",
-    ]
-      .filter(Boolean)
-      .join("\n");
-
+    setSending(true);
     try {
-      await emailjs.send(
-        serviceId,
-        templateId,
-        {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
           ...formData,
           contactPreference: contactLabel,
-          message: composedMessage,
-        },
-        publicKey,
-      );
+        }),
+      });
+
+      if (!response.ok) throw new Error("Failed to send");
+
       window.alert(f.alertSuccess);
       setFormData(initial);
     } catch (error) {
       window.alert(f.alertError);
       console.error(error);
+    } finally {
+      setSending(false);
     }
   }
 
@@ -249,7 +237,11 @@ export function ContactForm() {
               />
             </div>
 
-            <button type="submit" className={`${styles.btnContact} fgrotesk-font`}>
+            <button
+              type="submit"
+              className={`${styles.btnContact} fgrotesk-font`}
+              disabled={sending}
+            >
               {f.send}
             </button>
           </form>
