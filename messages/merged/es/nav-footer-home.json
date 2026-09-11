@@ -109,7 +109,12 @@
     "resting": "Descanso",
     "paella": "Paella",
     "walk": "Paseo",
-    "beers": "Cervezas"
+    "beers": "Cervezas",
+    "groupsSection": "Momentos de viaje en grupo por España",
+    "groupsCourt": "Sesión de pádel en grupo en la pista",
+    "groupsSelfie": "Amigos celebrando después del pádel",
+    "groupsTomatina": "Experiencia en La Tomatina",
+    "groupsPaella": "Compartiendo paella tras un día de pádel"
   },
   "groupsSteps": {
     "title": "Tu viaje de pádel en pocos pasos",
@@ -140,7 +145,7 @@
     "partners": {
       "deite": {
         "name": "Déité",
-        "description": "Zapatillas y ropa de pádel",
+        "description": "10% de descuento con el código VIBRA10",
         "promoCode": "VIBRA10"
       },
       "raquex": {
@@ -150,7 +155,7 @@
       },
       "preserva": {
         "name": "Preserva",
-        "description": "Presurizadores de bolas de pádel",
+        "description": "10% de descuento con el código VIBRA10",
         "promoCode": "VIBRA10"
       },
       "underscored": {
@@ -191,12 +196,17 @@
     "dateFromLabel": "Del",
     "dateToLabel": "al",
     "viewAllTrips": "Ver todos los viajes en WeTravel →",
+    "tabPrevious": "Viajes anteriores",
+    "tabUpcoming": "Próximos viajes →",
+    "emptyPrevious": "Los viajes pasados aparecerán aquí cuando terminen.",
+    "emptyUpcoming": "Pronto habrá nuevos viajes — consulta WeTravel para lo último.",
     "trips": [
       {
         "title": "3 noches en Sevilla, septiembre",
         "location": "Sevilla, España",
         "dateFrom": "10 sep 2026",
         "dateTo": "13 sep 2026",
+        "endsOn": "2026-09-13",
         "price": "",
         "deposit": "",
         "image": "/images/upcoming-trips/sevilla-september.png",
@@ -209,6 +219,7 @@
         "location": "Reus, Cataluña, España",
         "dateFrom": "16 sep 2026",
         "dateTo": "20 sep 2026",
+        "endsOn": "2026-09-20",
         "price": "",
         "deposit": "",
         "image": "/images/upcoming-trips/reus-retreat.png",
@@ -221,6 +232,7 @@
         "location": "Barcelona, España",
         "dateFrom": "24 sep 2026",
         "dateTo": "27 sep 2026",
+        "endsOn": "2026-09-27",
         "price": "",
         "deposit": "",
         "image": "/PadelPics/private-groups.jpg",
@@ -234,6 +246,7 @@
         "location": "Sevilla, España",
         "dateFrom": "1 oct 2026",
         "dateTo": "4 oct 2026",
+        "endsOn": "2026-10-04",
         "price": "",
         "deposit": "",
         "image": "/images/upcoming-trips/padel-hub-sevilla.png",

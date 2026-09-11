@@ -13,25 +13,22 @@ export function Images({ variant = "default" }: ImagesProps) {
   const alt = messages.images;
 
   if (variant === "groups") {
-    const [hero, , action, lifestyle] = media.photos.groupsGallery;
+    const [court, selfie, tomatina, paella] = media.photos.groupsGallery;
     const shots = [
-      { src: hero, alt: alt.resting },
-      { src: action, alt: alt.walk },
-      { src: lifestyle, alt: alt.beers },
+      { src: court, alt: alt.groupsCourt, className: styles.groupsHero },
+      { src: selfie, alt: alt.groupsSelfie, className: styles.groupsSideTop },
+      { src: tomatina, alt: alt.groupsTomatina, className: styles.groupsSideBottom },
+      { src: paella, alt: alt.groupsPaella, className: styles.groupsWide },
     ];
 
     return (
-      <section className={styles.groupsSection} aria-label={alt.walk}>
+      <section className={styles.groupsSection} aria-label={alt.groupsSection}>
         <div className={styles.groupsGrid}>
-          <figure className={`${styles.groupsFigure} ${styles.groupsHero}`}>
-            <img src={shots[0].src} alt={shots[0].alt} loading="lazy" decoding="async" />
-          </figure>
-          <figure className={`${styles.groupsFigure} ${styles.groupsSideTop}`}>
-            <img src={shots[1].src} alt={shots[1].alt} loading="lazy" decoding="async" />
-          </figure>
-          <figure className={`${styles.groupsFigure} ${styles.groupsSideBottom}`}>
-            <img src={shots[2].src} alt={shots[2].alt} loading="lazy" decoding="async" />
-          </figure>
+          {shots.map((shot) => (
+            <figure key={shot.src} className={`${styles.groupsFigure} ${shot.className}`}>
+              <img src={shot.src} alt={shot.alt} loading="lazy" decoding="async" />
+            </figure>
+          ))}
         </div>
       </section>
     );

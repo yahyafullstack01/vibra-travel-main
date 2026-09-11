@@ -57,111 +57,126 @@ export function UpcomingTrips() {
           {"subtitleNote" in section && section.subtitleNote ? (
             <p className={styles.subtitle}>{section.subtitleNote}</p>
           ) : null}
+
+          <a
+            href={WETRAVEL_PROFILE_URL}
+            className={`nav-link fgrotesk-font ${styles.upcomingBtn}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {section.tabUpcoming}
+          </a>
         </div>
 
-        <div className={styles.grid}>
-          {trips.map((trip, index) => {
-            const tripUrl = trip.href || WETRAVEL_PROFILE_URL;
+        <div className={styles.tripsBlock}>
+          <h3 className={`${styles.tripsHeading} cooper-font`}>
+            {section.tabPrevious}
+          </h3>
 
-            return (
-              <article className={styles.card} key={`${trip.title}-${index}`}>
-                <div className={styles.media}>
-                  <img
-                    src={trip.image}
-                    alt={trip.imageAlt || trip.title}
-                    className={styles.image}
-                    loading="lazy"
-                    decoding="async"
-                  />
-                  <div className={styles.mediaOverlay} aria-hidden="true" />
-                  {(trip.dateFrom || trip.dateTo) && (
-                    <span className={styles.dateBadge}>
-                      {formatTripDates(trip.dateFrom, trip.dateTo)}
-                    </span>
-                  )}
-                  {trip.price ? (
-                    <span className={styles.priceBadge}>{trip.price}</span>
-                  ) : null}
-                </div>
+          <div className={styles.grid}>
+            {trips.map((trip, index) => {
+              const tripUrl = trip.href || WETRAVEL_PROFILE_URL;
 
-                <div className={styles.body}>
-                  <h3 className={`${styles.cardTitle} cooper-font`}>{trip.title}</h3>
-
-                  {"subtitle" in trip && trip.subtitle ? (
-                    <p className={styles.cardSubtitle}>{trip.subtitle}</p>
-                  ) : null}
-
-                  <p className={styles.location}>
-                    <LocationIcon />
-                    {trip.location}
-                  </p>
-
-                  {(trip.dateFrom || trip.dateTo) && (
-                    <p className={styles.dates}>
-                      <CalendarIcon />
-                      {section.dateFromLabel} {trip.dateFrom} {section.dateToLabel}{" "}
-                      {trip.dateTo}
-                    </p>
-                  )}
-
-                  {trip.deposit ? (
-                    <p className={styles.deposit}>
-                      {section.depositLabel}: {trip.deposit}
-                    </p>
-                  ) : null}
-
-                  {"intro" in trip && Array.isArray(trip.intro) && trip.intro.length > 0 ? (
-                    <div className={styles.intro}>
-                      {trip.intro.map((paragraph) => (
-                        <p key={paragraph} className={styles.introText}>
-                          {paragraph}
-                        </p>
-                      ))}
-                    </div>
-                  ) : null}
-
-                  {trip.sections.length > 0 ? (
-                    <div className={styles.sections}>
-                      {trip.sections.map((block) => (
-                        <div className={styles.sectionBlock} key={block.title}>
-                          <h4 className={styles.sectionTitle}>{block.title}</h4>
-                          <ul className={styles.list}>
-                            {block.items.map((item) => (
-                              <li className={styles.listItem} key={item}>
-                                {item}
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      ))}
-                    </div>
-                  ) : null}
-
-                  <div className={styles.actions}>
-                    <a
-                      href={tripUrl}
-                      className={`nav-link fgrotesk-font ${styles.primaryBtn}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {section.viewDetails}
-                    </a>
-                    <Link
-                      href="/contact"
-                      className={`nav-link fgrotesk-font ${styles.secondaryBtn}`}
-                    >
-                      {section.askQuestion}
-                    </Link>
+              return (
+                <article className={styles.card} key={`${trip.title}-${index}`}>
+                  <div className={styles.media}>
+                    <img
+                      src={trip.image}
+                      alt={trip.imageAlt || trip.title}
+                      className={styles.image}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                    <div className={styles.mediaOverlay} aria-hidden="true" />
+                    {(trip.dateFrom || trip.dateTo) && (
+                      <span className={styles.dateBadge}>
+                        {formatTripDates(trip.dateFrom, trip.dateTo)}
+                      </span>
+                    )}
+                    {trip.price ? (
+                      <span className={styles.priceBadge}>{trip.price}</span>
+                    ) : null}
                   </div>
-                </div>
-              </article>
-            );
-          })}
+
+                  <div className={styles.body}>
+                    <h3 className={`${styles.cardTitle} cooper-font`}>{trip.title}</h3>
+
+                    {"subtitle" in trip && trip.subtitle ? (
+                      <p className={styles.cardSubtitle}>{trip.subtitle}</p>
+                    ) : null}
+
+                    <p className={styles.location}>
+                      <LocationIcon />
+                      {trip.location}
+                    </p>
+
+                    {(trip.dateFrom || trip.dateTo) && (
+                      <p className={styles.dates}>
+                        <CalendarIcon />
+                        {section.dateFromLabel} {trip.dateFrom} {section.dateToLabel}{" "}
+                        {trip.dateTo}
+                      </p>
+                    )}
+
+                    {trip.deposit ? (
+                      <p className={styles.deposit}>
+                        {section.depositLabel}: {trip.deposit}
+                      </p>
+                    ) : null}
+
+                    {"intro" in trip && Array.isArray(trip.intro) && trip.intro.length > 0 ? (
+                      <div className={styles.intro}>
+                        {trip.intro.map((paragraph) => (
+                          <p key={paragraph} className={styles.introText}>
+                            {paragraph}
+                          </p>
+                        ))}
+                      </div>
+                    ) : null}
+
+                    {trip.sections.length > 0 ? (
+                      <div className={styles.sections}>
+                        {trip.sections.map((block) => (
+                          <div className={styles.sectionBlock} key={block.title}>
+                            <h4 className={styles.sectionTitle}>{block.title}</h4>
+                            <ul className={styles.list}>
+                              {block.items.map((item) => (
+                                <li className={styles.listItem} key={item}>
+                                  {item}
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
+                    ) : null}
+
+                    <div className={styles.actions}>
+                      <a
+                        href={tripUrl}
+                        className={`nav-link fgrotesk-font ${styles.primaryBtn}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {section.viewDetails}
+                      </a>
+                      <Link
+                        href="/contact"
+                        className={`nav-link fgrotesk-font ${styles.secondaryBtn}`}
+                      >
+                        {section.askQuestion}
+                      </Link>
+                    </div>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
         </div>
 
         <a
           href={WETRAVEL_PROFILE_URL}
-          className={styles.footerLink}
+          className={`nav-link fgrotesk-font ${styles.footerLink}`}
           target="_blank"
           rel="noopener noreferrer"
         >

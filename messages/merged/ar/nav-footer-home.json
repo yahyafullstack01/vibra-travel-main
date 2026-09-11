@@ -109,7 +109,12 @@
     "resting": "استراحة",
     "paella": "باييا",
     "walk": "مشي",
-    "beers": "مشروبات"
+    "beers": "مشروبات",
+    "groupsSection": "لحظات رحلة جماعية في إسبانيا",
+    "groupsCourt": "جلسة بادل جماعية على الملعب",
+    "groupsSelfie": "أصدقاء يحتفلون بعد البادل",
+    "groupsTomatina": "تجربة مهرجان لا توماتينا",
+    "groupsPaella": "مشاركة الباييّا بعد يوم من البادل"
   },
   "groupsSteps": {
     "title": "رحلة البادل في خطوات بسيطة",
@@ -140,7 +145,7 @@
     "partners": {
       "deite": {
         "name": "Déité",
-        "description": "أحذية وملابس بادل",
+        "description": "خصم 10% بالكود VIBRA10",
         "promoCode": "VIBRA10"
       },
       "raquex": {
@@ -150,7 +155,7 @@
       },
       "preserva": {
         "name": "Preserva",
-        "description": "أجهزة ضغط كرات البادل",
+        "description": "خصم 10% بالكود VIBRA10",
         "promoCode": "VIBRA10"
       },
       "underscored": {
@@ -191,12 +196,17 @@
     "dateFromLabel": "من",
     "dateToLabel": "إلى",
     "viewAllTrips": "عرض كل الرحلات على WeTravel →",
+    "tabPrevious": "الرحلات السابقة",
+    "tabUpcoming": "الرحلات القادمة →",
+    "emptyPrevious": "ستظهر الرحلات السابقة هنا بعد انتهائها.",
+    "emptyUpcoming": "رحلات جديدة قريباً — تحقق من WeTravel لآخر التحديثات.",
     "trips": [
       {
         "title": "3 ليالٍ في إشبيلية، سبتمبر",
         "location": "إشبيلية، إسبانيا",
         "dateFrom": "10 سبتمبر 2026",
         "dateTo": "13 سبتمبر 2026",
+        "endsOn": "2026-09-13",
         "price": "",
         "deposit": "",
         "image": "/images/upcoming-trips/sevilla-september.png",
@@ -209,6 +219,7 @@
         "location": "ريوس، كتالونيا، إسبانيا",
         "dateFrom": "16 سبتمبر 2026",
         "dateTo": "20 سبتمبر 2026",
+        "endsOn": "2026-09-20",
         "price": "",
         "deposit": "",
         "image": "/images/upcoming-trips/reus-retreat.png",
@@ -221,6 +232,7 @@
         "location": "برشلونة، إسبانيا",
         "dateFrom": "24 سبتمبر 2026",
         "dateTo": "27 سبتمبر 2026",
+        "endsOn": "2026-09-27",
         "price": "",
         "deposit": "",
         "image": "/PadelPics/private-groups.jpg",
@@ -234,6 +246,7 @@
         "location": "إشبيلية، إسبانيا",
         "dateFrom": "1 أكتوبر 2026",
         "dateTo": "4 أكتوبر 2026",
+        "endsOn": "2026-10-04",
         "price": "",
         "deposit": "",
         "image": "/images/upcoming-trips/padel-hub-sevilla.png",

@@ -109,7 +109,12 @@
     "resting": "Отдых",
     "paella": "Паэлья",
     "walk": "Прогулка",
-    "beers": "Пиво"
+    "beers": "Пиво",
+    "groupsSection": "Моменты групповой поездки по Испании",
+    "groupsCourt": "Групповая падель-сессия на корте",
+    "groupsSelfie": "Друзья после паделя",
+    "groupsTomatina": "Опыт на Ла Томатине",
+    "groupsPaella": "Общая паэлья после дня паделя"
   },
   "groupsSteps": {
     "title": "Ваш падель-тур в несколько шагов",
@@ -140,7 +145,7 @@
     "partners": {
       "deite": {
         "name": "Déité",
-        "description": "Обувь и одежда для паделя",
+        "description": "Скидка 10% по коду VIBRA10",
         "promoCode": "VIBRA10"
       },
       "raquex": {
@@ -150,7 +155,7 @@
       },
       "preserva": {
         "name": "Preserva",
-        "description": "Прессиризаторы мячей для паделя",
+        "description": "Скидка 10% по коду VIBRA10",
         "promoCode": "VIBRA10"
       },
       "underscored": {
@@ -191,12 +196,17 @@
     "dateFromLabel": "С",
     "dateToLabel": "по",
     "viewAllTrips": "Все поездки на WeTravel →",
+    "tabPrevious": "Прошедшие поездки",
+    "tabUpcoming": "Ближайшие поездки →",
+    "emptyPrevious": "Завершённые поездки появятся здесь.",
+    "emptyUpcoming": "Новые поездки скоро появятся — смотрите WeTravel.",
     "trips": [
       {
         "title": "3 ночи в Севилье, сентябрь",
         "location": "Севилья, Испания",
         "dateFrom": "10 сен 2026",
         "dateTo": "13 сен 2026",
+        "endsOn": "2026-09-13",
         "price": "",
         "deposit": "",
         "image": "/images/upcoming-trips/sevilla-september.png",
@@ -209,6 +219,7 @@
         "location": "Реус, Каталония, Испания",
         "dateFrom": "16 сен 2026",
         "dateTo": "20 сен 2026",
+        "endsOn": "2026-09-20",
         "price": "",
         "deposit": "",
         "image": "/images/upcoming-trips/reus-retreat.png",
@@ -221,6 +232,7 @@
         "location": "Барселона, Испания",
         "dateFrom": "24 сен 2026",
         "dateTo": "27 сен 2026",
+        "endsOn": "2026-09-27",
         "price": "",
         "deposit": "",
         "image": "/PadelPics/private-groups.jpg",
@@ -234,6 +246,7 @@
         "location": "Севилья, Испания",
         "dateFrom": "1 окт 2026",
         "dateTo": "4 окт 2026",
+        "endsOn": "2026-10-04",
         "price": "",
         "deposit": "",
         "image": "/images/upcoming-trips/padel-hub-sevilla.png",

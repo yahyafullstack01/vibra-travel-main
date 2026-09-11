@@ -105,9 +105,9 @@
   width: min(92vw, 1180px);
   display: grid;
   grid-template-columns: 1.35fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr auto;
   gap: 16px;
-  min-height: min(68vh, 640px);
+  min-height: min(72vh, 720px);
 }
 
 .groupsFigure {
@@ -143,6 +143,12 @@
 .groupsSideTop,
 .groupsSideBottom {
   min-height: 200px;
+}
+
+.groupsWide {
+  grid-column: 1 / -1;
+  min-height: 280px;
+  aspect-ratio: 21 / 9;
 }
 
 @media screen and (max-width: 768px) {
@@ -217,10 +223,15 @@
 
   .groupsHero,
   .groupsSideTop,
-  .groupsSideBottom {
+  .groupsSideBottom,
+  .groupsWide {
     grid-row: auto;
     grid-column: auto;
     min-height: 0;
     aspect-ratio: 16 / 10;
+  }
+
+  .groupsWide {
+    aspect-ratio: 16 / 9;
   }
 }

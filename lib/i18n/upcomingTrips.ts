@@ -10,6 +10,8 @@ export type UpcomingTrip = {
   location: string;
   dateFrom: string;
   dateTo: string;
+  /** ISO date (YYYY-MM-DD) used to split previous vs upcoming */
+  endsOn?: string;
   price: string;
   deposit: string;
   image: string;
