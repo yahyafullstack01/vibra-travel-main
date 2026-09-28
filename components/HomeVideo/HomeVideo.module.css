@@ -30,4 +30,30 @@
   display: block;
   border-radius: 0;
   z-index: 2;
+  /* Never show native play / transport UI on mobile Safari */
+  pointer-events: none;
+}
+
+.videoIdle {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.videoPlaying {
+  opacity: 1;
+  visibility: visible;
+}
+
+.videoContainer video::-webkit-media-controls {
+  display: none !important;
+  -webkit-appearance: none;
+}
+
+.videoContainer video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+  -webkit-appearance: none;
+}
+
+.videoContainer video::-webkit-media-controls-enclosure {
+  display: none !important;
 }

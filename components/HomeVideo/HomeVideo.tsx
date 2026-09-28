@@ -13,11 +13,28 @@ function shouldSkipVideo() {
   return false;
 }
 
+async function tryAutoplay(video: HTMLVideoElement) {
+  video.defaultMuted = true;
+  video.muted = true;
+  video.playsInline = true;
+  video.setAttribute("muted", "");
+  video.setAttribute("playsinline", "");
+  video.setAttribute("webkit-playsinline", "");
+
+  try {
+    await video.play();
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 export function HomeVideo({ className }: { className?: string }) {
   const { messages } = useLocale();
   const containerRef = useRef<HTMLDivElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
   const [loadVideo, setLoadVideo] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   const poster = media.photos.bluryPresentation;
 
@@ -33,7 +50,8 @@ export function HomeVideo({ className }: { className?: string }) {
       ([entry]) => {
         if (!entry?.isIntersecting) return;
         observer.disconnect();
-        delayId = setTimeout(() => setLoadVideo(true), 1500);
+        // Short delay keeps LCP on the poster, then start the muted loop.
+        delayId = setTimeout(() => setLoadVideo(true), 400);
       },
       { threshold: 0.1 },
     );
@@ -50,7 +68,27 @@ export function HomeVideo({ className }: { className?: string }) {
     if (!loadVideo) return;
     const video = videoRef.current;
     if (!video) return;
-    void video.play().catch(() => {});
+
+    let cancelled = false;
+
+    const start = async () => {
+      const ok = await tryAutoplay(video);
+      if (!cancelled) setIsPlaying(ok);
+    };
+
+    const onReady = () => {
+      void start();
+    };
+
+    video.addEventListener("loadeddata", onReady);
+    video.addEventListener("canplay", onReady);
+    void start();
+
+    return () => {
+      cancelled = true;
+      video.removeEventListener("loadeddata", onReady);
+      video.removeEventListener("canplay", onReady);
+    };
   }, [loadVideo]);
 
   useEffect(() => {
@@ -75,13 +113,19 @@ export function HomeVideo({ className }: { className?: string }) {
       {loadVideo ? (
         <video
           ref={videoRef}
+          className={isPlaying ? styles.videoPlaying : styles.videoIdle}
           src={media.videoHero}
           poster={poster}
           autoPlay
           muted
           loop
           playsInline
-          preload="none"
+          preload="auto"
+          controls={false}
+          disablePictureInPicture
+          disableRemotePlayback
+          aria-hidden={!isPlaying}
+          tabIndex={-1}
         />
       ) : null}
     </div>
