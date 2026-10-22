@@ -163,6 +163,11 @@
         "description": "خصم 15% بالكود VIBRA",
         "promoCode": "VIBRA"
       },
+      "baseline": {
+        "name": "Baseline",
+        "description": "خصم 15% بالكود vibra15",
+        "promoCode": "vibra15"
+      },
       "courtero": {
         "name": "Courtero",
         "description": "خصم 10% بالكود VIBRA10",

@@ -41,10 +41,17 @@ export const partnerLogos: PartnerLogo[] = [
     colorLogo: true,
   },
   {
-    src: "/featured/underscored.png",
-    srcDark: "/featured/underscored-light.png",
+    src: "/featured/underscored.png?v=2026-10",
+    srcDark: "/featured/underscored-light.png?v=2026-10",
     alt: "Underscored",
     href: "https://underscored.uk/",
+    colorLogo: true,
+  },
+  {
+    src: "/featured/baseline.svg?v=1",
+    srcDark: "/featured/baseline-light.svg?v=1",
+    alt: "Baseline",
+    href: "https://baselineofficial.com/",
     colorLogo: true,
   },
   {
@@ -62,8 +69,8 @@ export const partnerLogos: PartnerLogo[] = [
     colorLogo: true,
   },
   {
-    src: "/featured/namethatball.png?v=2026",
-    srcDark: "/featured/namethatball-light.png?v=2026",
+    src: "/featured/namethatball.png?v=2026-10",
+    srcDark: "/featured/namethatball-light.png?v=2026-10",
     alt: "Name That Ball",
     href: "https://namethatball.co.uk/",
     colorLogo: true,

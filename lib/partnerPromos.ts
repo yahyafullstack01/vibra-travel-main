@@ -27,9 +27,15 @@ export const partnerPromos: PartnerPromo[] = [
   },
   {
     id: "underscored",
-    logo: "/featured/underscored.png",
-    logoDark: "/featured/underscored-light.png",
+    logo: "/featured/underscored.png?v=2026-10",
+    logoDark: "/featured/underscored-light.png?v=2026-10",
     href: "https://underscored.uk/",
+  },
+  {
+    id: "baseline",
+    logo: "/featured/baseline.svg?v=1",
+    logoDark: "/featured/baseline-light.svg?v=1",
+    href: "https://baselineofficial.com/",
   },
   {
     id: "padelPlay",
@@ -45,8 +51,8 @@ export const partnerPromos: PartnerPromo[] = [
   },
   {
     id: "namethatball",
-    logo: "/featured/namethatball.png?v=2026",
-    logoDark: "/featured/namethatball-light.png?v=2026",
+    logo: "/featured/namethatball.png?v=2026-10",
+    logoDark: "/featured/namethatball-light.png?v=2026-10",
     href: "https://namethatball.co.uk/",
   },
   {

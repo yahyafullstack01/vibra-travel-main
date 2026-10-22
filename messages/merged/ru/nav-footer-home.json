@@ -163,6 +163,11 @@
         "description": "Скидка 15% по коду VIBRA",
         "promoCode": "VIBRA"
       },
+      "baseline": {
+        "name": "Baseline",
+        "description": "Скидка 15% по коду vibra15",
+        "promoCode": "vibra15"
+      },
       "courtero": {
         "name": "Courtero",
         "description": "Скидка 10% по коду VIBRA10",
