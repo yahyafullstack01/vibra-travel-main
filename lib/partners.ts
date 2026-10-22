@@ -48,10 +48,10 @@ export const partnerLogos: PartnerLogo[] = [
     colorLogo: true,
   },
   {
-    src: "/featured/baseline.svg?v=1",
-    srcDark: "/featured/baseline-light.svg?v=1",
+    src: "/featured/baseline.png?v=bas3line",
+    srcDark: "/featured/baseline-light.png?v=bas3line",
     alt: "Baseline",
-    href: "https://baselineofficial.com/",
+    href: "https://www.bas3line.com/",
     colorLogo: true,
   },
   {

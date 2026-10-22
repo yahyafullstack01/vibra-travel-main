@@ -33,9 +33,9 @@ export const partnerPromos: PartnerPromo[] = [
   },
   {
     id: "baseline",
-    logo: "/featured/baseline.svg?v=1",
-    logoDark: "/featured/baseline-light.svg?v=1",
-    href: "https://baselineofficial.com/",
+    logo: "/featured/baseline.png?v=bas3line",
+    logoDark: "/featured/baseline-light.png?v=bas3line",
+    href: "https://www.bas3line.com/",
   },
   {
     id: "padelPlay",
